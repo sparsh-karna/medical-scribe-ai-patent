@@ -1,0 +1,876 @@
+{
+  "visit_id": "PRIMOCK57-day1_consultation04",
+  "presenting_complaint": "I don't feel well, I have a cough and runny nose",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "4/7 hx of generally unwell, mainly sore throat, runny nose, fatigue, myalgia and general joint pain. Sore throat is improving. Also has nasal congestion. Now developed a cough -mainly dry, constant. Night sweats for the past 4/7. Initially had fever, but now settling with paracetamol/ibuprofen. \nNo chest pain. Feels more SOB on exertion. \nAssociated headaches - generalized, intermittent. No visual sx/photophobia. No nausea/vomiting. No bowel or urinary sx. Drinking fluids, reduced appetite. No rashes\n\nPMH: Nil \nDH: nil \nNKDA\nFH: Grandmother - type 2 diabetes\nSH: lives alone, works as an accountant. Occasional smoker/etOH. Finding work slightly stressful. No mood sx. \n\nImp: viral URTI/influenza \n\nPlan:\n1.\tConservative mx - rest, push fluids, regular paracetamol/ibuprofen, monitor temp\n2.\tReview in 5-7d INB\n3.\tDiscussed red flag sx (SOB, chest pain, fevers)- if present, for urgent review with Dr \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.68,
+      "speaker": "DOCTOR",
+      "text": "Alex. Ohh. Hello? Hi, can you hear me?"
+    },
+    {
+      "id": 3,
+      "start": 4.46,
+      "end": 4.85,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 4,
+      "start": 5.0,
+      "end": 8.55,
+      "speaker": "DOCTOR",
+      "text": "OK great. Um how can I help you this morning, sir?"
+    },
+    {
+      "id": 5,
+      "start": 10.03,
+      "end": 16.13,
+      "speaker": "PATIENT",
+      "text": "Alright, so I've been feeling, I've been feeling kind of uh under the weather for the past four days."
+    },
+    {
+      "id": 7,
+      "start": 16.13,
+      "end": 22.99,
+      "speaker": "PATIENT",
+      "text": "Um it started with the um, uh sore throat and runny nose, and"
+    },
+    {
+      "id": 8,
+      "start": 22.99,
+      "end": 33.47,
+      "speaker": "PATIENT",
+      "text": "It's sort of, um, it's sort of going into a cough now. Um, the sort throat is kind of going away, but, um, I'm starting to cough."
+    },
+    {
+      "id": 9,
+      "start": 33.83,
+      "end": 35.3,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm. OK."
+    },
+    {
+      "id": 10,
+      "start": 34.75,
+      "end": 40.57,
+      "speaker": "PATIENT",
+      "text": "And uh kind of uh bad and tired."
+    },
+    {
+      "id": 11,
+      "start": 35.97,
+      "end": 37.09,
+      "speaker": "DOCTOR",
+      "text": "Sorry to hear that ."
+    },
+    {
+      "id": 12,
+      "start": 40.52,
+      "end": 50.22,
+      "speaker": "DOCTOR",
+      "text": "Mm. OK. I'm sorry to hear that. Seems like there's a lot going on there. Um so let's start with your, your sore throat first. Um tell me a bit more about that, if you can."
+    },
+    {
+      "id": 13,
+      "start": 51.45,
+      "end": 65.33,
+      "speaker": "PATIENT",
+      "text": "Um ,so I, I , you know I think I, it all started with, uh, this colleague of mine, she just kept sneezing next to me, all the time. I think her kids are catching something from the"
+    },
+    {
+      "id": 14,
+      "start": 65.33,
+      "end": 77.08,
+      "speaker": "PATIENT",
+      "text": "uh from their kindergarten or something. And uh, you know the it it started as normal sore throat, and uh was quite painful for a couple days, but then it was past."
+    },
+    {
+      "id": 15,
+      "start": 72.86,
+      "end": 73.63,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 16,
+      "start": 76.92,
+      "end": 81.32,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. And did you have any uh difficulty or pain on swallowing?"
+    },
+    {
+      "id": 17,
+      "start": 83.04,
+      "end": 88.92,
+      "speaker": "PATIENT",
+      "text": "Um yeah. Yeah it was uh, it was quite painful to swallow, for one or two days."
+    },
+    {
+      "id": 18,
+      "start": 87.14,
+      "end": 87.92,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 19,
+      "start": 89.3,
+      "end": 92.53,
+      "speaker": "DOCTOR",
+      "text": "You , did you manage to have a look at the back of your throat in the mirror?"
+    },
+    {
+      "id": 20,
+      "start": 93.52,
+      "end": 95.27,
+      "speaker": "PATIENT",
+      "text": "Um no, not really."
+    },
+    {
+      "id": 21,
+      "start": 95.04,
+      "end": 100.17,
+      "speaker": "DOCTOR",
+      "text": "No. OK you didn't, you didn't notice any abnormal white spots, redness at the back of your throat?"
+    },
+    {
+      "id": 22,
+      "start": 101.43,
+      "end": 102.35,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 23,
+      "start": 103.52,
+      "end": 108.89,
+      "speaker": "PATIENT",
+      "text": "No. Um I I didn't think about uh ."
+    },
+    {
+      "id": 25,
+      "start": 108.26,
+      "end": 116.87,
+      "speaker": "DOCTOR",
+      "text": "that's OK. That's OK. And you mentioned a runny nose. Um again what kind of discharge is coming out? Is it clear, or is it a bit more coloured?"
+    },
+    {
+      "id": 26,
+      "start": 118.53,
+      "end": 121.42,
+      "speaker": "PATIENT",
+      "text": "Yeah yeah, it's uh it's clearing up ."
+    },
+    {
+      "id": 27,
+      "start": 121.42,
+      "end": 128.9,
+      "speaker": "PATIENT",
+      "text": "Sort of um, sort of getting my nose stuffed all the time. It's very had to, uh to get it free."
+    },
+    {
+      "id": 28,
+      "start": 128.87,
+      "end": 130.81,
+      "speaker": "DOCTOR",
+      "text": "OK. You feel quite congested, do you?"
+    },
+    {
+      "id": 29,
+      "start": 131.11,
+      "end": 132.55,
+      "speaker": "PATIENT",
+      "text": "Yeah, quite congested."
+    },
+    {
+      "id": 30,
+      "start": 132.5,
+      "end": 137.38,
+      "speaker": "DOCTOR",
+      "text": "OK, fine. Um you also mentioned a cough as well. Can you tell me a bit more about that?"
+    },
+    {
+      "id": 31,
+      "start": 137.75,
+      "end": 150.79,
+      "speaker": "PATIENT",
+      "text": "Um yeah that started recently, like just uh um maybe yesterday. And um it's uh, it's dry for now, it's it's not very painful but it's sort of there, all the time."
+    },
+    {
+      "id": 32,
+      "start": 147.18,
+      "end": 147.93,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 33,
+      "start": 150.89,
+      "end": 153.59,
+      "speaker": "DOCTOR",
+      "text": "OK. And is it worse any particular time of the day?"
+    },
+    {
+      "id": 34,
+      "start": 154.42,
+      "end": 155.16,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 35,
+      "start": 155.09,
+      "end": 160.48,
+      "speaker": "DOCTOR",
+      "text": "Is it, is it worse any particular time of the day? For example in the evenings, night time, mornings?"
+    },
+    {
+      "id": 36,
+      "start": 160.93,
+      "end": 161.68,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 37,
+      "start": 161.86,
+      "end": 163.28,
+      "speaker": "DOCTOR",
+      "text": "throughout the day."
+    },
+    {
+      "id": 38,
+      "start": 164.89,
+      "end": 175.84,
+      "speaker": "PATIENT",
+      "text": "No it's it's um, it's sort of, it's sort of constant. Um I forgot to mention, that um I'm also having uh night sweats."
+    },
+    {
+      "id": 39,
+      "start": 168.89,
+      "end": 169.72,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 40,
+      "start": 175.49,
+      "end": 176.94,
+      "speaker": "DOCTOR",
+      "text": "Night first, OK."
+    },
+    {
+      "id": 41,
+      "start": 175.84,
+      "end": 185.73,
+      "speaker": "PATIENT",
+      "text": "That's, that's very odd actually. makes me a bit tired, um makes my uneasy."
+    },
+    {
+      "id": 42,
+      "start": 181.56,
+      "end": 182.56,
+      "speaker": "DOCTOR",
+      "text": "Mm."
+    },
+    {
+      "id": 44,
+      "start": 185.91,
+      "end": 190.78,
+      "speaker": "DOCTOR",
+      "text": "I can imagine, yes. Uh and this has again, been going on for last uh three four days, has it?"
+    },
+    {
+      "id": 45,
+      "start": 190.7,
+      "end": 191.88,
+      "speaker": "PATIENT",
+      "text": "Yeah, yes."
+    },
+    {
+      "id": 46,
+      "start": 192.03,
+      "end": 197.47,
+      "speaker": "DOCTOR",
+      "text": "OK. Um right, OK. Have you noticed any fevers or temperatures at all?"
+    },
+    {
+      "id": 47,
+      "start": 198.6,
+      "end": 211.79,
+      "speaker": "PATIENT",
+      "text": "Um I I had some some fever in the beginning, but it's now sort of uh going down. I I've been taking some Paracetamol and Ibuprofen for that, and uh they, they help."
+    },
+    {
+      "id": 48,
+      "start": 208.8,
+      "end": 209.59,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 49,
+      "start": 212.01,
+      "end": 221.17,
+      "speaker": "DOCTOR",
+      "text": "That's very sensible. Um very good. Um in terms of your chest otherwise, have you any difficulty breathing, or any pain in your chest?"
+    },
+    {
+      "id": 50,
+      "start": 221.33,
+      "end": 237.88,
+      "speaker": "PATIENT",
+      "text": "Um so no pain in chest, but uh I noticed that I um um so I feel a bit winded on exertion. So if I I I haven't been going, going to the gym thus uh, because of that."
+    },
+    {
+      "id": 51,
+      "start": 238.38,
+      "end": 249.65,
+      "speaker": "DOCTOR",
+      "text": "When you say winded, do you feel, uh do you feel more short of breath would you say, on exertion? Is that when you, OK. Um and and that's mainly on exercise. But when you're resting, there's no problem."
+    },
+    {
+      "id": 52,
+      "start": 242.62,
+      "end": 245.56,
+      "speaker": "PATIENT",
+      "text": "yeah."
+    },
+    {
+      "id": 53,
+      "start": 250.81,
+      "end": 257.73,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah. When when when I'm resting it's OK. So I've been actually going to work, um sort of managing."
+    },
+    {
+      "id": 54,
+      "start": 256.12,
+      "end": 256.95,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 55,
+      "start": 258.13,
+      "end": 263.3,
+      "speaker": "DOCTOR",
+      "text": "OK, fine. Just a couple other questions , if you don't mind. Any pain in, in your ears at all?"
+    },
+    {
+      "id": 56,
+      "start": 264.42,
+      "end": 266.59,
+      "speaker": "PATIENT",
+      "text": "Um no."
+    },
+    {
+      "id": 57,
+      "start": 266.8,
+      "end": 269.67,
+      "speaker": "DOCTOR",
+      "text": "No, you don't feel blocked, or any discharge coming out of your ears?"
+    },
+    {
+      "id": 59,
+      "start": 271.95,
+      "end": 273.17,
+      "speaker": "PATIENT",
+      "text": "No, I don't think so."
+    },
+    {
+      "id": 60,
+      "start": 273.08,
+      "end": 282.6,
+      "speaker": "DOCTOR",
+      "text": "OK, fine. Um what I'm gonna do, I'm just gonna run through a few uh yes no questions, if you if you don't mind, just a review of your systems. Any, any headaches at all?"
+    },
+    {
+      "id": 61,
+      "start": 284.11,
+      "end": 289.19,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, yeah. That that's still, that's still there."
+    },
+    {
+      "id": 62,
+      "start": 289.29,
+      "end": 291.36,
+      "speaker": "DOCTOR",
+      "text": "Whereabouts are the head, headaches?"
+    },
+    {
+      "id": 63,
+      "start": 291.91,
+      "end": 301.34,
+      "speaker": "PATIENT",
+      "text": "Um it's sort of general. Uh and uh they're not, they're not always there, but you know every now and then they will come and go."
+    },
+    {
+      "id": 64,
+      "start": 301.44,
+      "end": 305.91,
+      "speaker": "DOCTOR",
+      "text": "OK. And with those headaches have you had any problems with your, with your eyesight, your vision?"
+    },
+    {
+      "id": 65,
+      "start": 307.22,
+      "end": 308.4,
+      "speaker": "PATIENT",
+      "text": "Um no."
+    },
+    {
+      "id": 66,
+      "start": 308.69,
+      "end": 311.83,
+      "speaker": "DOCTOR",
+      "text": "Uh any difficulty with seeing bright lights?"
+    },
+    {
+      "id": 67,
+      "start": 313.07,
+      "end": 314.88,
+      "speaker": "PATIENT",
+      "text": "No, I don't think so."
+    },
+    {
+      "id": 68,
+      "start": 314.46,
+      "end": 321.29,
+      "speaker": "DOCTOR",
+      "text": "No, OK. Um and just moving down now, in terms of any, any feeling nausea or any vomiting?"
+    },
+    {
+      "id": 69,
+      "start": 322.08,
+      "end": 323.22,
+      "speaker": "PATIENT",
+      "text": "No, none of that."
+    },
+    {
+      "id": 70,
+      "start": 323.76,
+      "end": 326.54,
+      "speaker": "DOCTOR",
+      "text": "OK. Tell me about your bowels. Are your bowels working OK?"
+    },
+    {
+      "id": 71,
+      "start": 327.55,
+      "end": 330.08,
+      "speaker": "PATIENT",
+      "text": "Uh yeah, yeah. Think so."
+    },
+    {
+      "id": 72,
+      "start": 330.17,
+      "end": 331.6,
+      "speaker": "DOCTOR",
+      "text": "You're passing urine OK?"
+    },
+    {
+      "id": 73,
+      "start": 332.57,
+      "end": 334.04,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 74,
+      "start": 334.32,
+      "end": 335.62,
+      "speaker": "DOCTOR",
+      "text": "How's your appetite, sir?"
+    },
+    {
+      "id": 75,
+      "start": 335.79,
+      "end": 343.92,
+      "speaker": "PATIENT",
+      "text": "Yeah I've been, I've been drinking a lot more than the usual. But uh so other than that, so"
+    },
+    {
+      "id": 76,
+      "start": 341.8,
+      "end": 346.69,
+      "speaker": "DOCTOR",
+      "text": "OK. Um and you're eating and drinking, uh you're eating OK otherwise."
+    },
+    {
+      "id": 77,
+      "start": 347.05,
+      "end": 352.08,
+      "speaker": "PATIENT",
+      "text": "Um maybe a bit less than uh than what I, I would usually have."
+    },
+    {
+      "id": 78,
+      "start": 352.15,
+      "end": 357.11,
+      "speaker": "DOCTOR",
+      "text": "OK. Um have you noticed any, any funny rashes at all, on your skin?"
+    },
+    {
+      "id": 79,
+      "start": 357.79,
+      "end": 359.37,
+      "speaker": "PATIENT",
+      "text": "Um no, no."
+    },
+    {
+      "id": 80,
+      "start": 359.21,
+      "end": 365.16,
+      "speaker": "DOCTOR",
+      "text": "No. And any general muscle pain or aches, joint pain, ?"
+    },
+    {
+      "id": 81,
+      "start": 364.22,
+      "end": 368.27,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah. Yeah that's, that sort of started in the past couple days."
+    },
+    {
+      "id": 82,
+      "start": 368.15,
+      "end": 376.39,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. Alright um and uh just having a look at the rest of your history, are you otherwise fit and well? Or do you have any other medical problems I should be aware of?"
+    },
+    {
+      "id": 83,
+      "start": 377.35,
+      "end": 387.2,
+      "speaker": "PATIENT",
+      "text": "Um, so otherwise that, uh, I'm I'm fine. There's um, there isn't anything that I'm taking or, I'm being treated for."
+    },
+    {
+      "id": 84,
+      "start": 387.18,
+      "end": 389.41,
+      "speaker": "DOCTOR",
+      "text": "OK. Um"
+    },
+    {
+      "id": 85,
+      "start": 388.76,
+      "end": 389.27,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 86,
+      "start": 390.04,
+      "end": 395.38,
+      "speaker": "DOCTOR",
+      "text": "So you are otherwise fit and well. Uh any, any allergies at all to any medications, I should be aware of?"
+    },
+    {
+      "id": 87,
+      "start": 396.18,
+      "end": 398.44,
+      "speaker": "PATIENT",
+      "text": "Um, no"
+    },
+    {
+      "id": 88,
+      "start": 398.09,
+      "end": 400.45,
+      "speaker": "DOCTOR",
+      "text": "No, OK. Um"
+    },
+    {
+      "id": 89,
+      "start": 401.13,
+      "end": 407.8,
+      "speaker": "DOCTOR",
+      "text": "Any family history at all? So anything relevant in the family that I should be aware of? Anything like diabetes, high blood pressure?"
+    },
+    {
+      "id": 90,
+      "start": 408.52,
+      "end": 415.52,
+      "speaker": "PATIENT",
+      "text": "Um, yeah my grandma has diabetes. Um, and, my grandma."
+    },
+    {
+      "id": 92,
+      "start": 412.83,
+      "end": 413.7,
+      "speaker": "DOCTOR",
+      "text": "Your brother?"
+    },
+    {
+      "id": 93,
+      "start": 415.43,
+      "end": 423.08,
+      "speaker": "DOCTOR",
+      "text": "you say grandma, sorry my apologies. Grandma, OK. Uh do you know what type of diabetes it is? Is it type one, type two?"
+    },
+    {
+      "id": 95,
+      "start": 422.08,
+      "end": 424.61,
+      "speaker": "PATIENT",
+      "text": "I think , I think it's type two."
+    },
+    {
+      "id": 96,
+      "start": 424.59,
+      "end": 425.1,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 97,
+      "start": 426.01,
+      "end": 428.54,
+      "speaker": "DOCTOR",
+      "text": "Um anything else which you think is significant?"
+    },
+    {
+      "id": 98,
+      "start": 429.14,
+      "end": 435.38,
+      "speaker": "PATIENT",
+      "text": "Yeah, I, I think um, one of my uh, great grandads had an eczema."
+    },
+    {
+      "id": 99,
+      "start": 435.72,
+      "end": 444.19,
+      "speaker": "DOCTOR",
+      "text": "Excellent, OK. OK. Um just moving on to what we social history, just to get to know you a bit more as a person. Tell me, who do you live with at home?"
+    },
+    {
+      "id": 100,
+      "start": 445.6,
+      "end": 447.52,
+      "speaker": "PATIENT",
+      "text": "Ohh um, I live alone."
+    },
+    {
+      "id": 101,
+      "start": 447.74,
+      "end": 451.07,
+      "speaker": "DOCTOR",
+      "text": "OK. And you said you're working at the moment?"
+    },
+    {
+      "id": 102,
+      "start": 451.5,
+      "end": 452.72,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 103,
+      "start": 452.64,
+      "end": 453.73,
+      "speaker": "DOCTOR",
+      "text": "What do you do for work?"
+    },
+    {
+      "id": 104,
+      "start": 455.02,
+      "end": 458.25,
+      "speaker": "PATIENT",
+      "text": "I'm an, I'm an accountant."
+    },
+    {
+      "id": 105,
+      "start": 458.53,
+      "end": 462.86,
+      "speaker": "DOCTOR",
+      "text": "OK, and how's your work going at the moment? Uh over the last, has it, has it been affecting your work?"
+    },
+    {
+      "id": 106,
+      "start": 463.66,
+      "end": 472.22,
+      "speaker": "PATIENT",
+      "text": "Um, a little bit. I've been a bit slower. And you know, it's uh, it's, it's a bit of a stressful period just around the um, end of the year. Right."
+    },
+    {
+      "id": 107,
+      "start": 471.44,
+      "end": 477.38,
+      "speaker": "DOCTOR",
+      "text": "Mm, OK. Is that stress, is that affecting your um, your mood at all any, in any way?"
+    },
+    {
+      "id": 108,
+      "start": 478.22,
+      "end": 485.07,
+      "speaker": "PATIENT",
+      "text": "Um, no I think I think it's, it's the, you know it's the good kind of stress. It's um, it's good work."
+    },
+    {
+      "id": 109,
+      "start": 483.05,
+      "end": 484.35,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 110,
+      "start": 485.19,
+      "end": 491.65,
+      "speaker": "DOCTOR",
+      "text": "Well if there's anything you want to talk to me about, you can always come see me about your mood, um stress, anxiety. happy to help."
+    },
+    {
+      "id": 111,
+      "start": 491.4,
+      "end": 496.67,
+      "speaker": "PATIENT",
+      "text": "I don't know. I, I like my job. It's just you know, it's a bit more work than usual."
+    },
+    {
+      "id": 112,
+      "start": 495.65,
+      "end": 500.92,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. And just very briefly, just in terms of smoking uh, do you smoke at all?"
+    },
+    {
+      "id": 113,
+      "start": 501.58,
+      "end": 506.63,
+      "speaker": "PATIENT",
+      "text": "Um, yeah occasionally, you know, cigars and things on company parties."
+    },
+    {
+      "id": 114,
+      "start": 506.58,
+      "end": 510.79,
+      "speaker": "DOCTOR",
+      "text": "OK so not, not regular. Um and what about alcohol?"
+    },
+    {
+      "id": 115,
+      "start": 508.73,
+      "end": 509.25,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 116,
+      "start": 511.48,
+      "end": 515.88,
+      "speaker": "PATIENT",
+      "text": "Um, occasionally yeah I would have some. I'm, I'm not a very big drinker."
+    },
+    {
+      "id": 118,
+      "start": 515.93,
+      "end": 517.78,
+      "speaker": "DOCTOR",
+      "text": "socially with work."
+    },
+    {
+      "id": 119,
+      "start": 518.99,
+      "end": 519.51,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 120,
+      "start": 519.0,
+      "end": 523.07,
+      "speaker": "DOCTOR",
+      "text": "Um OK. Um so um"
+    },
+    {
+      "id": 121,
+      "start": 523.07,
+      "end": 535.43,
+      "speaker": "DOCTOR",
+      "text": "just having listened to your story, um uh really just to summarize you know since the last four days you've been feeling generally quite unwell, sore throat, runny nose, bit of a dry cough, bit of muscle pain, weakness."
+    },
+    {
+      "id": 122,
+      "start": 535.43,
+      "end": 550.04,
+      "speaker": "DOCTOR",
+      "text": "Um had initial fever, but now settled. Um I don't think there's a lot to worry about. I think you probably have, you know a bit of a viral, what we say viral illness, maybe a viral upper respiratory tract infection, or maybe early signs of a flu."
+    },
+    {
+      "id": 123,
+      "start": 550.04,
+      "end": 564.23,
+      "speaker": "DOCTOR",
+      "text": "Um these normally last about seven to days and just gets better really, um over time. But things you can do to really help yourself, um is get plenty of rest. I'd probably advise you taking a day or two off work if you can. Um"
+    },
+    {
+      "id": 124,
+      "start": 564.23,
+      "end": 580.17,
+      "speaker": "DOCTOR",
+      "text": "Making yourself, pushing fluids and make yourself well-hydrated. Continue with the regular Paracetamol, Ibuprofen. Um and and you should see how things go, really. Um if next week you're still not better, I'd like you to come back and see me."
+    },
+    {
+      "id": 125,
+      "start": 580.17,
+      "end": 584.39,
+      "speaker": "DOCTOR",
+      "text": "Um is that clear? Does that, does that make, does that make"
+    },
+    {
+      "id": 126,
+      "start": 583.25,
+      "end": 592.21,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, that's that's , it makes sense. Uh, I think I'll take a couple days off, and see how it goes."
+    },
+    {
+      "id": 127,
+      "start": 588.9,
+      "end": 590.29,
+      "speaker": "DOCTOR",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 128,
+      "start": 591.08,
+      "end": 604.83,
+      "speaker": "DOCTOR",
+      "text": "and things to look out for if you're really not getting better, if you if you have a high fever, or your breathing is becoming a bit more labored, or chest pain, I'd like you to come back and see me much sooner, give me a call. Um and we can help you out. OK?"
+    },
+    {
+      "id": 129,
+      "start": 603.04,
+      "end": 603.56,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 130,
+      "start": 605.25,
+      "end": 608.33,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah I understand. Uh, I'll uh, I'll take care."
+    },
+    {
+      "id": 131,
+      "start": 608.34,
+      "end": 613.68,
+      "speaker": "DOCTOR",
+      "text": "Great. Have a great day. Good luck with your work. Thank you. Bye bye. Bye bye."
+    },
+    {
+      "id": 132,
+      "start": 610.74,
+      "end": 613.84,
+      "speaker": "PATIENT",
+      "text": "Thank you. Thank you. You too. Bye bye."
+    }
+  ]
+}

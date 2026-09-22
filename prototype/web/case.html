@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case — Clinical Documentation Gate</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="case.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a href="app.html" class="back-link">&larr; My patients</a>
+    <div class="topbar-right">
+      <span id="doctor-name" class="muted"></span>
+      <button id="logout-btn" class="btn btn-ghost btn-sm">Sign out</button>
+    </div>
+  </nav>
+
+  <header class="case-header">
+    <h1 id="case-title">Loading case…</h1>
+    <p class="muted" id="case-meta"></p>
+  </header>
+
+  <main id="app" class="layout" hidden>
+    <section class="panel transcript-panel">
+      <h2>Source transcript</h2>
+      <div id="transcript" class="transcript"></div>
+    </section>
+
+    <section class="panel note-panel">
+      <h2>Structured note</h2>
+      <div id="note-fields"></div>
+
+      <div id="pending-block" class="sub-block" hidden>
+        <h3 class="pending-heading">Pending your review</h3>
+        <div id="pending-list"></div>
+      </div>
+
+      <div id="rejected-block" class="sub-block" hidden>
+        <h3 class="rejected-heading">Reviewed and rejected</h3>
+        <div id="rejected-list"></div>
+      </div>
+    </section>
+
+    <section class="panel side-panel">
+      <div class="sub-block">
+        <h3>Adaptive thresholds</h3>
+        <table id="calibration-table" class="calibration-table">
+          <thead><tr><th>Field</th><th>Auto-insert threshold</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="sub-block">
+        <button id="audit-toggle" class="btn btn-ghost btn-sm">Show audit trail</button>
+        <div id="audit-log" class="audit-log" hidden></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="case.js"></script>
+</body>
+</html>

@@ -1,0 +1,820 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation09",
+  "presenting_complaint": "Tired all the time",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: Tired all the time.\n\nHPC: Tired and feeling run down for last 6 weeks. Last felt well at xmas. Seemed to start after return from holiday in the States. Did lots of walking in shorts in Yosemite, didn't notice bite. Well when on hol. Felt unwell on return. Initially had red circular rash on back of calf mid-end Feb.  Lasted few weeks and faded. Had fever, sore throat at that time. Reduced appetite, no wt loss, \n\nSE: GI - Dec app, no change in BH, no blood in stool, no dyspepsia.\nNeuro: General headache/no visual disturbance/altered sens/weakness.Yosemite Park. \nRS: No cough/sputum/CP/SOB. No coryzal sx/sore throat.\nNot exercising due to lack of energy\nLS: Aching shoulder/legs/back. No joint swelling.\nNo other rashes noted.\n\nNo sx depression.\n\nPMH: Asthma, hayfever\n\nDH: Has bd inhaler ? ICS, does not take salbutamol regularly. Cetirizine OD\nOcc.Lives with wife. Non smoker. Occ alcohol.\n\nImp: 6/52 hx fatigue and hx circular rash on calf.\n\nPlan: Needs screening bloods for TATT including Lyme serology.\n\nFU 1 week later with GP.\n10.  13:30-13:50\n\t\t\u201cI have a blinding headache\u201d\nNote: PC : Headache\n\nHPC: 3/7 hx headache. Starts on waking up. Over right eye. Seeing lights in front of eyes. Can be worse when stands up not when bends over/cough/sneeze. Vision not disturbed. No nausea/vomiting. No altered taste/smell. Worse in the light. No rash. No fever. No coryzal symptoms. Not woken up in the night. No tingling/numbness/weakness. \nWell before this episode. Has been lacking in energy but no wt loss. \nSeverity 5-8/10. Taking ibuprofen, eases slightly but not resolving. \n\nHas had some generalised headaches before but not bad and associated symptoms/altered vision.\nPMH: Nil\nDH: Mercilon. BP last checked 1 yr ago was normal.\n\nFMHx: Mum has migraine.\n\nSH: Non smoker. No illicit drugs, 3 beers/week. Works from home.\n\nImp: Likely migraine but as ongoing and persistent needs neurological examination to exclude other pathology. Advised regular paracetamol and naproxen with food (will prescribe). If gets worse in meantime contact us straightaway or go to A&E is severe/unrelenting.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 4.64,
+      "speaker": "DOCTOR",
+      "text": "Hi there, it's Doctor Smith from Babylon."
+    },
+    {
+      "id": 2,
+      "start": 1.44,
+      "end": 2.35,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 3,
+      "start": 5.03,
+      "end": 6.16,
+      "speaker": "PATIENT",
+      "text": "Hi there."
+    },
+    {
+      "id": 4,
+      "start": 5.86,
+      "end": 10.31,
+      "speaker": "DOCTOR",
+      "text": "Hi, can you confirm your name, date of birth and your home address, please?"
+    },
+    {
+      "id": 5,
+      "start": 10.72,
+      "end": 20.58,
+      "speaker": "PATIENT",
+      "text": "Yeah, it's Matt Carter, and it's fourteenth of August, nineteen eighty nine, and what was the last bit?"
+    },
+    {
+      "id": 7,
+      "start": 20.44,
+      "end": 21.66,
+      "speaker": "DOCTOR",
+      "text": "Your address."
+    },
+    {
+      "id": 8,
+      "start": 21.97,
+      "end": 25.52,
+      "speaker": "PATIENT",
+      "text": "And it's one Babylon Avenue."
+    },
+    {
+      "id": 9,
+      "start": 25.35,
+      "end": 30.14,
+      "speaker": "DOCTOR",
+      "text": "And are you in a private place where you can have a consultation today? What can I do for you?"
+    },
+    {
+      "id": 10,
+      "start": 28.3,
+      "end": 29.4,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 11,
+      "start": 30.59,
+      "end": 47.1,
+      "speaker": "PATIENT",
+      "text": "Um, coming, I, I don't really know what's been going on, but it's just aching all over, but, definitely the last six weeks, it might have been slightly longer than that, but it's just sort of that, feeling really tired, run down."
+    },
+    {
+      "id": 12,
+      "start": 47.7,
+      "end": 52.05,
+      "speaker": "DOCTOR",
+      "text": "OK, um, so when do you think you were last well?"
+    },
+    {
+      "id": 13,
+      "start": 52.8,
+      "end": 61.78,
+      "speaker": "PATIENT",
+      "text": "Uh, where are we now, we've just started April. I, definitely Christmas, New Year, I felt relatively well, I think."
+    },
+    {
+      "id": 14,
+      "start": 62.34,
+      "end": 77.79,
+      "speaker": "PATIENT",
+      "text": "Um, so, since then. Actually, yeah, I, I was on holiday in, um, in the States. And yeah, it probably coincided with some time around then. End of January, start of Feb."
+    },
+    {
+      "id": 15,
+      "start": 77.9,
+      "end": 82.05,
+      "speaker": "DOCTOR",
+      "text": "So do you think it started when you were on holiday or after you got back?"
+    },
+    {
+      "id": 16,
+      "start": 82.26,
+      "end": 85.15,
+      "speaker": "PATIENT",
+      "text": "Uh, probably a couple of weeks after I got back."
+    },
+    {
+      "id": 17,
+      "start": 85.22,
+      "end": 87.29,
+      "speaker": "DOCTOR",
+      "text": "Were you well when you were on holiday?"
+    },
+    {
+      "id": 18,
+      "start": 87.72,
+      "end": 90.81,
+      "speaker": "PATIENT",
+      "text": "Yeah, had a had a great time, very active, uh."
+    },
+    {
+      "id": 19,
+      "start": 91.59,
+      "end": 96.06,
+      "speaker": "DOCTOR",
+      "text": "Did you get any infections, chest infections, diarrhoea, vomiting, anything like that?"
+    },
+    {
+      "id": 20,
+      "start": 96.72,
+      "end": 101.66,
+      "speaker": "PATIENT",
+      "text": "Um, no, not that I recall. Um, yeah, not."
+    },
+    {
+      "id": 21,
+      "start": 102.66,
+      "end": 105.41,
+      "speaker": "PATIENT",
+      "text": "No, the symptoms sort of all started afterwards."
+    },
+    {
+      "id": 22,
+      "start": 105.65,
+      "end": 121.62,
+      "speaker": "DOCTOR",
+      "text": "OK. So, just tell me what symptoms you've been having, in terms of just your general health. Any persistent cold symptoms or earaches, sore throat, chest cough, shortness of breath, phlegm, anything like that?"
+    },
+    {
+      "id": 23,
+      "start": 121.92,
+      "end": 123.2,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 24,
+      "start": 124.29,
+      "end": 126.75,
+      "speaker": "DOCTOR",
+      "text": "Any change in your weight at all?"
+    },
+    {
+      "id": 25,
+      "start": 127.23,
+      "end": 134.01,
+      "speaker": "PATIENT",
+      "text": "Uh, I don't think so. Like, I'm probably less hungry, but no, no weight change, just a bit."
+    },
+    {
+      "id": 26,
+      "start": 133.07,
+      "end": 136.17,
+      "speaker": "DOCTOR",
+      "text": "OK, and are you eating different amounts?"
+    },
+    {
+      "id": 27,
+      "start": 136.6,
+      "end": 145.8,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, probably slightly smaller portions, or it, yeah, more of an effort to, to actually eat everything that's in front of me."
+    },
+    {
+      "id": 28,
+      "start": 145.64,
+      "end": 151.26,
+      "speaker": "DOCTOR",
+      "text": "Any difficulty swallowing or acid in your throat, or abdominal pain?"
+    },
+    {
+      "id": 29,
+      "start": 151.84,
+      "end": 152.69,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 30,
+      "start": 152.97,
+      "end": 157.53,
+      "speaker": "DOCTOR",
+      "text": "Any change in your bowel habit, diarrhoea, vomiting or blood in the stool?"
+    },
+    {
+      "id": 31,
+      "start": 158.02,
+      "end": 159.44,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 32,
+      "start": 159.84,
+      "end": 163.7,
+      "speaker": "DOCTOR",
+      "text": "Any difficulty passing urine or blood in the urine?"
+    },
+    {
+      "id": 33,
+      "start": 163.78,
+      "end": 165.15,
+      "speaker": "PATIENT",
+      "text": "No, that's all fine."
+    },
+    {
+      "id": 34,
+      "start": 165.8,
+      "end": 169.89,
+      "speaker": "DOCTOR",
+      "text": "OK, and any other general symptoms like rashes?"
+    },
+    {
+      "id": 35,
+      "start": 170.6,
+      "end": 171.37,
+      "speaker": "DOCTOR",
+      "text": "Or."
+    },
+    {
+      "id": 36,
+      "start": 170.63,
+      "end": 185.59,
+      "speaker": "PATIENT",
+      "text": "Um, I don't have any rashes now, but there was, uh, in fact I've got a photo, um, on my phone if if that's helpful. I can try and show you, hang on. Um, because this, yeah, this was weird, this sort of came up, and then, uh."
+    },
+    {
+      "id": 37,
+      "start": 172.95,
+      "end": 173.65,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 38,
+      "start": 178.45,
+      "end": 179.26,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 39,
+      "start": 186.5,
+      "end": 193.09,
+      "speaker": "PATIENT",
+      "text": "Disappeared after a couple of weeks, where's the light, that, you see that?"
+    },
+    {
+      "id": 40,
+      "start": 192.13,
+      "end": 194.71,
+      "speaker": "DOCTOR",
+      "text": "OK, right, yeah, whereabouts was it?"
+    },
+    {
+      "id": 41,
+      "start": 195.14,
+      "end": 201.21,
+      "speaker": "PATIENT",
+      "text": "Uh, I think sort of calf, back of my calf, because I didn't notice it, my wife noticed it actually."
+    },
+    {
+      "id": 42,
+      "start": 201.05,
+      "end": 202.94,
+      "speaker": "DOCTOR",
+      "text": "When did you first notice it?"
+    },
+    {
+      "id": 43,
+      "start": 204.03,
+      "end": 222.63,
+      "speaker": "PATIENT",
+      "text": "Um, probably, uh, around the end of February, the middle to end of Feb. And then it, like, it didn't actually cause too much itching, or anything, at the time. And, I, it faded over a couple of weeks, I guess."
+    },
+    {
+      "id": 44,
+      "start": 222.94,
+      "end": 225.51,
+      "speaker": "DOCTOR",
+      "text": "Did you have any fevers at that time?"
+    },
+    {
+      "id": 45,
+      "start": 225.69,
+      "end": 237.2,
+      "speaker": "PATIENT",
+      "text": "Um, I, to be honest that actually turns out it was a bit of a sore throat I had, um, so possibly a little bit feverish, but I, I sort of put it down to that."
+    },
+    {
+      "id": 46,
+      "start": 237.85,
+      "end": 244.35,
+      "speaker": "DOCTOR",
+      "text": "Do you know where you got that, when it started? Had you been walking, did you get any bites that you noticed?"
+    },
+    {
+      "id": 47,
+      "start": 244.74,
+      "end": 254.49,
+      "speaker": "PATIENT",
+      "text": "Uh, I like, I do quite a lot of walking, and we did, um, quite a lot while we were out in the, on holiday as well, but definitely, um."
+    },
+    {
+      "id": 48,
+      "start": 255.29,
+      "end": 264.7,
+      "speaker": "PATIENT",
+      "text": "Yeah, I mean, I don't, I don't recall any bugs, I don't remember seeing anything bitten but you often, like, yeah, as you're walking through, I was in shorts and, and boots but /"
+    },
+    {
+      "id": 49,
+      "start": 262.77,
+      "end": 263.51,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 50,
+      "start": 265.62,
+      "end": 267.53,
+      "speaker": "DOCTOR",
+      "text": "Whereabouts were you in the States?"
+    },
+    {
+      "id": 51,
+      "start": 267.93,
+      "end": 272.42,
+      "speaker": "PATIENT",
+      "text": "Um, just sort of, um, he examined me, so."
+    },
+    {
+      "id": 52,
+      "start": 272.33,
+      "end": 277.86,
+      "speaker": "DOCTOR",
+      "text": "OK, and any headaches, blurred vision, tingling, numbness?"
+    },
+    {
+      "id": 53,
+      "start": 278.36,
+      "end": 280.49,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 54,
+      "start": 281.06,
+      "end": 285.51,
+      "speaker": "PATIENT",
+      "text": "But it's the sort of headache maybe in just generally feeling a bit crappy."
+    },
+    {
+      "id": 56,
+      "start": 289.2,
+      "end": 292.26,
+      "speaker": "DOCTOR",
+      "text": "And have you been able to go to work as usual?"
+    },
+    {
+      "id": 57,
+      "start": 292.57,
+      "end": 299.32,
+      "speaker": "PATIENT",
+      "text": "Um, I've been going to work. I don't know how effective it's been. But, yeah, been, been."
+    },
+    {
+      "id": 58,
+      "start": 298.14,
+      "end": 300.25,
+      "speaker": "DOCTOR",
+      "text": "And what's your job?"
+    },
+    {
+      "id": 59,
+      "start": 299.98,
+      "end": 302.98,
+      "speaker": "PATIENT",
+      "text": "Um, I work for a health technology company actually."
+    },
+    {
+      "id": 60,
+      "start": 303.01,
+      "end": 309.3,
+      "speaker": "DOCTOR",
+      "text": "OK, and has your concentration been affected, or your tiredness levels in the daytime at work?"
+    },
+    {
+      "id": 61,
+      "start": 309.54,
+      "end": 319.39,
+      "speaker": "PATIENT",
+      "text": "Yeah, definitely sort of tired and, um, yeah, less energy, sort of probably than I, I would normally be."
+    },
+    {
+      "id": 63,
+      "start": 319.32,
+      "end": 321.55,
+      "speaker": "DOCTOR",
+      "text": "Have you been able to exercise OK?"
+    },
+    {
+      "id": 64,
+      "start": 322.29,
+      "end": 323.61,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 65,
+      "start": 325.49,
+      "end": 334.08,
+      "speaker": "PATIENT",
+      "text": "Not as much. I, I don't know if it's, I haven't been able to or I've just been a bit lazy with it. I I'm not exercising as I would normally."
+    },
+    {
+      "id": 66,
+      "start": 333.72,
+      "end": 342.08,
+      "speaker": "DOCTOR",
+      "text": "OK, fine, and, um, how's your mental health, your stress levels, all that?"
+    },
+    {
+      "id": 67,
+      "start": 340.86,
+      "end": 341.63,
+      "speaker": "PATIENT",
+      "text": "Hey."
+    },
+    {
+      "id": 68,
+      "start": 342.25,
+      "end": 348.08,
+      "speaker": "PATIENT",
+      "text": "Pretty good at the moment, actually. Like, it previously that has been an issue, but, um."
+    },
+    {
+      "id": 69,
+      "start": 348.82,
+      "end": 351.14,
+      "speaker": "PATIENT",
+      "text": "Other than, sort of, physically feeling a bit."
+    },
+    {
+      "id": 70,
+      "start": 352.04,
+      "end": 353.9,
+      "speaker": "PATIENT",
+      "text": "Uh, crappy, I've."
+    },
+    {
+      "id": 71,
+      "start": 354.53,
+      "end": 356.34,
+      "speaker": "PATIENT",
+      "text": "Yeah, in a pretty good place."
+    },
+    {
+      "id": 72,
+      "start": 356.3,
+      "end": 362.77,
+      "speaker": "DOCTOR",
+      "text": "OK. Apart from that rash, any other rashes on your skin, or swelling of your joints, or pain in your joints?"
+    },
+    {
+      "id": 73,
+      "start": 363.08,
+      "end": 371.77,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, sort of aching shoulders, back, the hips, knees, but sort of, yeah. Not ,"
+    },
+    {
+      "id": 74,
+      "start": 370.35,
+      "end": 373.33,
+      "speaker": "DOCTOR",
+      "text": "Any swelling that you've noticed?"
+    },
+    {
+      "id": 75,
+      "start": 373.7,
+      "end": 374.97,
+      "speaker": "PATIENT",
+      "text": "No, ."
+    },
+    {
+      "id": 76,
+      "start": 374.09,
+      "end": 376.94,
+      "speaker": "DOCTOR",
+      "text": "Your hands, wrists, ankles, toes."
+    },
+    {
+      "id": 77,
+      "start": 377.23,
+      "end": 378.48,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 78,
+      "start": 378.56,
+      "end": 385.26,
+      "speaker": "DOCTOR",
+      "text": "OK, um, and any other significant medical problems in the past?"
+    },
+    {
+      "id": 79,
+      "start": 385.54,
+      "end": 386.95,
+      "speaker": "PATIENT",
+      "text": "Uh, I mean."
+    },
+    {
+      "id": 81,
+      "start": 389.9,
+      "end": 390.9,
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "id": 82,
+      "start": 390.94,
+      "end": 393.54,
+      "speaker": "PATIENT",
+      "text": "Asthma and hay fever if they can help."
+    },
+    {
+      "id": 83,
+      "start": 393.77,
+      "end": 396.38,
+      "speaker": "DOCTOR",
+      "text": "OK. Any flare-ups of your asthma recently?"
+    },
+    {
+      "id": 84,
+      "start": 396.94,
+      "end": 400.11,
+      "speaker": "PATIENT",
+      "text": "Uh, no, pretty well , I think."
+    },
+    {
+      "id": 85,
+      "start": 399.2,
+      "end": 402.29,
+      "speaker": "DOCTOR",
+      "text": "Do you take your regular inhalers or other medication?"
+    },
+    {
+      "id": 86,
+      "start": 402.58,
+      "end": 410.22,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I've got one of those, um, preventative, I think. Yeah , but I've not used one."
+    },
+    {
+      "id": 87,
+      "start": 410.8,
+      "end": 412.65,
+      "speaker": "DOCTOR",
+      "text": "You haven't been using it, you said?"
+    },
+    {
+      "id": 88,
+      "start": 412.29,
+      "end": 418.29,
+      "speaker": "PATIENT",
+      "text": "I, I have it. I've been using the everyday for the morning and night but not the, uh, ."
+    },
+    {
+      "id": 89,
+      "start": 418.85,
+      "end": 419.68,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 90,
+      "start": 420.68,
+      "end": 424.17,
+      "speaker": "DOCTOR",
+      "text": "And any, erm, do you take any other medications?"
+    },
+    {
+      "id": 91,
+      "start": 425.03,
+      "end": 438.75,
+      "speaker": "PATIENT",
+      "text": "Um, I take, um, one of the antihistamines it might be can I get that from, just from the pharmacy."
+    },
+    {
+      "id": 92,
+      "start": 438.48,
+      "end": 441.92,
+      "speaker": "DOCTOR",
+      "text": "Yeah, that's fine. Um, and do you smoke?"
+    },
+    {
+      "id": 93,
+      "start": 442.21,
+      "end": 446.65,
+      "speaker": "PATIENT",
+      "text": "uh, ."
+    },
+    {
+      "id": 94,
+      "start": 443.21,
+      "end": 444.65,
+      "speaker": "DOCTOR",
+      "text": "Drink any alcohol?"
+    },
+    {
+      "id": 95,
+      "start": 448.2,
+      "end": 449.07,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 96,
+      "start": 449.47,
+      "end": 451.22,
+      "speaker": "PATIENT",
+      "text": "Sorry, occasionally, that was."
+    },
+    {
+      "id": 97,
+      "start": 451.23,
+      "end": 453.58,
+      "speaker": "DOCTOR",
+      "text": "OK, and who do you live with at home?"
+    },
+    {
+      "id": 98,
+      "start": 453.78,
+      "end": 454.95,
+      "speaker": "PATIENT",
+      "text": "Uh, just my wife."
+    },
+    {
+      "id": 99,
+      "start": 456.23,
+      "end": 457.41,
+      "speaker": "DOCTOR",
+      "text": "Um."
+    },
+    {
+      "id": 100,
+      "start": 459.44,
+      "end": 478.2,
+      "speaker": "DOCTOR",
+      "text": "Sorry, um, so with this rash, we would need to investigate whether this has been a contributing factor to your symptoms. And just because of your symptoms, which have been ongoing for six weeks, that's obviously quite a long time to notice a change in your energy levels."
+    },
+    {
+      "id": 101,
+      "start": 478.2,
+      "end": 500.94,
+      "speaker": "DOCTOR",
+      "text": "Um, I think it's important to get some blood tests, checking all the normal things, like liver, kidneys, blood count, etc. But also, some more specific things like, um, a bacterial infection you can sometimes get, uh, including one which you can get which can produce a rash like that. So, that would involve blood tests. Are you happy to do that?"
+    },
+    {
+      "id": 103,
+      "start": 501.68,
+      "end": 506.6,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I but, uh, what, what's the infection?"
+    },
+    {
+      "id": 104,
+      "start": 506.83,
+      "end": 518.38,
+      "speaker": "DOCTOR",
+      "text": "Well, you can get, uh, you can get a bacterial infection caused which is called, um, it's called lyme disease that you can get a rash like that from a tick bite."
+    },
+    {
+      "id": 105,
+      "start": 518.38,
+      "end": 529.95,
+      "speaker": "DOCTOR",
+      "text": "So that's something we would do a test for, as well. Um, and if that comes back positive, then there are specific antibiotics that we would give you to treat it."
+    },
+    {
+      "id": 106,
+      "start": 518.89,
+      "end": 519.78,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 107,
+      "start": 523.56,
+      "end": 524.41,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 108,
+      "start": 530.71,
+      "end": 540.17,
+      "speaker": "DOCTOR",
+      "text": "So it's definitely worth checking for, but we would also check just for which can cause reduced energy, tiredness and aching for, persistent over six weeks."
+    },
+    {
+      "id": 109,
+      "start": 540.68,
+      "end": 541.51,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 110,
+      "start": 542.02,
+      "end": 551.57,
+      "speaker": "DOCTOR",
+      "text": "So if you're happy to do that, if you book that through the support line, and then when you've had the test arrange a follow up about a week after, after you've had the test done."
+    },
+    {
+      "id": 111,
+      "start": 552.28,
+      "end": 559.64,
+      "speaker": "PATIENT",
+      "text": "OK, so, do the test first and then, and that follow up we can just do over the phone again? Or, yeah."
+    },
+    {
+      "id": 112,
+      "start": 558.3,
+      "end": 561.79,
+      "speaker": "DOCTOR",
+      "text": "Um, yeah, we can do that over the phone to start with."
+    },
+    {
+      "id": 113,
+      "start": 561.53,
+      "end": 563.12,
+      "speaker": "PATIENT",
+      "text": "All right. Excellent."
+    },
+    {
+      "id": 114,
+      "start": 563.17,
+      "end": 564.29,
+      "speaker": "DOCTOR",
+      "text": "OK?"
+    },
+    {
+      "id": 115,
+      "start": 564.8,
+      "end": 567.16,
+      "speaker": "PATIENT",
+      "text": "That, that's really helpful, thank you very much."
+    },
+    {
+      "id": 117,
+      "start": 568.21,
+      "end": 570.54,
+      "speaker": "PATIENT",
+      "text": "Oops, sorry, you broke up a bit there."
+    },
+    {
+      "id": 118,
+      "start": 569.65,
+      "end": 571.15,
+      "speaker": "DOCTOR",
+      "text": "Any other questions?"
+    },
+    {
+      "id": 119,
+      "start": 571.23,
+      "end": 572.84,
+      "speaker": "PATIENT",
+      "text": "Ohh, no, not , no."
+    },
+    {
+      "id": 120,
+      "start": 573.02,
+      "end": 575.32,
+      "speaker": "DOCTOR",
+      "text": "OK, that's great. Take care."
+    },
+    {
+      "id": 121,
+      "start": 574.75,
+      "end": 577.31,
+      "speaker": "PATIENT",
+      "text": "OK, take care, thank you, bye."
+    },
+    {
+      "id": 122,
+      "start": 577.61,
+      "end": 579.0,
+      "speaker": "DOCTOR",
+      "text": "Sorry"
+    }
+  ]
+}

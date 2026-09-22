@@ -1,0 +1,946 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation04",
+  "presenting_complaint": "Lower stomach pain",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: Abdominal pain. HPC: Periumbilical pain, constant getting worse. Severity 8/10. Has had some light PV bleeding. No dysuria/frequency but some difficulty PUing. BO daily, normal stool. Constipation for a week last week. LMP 2 weeks ago. No other PV discharge. E&D ok. Not checked temp. Does not feel feverish. Not feeling faint. No DIB/shoulder tip pain. Nausea. No vomiting/diarrhoea. Last foreign travel 1 yr ago. \nImplanon 1 yr ago. \nPMH: Nil significant\nDH: Nil. Allergic to amoxicillin\nSH; Teacher, has been able to work as usual. Lives with parents. No smoker/alcohol/drugs.\nImp: Abdominal pain ? cause. Needs to check preg test today and contact us immediately if pos. Urgent examination booked with Dr. To get in touch before if pain worse/new sx. \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.67,
+      "end": 3.63,
+      "speaker": "DOCTOR",
+      "text": "Hello. Hello, I'm Doctor Smith from Babylon."
+    },
+    {
+      "id": 2,
+      "start": 0.69,
+      "end": 1.32,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 3,
+      "start": 4.55,
+      "end": 5.75,
+      "speaker": "PATIENT",
+      "text": "Hello, I'm ."
+    },
+    {
+      "id": 5,
+      "start": 6.43,
+      "end": 11.11,
+      "speaker": "DOCTOR",
+      "text": "Hi there. Can you confirm your full name, date of birth, and the first line of your address please?"
+    },
+    {
+      "id": 6,
+      "start": 11.56,
+      "end": 12.4,
+      "speaker": "PATIENT",
+      "text": "Okay."
+    },
+    {
+      "id": 8,
+      "start": 13.67,
+      "end": 19.86,
+      "speaker": "PATIENT",
+      "text": "My, my name is and I'm twenty, twenty three years old."
+    },
+    {
+      "id": 11,
+      "start": 21.33,
+      "end": 24.22,
+      "speaker": "DOCTOR",
+      "text": "Can you confirm your date of birth, and first line"
+    },
+    {
+      "id": 12,
+      "start": 23.33,
+      "end": 26.77,
+      "speaker": "PATIENT",
+      "text": "nineteen ninety-six."
+    },
+    {
+      "id": 13,
+      "start": 26.85,
+      "end": 28.15,
+      "speaker": "DOCTOR",
+      "text": "OK. And your address?"
+    },
+    {
+      "id": 14,
+      "start": 28.7,
+      "end": 33.09,
+      "speaker": "PATIENT",
+      "text": "And my address is, um, sixty ."
+    },
+    {
+      "id": 15,
+      "start": 34.16,
+      "end": 34.62,
+      "speaker": "DOCTOR",
+      "text": "Yep."
+    },
+    {
+      "id": 16,
+      "start": 35.86,
+      "end": 39.8,
+      "speaker": "DOCTOR",
+      "text": "OK. And are you in a , are you in a private place where you can have a consultation?"
+    },
+    {
+      "id": 17,
+      "start": 39.88,
+      "end": 42.01,
+      "speaker": "PATIENT",
+      "text": "Yes, definitely. Yes."
+    },
+    {
+      "id": 18,
+      "start": 41.24,
+      "end": 43.22,
+      "speaker": "DOCTOR",
+      "text": "OK. What can I do for you today?"
+    },
+    {
+      "id": 19,
+      "start": 43.71,
+      "end": 46.66,
+      "speaker": "PATIENT",
+      "text": "yeah. Sorry, I, I, I can't hear you."
+    },
+    {
+      "id": 20,
+      "start": 46.46,
+      "end": 48.07,
+      "speaker": "DOCTOR",
+      "text": "What can I do for you today?"
+    },
+    {
+      "id": 21,
+      "start": 49.0,
+      "end": 58.64,
+      "speaker": "PATIENT",
+      "text": "Um, I'm having really bad tummy ache. Like, at the bottom. At the lower bottom of my belly."
+    },
+    {
+      "id": 23,
+      "start": 58.85,
+      "end": 61.06,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And when did it start?"
+    },
+    {
+      "id": 24,
+      "start": 61.5,
+      "end": 69.74,
+      "speaker": "PATIENT",
+      "text": "Few days ago, I was all well, was being well. Everything was O. K. Kind of, really, getting worse big time."
+    },
+    {
+      "id": 26,
+      "start": 69.51,
+      "end": 75.84,
+      "speaker": "DOCTOR",
+      "text": "OK. And whereabouts in your, in your abdomen do you think it is? Can you just explain to me whereabouts it is?"
+    },
+    {
+      "id": 27,
+      "start": 75.64,
+      "end": 79.38,
+      "speaker": "PATIENT",
+      "text": "Yeah. It's like, lower. In my lower abdomen. Yeah."
+    },
+    {
+      "id": 28,
+      "start": 79.95,
+      "end": 83.6,
+      "speaker": "DOCTOR",
+      "text": "OK. And is it in the middle, or to one side?"
+    },
+    {
+      "id": 29,
+      "start": 84.03,
+      "end": 87.78,
+      "speaker": "PATIENT",
+      "text": "No. It's, It's in the middle. Yeah."
+    },
+    {
+      "id": 30,
+      "start": 87.12,
+      "end": 91.95,
+      "speaker": "DOCTOR",
+      "text": "And, is it around your belly button, or above or below that?"
+    },
+    {
+      "id": 31,
+      "start": 91.94,
+      "end": 93.97,
+      "speaker": "PATIENT",
+      "text": "Below. Mainly below."
+    },
+    {
+      "id": 32,
+      "start": 94.62,
+      "end": 97.52,
+      "speaker": "DOCTOR",
+      "text": "And is it there all the time, or does it come and go?"
+    },
+    {
+      "id": 33,
+      "start": 98.62,
+      "end": 99.99,
+      "speaker": "PATIENT",
+      "text": "It's there all the time."
+    },
+    {
+      "id": 34,
+      "start": 100.76,
+      "end": 106.28,
+      "speaker": "DOCTOR",
+      "text": "OK. And what would you say it is on a scale of one to ten, with ten being the worst pain you've ever had?"
+    },
+    {
+      "id": 35,
+      "start": 106.63,
+      "end": 108.5,
+      "speaker": "PATIENT",
+      "text": "It may be a eight."
+    },
+    {
+      "id": 36,
+      "start": 108.9,
+      "end": 113.96,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and have you, are you having any other symptoms with it?"
+    },
+    {
+      "id": 37,
+      "start": 114.66,
+      "end": 116.26,
+      "speaker": "PATIENT",
+      "text": "Yeah, like."
+    },
+    {
+      "id": 38,
+      "start": 116.96,
+      "end": 128.65,
+      "speaker": "PATIENT",
+      "text": "As in, like. I have, like, vaginal sometime bleeding. But, it's like light colour, and sometimes I'm constipated. Like"
+    },
+    {
+      "id": 39,
+      "start": 127.06,
+      "end": 130.38,
+      "speaker": "DOCTOR",
+      "text": "K. So when, when was your last period?"
+    },
+    {
+      "id": 40,
+      "start": 131.03,
+      "end": 137.16,
+      "speaker": "PATIENT",
+      "text": "My um, last month , two weeks ago. I'm sorry. About two weeks, two or three weeks ago."
+    },
+    {
+      "id": 41,
+      "start": 137.06,
+      "end": 142.07,
+      "speaker": "DOCTOR",
+      "text": "OK. And are you having sexual intercourse regularly?"
+    },
+    {
+      "id": 42,
+      "start": 142.0,
+      "end": 147.2,
+      "speaker": "PATIENT",
+      "text": "Yes. Yes, I do. Four weeks ago. four days ago, sorry. I just had"
+    },
+    {
+      "id": 43,
+      "start": 146.42,
+      "end": 149.32,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you using any contraception?"
+    },
+    {
+      "id": 44,
+      "start": 149.32,
+      "end": 157.72,
+      "speaker": "PATIENT",
+      "text": "Yes, I am. I usuallycome last one year. And it's called implant."
+    },
+    {
+      "id": 45,
+      "start": 157.67,
+      "end": 158.32,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 46,
+      "start": 159.46,
+      "end": 166.79,
+      "speaker": "DOCTOR",
+      "text": "And, do you have your , do you have your periods when you, since you've been using the , Implanon? Do you have periods?"
+    },
+    {
+      "id": 47,
+      "start": 166.79,
+      "end": 169.81,
+      "speaker": "DOCTOR",
+      "text": "regularly, or are they sporadic?"
+    },
+    {
+      "id": 48,
+      "start": 167.06,
+      "end": 168.11,
+      "speaker": "PATIENT",
+      "text": "Yes, I do."
+    },
+    {
+      "id": 49,
+      "start": 170.28,
+      "end": 175.38,
+      "speaker": "PATIENT",
+      "text": "Close, they, they are spreading like, not the time. It changes. Yeah."
+    },
+    {
+      "id": 50,
+      "start": 175.58,
+      "end": 176.67,
+      "speaker": "DOCTOR",
+      "text": "Right. OK."
+    },
+    {
+      "id": 51,
+      "start": 177.89,
+      "end": 179.94,
+      "speaker": "DOCTOR",
+      "text": "And was your last period normal?"
+    },
+    {
+      "id": 52,
+      "start": 180.71,
+      "end": 181.85,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 53,
+      "start": 183.28,
+      "end": 187.56,
+      "speaker": "DOCTOR",
+      "text": "And, any problems with nausea or vomiting?"
+    },
+    {
+      "id": 54,
+      "start": 187.73,
+      "end": 194.82,
+      "speaker": "PATIENT",
+      "text": "Yeah, I feel like , I feel like vomiting, but I, I get nauseated, but I don't vomit."
+    },
+    {
+      "id": 55,
+      "start": 195.18,
+      "end": 197.89,
+      "speaker": "DOCTOR",
+      "text": "Right. And have you been eating and drinking OK?"
+    },
+    {
+      "id": 56,
+      "start": 198.72,
+      "end": 207.8,
+      "speaker": "PATIENT",
+      "text": "Yeah. Yeah, my regular activities OK, yeah, but it's just very uncomfortable at times and ."
+    },
+    {
+      "id": 58,
+      "start": 206.91,
+      "end": 210.44,
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you opened your bowels normally?"
+    },
+    {
+      "id": 60,
+      "start": 211.74,
+      "end": 213.91,
+      "speaker": "DOCTOR",
+      "text": "Have you opened your bowels normally?"
+    },
+    {
+      "id": 61,
+      "start": 215.13,
+      "end": 220.24,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, last week, last week I had problems, but this week it seems to be."
+    },
+    {
+      "id": 62,
+      "start": 215.99,
+      "end": 217.54,
+      "speaker": "DOCTOR",
+      "text": "You've been to the toilet?"
+    },
+    {
+      "id": 63,
+      "start": 219.8,
+      "end": 221.77,
+      "speaker": "DOCTOR",
+      "text": "What problems did you have last week?"
+    },
+    {
+      "id": 64,
+      "start": 222.12,
+      "end": 227.38,
+      "speaker": "PATIENT",
+      "text": "Like, I was constipated for a week. Like, I was having problem."
+    },
+    {
+      "id": 65,
+      "start": 227.51,
+      "end": 229.52,
+      "speaker": "DOCTOR",
+      "text": "OK. And what about this week?"
+    },
+    {
+      "id": 66,
+      "start": 229.84,
+      "end": 233.39,
+      "speaker": "PATIENT",
+      "text": "Yeah, that seems to be OK. It's, it's fine now, yeah."
+    },
+    {
+      "id": 67,
+      "start": 232.67,
+      "end": 242.29,
+      "speaker": "DOCTOR",
+      "text": "Are you going to the toilet every day? Um, is the stool normal, or diarrhea, or hard stool?"
+    },
+    {
+      "id": 68,
+      "start": 234.68,
+      "end": 235.26,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 69,
+      "start": 238.41,
+      "end": 239.17,
+      "speaker": "PATIENT",
+      "text": "It's ."
+    },
+    {
+      "id": 70,
+      "start": 241.59,
+      "end": 243.3,
+      "speaker": "PATIENT",
+      "text": "No, it's, it's."
+    },
+    {
+      "id": 71,
+      "start": 243.3,
+      "end": 246.24,
+      "speaker": "PATIENT",
+      "text": "now, yeah, not like ."
+    },
+    {
+      "id": 72,
+      "start": 247.87,
+      "end": 251.86,
+      "speaker": "DOCTOR",
+      "text": "Um, and you said you'd had some vaginal bleeding?"
+    },
+    {
+      "id": 73,
+      "start": 252.09,
+      "end": 253.93,
+      "speaker": "PATIENT",
+      "text": "Yes, yes, I did."
+    },
+    {
+      "id": 74,
+      "start": 253.01,
+      "end": 255.26,
+      "speaker": "DOCTOR",
+      "text": "Is that, is your period stopped?"
+    },
+    {
+      "id": 75,
+      "start": 256.56,
+      "end": 272.42,
+      "speaker": "PATIENT",
+      "text": "Yeah. My period stopped, like, last two weeks ago, but, and this is different, I can, I can see, because it's not really, like, dark, it's just light pink colour. So, I don't know what is it, I cannot say what exactly what it is but I ."
+    },
+    {
+      "id": 76,
+      "start": 259.83,
+      "end": 260.51,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 77,
+      "start": 272.31,
+      "end": 276.78,
+      "speaker": "DOCTOR",
+      "text": "Any abnormal discharge, other discharge, or just the slight bleeding?"
+    },
+    {
+      "id": 78,
+      "start": 277.19,
+      "end": 282.14,
+      "speaker": "PATIENT",
+      "text": "Just very small, extra, like, a vaginal discharge, just."
+    },
+    {
+      "id": 79,
+      "start": 281.8,
+      "end": 286.91,
+      "speaker": "DOCTOR",
+      "text": "OK. Any difficulty breathing, or pain in your shoulders, or anything like that?"
+    },
+    {
+      "id": 80,
+      "start": 288.43,
+      "end": 288.98,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 81,
+      "start": 291.04,
+      "end": 294.1,
+      "speaker": "DOCTOR",
+      "text": "And have you had a high temperature? Have you got a thermometer?"
+    },
+    {
+      "id": 82,
+      "start": 294.3,
+      "end": 299.04,
+      "speaker": "PATIENT",
+      "text": "No, I don't. I, I should be OK ."
+    },
+    {
+      "id": 83,
+      "start": 299.05,
+      "end": 300.54,
+      "speaker": "DOCTOR",
+      "text": "Do you feel feverish?"
+    },
+    {
+      "id": 84,
+      "start": 301.29,
+      "end": 302.13,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 85,
+      "start": 303.22,
+      "end": 305.74,
+      "speaker": "DOCTOR",
+      "text": "And do you feel faint when you stand up?"
+    },
+    {
+      "id": 86,
+      "start": 306.5,
+      "end": 307.18,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 87,
+      "start": 308.08,
+      "end": 313.22,
+      "speaker": "DOCTOR",
+      "text": "What have you been doing for the last few days? Have you been at work as normal, or, have to stay at home?"
+    },
+    {
+      "id": 88,
+      "start": 312.12,
+      "end": 324.3,
+      "speaker": "PATIENT",
+      "text": "Yes, I have . I'm doing, I work regular other activities, like cooking and stuff, everything, but it seems OK when I get the pain. It's just very bad."
+    },
+    {
+      "id": 89,
+      "start": 324.78,
+      "end": 330.62,
+      "speaker": "DOCTOR",
+      "text": "OK. But you said the pain's constant, there all the time? Or is it getting worse from time to time?"
+    },
+    {
+      "id": 90,
+      "start": 330.71,
+      "end": 332.65,
+      "speaker": "PATIENT",
+      "text": "It is getting worse."
+    },
+    {
+      "id": 91,
+      "start": 333.77,
+      "end": 340.03,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, have you had any other um, medical problems in the past?"
+    },
+    {
+      "id": 92,
+      "start": 340.04,
+      "end": 347.65,
+      "speaker": "PATIENT",
+      "text": "Yeah, I have allergy, I have amoxicillin . Amoxicillin allergy."
+    },
+    {
+      "id": 93,
+      "start": 343.37,
+      "end": 344.11,
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "id": 94,
+      "start": 347.96,
+      "end": 352.16,
+      "speaker": "DOCTOR",
+      "text": "OK. Anything else? Have you had any operations?"
+    },
+    {
+      "id": 96,
+      "start": 352.73,
+      "end": 353.54,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 97,
+      "start": 353.63,
+      "end": 355.79,
+      "speaker": "DOCTOR",
+      "text": "Have you had any pregnancies?"
+    },
+    {
+      "id": 98,
+      "start": 356.03,
+      "end": 356.66,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 99,
+      "start": 357.28,
+      "end": 363.06,
+      "speaker": "DOCTOR",
+      "text": "Have you taken a pregnancy test this time? when was that?"
+    },
+    {
+      "id": 100,
+      "start": 360.66,
+      "end": 367.52,
+      "speaker": "PATIENT",
+      "text": "Yeah, I did. Yeah. Yeah, around like a month ago, yeah."
+    },
+    {
+      "id": 101,
+      "start": 367.53,
+      "end": 370.35,
+      "speaker": "DOCTOR",
+      "text": "OK. But not since you've had the abdominal pain?"
+    },
+    {
+      "id": 102,
+      "start": 374.28,
+      "end": 377.89,
+      "speaker": "DOCTOR",
+      "text": "OK. And, any surgery in the past?"
+    },
+    {
+      "id": 103,
+      "start": 381.42,
+      "end": 384.02,
+      "speaker": "DOCTOR",
+      "text": "Um, and what's your job day to day?"
+    },
+    {
+      "id": 104,
+      "start": 384.73,
+      "end": 387.02,
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm a teacher. School teacher."
+    },
+    {
+      "id": 106,
+      "start": 387.89,
+      "end": 389.94,
+      "speaker": "DOCTOR",
+      "text": "OK. And who do you live with at home?"
+    },
+    {
+      "id": 107,
+      "start": 390.48,
+      "end": 392.94,
+      "speaker": "PATIENT",
+      "text": "My husband, and my husband's family."
+    },
+    {
+      "id": 108,
+      "start": 394.06,
+      "end": 397.4,
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke or drink alcohol?"
+    },
+    {
+      "id": 109,
+      "start": 397.47,
+      "end": 398.35,
+      "speaker": "PATIENT",
+      "text": "I don't know."
+    },
+    {
+      "id": 110,
+      "start": 398.26,
+      "end": 399.97,
+      "speaker": "DOCTOR",
+      "text": "You take any other drugs?"
+    },
+    {
+      "id": 111,
+      "start": 400.65,
+      "end": 401.31,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 112,
+      "start": 401.32,
+      "end": 403.22,
+      "speaker": "DOCTOR",
+      "text": "Have you been abroad recently?"
+    },
+    {
+      "id": 113,
+      "start": 403.62,
+      "end": 404.14,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 114,
+      "start": 404.17,
+      "end": 405.47,
+      "speaker": "DOCTOR",
+      "text": "Whereabouts to?"
+    },
+    {
+      "id": 115,
+      "start": 405.88,
+      "end": 407.14,
+      "speaker": "PATIENT",
+      "text": "Out in the air."
+    },
+    {
+      "id": 116,
+      "start": 407.28,
+      "end": 408.78,
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "id": 118,
+      "start": 409.85,
+      "end": 413.28,
+      "speaker": "DOCTOR",
+      "text": "A year ago, not recently. No."
+    },
+    {
+      "id": 119,
+      "start": 415.69,
+      "end": 418.44,
+      "speaker": "DOCTOR",
+      "text": "Um, and any problems passing water?"
+    },
+    {
+      "id": 120,
+      "start": 419.28,
+      "end": 419.9,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 121,
+      "start": 420.09,
+      "end": 424.13,
+      "speaker": "DOCTOR",
+      "text": "Any pain, or strong smell, or having to go more often than normal?"
+    },
+    {
+      "id": 122,
+      "start": 424.52,
+      "end": 432.89,
+      "speaker": "PATIENT",
+      "text": "So, I, I, I don't really, I have noticed that I don't really go up that high before, so, yeah, I do drink a lot though."
+    },
+    {
+      "id": 123,
+      "start": 433.31,
+      "end": 438.96,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And any , any weight loss or blood in the stool, or urine?"
+    },
+    {
+      "id": 124,
+      "start": 439.79,
+      "end": 449.61,
+      "speaker": "PATIENT",
+      "text": "Yes. I have . As I said, I have some, I guess, discharge and pain. But, then I there's isn't a lot of discharge."
+    },
+    {
+      "id": 126,
+      "start": 447.33,
+      "end": 449.33,
+      "speaker": "DOCTOR",
+      "text": ". OK."
+    },
+    {
+      "id": 127,
+      "start": 450.1,
+      "end": 461.89,
+      "speaker": "DOCTOR",
+      "text": "Fine. Um, I think with the abdominal pain, as it's getting worse, and it's been going on for the last few days, um, it would be very helpful to be able to examine you properly."
+    },
+    {
+      "id": 128,
+      "start": 461.89,
+      "end": 465.34,
+      "speaker": "DOCTOR",
+      "text": "Would you be happy to have an examination with a doctor?"
+    },
+    {
+      "id": 129,
+      "start": 465.55,
+      "end": 466.32,
+      "speaker": "PATIENT",
+      "text": "Yes, ."
+    },
+    {
+      "id": 130,
+      "start": 466.66,
+      "end": 480.8,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, so what we can do, is we can arrange a face to face examination where they can um, see you in a clinic and do a abdominal examination, and advise further from there when we got more of an idea what's causing the problem."
+    },
+    {
+      "id": 131,
+      "start": 480.8,
+      "end": 486.07,
+      "speaker": "DOCTOR",
+      "text": "Um, would you be happy to call the support line and arrange that appointment?"
+    },
+    {
+      "id": 132,
+      "start": 486.59,
+      "end": 487.26,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 133,
+      "start": 488.16,
+      "end": 494.54,
+      "speaker": "DOCTOR",
+      "text": "OK. That's fine. So we'll, we'll do that. In the meantime, if it gets a lot worse, um,"
+    },
+    {
+      "id": 134,
+      "start": 494.54,
+      "end": 502.66,
+      "speaker": "DOCTOR",
+      "text": "or you, you're not holding any fluids down, um, then we should see you before then."
+    },
+    {
+      "id": 135,
+      "start": 504.07,
+      "end": 507.63,
+      "speaker": "DOCTOR",
+      "text": "Um, did you say your pregnancy test was a month ago?"
+    },
+    {
+      "id": 136,
+      "start": 507.73,
+      "end": 508.63,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 137,
+      "start": 508.72,
+      "end": 512.53,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, um, your Implanon was just put in a year ago?"
+    },
+    {
+      "id": 138,
+      "start": 513.35,
+      "end": 514.06,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 139,
+      "start": 514.18,
+      "end": 519.94,
+      "speaker": "DOCTOR",
+      "text": "The other thing we would need to do is to, to do a pregnancy test today, if possible."
+    },
+    {
+      "id": 140,
+      "start": 521.23,
+      "end": 522.14,
+      "speaker": "PATIENT",
+      "text": "I will do it."
+    },
+    {
+      "id": 141,
+      "start": 522.04,
+      "end": 526.61,
+      "speaker": "DOCTOR",
+      "text": "So if you can do that today, and if it's positive we need to see you straight away, so give us a call back."
+    },
+    {
+      "id": 142,
+      "start": 526.94,
+      "end": 527.48,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 143,
+      "start": 529.18,
+      "end": 532.19,
+      "speaker": "DOCTOR",
+      "text": "OK? Have you got any other questions?"
+    },
+    {
+      "id": 145,
+      "start": 534.3,
+      "end": 538.81,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So, if you call the support line and make an appointment, we'll go from there."
+    },
+    {
+      "id": 147,
+      "start": 539.3,
+      "end": 541.4,
+      "speaker": "PATIENT",
+      "text": "Thank you, thank you, thank you very."
+    },
+    {
+      "id": 148,
+      "start": 539.76,
+      "end": 541.53,
+      "speaker": "DOCTOR",
+      "text": "Thanks. Bye."
+    }
+  ]
+}

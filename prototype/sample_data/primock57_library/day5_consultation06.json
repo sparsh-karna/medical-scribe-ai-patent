@@ -1,0 +1,946 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation06",
+  "presenting_complaint": "Diarrhoea",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: Diarrhoea\nHPC: 3/7 hx diarrhoea. Watery stools. Urgency. No blood in stool. Periumbilical cramps, comes in waves. Worse when needs to open bowels. Very regular BO, today already 4 x by midday.\nVomiting, last vomited 1 hr ago. Doesn't feel like she is holding down fluid.\nStill PUing ok. Last 1 hr ago. Not sure of colour.\nBH normally regular. 1 x day.\nNo foreign travel. \n\n.\nHas been taking ORT regularly, difficulty keeping down.\nNo rash. Feels hot but hasn't checked temperature.\nLMP 2/52 ago. No regular SI. Not using contraception. \nHas been at work til today. Now working from home.\n\nPMH:Nil. DH: Vitamins.\nSH: Lives with brother and mother. Non smoker. Drinks 1 pint a week.\nWorks as graphic designer. \n\nImp: Gastroenteritis ?Viral/?food poisoning. \nPlan: As ongoing, fever needs stool culture sent to exclude bacterial origin. Advised to continue taking small sips ORT constantly. Booked for urgent appointment to assess hydration status. If feels worse in meantime, abdo pain, unwell to contact us to arrange urgent A&E assessment.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.88,
+      "end": 2.07,
+      "speaker": "PATIENT",
+      "text": "Hello?"
+    },
+    {
+      "id": 2,
+      "start": 1.65,
+      "end": 4.17,
+      "speaker": "DOCTOR",
+      "text": "Hi there, it's Doctor Smith from Babylon."
+    },
+    {
+      "id": 3,
+      "start": 4.54,
+      "end": 6.05,
+      "speaker": "PATIENT",
+      "text": "Uh, hi, Doctor Smith."
+    },
+    {
+      "id": 4,
+      "start": 5.3,
+      "end": 10.75,
+      "speaker": "DOCTOR",
+      "text": "Hi there. Could you give me your full name, date of birth, and your, the first line of your address, please?"
+    },
+    {
+      "id": 5,
+      "start": 11.36,
+      "end": 13.1,
+      "speaker": "PATIENT",
+      "text": "Um, I."
+    },
+    {
+      "id": 9,
+      "start": 18.24,
+      "end": 24.51,
+      "speaker": "DOCTOR",
+      "text": "Your full name, date of birth, and your address, please? Yeah, OK."
+    },
+    {
+      "id": 10,
+      "start": 21.87,
+      "end": 23.87,
+      "speaker": "PATIENT",
+      "text": "Yeah, my name is Barbara ."
+    },
+    {
+      "id": 11,
+      "start": 25.21,
+      "end": 29.21,
+      "speaker": "PATIENT",
+      "text": "Um, and my date of birth, fourth October, nineteen eighty four."
+    },
+    {
+      "id": 12,
+      "start": 29.06,
+      "end": 30.02,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 13,
+      "start": 30.71,
+      "end": 32.61,
+      "speaker": "PATIENT",
+      "text": "And address fifty Avenue."
+    },
+    {
+      "id": 14,
+      "start": 32.63,
+      "end": 36.69,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you in a private place so you can have a confidential consultation today?"
+    },
+    {
+      "id": 15,
+      "start": 37.19,
+      "end": 38.21,
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "id": 16,
+      "start": 37.89,
+      "end": 39.46,
+      "speaker": "DOCTOR",
+      "text": "What can I do for you?"
+    },
+    {
+      "id": 17,
+      "start": 40.14,
+      "end": 48.49,
+      "speaker": "PATIENT",
+      "text": "Um, I've just been for the past couple of days. I've been having this serious diarrhoea and this really,"
+    },
+    {
+      "id": 18,
+      "start": 49.17,
+      "end": 50.25,
+      "speaker": "PATIENT",
+      "text": "Giving me trouble."
+    },
+    {
+      "id": 19,
+      "start": 50.7,
+      "end": 52.8,
+      "speaker": "DOCTOR",
+      "text": "OK. So when did it start?"
+    },
+    {
+      "id": 20,
+      "start": 53.71,
+      "end": 55.64,
+      "speaker": "PATIENT",
+      "text": "It was three days ago."
+    },
+    {
+      "id": 21,
+      "start": 56.29,
+      "end": 57.14,
+      "speaker": "PATIENT",
+      "text": "Now."
+    },
+    {
+      "id": 22,
+      "start": 56.91,
+      "end": 62.72,
+      "speaker": "DOCTOR",
+      "text": "OK. And when you say diarrhoea, what do you mean by that? Is it watery or just loose?"
+    },
+    {
+      "id": 23,
+      "start": 63.23,
+      "end": 68.26,
+      "speaker": "PATIENT",
+      "text": "It's, it's, it's very loose but it started as being very watery."
+    },
+    {
+      "id": 24,
+      "start": 68.32,
+      "end": 70.94,
+      "speaker": "DOCTOR",
+      "text": "OK. And how many times are you going to the toilet?"
+    },
+    {
+      "id": 26,
+      "start": 73.46,
+      "end": 75.74,
+      "speaker": "PATIENT",
+      "text": "I lost count, um."
+    },
+    {
+      "id": 27,
+      "start": 76.44,
+      "end": 80.11,
+      "speaker": "PATIENT",
+      "text": "Today alone, I've been at least four time."
+    },
+    {
+      "id": 28,
+      "start": 81.32,
+      "end": 86.61,
+      "speaker": "DOCTOR",
+      "text": "OK. And any, any high temperatures? Are you feeling feverish?"
+    },
+    {
+      "id": 29,
+      "start": 87.12,
+      "end": 91.26,
+      "speaker": "PATIENT",
+      "text": "Yes, I've been running a serious temperature. I'm literally boiling."
+    },
+    {
+      "id": 30,
+      "start": 91.15,
+      "end": 93.6,
+      "speaker": "DOCTOR",
+      "text": "Have you checked your temperature with a thermometer?"
+    },
+    {
+      "id": 31,
+      "start": 94.5,
+      "end": 99.93,
+      "speaker": "PATIENT",
+      "text": "No, 'cause I've not got one but like, to the touch, I'm, like, literally roasting."
+    },
+    {
+      "id": 32,
+      "start": 100.45,
+      "end": 105.02,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and any nausea or vomiting?"
+    },
+    {
+      "id": 33,
+      "start": 105.47,
+      "end": 116.13,
+      "speaker": "PATIENT",
+      "text": "Yes, I've been throwing up. I can't keep to, uh, I can't seem to be able to keep anything in me. Not even water, not even my tea, not even any liquid stuff. I've just been throwing up everything."
+    },
+    {
+      "id": 34,
+      "start": 116.38,
+      "end": 119.69,
+      "speaker": "DOCTOR",
+      "text": "OK. And when, when were you last sick?"
+    },
+    {
+      "id": 35,
+      "start": 120.9,
+      "end": 128.42,
+      "speaker": "PATIENT",
+      "text": "Um, I was sick just after trying, uh, trying to have breakfast this morning, so maybe about two hours ago."
+    },
+    {
+      "id": 36,
+      "start": 128.48,
+      "end": 132.18,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you been passing water OK?"
+    },
+    {
+      "id": 37,
+      "start": 133.48,
+      "end": 137.6,
+      "speaker": "PATIENT",
+      "text": "Yeah, I've been, I've been, yeah, urinating OK. Is that what you mean, like?"
+    },
+    {
+      "id": 38,
+      "start": 137.03,
+      "end": 141.98,
+      "speaker": "DOCTOR",
+      "text": "Yeah, yeah, urinating, yeah. Any, and what sort of color is the urine?"
+    },
+    {
+      "id": 39,
+      "start": 142.71,
+      "end": 146.06,
+      "speaker": "PATIENT",
+      "text": "To be honest, I have a look so I really couldn't say."
+    },
+    {
+      "id": 40,
+      "start": 144.77,
+      "end": 145.63,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 41,
+      "start": 146.18,
+      "end": 149.58,
+      "speaker": "DOCTOR",
+      "text": "OK. And when did you last pass urine, do you think?"
+    },
+    {
+      "id": 42,
+      "start": 150.17,
+      "end": 151.23,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 43,
+      "start": 153.13,
+      "end": 154.68,
+      "speaker": "PATIENT",
+      "text": "an hour ago."
+    },
+    {
+      "id": 44,
+      "start": 154.87,
+      "end": 155.75,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 45,
+      "start": 156.75,
+      "end": 161.42,
+      "speaker": "DOCTOR",
+      "text": "And any blood in the stool or in the urine that you've noticed?"
+    },
+    {
+      "id": 46,
+      "start": 161.72,
+      "end": 162.96,
+      "speaker": "PATIENT",
+      "text": "No blood."
+    },
+    {
+      "id": 47,
+      "start": 163.75,
+      "end": 164.46,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 48,
+      "start": 165.0,
+      "end": 169.42,
+      "speaker": "DOCTOR",
+      "text": "Any episodes like this before? How's your bowels normally?"
+    },
+    {
+      "id": 49,
+      "start": 170.49,
+      "end": 172.27,
+      "speaker": "PATIENT",
+      "text": "Sorry, I didn't catch that."
+    },
+    {
+      "id": 50,
+      "start": 171.57,
+      "end": 173.59,
+      "speaker": "DOCTOR",
+      "text": "How is your bowels normally?"
+    },
+    {
+      "id": 51,
+      "start": 173.7,
+      "end": 180.73,
+      "speaker": "PATIENT",
+      "text": "Ah, ah, my, my bowels is normally fine. I would normally go to the toilet every day. You know, in the morning, just once, yeah, and that's fine."
+    },
+    {
+      "id": 52,
+      "start": 177.59,
+      "end": 178.35,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 53,
+      "start": 179.06,
+      "end": 182.75,
+      "speaker": "DOCTOR",
+      "text": "Any episodes of diarrhoea or constipation normally?"
+    },
+    {
+      "id": 54,
+      "start": 183.41,
+      "end": 184.41,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 55,
+      "start": 183.53,
+      "end": 188.87,
+      "speaker": "DOCTOR",
+      "text": "And is there anything you think might have triggered this off? Have you been abroad anywhere?"
+    },
+    {
+      "id": 56,
+      "start": 189.53,
+      "end": 207.63,
+      "speaker": "PATIENT",
+      "text": "No, but then, um, my, um my brother, um, has actually been having similar symptoms, um, for the past, um, few days as well, and he does say like everyone in school's got this so, I, I don't know, that might, that might be something."
+    },
+    {
+      "id": 57,
+      "start": 207.16,
+      "end": 209.34,
+      "speaker": "DOCTOR",
+      "text": "So you've been in contact with him, have you?"
+    },
+    {
+      "id": 58,
+      "start": 209.59,
+      "end": 210.51,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 59,
+      "start": 210.69,
+      "end": 215.56,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and any other medical problems?"
+    },
+    {
+      "id": 61,
+      "start": 218.44,
+      "end": 223.01,
+      "speaker": "DOCTOR",
+      "text": "Have you had any other symptoms at the moment, like rash?"
+    },
+    {
+      "id": 62,
+      "start": 224.65,
+      "end": 227.42,
+      "speaker": "PATIENT",
+      "text": "No, no rash, no, nothing that, um."
+    },
+    {
+      "id": 63,
+      "start": 225.93,
+      "end": 226.69,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 64,
+      "start": 227.35,
+      "end": 233.01,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, any surgery before, or abdominal problems, or any other medical issues?"
+    },
+    {
+      "id": 65,
+      "start": 233.77,
+      "end": 246.78,
+      "speaker": "PATIENT",
+      "text": "Well, apart from the fact that this one is giving me abdominal pains, no previous abdominal pains before. Obviously I get the odd, um, you know, menstrual cramps and all that but, you know, that's, you know, that comes and goes."
+    },
+    {
+      "id": 66,
+      "start": 239.37,
+      "end": 240.09,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 67,
+      "start": 246.39,
+      "end": 249.03,
+      "speaker": "DOCTOR",
+      "text": "OK. And whereabouts is the pain that you're getting?"
+    },
+    {
+      "id": 68,
+      "start": 249.88,
+      "end": 261.07,
+      "speaker": "PATIENT",
+      "text": "Um, it's kind of like towards my navel area, like I can't touch my navel area. It's just so sore. And it gets, yeah, it's almost like the center of my navel."
+    },
+    {
+      "id": 70,
+      "start": 260.87,
+      "end": 262.96,
+      "speaker": "DOCTOR",
+      "text": "Um, and does the pain come and go?"
+    },
+    {
+      "id": 71,
+      "start": 264.37,
+      "end": 273.99,
+      "speaker": "PATIENT",
+      "text": "Yes, it does come. When it comes, I feel this strong urge to go to the, to the loo, and then and sort of like comes again, it comes and."
+    },
+    {
+      "id": 72,
+      "start": 274.36,
+      "end": 275.16,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 73,
+      "start": 275.91,
+      "end": 279.8,
+      "speaker": "DOCTOR",
+      "text": "Um, and do you take any medication regularly?"
+    },
+    {
+      "id": 74,
+      "start": 280.61,
+      "end": 289.09,
+      "speaker": "PATIENT",
+      "text": "Well, I, I take my, my vitamins, vitamin D, every day. That's about, that's about all that I regularly take."
+    },
+    {
+      "id": 75,
+      "start": 285.19,
+      "end": 285.98,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 76,
+      "start": 289.57,
+      "end": 291.49,
+      "speaker": "DOCTOR",
+      "text": "And have you got a normal diet?"
+    },
+    {
+      "id": 77,
+      "start": 292.36,
+      "end": 294.83,
+      "speaker": "PATIENT",
+      "text": "Yeah, I eat well, normally."
+    },
+    {
+      "id": 78,
+      "start": 294.86,
+      "end": 297.32,
+      "speaker": "DOCTOR",
+      "text": "Right. Do you smoke or drink alcohol?"
+    },
+    {
+      "id": 79,
+      "start": 298.44,
+      "end": 302.03,
+      "speaker": "PATIENT",
+      "text": "Well, I don't smoke, but, you know, I have a pint from time to time."
+    },
+    {
+      "id": 80,
+      "start": 302.16,
+      "end": 304.13,
+      "speaker": "DOCTOR",
+      "text": "And do you take any other drugs?"
+    },
+    {
+      "id": 81,
+      "start": 304.99,
+      "end": 314.61,
+      "speaker": "PATIENT",
+      "text": "No. Like I said, I only take, um, vitamins. And for my menstrual cramps, when they come, maybe I might take a, a, an ibuprofen just to ease the pain, but."
+    },
+    {
+      "id": 82,
+      "start": 313.48,
+      "end": 315.84,
+      "speaker": "DOCTOR",
+      "text": "And when was, when was your last period?"
+    },
+    {
+      "id": 83,
+      "start": 316.44,
+      "end": 317.96,
+      "speaker": "PATIENT",
+      "text": "Um, two weeks ago."
+    },
+    {
+      "id": 84,
+      "start": 318.68,
+      "end": 320.76,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you on any contraception?"
+    },
+    {
+      "id": 85,
+      "start": 321.2,
+      "end": 322.0,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 86,
+      "start": 321.9,
+      "end": 324.22,
+      "speaker": "DOCTOR",
+      "text": "Are you having regular sexual intercourse?"
+    },
+    {
+      "id": 87,
+      "start": 324.89,
+      "end": 325.79,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 88,
+      "start": 325.67,
+      "end": 326.47,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 89,
+      "start": 327.87,
+      "end": 330.11,
+      "speaker": "DOCTOR",
+      "text": "Um, and what's your job?"
+    },
+    {
+      "id": 90,
+      "start": 331.03,
+      "end": 333.17,
+      "speaker": "PATIENT",
+      "text": "Um, um, uh."
+    },
+    {
+      "id": 91,
+      "start": 334.82,
+      "end": 336.27,
+      "speaker": "PATIENT",
+      "text": "Um, uh."
+    },
+    {
+      "id": 92,
+      "start": 337.27,
+      "end": 339.06,
+      "speaker": "PATIENT",
+      "text": "A graphics designer."
+    },
+    {
+      "id": 93,
+      "start": 338.88,
+      "end": 341.35,
+      "speaker": "DOCTOR",
+      "text": "Have you had to miss work because of this problem?"
+    },
+    {
+      "id": 94,
+      "start": 342.02,
+      "end": 351.04,
+      "speaker": "PATIENT",
+      "text": "Well, yes, I've had to actually work from home today. I'm working from home today because I can't, I can't be out for work."
+    },
+    {
+      "id": 95,
+      "start": 348.5,
+      "end": 350.15,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 96,
+      "start": 351.15,
+      "end": 353.14,
+      "speaker": "DOCTOR",
+      "text": "And who do you live with at home?"
+    },
+    {
+      "id": 97,
+      "start": 354.02,
+      "end": 356.56,
+      "speaker": "PATIENT",
+      "text": "I live with my brother and my mum."
+    },
+    {
+      "id": 98,
+      "start": 356.16,
+      "end": 357.95,
+      "speaker": "DOCTOR",
+      "text": "OK. OK."
+    },
+    {
+      "id": 99,
+      "start": 359.03,
+      "end": 363.86,
+      "speaker": "DOCTOR",
+      "text": "And, um, have you tried anything yourself for this problem?"
+    },
+    {
+      "id": 100,
+      "start": 364.34,
+      "end": 374.93,
+      "speaker": "PATIENT",
+      "text": "Well, I've tried a home remedy. Um, I've tried the, the, uh, ORS, you know, thing I bought from my, my local, my local, uh."
+    },
+    {
+      "id": 101,
+      "start": 375.93,
+      "end": 376.84,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 102,
+      "start": 376.31,
+      "end": 378.01,
+      "speaker": "DOCTOR",
+      "text": "What? Could you just repeat that?"
+    },
+    {
+      "id": 103,
+      "start": 378.29,
+      "end": 386.9,
+      "speaker": "PATIENT",
+      "text": "The ORS, the, the salt sugar ORS, um, um, mix, the salt sugar mix."
+    },
+    {
+      "id": 104,
+      "start": 386.6,
+      "end": 389.5,
+      "speaker": "DOCTOR",
+      "text": "OK. And how often have you been taking that?"
+    },
+    {
+      "id": 105,
+      "start": 387.62,
+      "end": 388.24,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 106,
+      "start": 389.99,
+      "end": 395.45,
+      "speaker": "PATIENT",
+      "text": "I've taken that, I've taken that, like, um, three times a day for the past two days."
+    },
+    {
+      "id": 107,
+      "start": 395.73,
+      "end": 405.24,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and do you feel like your symptoms are easing off, or getting worse, or ?"
+    },
+    {
+      "id": 108,
+      "start": 404.31,
+      "end": 415.63,
+      "speaker": "PATIENT",
+      "text": "I, I, I they're not getting any better, 'cause like I said, I've been, I've been vomiting literally everything I take, so, so I doubt that even that had, had the chance to work."
+    },
+    {
+      "id": 109,
+      "start": 411.62,
+      "end": 412.33,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 110,
+      "start": 415.96,
+      "end": 416.83,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 111,
+      "start": 417.99,
+      "end": 418.85,
+      "speaker": "DOCTOR",
+      "text": "Um."
+    },
+    {
+      "id": 112,
+      "start": 419.33,
+      "end": 435.08,
+      "speaker": "DOCTOR",
+      "text": "I mean, it sounds like, because your brother's had a similar thing, it sounds like it might be some, an infectious gastroenteritis that you've got, which is usually caused by a virus. But, it can be from something you've eaten, as well. Um."
+    },
+    {
+      "id": 113,
+      "start": 435.08,
+      "end": 449.74,
+      "speaker": "DOCTOR",
+      "text": "If the symptoms, they do normally start to settle by themselves with the oral rehydration salts. Um, if the symptoms are continuing to get worse, the key thing is that we want to make sure that you're hydrated enough."
+    },
+    {
+      "id": 114,
+      "start": 450.53,
+      "end": 465.01,
+      "speaker": "DOCTOR",
+      "text": "Um, sometimes you do require certain medication to help this, if it's, sometimes if it's caused by a bacteria. Um, what I would say, probably worth as it's been going on for a few days and you feel like it's not starting to ease off."
+    },
+    {
+      "id": 115,
+      "start": 465.01,
+      "end": 473.07,
+      "speaker": "DOCTOR",
+      "text": "I think it's probably important to get a sample of the stool, so we can make sure that you haven't got a nasty bacterial infection which needs specific treatment."
+    },
+    {
+      "id": 116,
+      "start": 473.49,
+      "end": 474.49,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 117,
+      "start": 474.54,
+      "end": 486.34,
+      "speaker": "DOCTOR",
+      "text": "Um, and we should also check that you're not getting dehydrated, because if you're, if you're not keeping fluid down, then you can get dehydrated."
+    },
+    {
+      "id": 118,
+      "start": 487.53,
+      "end": 489.75,
+      "speaker": "DOCTOR",
+      "text": "Um, so."
+    },
+    {
+      "id": 119,
+      "start": 487.79,
+      "end": 496.55,
+      "speaker": "PATIENT",
+      "text": "So, how, how do I, how do I get myself hydrated when I'm not able to even, like, drink water? I'm throwing up everything."
+    },
+    {
+      "id": 120,
+      "start": 496.24,
+      "end": 509.86,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So you need to carry on with your rehydration salts, and just have very small amounts. It's a positive sign that you passed urine an hour ago. So, you're obviously still, um, hydrated enough to pass urine."
+    },
+    {
+      "id": 121,
+      "start": 506.03,
+      "end": 506.75,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 122,
+      "start": 509.86,
+      "end": 521.31,
+      "speaker": "DOCTOR",
+      "text": "But we, um, we should see you so that we can check your hydration and, um, get that sample sent off as soon as possible."
+    },
+    {
+      "id": 123,
+      "start": 522.05,
+      "end": 530.0,
+      "speaker": "DOCTOR",
+      "text": "'cause if, if, if you come into the clinic, you can send that sample off straightaway. Otherwise, we would have to post it out to you which would take time."
+    },
+    {
+      "id": 124,
+      "start": 522.23,
+      "end": 523.06,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 125,
+      "start": 530.54,
+      "end": 534.26,
+      "speaker": "PATIENT",
+      "text": "Ohh, OK. So, when can I come to the clinic to have this done?"
+    },
+    {
+      "id": 126,
+      "start": 534.17,
+      "end": 553.87,
+      "speaker": "DOCTOR",
+      "text": "Um, so we can, we can make you an urgent appointment, um, and then you can, you can get the sample sent off and we can check your hydration. Um, but if, in the meantime, you're feeling more unwell, then we would get you seen urgently in A and E."
+    },
+    {
+      "id": 127,
+      "start": 554.79,
+      "end": 555.65,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 128,
+      "start": 555.41,
+      "end": 558.68,
+      "speaker": "DOCTOR",
+      "text": "So you can call us back in the meantime."
+    },
+    {
+      "id": 129,
+      "start": 559.08,
+      "end": 573.17,
+      "speaker": "PATIENT",
+      "text": "OK. So, what I'll do is, yeah. If you could, please book me the appointment and, um, yeah, I'll see how I feel, um, for the end of the day. Hopefully I don't need to go to the A and E, and, um ."
+    },
+    {
+      "id": 130,
+      "start": 571.51,
+      "end": 586.14,
+      "speaker": "DOCTOR",
+      "text": "Yeah. If you keep drinking, keep going with the rehydration salts. Just tiny sips constantly, to so that your stomach doesn't get overfilled and, and you vomit, so just tiny, tiny sips but just keep going with it."
+    },
+    {
+      "id": 131,
+      "start": 586.14,
+      "end": 600.61,
+      "speaker": "DOCTOR",
+      "text": "Um, and just have very simple food, if you're gonna have anything, like toast or biscuit or something really light like that. Avoid, um, fruit, vegetables, uh, milk, anything like that, which might just make it worse."
+    },
+    {
+      "id": 132,
+      "start": 593.95,
+      "end": 594.65,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 133,
+      "start": 600.79,
+      "end": 601.59,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 134,
+      "start": 602.26,
+      "end": 606.16,
+      "speaker": "DOCTOR",
+      "text": "OK. So you'll have to book an appointment through the support line."
+    },
+    {
+      "id": 135,
+      "start": 603.35,
+      "end": 604.52,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 136,
+      "start": 606.35,
+      "end": 607.38,
+      "speaker": "PATIENT",
+      "text": "Yes, please."
+    },
+    {
+      "id": 137,
+      "start": 607.59,
+      "end": 609.57,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. We'll do that for you."
+    },
+    {
+      "id": 139,
+      "start": 610.85,
+      "end": 612.3,
+      "speaker": "DOCTOR",
+      "text": "OK, take care."
+    },
+    {
+      "id": 140,
+      "start": 612.32,
+      "end": 613.23,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 141,
+      "start": 612.88,
+      "end": 614.18,
+      "speaker": "DOCTOR",
+      "text": "Thanks, bye."
+    }
+  ]
+}

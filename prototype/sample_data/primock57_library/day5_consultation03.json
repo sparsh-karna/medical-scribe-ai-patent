@@ -1,0 +1,855 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation03",
+  "presenting_complaint": "I'm feeling very anxious",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: Anxiety symptoms\nHPC: 2/12 hx feeling anxious all the time. Seems to have started when started new job. Different industry, pressures from boss. Dreads work every morning. Initial insomnia ++ 3hrs + EMW. Often has only 3-4 hrs sleep. Tired in the day. Low energy. Eating pattern normal but more chocolate. Anhedonia in work and outside. Previously enjoyed running, tennis, socialising. Now still sees friends but often avoids. \nAssociated palpitations, only started with anxiety sx. Can feel irregular and chest discomfort. Rapid beat, lasts approx 2-10 mins.\nNo panic attacks, not missed work.\nOther anxiety provoking things include public transport.\nLow mood most of the time but denies any suicidal ideation. \n\nPMH: Nil Past Psych hx/significant anxiety.\nFHx: Mum has had depression.\n\nSH: Lives with parents. Supportive. Drinks Fri/sat, not sure of amount but sometimes overdoes it. Smokes occ, no illicit drugs.\n\nImp: Work related anxiety. Insomnia.\n\nPlan: Advised self referral to NHS talking therapies. In meantime advised to access online CBT: attached info.\nIf anxiety/mood symptoms worse or unable to cope with work to contact us for further discussion.\nAdvised blood test as initial investigation for palpitations. Patient advised to book via support team. \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.11,
+      "end": 3.66,
+      "speaker": "DOCTOR",
+      "text": "Hi there. I'm Doctor Smith from Babylon."
+    },
+    {
+      "id": 2,
+      "start": 3.59,
+      "end": 4.53,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 3,
+      "start": 4.2,
+      "end": 8.83,
+      "speaker": "DOCTOR",
+      "text": "Hi there. Can you just confirm your name, date of birth, and the first line of your address, first of all please?"
+    },
+    {
+      "id": 4,
+      "start": 9.15,
+      "end": 18.9,
+      "speaker": "PATIENT",
+      "text": "Yeah. Uh, my name is Valerie Cole. My date of birth is the nineteenth of September, nineteen ninety three."
+    },
+    {
+      "id": 5,
+      "start": 9.93,
+      "end": 12.14,
+      "speaker": "DOCTOR",
+      "text": "My name's ."
+    },
+    {
+      "id": 6,
+      "start": 18.9,
+      "end": 27.05,
+      "speaker": "PATIENT",
+      "text": "My address is, uh, sixty four, Cliveden Place, in, South Wimbledon."
+    },
+    {
+      "id": 7,
+      "start": 27.44,
+      "end": 31.65,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you in a private place where you can have a confidential consultation today?"
+    },
+    {
+      "id": 8,
+      "start": 31.83,
+      "end": 33.0,
+      "speaker": "PATIENT",
+      "text": "Yes I am, yeah."
+    },
+    {
+      "id": 9,
+      "start": 32.87,
+      "end": 34.46,
+      "speaker": "DOCTOR",
+      "text": "What can I do for you?"
+    },
+    {
+      "id": 10,
+      "start": 35.05,
+      "end": 53.44,
+      "speaker": "PATIENT",
+      "text": "Um, I've been feeling really anxious over the past few months. Um, I just get really nervous every morning about leaving the house, and it's started to really worry me, and just add up, and build up on that anxiety. And I just didn't know, who to talk to or, so I wanted to check with my GP."
+    },
+    {
+      "id": 11,
+      "start": 53.12,
+      "end": 62.69,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you mind just telling me a bit more about, when it started? Do you think there's something which changed in your life at that time?"
+    },
+    {
+      "id": 12,
+      "start": 63.48,
+      "end": 77.44,
+      "speaker": "PATIENT",
+      "text": "Um, I guess so, I think um, I would say maybe about two months or so, I've been feeling like this, and that probably coincides with, me starting a new job, um."
+    },
+    {
+      "id": 13,
+      "start": 77.44,
+      "end": 86.94,
+      "speaker": "PATIENT",
+      "text": "Which I , I would say it's quite , I mean every job is stressful, and when you first start, but it's been really stressful I think over the past two months, definitely."
+    },
+    {
+      "id": 14,
+      "start": 86.75,
+      "end": 87.97,
+      "speaker": "DOCTOR",
+      "text": "What's your job?"
+    },
+    {
+      "id": 15,
+      "start": 88.64,
+      "end": 105.5,
+      "speaker": "PATIENT",
+      "text": "Um, so I work for a, a, a fashion retailer, in um, the head office team, and it's just a brand new sector. I've never worked in retail before, my boss is not very nice to me and I don't."
+    },
+    {
+      "id": 16,
+      "start": 105.5,
+      "end": 116.36,
+      "speaker": "PATIENT",
+      "text": "But I also think that, it's just been, I just really dread, going there. I just hate, speaking to her, I hate like seeing everyone and, really worried about whether I'm doing well or not."
+    },
+    {
+      "id": 17,
+      "start": 116.36,
+      "end": 121.3,
+      "speaker": "PATIENT",
+      "text": "And it's really impacting on like, on the rest of my life, like my sleep and stuff like that."
+    },
+    {
+      "id": 18,
+      "start": 121.37,
+      "end": 130.57,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, just day-to-day, tell me, from the start of your day, how it affects you. You said that you, you dread going to work."
+    },
+    {
+      "id": 19,
+      "start": 130.57,
+      "end": 136.92,
+      "speaker": "DOCTOR",
+      "text": "How, how does it affect you, in terms of like your sleep at night, and things like that?"
+    },
+    {
+      "id": 20,
+      "start": 130.66,
+      "end": 131.6,
+      "speaker": "PATIENT",
+      "text": "Right."
+    },
+    {
+      "id": 21,
+      "start": 137.1,
+      "end": 145.42,
+      "speaker": "PATIENT",
+      "text": "Yeah, this is really so, I, I, I've, as I say like, I don't want to go to work in the morning, so I just find no way of, I can't get out of bed."
+    },
+    {
+      "id": 22,
+      "start": 145.42,
+      "end": 155.02,
+      "speaker": "PATIENT",
+      "text": "But it's also because, when I leave I just, when I've left work, I just feel so stressed and so worried about everything I've done, I can't get to sleep for hours and hours and hours. So I."
+    },
+    {
+      "id": 23,
+      "start": 153.98,
+      "end": 156.73,
+      "speaker": "DOCTOR",
+      "text": "OK. So what time, what time do you go to bed at night-time?"
+    },
+    {
+      "id": 24,
+      "start": 157.21,
+      "end": 159.74,
+      "speaker": "PATIENT",
+      "text": "About ten, eleven, probably."
+    },
+    {
+      "id": 25,
+      "start": 158.81,
+      "end": 160.71,
+      "speaker": "DOCTOR",
+      "text": "And what time do you get to sleep?"
+    },
+    {
+      "id": 26,
+      "start": 161.27,
+      "end": 164.46,
+      "speaker": "PATIENT",
+      "text": "Not for ages, I'm, I'm lying awake all night"
+    },
+    {
+      "id": 27,
+      "start": 165.02,
+      "end": 173.01,
+      "speaker": "DOCTOR",
+      "text": "OK. And, when you eventually get to sleep, do you wake up with your alarm in the morning, or does something else wake you up, before then?"
+    },
+    {
+      "id": 28,
+      "start": 168.79,
+      "end": 169.59,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 29,
+      "start": 173.07,
+      "end": 193.06,
+      "speaker": "PATIENT",
+      "text": "So I find my, my heart kind of racing, and then I'm just like panicking that I'm gonna be late, and that that's gonna make work even more stressful. So I do have an alarm, but I find myself waking up before that, 'cause I'm just my heart is racing. And actually the other day, I was just like, I was lying in bed and I really thought my heart was racing so much, I thought I was gonna have a heart attack in the morning."
+    },
+    {
+      "id": 30,
+      "start": 192.72,
+      "end": 196.28,
+      "speaker": "DOCTOR",
+      "text": "OK. And, so how many hours sleep do you think you get a night?"
+    },
+    {
+      "id": 31,
+      "start": 196.98,
+      "end": 206.92,
+      "speaker": "PATIENT",
+      "text": ", I just, I can't even tell because I feel like I'm, even when I'm in sleep it's such a shallow sleep, but maybe, three, four hours, I'm getting now."
+    },
+    {
+      "id": 32,
+      "start": 207.46,
+      "end": 214.25,
+      "speaker": "DOCTOR",
+      "text": "OK. And, what about your eating patterns, any change in how you're eating, or whether you, your appetite's changed?"
+    },
+    {
+      "id": 33,
+      "start": 214.74,
+      "end": 227.58,
+      "speaker": "PATIENT",
+      "text": "Probably, not, significant changes maybe. No I wouldn't say that, I wouldn't say that I'm eating like, much differently. Ohh that, I probably have more chocolate than normal, just because I feel, so down."
+    },
+    {
+      "id": 34,
+      "start": 227.74,
+      "end": 230.57,
+      "speaker": "DOCTOR",
+      "text": "OK. You're eating regularly otherwise?"
+    },
+    {
+      "id": 35,
+      "start": 231.28,
+      "end": 233.52,
+      "speaker": "PATIENT",
+      "text": "Yeah, ."
+    },
+    {
+      "id": 36,
+      "start": 232.8,
+      "end": 237.68,
+      "speaker": "DOCTOR",
+      "text": "OK. And, you told me about the palpitations, just tell me a bit more about that."
+    },
+    {
+      "id": 37,
+      "start": 238.19,
+      "end": 248.01,
+      "speaker": "PATIENT",
+      "text": "Yeah, So um, it's, it's usually kind of like, when I realise in the morning that, either um, I feel like I'm gonna be late, because I've like overslept 'cause I'm so tired."
+    },
+    {
+      "id": 38,
+      "start": 248.01,
+      "end": 264.8,
+      "speaker": "PATIENT",
+      "text": "Um, or I wake up in a panic thinking I am gonna be late so, it's just kind of like, just a constant like, rapid heart beating. It's just really, really stressful. I don't know if it's, stress or if, , or I did think it was like, a heart problem really actually."
+    },
+    {
+      "id": 40,
+      "start": 264.32,
+      "end": 268.47,
+      "speaker": "DOCTOR",
+      "text": "Does it feel like a regular fast beat, or an irregular, beat?"
+    },
+    {
+      "id": 41,
+      "start": 269.47,
+      "end": 271.3,
+      "speaker": "PATIENT",
+      "text": "Irregular, I think."
+    },
+    {
+      "id": 42,
+      "start": 271.48,
+      "end": 274.05,
+      "speaker": "DOCTOR",
+      "text": "And how long do you think it lasts for when you get it?"
+    },
+    {
+      "id": 43,
+      "start": 275.64,
+      "end": 284.3,
+      "speaker": "PATIENT",
+      "text": "Ohh it can be anything, I think couple of minutes, or the other day I was actually just, sort of lying there for like, holding my hand on my chest for like ten minutes."
+    },
+    {
+      "id": 44,
+      "start": 284.54,
+      "end": 289.21,
+      "speaker": "DOCTOR",
+      "text": "OK. Is that something that you've had before this, or is that a new thing?"
+    },
+    {
+      "id": 45,
+      "start": 290.4,
+      "end": 296.59,
+      "speaker": "PATIENT",
+      "text": "Yeah, but I would say this is only in the past. Sort of like, couple of months as I say that I've been, experiencing this."
+    },
+    {
+      "id": 46,
+      "start": 296.39,
+      "end": 298.49,
+      "speaker": "DOCTOR",
+      "text": "OK. Any chest pain with that?"
+    },
+    {
+      "id": 47,
+      "start": 299.13,
+      "end": 305.95,
+      "speaker": "PATIENT",
+      "text": "No, um, well yeah it's painful to , when the heart, when my heart is beating fast but, but, yeah."
+    },
+    {
+      "id": 48,
+      "start": 303.89,
+      "end": 304.59,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 49,
+      "start": 306.22,
+      "end": 314.33,
+      "speaker": "DOCTOR",
+      "text": "And, in the daytime, how, how, you said you, you're not getting much sleep so, how's your energy level in the daytime?"
+    },
+    {
+      "id": 50,
+      "start": 314.71,
+      "end": 321.27,
+      "speaker": "PATIENT",
+      "text": "It's just, really, really low, I mean I, I'm finding now that I'm just, I find no enjoyment at all."
+    },
+    {
+      "id": 51,
+      "start": 321.27,
+      "end": 335.73,
+      "speaker": "PATIENT",
+      "text": "It's kind of day-to-day, and anything that I'm doing. It's not just my job it's, you know when I leave I'm just so tired that, anything that, previously was, really fun is just not, it's not enjoyable. And I'm like, yeah, on edge the whole time."
+    },
+    {
+      "id": 52,
+      "start": 335.31,
+      "end": 337.57,
+      "speaker": "DOCTOR",
+      "text": "OK. So what do you do in the evenings?"
+    },
+    {
+      "id": 53,
+      "start": 338.28,
+      "end": 351.77,
+      "speaker": "PATIENT",
+      "text": "Well right now I'm, I'm working so late, and everything is really, really stressful. So I don't really get much time to myself but, when I do wanna go out, or, you know, see friends or just relax. It, it seems quite difficult to do that."
+    },
+    {
+      "id": 54,
+      "start": 351.83,
+      "end": 356.24,
+      "speaker": "DOCTOR",
+      "text": "OK, and , are you avoiding contact with friends, or do you still see them?"
+    },
+    {
+      "id": 55,
+      "start": 356.81,
+      "end": 359.45,
+      "speaker": "PATIENT",
+      "text": "I avoid them insomuch that I, feel like I'm."
+    },
+    {
+      "id": 56,
+      "start": 360.1,
+      "end": 368.69,
+      "speaker": "PATIENT",
+      "text": "Yeah, so I mean sometimes it just, I know that I'm not gonna have fun, because I don't want to, go out and, do things that I would normally have done."
+    },
+    {
+      "id": 57,
+      "start": 368.72,
+      "end": 375.2,
+      "speaker": "DOCTOR",
+      "text": "OK. What about, hobbies, or exercise, or anything else outside work? Do you do anything else outside work?"
+    },
+    {
+      "id": 58,
+      "start": 375.12,
+      "end": 384.79,
+      "speaker": "PATIENT",
+      "text": "Yeah, as I say like everything that I had previously been doing has been, just difficult to continue with like, I did used to like to like go running, and."
+    },
+    {
+      "id": 59,
+      "start": 384.79,
+      "end": 394.51,
+      "speaker": "PATIENT",
+      "text": "And to play tennis and stuff, but now it's just not, I'm just not enjoying it, I'm not, I'm not like, I'm not going out to do that quite so much."
+    },
+    {
+      "id": 60,
+      "start": 394.22,
+      "end": 397.7,
+      "speaker": "DOCTOR",
+      "text": "And have you, has it ever got so bad that you've actually had to miss work?"
+    },
+    {
+      "id": 61,
+      "start": 399.01,
+      "end": 408.45,
+      "speaker": "PATIENT",
+      "text": "No, 'cause I think that would just add to the tension, but I do like pretty much every morning I think, ohh I should call in sick or like, just not go."
+    },
+    {
+      "id": 62,
+      "start": 406.82,
+      "end": 407.61,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 63,
+      "start": 409.61,
+      "end": 419.85,
+      "speaker": "DOCTOR",
+      "text": "And, what's the worst that it's got? Have you ever, been, um, so overwhelmed that you couldn't, get in to the office, you couldn't, go into a situation?"
+    },
+    {
+      "id": 64,
+      "start": 420.59,
+      "end": 422.62,
+      "speaker": "DOCTOR",
+      "text": "Have you ever had a panic attack?"
+    },
+    {
+      "id": 65,
+      "start": 420.77,
+      "end": 422.04,
+      "speaker": "PATIENT",
+      "text": ", um."
+    },
+    {
+      "id": 66,
+      "start": 424.04,
+      "end": 429.48,
+      "speaker": "PATIENT",
+      "text": "No I wouldn't say so, I think, I've always managed to make it to work."
+    },
+    {
+      "id": 67,
+      "start": 429.48,
+      "end": 441.16,
+      "speaker": "PATIENT",
+      "text": "But I, I wonder if it's building up. So this is why I wanted to call, I'm just worried it's building up to that, and I don't know what to do 'cause I have, feel it, felt it, get worse and worse over the past couple of months."
+    },
+    {
+      "id": 68,
+      "start": 440.08,
+      "end": 452.59,
+      "speaker": "DOCTOR",
+      "text": "OK. And apart from work, are there any other situations which evoke quite extreme anxiety, like being, in public places, social situations, public transport, anything like that?"
+    },
+    {
+      "id": 69,
+      "start": 452.63,
+      "end": 460.03,
+      "speaker": "PATIENT",
+      "text": "Yeah I mean, I find public transport really stressful anyway, especially being on the tube it's, 'cause it's quite, getting warmer so it's just really airless."
+    },
+    {
+      "id": 70,
+      "start": 460.03,
+      "end": 467.53,
+      "speaker": "PATIENT",
+      "text": "Um, but I think the majority of it, 'cause my life is just so focused around work right now, the majority of it is focused around work as well."
+    },
+    {
+      "id": 71,
+      "start": 467.09,
+      "end": 472.28,
+      "speaker": "DOCTOR",
+      "text": "OK. Before this did you have any similar times in your life when you felt like this?"
+    },
+    {
+      "id": 72,
+      "start": 473.5,
+      "end": 485.56,
+      "speaker": "PATIENT",
+      "text": "Not really I, I'm, no, I would say. I mean everybody always has a bit of tension, a bit of anxiety but, I've never felt, anything this bad before."
+    },
+    {
+      "id": 73,
+      "start": 485.53,
+      "end": 494.17,
+      "speaker": "DOCTOR",
+      "text": "OK. And what about your mood day-to-day? I mean, I can see that you're quite distressed by like that. Do you ever get really down about this?"
+    },
+    {
+      "id": 74,
+      "start": 491.65,
+      "end": 492.56,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 75,
+      "start": 494.72,
+      "end": 506.44,
+      "speaker": "PATIENT",
+      "text": "Um, I mean, yeah, yeah, 'cause I do, yeah. I'm pretty much, down like, I don't enjoy, being and not just my day at all 'cause."
+    },
+    {
+      "id": 76,
+      "start": 506.44,
+      "end": 518.42,
+      "speaker": "PATIENT",
+      "text": "I'm just so worried about everything, um, and I find that even when I'm not, like even at the weekends and stuff it's just the, kind of like constant, feeling of just being a bit, down, a bit unhappy."
+    },
+    {
+      "id": 77,
+      "start": 518.07,
+      "end": 520.45,
+      "speaker": "DOCTOR",
+      "text": "When do you think you last felt yourself?"
+    },
+    {
+      "id": 78,
+      "start": 522.43,
+      "end": 523.38,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 79,
+      "start": 525.68,
+      "end": 529.87,
+      "speaker": "PATIENT",
+      "text": "I don't know, that's a good question, I can't really, I can't really put a on that at all."
+    },
+    {
+      "id": 80,
+      "start": 528.83,
+      "end": 540.55,
+      "speaker": "DOCTOR",
+      "text": ". And has your mood ever been so low that you've felt like you just couldn't carry on with your job, or with your life, or with your normal, uh, things as they we're going on?"
+    },
+    {
+      "id": 81,
+      "start": 540.7,
+      "end": 548.2,
+      "speaker": "PATIENT",
+      "text": "I wouldn't, no I wouldn't say that I've had, I haven't had any suicidal thoughts or any, thoughts that have been that extreme like, I haven't."
+    },
+    {
+      "id": 82,
+      "start": 548.2,
+      "end": 560.82,
+      "speaker": "PATIENT",
+      "text": "You know I have, I have a good support system, like I do have good family and stuff. So I, I have, I don't have, uh worries about, actually wanting to, um, not go on. It's just that, I don't wanna go on like this."
+    },
+    {
+      "id": 83,
+      "start": 560.26,
+      "end": 563.44,
+      "speaker": "DOCTOR",
+      "text": "Yeah. OK. And where do you, who do you live with at home?"
+    },
+    {
+      "id": 84,
+      "start": 563.98,
+      "end": 564.87,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 85,
+      "start": 564.62,
+      "end": 566.25,
+      "speaker": "DOCTOR",
+      "text": "Who do you live with at home?"
+    },
+    {
+      "id": 86,
+      "start": 566.23,
+      "end": 568.75,
+      "speaker": "PATIENT",
+      "text": "Yeah, I live with my parents, just my parents."
+    },
+    {
+      "id": 87,
+      "start": 569.79,
+      "end": 573.57,
+      "speaker": "DOCTOR",
+      "text": "Um, and, how much alcohol do you have in an average week do you think?"
+    },
+    {
+      "id": 88,
+      "start": 574.29,
+      "end": 582.93,
+      "speaker": "PATIENT",
+      "text": "Um, ooh I don't know, probably quite a lot on the Friday or Saturday, just because, that, that's kind of normal, um."
+    },
+    {
+      "id": 89,
+      "start": 583.8,
+      "end": 597.41,
+      "speaker": "PATIENT",
+      "text": "Uh, maybe I, maybe I do have like a bit during the week. Like, my parents obviously are retired, so they just drink whenever they want, so, whenever they're having a glass of wine, they'll offer it to me and it's like. I guess I don't really keep track of it that much."
+    },
+    {
+      "id": 90,
+      "start": 597.6,
+      "end": 600.74,
+      "speaker": "DOCTOR",
+      "text": "OK. So, how much would you, would you guess?"
+    },
+    {
+      "id": 91,
+      "start": 601.53,
+      "end": 607.61,
+      "speaker": "PATIENT",
+      "text": "Probably like, probably quite a lot on a Friday or Saturday, because it's usually going out, so maybe like."
+    },
+    {
+      "id": 92,
+      "start": 608.94,
+      "end": 616.25,
+      "speaker": "PATIENT",
+      "text": "I probably go over my limit just on those days, anyway, and then like, maybe a glass of wine during the week ."
+    },
+    {
+      "id": 93,
+      "start": 615.18,
+      "end": 618.61,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you smoke or take any other drugs, or anything?"
+    },
+    {
+      "id": 94,
+      "start": 619.39,
+      "end": 624.67,
+      "speaker": "PATIENT",
+      "text": "Um, I try not to smoke, but I do, occasionally, but I don't take drugs."
+    },
+    {
+      "id": 95,
+      "start": 624.52,
+      "end": 636.44,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you done , anything yourself to help? Have you , have you talked to anyone, talked to any counsellors? Done any, online, looked online at all? Any ways to ?"
+    },
+    {
+      "id": 96,
+      "start": 635.17,
+      "end": 651.26,
+      "speaker": "PATIENT",
+      "text": "I, well I talk to my mum, because she also suffers from, well she's , suffered from like depression in the past. I didn't think that it was, that I was suffering from, actual depression because it just seems to be, manifesting as, as total , as just stress the whole time."
+    },
+    {
+      "id": 97,
+      "start": 651.15,
+      "end": 651.87,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 98,
+      "start": 651.26,
+      "end": 658.74,
+      "speaker": "PATIENT",
+      "text": "But um, I did talk to my mum about it but I haven't sought any, she recommended that I come to the GP, um, but I haven't sought any other."
+    },
+    {
+      "id": 99,
+      "start": 656.62,
+      "end": 657.43,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 100,
+      "start": 659.42,
+      "end": 664.07,
+      "speaker": "DOCTOR",
+      "text": "And would you be happy to, have, some one-to-one therapy?"
+    },
+    {
+      "id": 102,
+      "start": 664.99,
+      "end": 668.61,
+      "speaker": "PATIENT",
+      "text": "Yeah I think, yeah I think so. I've never done that before, but yeah."
+    },
+    {
+      "id": 103,
+      "start": 668.2,
+      "end": 691.55,
+      "speaker": "DOCTOR",
+      "text": "OK. I mean what we would suggest in the first instance is to, to. So you can self-refer via the NHS, for what we call like, talking therapy which is a type of inter-behavioural, where they can really look at your situation. How you're reacting to, the, , why, what's provoking anxiety, and what you can do, to try and overcome that."
+    },
+    {
+      "id": 104,
+      "start": 679.9,
+      "end": 681.01,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 105,
+      "start": 684.0,
+      "end": 684.73,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 106,
+      "start": 691.55,
+      "end": 694.55,
+      "speaker": "DOCTOR",
+      "text": "Um, so I can send you the link for that."
+    },
+    {
+      "id": 107,
+      "start": 694.55,
+      "end": 706.78,
+      "speaker": "DOCTOR",
+      "text": "Um, in the meantimes it can be a bit of a wait. There are some online resources that are really helpful. Um, can put the details, on there and you can, get on with them straight away and try and work through them as well."
+    },
+    {
+      "id": 108,
+      "start": 700.21,
+      "end": 701.08,
+      "speaker": "PATIENT",
+      "text": "Uh-huh."
+    },
+    {
+      "id": 109,
+      "start": 706.78,
+      "end": 726.11,
+      "speaker": "DOCTOR",
+      "text": "Um, and if you're feeling like it's not helping at all, or your anxiety is getting worse, to the point where you can't cope with work, or you can't, just do your normal things day-to-day. Then, it's important for us to, for you to give us a call, back and just discuss that, further."
+    },
+    {
+      "id": 110,
+      "start": 706.99,
+      "end": 708.25,
+      "speaker": "PATIENT",
+      "text": "OK. ."
+    },
+    {
+      "id": 111,
+      "start": 726.11,
+      "end": 734.99,
+      "speaker": "DOCTOR",
+      "text": "I mean some people, with anxiety they, do need to take medication to control that but that's, not something that we'd suggest in the first instance."
+    },
+    {
+      "id": 112,
+      "start": 735.48,
+      "end": 736.27,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 113,
+      "start": 736.18,
+      "end": 742.01,
+      "speaker": "DOCTOR",
+      "text": "And I'll put some more information on your notes about, helping with your, sleep patterns and things like that."
+    },
+    {
+      "id": 114,
+      "start": 742.13,
+      "end": 744.26,
+      "speaker": "PATIENT",
+      "text": "That's great, I look forward to reading it."
+    },
+    {
+      "id": 115,
+      "start": 743.89,
+      "end": 760.78,
+      "speaker": "DOCTOR",
+      "text": "Um, in terms of palpitations, it is most likely to be a, , associated with anxiety, but it's probably worth having couple of basic blood tests just to make sure that, there's not something triggering that off. And then arranging a GP follow-up a week after you've had the tests, so we can just go through the results with you."
+    },
+    {
+      "id": 117,
+      "start": 761.04,
+      "end": 764.16,
+      "speaker": "PATIENT",
+      "text": "OK, OK. Yeah, ."
+    },
+    {
+      "id": 118,
+      "start": 762.82,
+      "end": 766.94,
+      "speaker": "DOCTOR",
+      "text": "So if you call the support line you can arrange the, to have the blood test done."
+    },
+    {
+      "id": 119,
+      "start": 767.08,
+      "end": 768.62,
+      "speaker": "PATIENT",
+      "text": "OK, I'll call them up."
+    },
+    {
+      "id": 120,
+      "start": 768.69,
+      "end": 769.41,
+      "speaker": "DOCTOR",
+      "text": "OK?"
+    },
+    {
+      "id": 121,
+      "start": 769.77,
+      "end": 771.01,
+      "speaker": "PATIENT",
+      "text": "Thank you so much."
+    },
+    {
+      "id": 122,
+      "start": 770.76,
+      "end": 772.38,
+      "speaker": "DOCTOR",
+      "text": "All right. Take care."
+    },
+    {
+      "id": 123,
+      "start": 772.45,
+      "end": 773.97,
+      "speaker": "PATIENT",
+      "text": "Have a good day. Bye."
+    },
+    {
+      "id": 124,
+      "start": 774.37,
+      "end": 776.34,
+      "speaker": "DOCTOR",
+      "text": "Sorry. ."
+    }
+  ]
+}

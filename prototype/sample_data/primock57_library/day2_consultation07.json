@@ -1,0 +1,848 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation07",
+  "presenting_complaint": "I'm having chest discomfort",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Onset of chest pain earlier today during gardening (mild physical exertion)\nCentral chest, radiation to shoulder and neck\nAssociated nausea, sweatiness, palpitations\nPAIN STILL PRESENT NOW\nNo previous similar episodes\nRisk factors: chronic smoker, FH of IHD, Hypertension, overweight, moderate alcohol intake\nDH: (mild) allergy to aspirin\n(forgot to ask about other medication- LAS need to clarify)\nSH: lives alone\nEx: haemodynamically stable now, at rest, seated, well perfused via video inspection, not SOB\nImp: acute cardiac event- needs urgent ECG + trop T\nLAS blue light called, front door open so they can access if he collapses\nStayed on line till LAS arrived, handed over to them\nExplained above\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.64,
+      "speaker": "DOCTOR",
+      "text": "Hi, Hi there, good morning."
+    },
+    {
+      "id": 2,
+      "start": 3.95,
+      "end": 5.09,
+      "speaker": "PATIENT",
+      "text": "Hi, good morning."
+    },
+    {
+      "id": 3,
+      "start": 5.16,
+      "end": 8.88,
+      "speaker": "DOCTOR",
+      "text": "Um, I'm Doctor Dean Resor from . Nice to see you."
+    },
+    {
+      "id": 5,
+      "start": 8.88,
+      "end": 10.1,
+      "speaker": "PATIENT",
+      "text": "That's the same thing."
+    },
+    {
+      "id": 6,
+      "start": 10.33,
+      "end": 14.77,
+      "speaker": "DOCTOR",
+      "text": "OK great! So before we start your appointment, could you please confirm your full name and date of birth?"
+    },
+    {
+      "id": 7,
+      "start": 15.2,
+      "end": 24.38,
+      "speaker": "PATIENT",
+      "text": "Yeah sure! Um, my name is Jim Gowers and I was born in nineteen fifty eight uh on the eighth of August."
+    },
+    {
+      "id": 9,
+      "start": 24.54,
+      "end": 29.34,
+      "speaker": "DOCTOR",
+      "text": "That's great. Thank you so much for that. Um, you look a lot younger, so, um"
+    },
+    {
+      "id": 10,
+      "start": 29.15,
+      "end": 31.79,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 11,
+      "start": 31.44,
+      "end": 36.78,
+      "speaker": "DOCTOR",
+      "text": "Does that, that would make you roughly about fifty years old, fifty one, fifty one years old. Is that is that correct or?"
+    },
+    {
+      "id": 12,
+      "start": 36.26,
+      "end": 38.91,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah around that. Yeah about sixty, yeah."
+    },
+    {
+      "id": 13,
+      "start": 38.84,
+      "end": 45.7,
+      "speaker": "DOCTOR",
+      "text": "Six, OK, perfect. All right. So, um, nice to see see you this morning. Are you in a private place where you are OK to speak freely?"
+    },
+    {
+      "id": 14,
+      "start": 40.24,
+      "end": 40.81,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 15,
+      "start": 46.14,
+      "end": 47.68,
+      "speaker": "PATIENT",
+      "text": "Yes, I am. Yeah."
+    },
+    {
+      "id": 16,
+      "start": 47.38,
+      "end": 50.52,
+      "speaker": "DOCTOR",
+      "text": "OK fantastic! So um, how can I help you today?"
+    },
+    {
+      "id": 17,
+      "start": 51.18,
+      "end": 59.79,
+      "speaker": "PATIENT",
+      "text": "Um, yeah. I was, I was having, um, a bit of chest discomfort. So, I was doing some gardening, um, a couple of hours ago."
+    },
+    {
+      "id": 18,
+      "start": 59.79,
+      "end": 68.29,
+      "speaker": "PATIENT",
+      "text": "And I felt not exactly a pain but um like a a pressure on my chest, um, feels like someone sitting on my chest."
+    },
+    {
+      "id": 19,
+      "start": 68.29,
+      "end": 81.7,
+      "speaker": "PATIENT",
+      "text": "Um, and, I've noticed, um, a bit of nausea, not, no vomiting but, um, I'm pretty sweaty, um, short of breath, and it kind of feels like someone's sitting on my chest."
+    },
+    {
+      "id": 20,
+      "start": 82.2,
+      "end": 83.28,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 21,
+      "start": 83.81,
+      "end": 87.55,
+      "speaker": "DOCTOR",
+      "text": "Now, do you have those these symptoms right now or have they gone off now?"
+    },
+    {
+      "id": 22,
+      "start": 88.09,
+      "end": 89.77,
+      "speaker": "PATIENT",
+      "text": "Um, no, they're still present."
+    },
+    {
+      "id": 23,
+      "start": 89.78,
+      "end": 92.85,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've still got the chest discomfort right now?"
+    },
+    {
+      "id": 24,
+      "start": 92.82,
+      "end": 93.69,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 25,
+      "start": 94.95,
+      "end": 96.43,
+      "speaker": "DOCTOR",
+      "text": "OK, um."
+    },
+    {
+      "id": 26,
+      "start": 98.66,
+      "end": 101.72,
+      "speaker": "DOCTOR",
+      "text": "We're probably gonna have to call an ambulance for you."
+    },
+    {
+      "id": 27,
+      "start": 101.72,
+      "end": 110.5,
+      "speaker": "DOCTOR",
+      "text": "OK. So what I'm gonna do, is I'm gonna task my colleague next to me to sort that out. While we do that I'm gonna ask you a few more questions, OK?"
+    },
+    {
+      "id": 28,
+      "start": 101.98,
+      "end": 102.76,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 29,
+      "start": 110.28,
+      "end": 111.32,
+      "speaker": "PATIENT",
+      "text": "Mmm, sure."
+    },
+    {
+      "id": 30,
+      "start": 110.5,
+      "end": 115.9,
+      "speaker": "DOCTOR",
+      "text": "We're gonna a bit more information to the, to help the ambulance team when they, when they arrive, OK."
+    },
+    {
+      "id": 31,
+      "start": 115.41,
+      "end": 116.04,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 32,
+      "start": 115.9,
+      "end": 120.46,
+      "speaker": "DOCTOR",
+      "text": "So just to, just to double check, um, where exactly in the chest is the pain?"
+    },
+    {
+      "id": 33,
+      "start": 121.13,
+      "end": 133.85,
+      "speaker": "PATIENT",
+      "text": "Um, it's in the, uh, middle of my chest, um, over, uh, yeah, my my pecs, so, um, yeah but not not necessarily to one side, um, and it's quite diffuse pain."
+    },
+    {
+      "id": 35,
+      "start": 133.81,
+      "end": 139.22,
+      "speaker": "DOCTOR",
+      "text": "Is, is it spreading anywhere else, like down into your arm, up to the jaw, in your neck, anything like that?"
+    },
+    {
+      "id": 36,
+      "start": 138.85,
+      "end": 147.87,
+      "speaker": "PATIENT",
+      "text": "Yeah. It's, it's, um, mainly in my left arm, er, it's feeling a little bit, um, er, painful, and, and in my shoulder as well."
+    },
+    {
+      "id": 37,
+      "start": 148.23,
+      "end": 151.72,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Do you remember what you were doing at the time?"
+    },
+    {
+      "id": 39,
+      "start": 152.29,
+      "end": 159.89,
+      "speaker": "PATIENT",
+      "text": "Uh yes, so it started uh just when I was gardening. So nothing that was too strenuous um I was just kneeling down and"
+    },
+    {
+      "id": 40,
+      "start": 160.33,
+      "end": 165.08,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, wasn't running or anything, it wasn't during any physical exercise."
+    },
+    {
+      "id": 41,
+      "start": 164.89,
+      "end": 171.38,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. And, and how much activity do you do normally? Do you walk a lot or do you run or do you do anything?"
+    },
+    {
+      "id": 42,
+      "start": 170.72,
+      "end": 176.2,
+      "speaker": "PATIENT",
+      "text": "No, I don't, I, I generally don't do much activity at all, um, you know."
+    },
+    {
+      "id": 43,
+      "start": 176.37,
+      "end": 178.15,
+      "speaker": "DOCTOR",
+      "text": "Have you had this before?"
+    },
+    {
+      "id": 44,
+      "start": 178.38,
+      "end": 180.65,
+      "speaker": "PATIENT",
+      "text": "No, this is the first time, actually."
+    },
+    {
+      "id": 45,
+      "start": 180.98,
+      "end": 187.78,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Can are you aware of any palpitations, like your heart beating faster or more prominently than normal?"
+    },
+    {
+      "id": 46,
+      "start": 182.23,
+      "end": 182.86,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 47,
+      "start": 188.0,
+      "end": 192.52,
+      "speaker": "PATIENT",
+      "text": "Um, yeah. It's, it's beating a bit faster now. I think that's 'cause I'm a little bit stressed."
+    },
+    {
+      "id": 48,
+      "start": 192.52,
+      "end": 200.28,
+      "speaker": "PATIENT",
+      "text": "Um, about the situation but I haven't noticed it, um, beating faster than usual, um, and I did today."
+    },
+    {
+      "id": 51,
+      "start": 200.43,
+      "end": 209.53,
+      "speaker": "DOCTOR",
+      "text": "So, I know you're stressed but, but we've got an ambulance coming on the way, OK? So um, we'll take care of everything, so don't, don't worry. Who's in the house with you at the moment?"
+    },
+    {
+      "id": 52,
+      "start": 204.36,
+      "end": 204.93,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 53,
+      "start": 207.24,
+      "end": 208.31,
+      "speaker": "PATIENT",
+      "text": "OK, thank you."
+    },
+    {
+      "id": 54,
+      "start": 209.88,
+      "end": 212.01,
+      "speaker": "PATIENT",
+      "text": "Uh, no, no one's in the house at the moment."
+    },
+    {
+      "id": 55,
+      "start": 212.45,
+      "end": 216.76,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and is your front door open?"
+    },
+    {
+      "id": 56,
+      "start": 217.04,
+      "end": 218.55,
+      "speaker": "PATIENT",
+      "text": "Uh, yes, it's open."
+    },
+    {
+      "id": 57,
+      "start": 218.74,
+      "end": 226.48,
+      "speaker": "DOCTOR",
+      "text": "OK so maybe we'll, we'll speak maybe in the hallway to the front door. Have the front door open so that, in case people need access, they could access you."
+    },
+    {
+      "id": 58,
+      "start": 225.92,
+      "end": 227.55,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah ."
+    },
+    {
+      "id": 59,
+      "start": 226.48,
+      "end": 230.99,
+      "speaker": "DOCTOR",
+      "text": "Alright. Um, so, um, uh, are you a smoker at all?"
+    },
+    {
+      "id": 60,
+      "start": 231.44,
+      "end": 239.92,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I smoke, um, a fair bit so I smoke about ten cigarettes, uh, a day. Um, yeah."
+    },
+    {
+      "id": 61,
+      "start": 239.74,
+      "end": 241.45,
+      "speaker": "DOCTOR",
+      "text": "How long have you been smoking for?"
+    },
+    {
+      "id": 62,
+      "start": 241.9,
+      "end": 244.55,
+      "speaker": "PATIENT",
+      "text": "Uh, for the past fifteen years."
+    },
+    {
+      "id": 63,
+      "start": 244.58,
+      "end": 251.18,
+      "speaker": "DOCTOR",
+      "text": "Fifteen years, OK. Um, do you have, um, high blood pressure or high cholesterol or diabetes or anything?"
+    },
+    {
+      "id": 64,
+      "start": 246.23,
+      "end": 246.78,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 65,
+      "start": 251.59,
+      "end": 255.61,
+      "speaker": "PATIENT",
+      "text": "Yeah, I have high blood, uh, blood pressure, but, um, not diabetes."
+    },
+    {
+      "id": 66,
+      "start": 255.67,
+      "end": 257.86,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you ever had your cholesterol checked?"
+    },
+    {
+      "id": 67,
+      "start": 258.27,
+      "end": 259.15,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 68,
+      "start": 259.31,
+      "end": 269.57,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, now anyone in your wider in, in your family, sorry, in your parents, did either of them have any heart problems, or heart attacks, or anything like that?"
+    },
+    {
+      "id": 69,
+      "start": 265.16,
+      "end": 265.89,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 70,
+      "start": 268.53,
+      "end": 276.95,
+      "speaker": "PATIENT",
+      "text": "Um, yes, so, my, um, father died of a heart attack, um, and my mother had some heart problems."
+    },
+    {
+      "id": 72,
+      "start": 276.7,
+      "end": 282.81,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, I'm sorry to hear about your father. Can you remember what age roughly he was when he had, he had the heart attack?"
+    },
+    {
+      "id": 73,
+      "start": 283.05,
+      "end": 285.32,
+      "speaker": "PATIENT",
+      "text": "Um, he was about my age."
+    },
+    {
+      "id": 74,
+      "start": 285.8,
+      "end": 288.8,
+      "speaker": "DOCTOR",
+      "text": "Right so just under sixty, around sixty."
+    },
+    {
+      "id": 75,
+      "start": 288.43,
+      "end": 290.16,
+      "speaker": "PATIENT",
+      "text": "Yes, around sixty, yes."
+    },
+    {
+      "id": 76,
+      "start": 289.66,
+      "end": 293.15,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK, alright. Um, do you drink much alcohol?"
+    },
+    {
+      "id": 77,
+      "start": 293.57,
+      "end": 299.66,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I drink, um, about, per week, probably about seven or eight pints a week."
+    },
+    {
+      "id": 78,
+      "start": 300.01,
+      "end": 302.66,
+      "speaker": "DOCTOR",
+      "text": "OK, is that a, a beer you're talking about, yeah?"
+    },
+    {
+      "id": 79,
+      "start": 302.15,
+      "end": 303.61,
+      "speaker": "PATIENT",
+      "text": "Ohh. Yeah, yes."
+    },
+    {
+      "id": 80,
+      "start": 304.11,
+      "end": 307.59,
+      "speaker": "DOCTOR",
+      "text": "Uh, I, I can't tell from the video, are you overweight?"
+    },
+    {
+      "id": 81,
+      "start": 308.07,
+      "end": 310.32,
+      "speaker": "PATIENT",
+      "text": "Um, yes, I'm overweight, yeah."
+    },
+    {
+      "id": 82,
+      "start": 310.45,
+      "end": 317.17,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Alright. Um, uh now um, you, do you normally live alone?"
+    },
+    {
+      "id": 83,
+      "start": 310.86,
+      "end": 311.32,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 84,
+      "start": 317.94,
+      "end": 323.12,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I live alone, uh, at the moment. Yeah, uh, it's just me in the house."
+    },
+    {
+      "id": 85,
+      "start": 322.82,
+      "end": 325.93,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK, and, and, uh, are you working at the moment?"
+    },
+    {
+      "id": 86,
+      "start": 326.2,
+      "end": 328.28,
+      "speaker": "PATIENT",
+      "text": "Yeah yeah, I, I work, yeah."
+    },
+    {
+      "id": 87,
+      "start": 328.81,
+      "end": 330.33,
+      "speaker": "DOCTOR",
+      "text": "Right, what do you work as?"
+    },
+    {
+      "id": 88,
+      "start": 330.54,
+      "end": 334.86,
+      "speaker": "PATIENT",
+      "text": "Um, I work as a restaurant owner. So I own a sushi shop."
+    },
+    {
+      "id": 89,
+      "start": 335.31,
+      "end": 342.52,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Alright. Um, so, um, the, the symptoms that you've described to me"
+    },
+    {
+      "id": 90,
+      "start": 336.33,
+      "end": 336.86,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 91,
+      "start": 342.52,
+      "end": 348.13,
+      "speaker": "DOCTOR",
+      "text": "Um, they indicate the possibility of, um, a heart attack."
+    },
+    {
+      "id": 92,
+      "start": 348.13,
+      "end": 354.67,
+      "speaker": "DOCTOR",
+      "text": "OK? So, I'm not saying you definitely have a heart attack, but we, that, it's our number one priority to exclude that."
+    },
+    {
+      "id": 93,
+      "start": 348.33,
+      "end": 349.03,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 94,
+      "start": 354.67,
+      "end": 360.33,
+      "speaker": "DOCTOR",
+      "text": "OK, so ambulance team will be with you very shortly. I'm gonna stay on the line with you until they come."
+    },
+    {
+      "id": 95,
+      "start": 355.12,
+      "end": 356.25,
+      "speaker": "PATIENT",
+      "text": "OK, yeah."
+    },
+    {
+      "id": 96,
+      "start": 360.33,
+      "end": 366.82,
+      "speaker": "DOCTOR",
+      "text": "OK. when they come, what they'll do is, they're gonna put some stickers on your chest and do an ECG."
+    },
+    {
+      "id": 97,
+      "start": 360.54,
+      "end": 362.04,
+      "speaker": "PATIENT",
+      "text": "OK, yeah. Thank you."
+    },
+    {
+      "id": 98,
+      "start": 366.82,
+      "end": 371.28,
+      "speaker": "DOCTOR",
+      "text": "And then decide where to take you after that, OK?"
+    },
+    {
+      "id": 99,
+      "start": 366.94,
+      "end": 367.66,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 100,
+      "start": 370.47,
+      "end": 371.63,
+      "speaker": "PATIENT",
+      "text": "OK, no."
+    },
+    {
+      "id": 101,
+      "start": 371.28,
+      "end": 377.66,
+      "speaker": "DOCTOR",
+      "text": "And um, what, what, uh, can I just double check? Do you have, um, any allergies to any medication?"
+    },
+    {
+      "id": 102,
+      "start": 377.94,
+      "end": 381.11,
+      "speaker": "PATIENT",
+      "text": "Yes, actually, I have, um, an allergy to aspirin."
+    },
+    {
+      "id": 103,
+      "start": 382.11,
+      "end": 383.51,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 104,
+      "start": 382.98,
+      "end": 385.0,
+      "speaker": "PATIENT",
+      "text": "Yeah, and no other allergies."
+    },
+    {
+      "id": 105,
+      "start": 384.85,
+      "end": 392.4,
+      "speaker": "DOCTOR",
+      "text": "Sure. Uh, what's the nature of that allergy to aspirin? Do you, does it, does it cause you heartburn? Or is it like an allergic reaction?"
+    },
+    {
+      "id": 106,
+      "start": 390.87,
+      "end": 391.5,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 107,
+      "start": 392.75,
+      "end": 400.0,
+      "speaker": "PATIENT",
+      "text": "Yeah, uh, it's an allergic reaction, so I swell up, um, a bit, but, um, nothing life threatening."
+    },
+    {
+      "id": 108,
+      "start": 400.0,
+      "end": 404.98,
+      "speaker": "PATIENT",
+      "text": "Um, I've, I, sometimes even have it and it's, it's a, it's a mild reaction to it."
+    },
+    {
+      "id": 109,
+      "start": 405.04,
+      "end": 410.17,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. It's very important that you communicate that to the hospital."
+    },
+    {
+      "id": 110,
+      "start": 406.24,
+      "end": 406.75,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 111,
+      "start": 410.17,
+      "end": 416.85,
+      "speaker": "DOCTOR",
+      "text": "Um, the detail you just told me, because, um, we, we may need to consider aspirin despite allergy, OK?"
+    },
+    {
+      "id": 112,
+      "start": 410.27,
+      "end": 410.99,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 113,
+      "start": 415.22,
+      "end": 416.18,
+      "speaker": "PATIENT",
+      "text": "Ohh, OK."
+    },
+    {
+      "id": 114,
+      "start": 416.85,
+      "end": 421.92,
+      "speaker": "DOCTOR",
+      "text": "Um, alright, um, now in terms of, um, what happens from here"
+    },
+    {
+      "id": 115,
+      "start": 417.24,
+      "end": 417.69,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 116,
+      "start": 421.92,
+      "end": 433.33,
+      "speaker": "DOCTOR",
+      "text": "That team will assess you and then they may take you into one hospital or another based on how bad , what the ECG looks like and what kind of treatment you might need, OK?"
+    },
+    {
+      "id": 117,
+      "start": 422.08,
+      "end": 422.76,
+      "speaker": "PATIENT",
+      "text": "Uh huh."
+    },
+    {
+      "id": 118,
+      "start": 433.33,
+      "end": 443.74,
+      "speaker": "DOCTOR",
+      "text": "Um, what I'm going to do is, we'll stay on the line for the time being, OK, until they come, and then, um, once they come, then I'll hand over to them and I'll explain what's going on, alright?"
+    },
+    {
+      "id": 119,
+      "start": 433.43,
+      "end": 434.19,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 120,
+      "start": 437.1,
+      "end": 437.9,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 121,
+      "start": 443.35,
+      "end": 445.04,
+      "speaker": "PATIENT",
+      "text": "OK, OK, sure."
+    },
+    {
+      "id": 122,
+      "start": 445.35,
+      "end": 445.92,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 123,
+      "start": 445.94,
+      "end": 446.71,
+      "speaker": "PATIENT",
+      "text": "Yeah, thank you."
+    },
+    {
+      "id": 124,
+      "start": 449.07,
+      "end": 453.0,
+      "speaker": "DOCTOR",
+      "text": "we'll end the conversation after the purposes. Is that OK?"
+    },
+    {
+      "id": 126,
+      "start": 451.76,
+      "end": 455.19,
+      "speaker": "PATIENT",
+      "text": "Yeah, that's, OK. OK, thank you very much."
+    },
+    {
+      "id": 127,
+      "start": 454.81,
+      "end": 456.13,
+      "speaker": "DOCTOR",
+      "text": "thanks! Bye!"
+    },
+    {
+      "id": 128,
+      "start": 456.33,
+      "end": 457.44,
+      "speaker": "PATIENT",
+      "text": "Thank you. Bye."
+    }
+  ]
+}

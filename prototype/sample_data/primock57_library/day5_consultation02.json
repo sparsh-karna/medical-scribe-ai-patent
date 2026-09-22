@@ -1,0 +1,904 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation02",
+  "presenting_complaint": "It hurts when I pee",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: Dysuria\nHPC: 6/7 hx dysuria, burning stinging sensation when PUs. No problem with actually passing urine. Strong odour. E&D normally. No new PV discharge. No back/loin pain. Not feverish but not checked temp.No obvious trigger, no hx dehydration/frequent SI. \nNo PHx urine infections/similar sx. \nNo recent change in BH/blood in stool.\nPMH: IBS\nFH: Nil\nDH: Mebeverine 200mg TDS. NKDA.\n\nSH: Lives with friends. Works as support worker. Non smoker. Drinks 1 unit/week.\nImp: Likely UTI.\nPlan: Nitrofurantoin 3/7 course. \nAdvised patient to contact us if fever/back pain/persistent symptoms or if recurrent episodes of similar symptoms occurs. \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.59,
+      "end": 8.36,
+      "speaker": "DOCTOR",
+      "text": "Good morning. I'm Doctor Smith from Babylon. Can you just confirm your name, date of birth, and the first line of your address please?"
+    },
+    {
+      "id": 2,
+      "start": 9.56,
+      "end": 19.68,
+      "speaker": "PATIENT",
+      "text": "Hi. My name is Susan. Um, thirty, Redbridge Street, SW two two HZ."
+    },
+    {
+      "id": 3,
+      "start": 11.86,
+      "end": 12.64,
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "id": 4,
+      "start": 20.4,
+      "end": 21.76,
+      "speaker": "DOCTOR",
+      "text": "And your date of birth?"
+    },
+    {
+      "id": 5,
+      "start": 22.53,
+      "end": 25.45,
+      "speaker": "PATIENT",
+      "text": "forty, oh two, nineteen seventy four."
+    },
+    {
+      "id": 6,
+      "start": 25.66,
+      "end": 29.48,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you in a private place so you can have a consultation today?"
+    },
+    {
+      "id": 7,
+      "start": 29.71,
+      "end": 30.71,
+      "speaker": "PATIENT",
+      "text": "Yes I am."
+    },
+    {
+      "id": 8,
+      "start": 30.7,
+      "end": 32.58,
+      "speaker": "DOCTOR",
+      "text": "OK. What can I do for you?"
+    },
+    {
+      "id": 9,
+      "start": 33.52,
+      "end": 35.16,
+      "speaker": "PATIENT",
+      "text": "It hurts when I pee."
+    },
+    {
+      "id": 10,
+      "start": 35.59,
+      "end": 38.8,
+      "speaker": "DOCTOR",
+      "text": "OK, and how long has that been going on for?"
+    },
+    {
+      "id": 11,
+      "start": 38.97,
+      "end": 40.22,
+      "speaker": "PATIENT",
+      "text": "It stays now."
+    },
+    {
+      "id": 12,
+      "start": 40.25,
+      "end": 41.27,
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "id": 13,
+      "start": 41.3,
+      "end": 42.61,
+      "speaker": "PATIENT",
+      "text": "Uh, six days."
+    },
+    {
+      "id": 14,
+      "start": 42.31,
+      "end": 47.87,
+      "speaker": "DOCTOR",
+      "text": "Six days, OK. And just tell me a bit more about that. How did it start?"
+    },
+    {
+      "id": 15,
+      "start": 48.76,
+      "end": 56.17,
+      "speaker": "PATIENT",
+      "text": "Um, I've got this thing when I pee, and it hurts when I go to the loo, and I've got this very unpleasant smell that comes out."
+    },
+    {
+      "id": 17,
+      "start": 55.82,
+      "end": 64.55,
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you had any other symptoms along with that? Have you had any abdominal pain, or back, lower back pain at all?"
+    },
+    {
+      "id": 18,
+      "start": 65.59,
+      "end": 68.23,
+      "speaker": "PATIENT",
+      "text": "I've got, pain in my tummy."
+    },
+    {
+      "id": 19,
+      "start": 68.35,
+      "end": 69.65,
+      "speaker": "DOCTOR",
+      "text": "Uh, whereabouts?"
+    },
+    {
+      "id": 20,
+      "start": 69.77,
+      "end": 71.11,
+      "speaker": "PATIENT",
+      "text": "In my lower tummy."
+    },
+    {
+      "id": 21,
+      "start": 71.17,
+      "end": 74.06,
+      "speaker": "DOCTOR",
+      "text": "OK. Is it one-sided, or in the middle?"
+    },
+    {
+      "id": 22,
+      "start": 74.11,
+      "end": 75.32,
+      "speaker": "PATIENT",
+      "text": "In the middle."
+    },
+    {
+      "id": 23,
+      "start": 75.15,
+      "end": 81.19,
+      "speaker": "DOCTOR",
+      "text": "And how bad would you say that is on a scale of one to ten? With ten being the worst pain."
+    },
+    {
+      "id": 24,
+      "start": 79.68,
+      "end": 80.4,
+      "speaker": "PATIENT",
+      "text": "Seven."
+    },
+    {
+      "id": 25,
+      "start": 81.46,
+      "end": 82.31,
+      "speaker": "PATIENT",
+      "text": "Seven."
+    },
+    {
+      "id": 26,
+      "start": 82.11,
+      "end": 85.32,
+      "speaker": "DOCTOR",
+      "text": "And is it, constant, or does it come and go?"
+    },
+    {
+      "id": 27,
+      "start": 85.94,
+      "end": 87.32,
+      "speaker": "PATIENT",
+      "text": "Comes and goes."
+    },
+    {
+      "id": 28,
+      "start": 87.27,
+      "end": 91.61,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you actually been able to pass water OK?"
+    },
+    {
+      "id": 29,
+      "start": 91.93,
+      "end": 96.79,
+      "speaker": "PATIENT",
+      "text": "Yes, but I've had spotted, uh, blood in my urine. Spots."
+    },
+    {
+      "id": 30,
+      "start": 95.72,
+      "end": 100.12,
+      "speaker": "DOCTOR",
+      "text": "OK. And is that just over the last, six days?"
+    },
+    {
+      "id": 31,
+      "start": 100.08,
+      "end": 100.96,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 32,
+      "start": 101.15,
+      "end": 104.18,
+      "speaker": "DOCTOR",
+      "text": "Right. And have you been able to eat and drink OK?"
+    },
+    {
+      "id": 33,
+      "start": 104.5,
+      "end": 105.38,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 34,
+      "start": 106.32,
+      "end": 113.06,
+      "speaker": "DOCTOR",
+      "text": "Um, and, have you had a temperature? Do you feel like you've been feverish, or had a temperature with this?"
+    },
+    {
+      "id": 35,
+      "start": 113.23,
+      "end": 115.09,
+      "speaker": "PATIENT",
+      "text": "No, not at all."
+    },
+    {
+      "id": 36,
+      "start": 115.71,
+      "end": 119.82,
+      "speaker": "DOCTOR",
+      "text": "Um, and any, did you , you said you didn't have any lower back pain?"
+    },
+    {
+      "id": 37,
+      "start": 120.21,
+      "end": 122.11,
+      "speaker": "PATIENT",
+      "text": "No, I've got."
+    },
+    {
+      "id": 38,
+      "start": 123.0,
+      "end": 125.83,
+      "speaker": "PATIENT",
+      "text": "Um, and no loin pain as well."
+    },
+    {
+      "id": 39,
+      "start": 125.66,
+      "end": 129.9,
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you had these symptoms before?"
+    },
+    {
+      "id": 40,
+      "start": 130.26,
+      "end": 131.26,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 41,
+      "start": 131.23,
+      "end": 132.08,
+      "speaker": "DOCTOR",
+      "text": "Never."
+    },
+    {
+      "id": 42,
+      "start": 132.69,
+      "end": 133.41,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 43,
+      "start": 133.33,
+      "end": 145.7,
+      "speaker": "DOCTOR",
+      "text": "And was there anything you were doing recently, which you think may have contributed to it? Have you , have you been doing lots of exercise, been dehydrated, um, been having regular sexual intercourse or anything?"
+    },
+    {
+      "id": 44,
+      "start": 147.05,
+      "end": 148.05,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 45,
+      "start": 147.67,
+      "end": 155.56,
+      "speaker": "DOCTOR",
+      "text": "No, OK. And, any, any other symptoms, any vaginal discharge or, anything like that?"
+    },
+    {
+      "id": 46,
+      "start": 156.33,
+      "end": 160.05,
+      "speaker": "PATIENT",
+      "text": "No, just the blood spot, in my."
+    },
+    {
+      "id": 47,
+      "start": 159.59,
+      "end": 161.67,
+      "speaker": "DOCTOR",
+      "text": "No. Do you have regular periods?"
+    },
+    {
+      "id": 48,
+      "start": 161.93,
+      "end": 163.1,
+      "speaker": "PATIENT",
+      "text": "Yes I do."
+    },
+    {
+      "id": 49,
+      "start": 163.14,
+      "end": 163.89,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 50,
+      "start": 166.01,
+      "end": 170.71,
+      "speaker": "DOCTOR",
+      "text": "Um, and , in the past, have you had any medical problems at all?"
+    },
+    {
+      "id": 51,
+      "start": 171.2,
+      "end": 173.09,
+      "speaker": "PATIENT",
+      "text": "No medical, no."
+    },
+    {
+      "id": 52,
+      "start": 172.83,
+      "end": 176.91,
+      "speaker": "DOCTOR",
+      "text": "Have you had any problems with your kidneys, or any urine infections?"
+    },
+    {
+      "id": 53,
+      "start": 177.53,
+      "end": 179.55,
+      "speaker": "PATIENT",
+      "text": "I had IBS before."
+    },
+    {
+      "id": 54,
+      "start": 179.58,
+      "end": 180.48,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 55,
+      "start": 181.03,
+      "end": 186.55,
+      "speaker": "DOCTOR",
+      "text": "And how's that been recently? Any change in your bowel habit? Any blood when you pass stool?"
+    },
+    {
+      "id": 56,
+      "start": 187.65,
+      "end": 189.7,
+      "speaker": "PATIENT",
+      "text": "Yeah, I've had spotting in my urine."
+    },
+    {
+      "id": 57,
+      "start": 189.58,
+      "end": 195.78,
+      "speaker": "DOCTOR",
+      "text": "In your, OK. Um, any change in your bowel habit? Any weight loss or anything?"
+    },
+    {
+      "id": 58,
+      "start": 193.24,
+      "end": 194.02,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 59,
+      "start": 196.08,
+      "end": 196.97,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 60,
+      "start": 196.68,
+      "end": 199.85,
+      "speaker": "DOCTOR",
+      "text": "Any other medical problems, or surgery in the past?"
+    },
+    {
+      "id": 61,
+      "start": 200.94,
+      "end": 201.94,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 62,
+      "start": 201.76,
+      "end": 203.9,
+      "speaker": "DOCTOR",
+      "text": "Do you take regular medications?"
+    },
+    {
+      "id": 63,
+      "start": 204.74,
+      "end": 209.83,
+      "speaker": "PATIENT",
+      "text": "I've had Mebeverine, Mebeverine. I've had Mebeverine."
+    },
+    {
+      "id": 64,
+      "start": 206.7,
+      "end": 208.81,
+      "speaker": "DOCTOR",
+      "text": "Pardon? No birth ."
+    },
+    {
+      "id": 65,
+      "start": 209.69,
+      "end": 211.25,
+      "speaker": "DOCTOR",
+      "text": "Do you take that regularly?"
+    },
+    {
+      "id": 66,
+      "start": 211.48,
+      "end": 212.44,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 67,
+      "start": 212.4,
+      "end": 215.3,
+      "speaker": "DOCTOR",
+      "text": "OK. And it, do you take it three times a day?"
+    },
+    {
+      "id": 68,
+      "start": 215.48,
+      "end": 216.48,
+      "speaker": "PATIENT",
+      "text": "Yes I do."
+    },
+    {
+      "id": 69,
+      "start": 216.77,
+      "end": 218.24,
+      "speaker": "DOCTOR",
+      "text": "Two hundred milligrams?"
+    },
+    {
+      "id": 70,
+      "start": 218.69,
+      "end": 219.57,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 71,
+      "start": 220.43,
+      "end": 221.77,
+      "speaker": "DOCTOR",
+      "text": "Any allergies?"
+    },
+    {
+      "id": 72,
+      "start": 226.7,
+      "end": 227.99,
+      "speaker": "DOCTOR",
+      "text": "Any allergies?"
+    },
+    {
+      "id": 73,
+      "start": 228.48,
+      "end": 229.94,
+      "speaker": "PATIENT",
+      "text": "Clindamycin."
+    },
+    {
+      "id": 74,
+      "start": 230.04,
+      "end": 232.75,
+      "speaker": "DOCTOR",
+      "text": "You're allergic to Clindamycin, OK."
+    },
+    {
+      "id": 75,
+      "start": 233.48,
+      "end": 236.71,
+      "speaker": "DOCTOR",
+      "text": "And anyone in your family had any medical problems?"
+    },
+    {
+      "id": 76,
+      "start": 237.03,
+      "end": 237.88,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 77,
+      "start": 238.84,
+      "end": 243.56,
+      "speaker": "DOCTOR",
+      "text": "That's fine. And whereabouts, do you live? Do you live with friends, family?"
+    },
+    {
+      "id": 78,
+      "start": 243.99,
+      "end": 245.44,
+      "speaker": "PATIENT",
+      "text": "I live with friends."
+    },
+    {
+      "id": 79,
+      "start": 245.3,
+      "end": 249.48,
+      "speaker": "DOCTOR",
+      "text": "OK. And where do you work? What's your job?"
+    },
+    {
+      "id": 80,
+      "start": 252.17,
+      "end": 253.6,
+      "speaker": "PATIENT",
+      "text": "I'm a support worker."
+    },
+    {
+      "id": 81,
+      "start": 254.75,
+      "end": 257.14,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you drink alcohol at all?"
+    },
+    {
+      "id": 82,
+      "start": 257.87,
+      "end": 259.24,
+      "speaker": "PATIENT",
+      "text": "Occasionally."
+    },
+    {
+      "id": 83,
+      "start": 259.34,
+      "end": 261.34,
+      "speaker": "DOCTOR",
+      "text": "So how much in a average week?"
+    },
+    {
+      "id": 84,
+      "start": 262.12,
+      "end": 263.78,
+      "speaker": "PATIENT",
+      "text": "One glass of wine a week."
+    },
+    {
+      "id": 85,
+      "start": 263.53,
+      "end": 265.11,
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke?"
+    },
+    {
+      "id": 86,
+      "start": 265.35,
+      "end": 266.24,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 87,
+      "start": 267.33,
+      "end": 276.14,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, it sounds very much like you, might have an infection in your urine. Did you say, you haven't felt feverish?"
+    },
+    {
+      "id": 88,
+      "start": 276.19,
+      "end": 277.72,
+      "speaker": "PATIENT",
+      "text": "No fever at all."
+    },
+    {
+      "id": 89,
+      "start": 277.39,
+      "end": 279.53,
+      "speaker": "DOCTOR",
+      "text": "Have you got a thermometer at home?"
+    },
+    {
+      "id": 90,
+      "start": 280.34,
+      "end": 281.34,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 91,
+      "start": 281.25,
+      "end": 290.95,
+      "speaker": "DOCTOR",
+      "text": "OK. It would be helpful if you could get a thermometer from the pharmacy and, do check your temperature, just to make sure that it isn't, going up and down."
+    },
+    {
+      "id": 92,
+      "start": 290.72,
+      "end": 291.63,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 93,
+      "start": 290.95,
+      "end": 298.65,
+      "speaker": "DOCTOR",
+      "text": "Um, normally we can treat this infection without having to test your urine. Uh, with, with a course of antibiotics."
+    },
+    {
+      "id": 94,
+      "start": 299.19,
+      "end": 300.5,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 95,
+      "start": 300.33,
+      "end": 304.56,
+      "speaker": "DOCTOR",
+      "text": "Um, how do you feel about that? Are you happy to take a course of antibiotics?"
+    },
+    {
+      "id": 96,
+      "start": 304.54,
+      "end": 305.98,
+      "speaker": "PATIENT",
+      "text": "Yes I would be."
+    },
+    {
+      "id": 97,
+      "start": 305.74,
+      "end": 307.91,
+      "speaker": "DOCTOR",
+      "text": "It would just be for three days."
+    },
+    {
+      "id": 98,
+      "start": 308.29,
+      "end": 309.18,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 99,
+      "start": 309.79,
+      "end": 310.79,
+      "speaker": "DOCTOR",
+      "text": "Um."
+    },
+    {
+      "id": 100,
+      "start": 310.11,
+      "end": 312.16,
+      "speaker": "PATIENT",
+      "text": ", get my prescription."
+    },
+    {
+      "id": 101,
+      "start": 312.26,
+      "end": 323.27,
+      "speaker": "DOCTOR",
+      "text": "Yes, so I can send a prescription through to your requested pharmacy for that. If you take them, as soon as you can, get them, pick them up as soon as you can, and start taking them."
+    },
+    {
+      "id": 102,
+      "start": 323.27,
+      "end": 330.14,
+      "speaker": "DOCTOR",
+      "text": "The other thing which is important to do is to drink, lots of water. So, two and a half to three litres a day."
+    },
+    {
+      "id": 104,
+      "start": 330.14,
+      "end": 346.8,
+      "speaker": "DOCTOR",
+      "text": "Um, you can get some cranberry juice and take, drink that as well, that sometimes helps. And also some, sachets um, which you can get from the chemist, some sachets which just help change the acidity of your urine. So I, I can put the details of that on your notes."
+    },
+    {
+      "id": 105,
+      "start": 330.14,
+      "end": 330.79,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 106,
+      "start": 346.84,
+      "end": 347.91,
+      "speaker": "PATIENT",
+      "text": "OK then."
+    },
+    {
+      "id": 107,
+      "start": 347.83,
+      "end": 363.56,
+      "speaker": "DOCTOR",
+      "text": "Um, if you feel like your pain is getting worse or not settling, you get lower back pain, um, or you're getting a high temperature, or you have any problems actually passing urine. Then it's very important that we speak to you again."
+    },
+    {
+      "id": 108,
+      "start": 363.72,
+      "end": 364.72,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 364.6,
+      "end": 371.34,
+      "speaker": "DOCTOR",
+      "text": "Um, the other thing is that if it becomes a, common, thing or a recurrent problem. Then we need to talk to you again about it."
+    },
+    {
+      "id": 110,
+      "start": 371.98,
+      "end": 375.54,
+      "speaker": "PATIENT",
+      "text": "So, do I have to call after I finish my course of antibiotics."
+    },
+    {
+      "id": 111,
+      "start": 374.89,
+      "end": 395.83,
+      "speaker": "DOCTOR",
+      "text": "No, not if you're better. If you're, if you feel like your symptoms get worse at any point, or they're not resolving with the treatment. Or you keep getting a similar, um, you keep getting a similar, problem, reccurently. Then it's important for us to talk, talk to you in more detail about that."
+    },
+    {
+      "id": 112,
+      "start": 376.7,
+      "end": 377.62,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 113,
+      "start": 390.18,
+      "end": 390.92,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 114,
+      "start": 396.07,
+      "end": 397.07,
+      "speaker": "PATIENT",
+      "text": "OK then."
+    },
+    {
+      "id": 115,
+      "start": 397.41,
+      "end": 400.08,
+      "speaker": "DOCTOR",
+      "text": "Um, have you got any other questions?"
+    },
+    {
+      "id": 116,
+      "start": 400.84,
+      "end": 405.85,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Uh, where will be the pharmacy I'll be picking up, my medication from?"
+    },
+    {
+      "id": 117,
+      "start": 405.63,
+      "end": 409.29,
+      "speaker": "DOCTOR",
+      "text": "Um, so have you already requested a pharmacy through Babylon?"
+    },
+    {
+      "id": 118,
+      "start": 409.51,
+      "end": 410.66,
+      "speaker": "PATIENT",
+      "text": "Yes I did."
+    },
+    {
+      "id": 119,
+      "start": 410.77,
+      "end": 412.59,
+      "speaker": "DOCTOR",
+      "text": "Can I just check that with you?"
+    },
+    {
+      "id": 120,
+      "start": 413.72,
+      "end": 415.96,
+      "speaker": "PATIENT",
+      "text": "Knightsbridge, Practice."
+    },
+    {
+      "id": 121,
+      "start": 416.41,
+      "end": 424.45,
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. So the antibiotics, that I'm gonna prescribe, um, will go through to that, pharmacy."
+    },
+    {
+      "id": 122,
+      "start": 425.36,
+      "end": 426.36,
+      "speaker": "PATIENT",
+      "text": "How soon?"
+    },
+    {
+      "id": 123,
+      "start": 425.45,
+      "end": 428.43,
+      "speaker": "DOCTOR",
+      "text": "And then , you'll be able to pick them up from there."
+    },
+    {
+      "id": 124,
+      "start": 428.69,
+      "end": 432.03,
+      "speaker": "PATIENT",
+      "text": "How soon is that gonna be, at the practice? In five minutes?"
+    },
+    {
+      "id": 125,
+      "start": 432.5,
+      "end": 436.59,
+      "speaker": "DOCTOR",
+      "text": "Um, I would give it longer than that. Give it a, an hour or so."
+    },
+    {
+      "id": 127,
+      "start": 436.82,
+      "end": 439.24,
+      "speaker": "PATIENT",
+      "text": "All right then. Thank you, I'll pick that at lunchtime."
+    },
+    {
+      "id": 128,
+      "start": 439.14,
+      "end": 443.21,
+      "speaker": "DOCTOR",
+      "text": "OK. All right then. Take care. Bye."
+    },
+    {
+      "id": 129,
+      "start": 440.95,
+      "end": 441.88,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 130,
+      "start": 442.67,
+      "end": 444.14,
+      "speaker": "PATIENT",
+      "text": ". Bye."
+    },
+    {
+      "id": 131,
+      "start": 444.83,
+      "end": 445.62,
+      "speaker": "DOCTOR",
+      "text": "Sorry, I ."
+    }
+  ]
+}

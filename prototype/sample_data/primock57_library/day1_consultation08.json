@@ -1,0 +1,820 @@
+{
+  "visit_id": "PRIMOCK57-day1_consultation08",
+  "presenting_complaint": "I have dry, itchy skin",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "3/7 hx of dry itchy skin, mainly on the hands and palms. No spread elsewhere. No bleeding/discharge. No cracked skin. Sx started after going swimming. No prev skin problems. \nNo fevers. No vomiting. \nAppetite maintained, nil nausea/vomiting \nNil bowel/urinary sx \n\nPMH: Lactose intolerance\nDH: microgynon\nNKDA\nFH:  Father - asthma, Mother - hayfever \nSH: - lives alone, nil smoker/etOH/recreational drugs , works as primary school teacher. Recent stress ++\n\nImp: dermatitis\n\nPlan:\n1.\tSteroid cream BD\n2.\tEmollients - regular use QDS\n3.\tAntihistamines \n4.\tReview sx in 1/52, or earlier if worsening sx/any concerns\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.34,
+      "end": 3.33,
+      "speaker": "PATIENT",
+      "text": "OK. Ohh, OK."
+    },
+    {
+      "id": 2,
+      "start": 4.14,
+      "end": 5.19,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 3,
+      "start": 5.74,
+      "end": 7.14,
+      "speaker": "PATIENT",
+      "text": "Hello, can you hear me?"
+    },
+    {
+      "id": 4,
+      "start": 7.05,
+      "end": 12.45,
+      "speaker": "DOCTOR",
+      "text": "Hello. Uh, just before we go any further, can I confirm your name and, age please?"
+    },
+    {
+      "id": 5,
+      "start": 12.93,
+      "end": 16.36,
+      "speaker": "PATIENT",
+      "text": "Uh, my name's Itha, and I'm twenty six."
+    },
+    {
+      "id": 6,
+      "start": 16.12,
+      "end": 18.43,
+      "speaker": "DOCTOR",
+      "text": "Twenty six, OK. And how can I help you this afternoon?"
+    },
+    {
+      "id": 7,
+      "start": 19.11,
+      "end": 23.95,
+      "speaker": "PATIENT",
+      "text": "Um, so basically, I've been really stressed at work for the past few days."
+    },
+    {
+      "id": 8,
+      "start": 23.95,
+      "end": 29.18,
+      "speaker": "PATIENT",
+      "text": "And, I've realised that I've got, really dry itchy skin."
+    },
+    {
+      "id": 9,
+      "start": 29.46,
+      "end": 34.09,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, sorry to hear work's been so stressful. Um."
+    },
+    {
+      "id": 10,
+      "start": 34.09,
+      "end": 40.52,
+      "speaker": "DOCTOR",
+      "text": "Tell me more about your skin first, Lou. Tell me uh, you mentioned it's been dry and itchy. Um, whereabouts on your skin?"
+    },
+    {
+      "id": 11,
+      "start": 41.53,
+      "end": 45.6,
+      "speaker": "PATIENT",
+      "text": "All over my arms, um, and my hands mainly."
+    },
+    {
+      "id": 12,
+      "start": 45.54,
+      "end": 48.85,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and is this something you've had before?"
+    },
+    {
+      "id": 13,
+      "start": 49.67,
+      "end": 51.66,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Never had ."
+    },
+    {
+      "id": 14,
+      "start": 52.16,
+      "end": 56.51,
+      "speaker": "DOCTOR",
+      "text": "So, uh, did it, did it come about quite suddenly, or was it more, kind of a gradual thing?"
+    },
+    {
+      "id": 15,
+      "start": 57.09,
+      "end": 58.84,
+      "speaker": "PATIENT",
+      "text": "I think it started a few days ago."
+    },
+    {
+      "id": 16,
+      "start": 59.07,
+      "end": 66.42,
+      "speaker": "DOCTOR",
+      "text": "OK. And, has this spread anywhere else? Has it spread to your, to your chest, your legs, your face?"
+    },
+    {
+      "id": 18,
+      "start": 68.2,
+      "end": 78.46,
+      "speaker": "DOCTOR",
+      "text": "No, OK. So apart from being dry and itchy, um, any other symptoms? Has it been sore? Has it been, uh, have you noticed any cracked skin?"
+    },
+    {
+      "id": 19,
+      "start": 80.34,
+      "end": 87.76,
+      "speaker": "PATIENT",
+      "text": "Um, so my skin's quite red, um, and I'm using coconut butter for the past few days."
+    },
+    {
+      "id": 20,
+      "start": 87.7,
+      "end": 89.38,
+      "speaker": "DOCTOR",
+      "text": "OK. Has that."
+    },
+    {
+      "id": 21,
+      "start": 88.79,
+      "end": 94.22,
+      "speaker": "PATIENT",
+      "text": "I don't have any spots, and no fever , and I'm not sweating either."
+    },
+    {
+      "id": 22,
+      "start": 90.6,
+      "end": 91.49,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 23,
+      "start": 94.33,
+      "end": 101.32,
+      "speaker": "DOCTOR",
+      "text": "Thank you, for mentioning all those. Um, OK. Uh, so the coconut butter hasn't helped, with the itch?"
+    },
+    {
+      "id": 24,
+      "start": 101.13,
+      "end": 102.67,
+      "speaker": "PATIENT",
+      "text": "No, ."
+    },
+    {
+      "id": 26,
+      "start": 102.34,
+      "end": 106.91,
+      "speaker": "DOCTOR",
+      "text": "OK. And, uh, you mentioned work's been quite stressful. What do you do for work?"
+    },
+    {
+      "id": 27,
+      "start": 108.35,
+      "end": 111.16,
+      "speaker": "PATIENT",
+      "text": "Um, I work as a teacher."
+    },
+    {
+      "id": 28,
+      "start": 111.18,
+      "end": 115.62,
+      "speaker": "DOCTOR",
+      "text": "OK. And, uh, in what way has work been stressful?"
+    },
+    {
+      "id": 29,
+      "start": 117.09,
+      "end": 119.5,
+      "speaker": "PATIENT",
+      "text": "I think the kids have been really annoying these days."
+    },
+    {
+      "id": 30,
+      "start": 120.7,
+      "end": 122.45,
+      "speaker": "DOCTOR",
+      "text": "OK. ."
+    },
+    {
+      "id": 31,
+      "start": 121.71,
+      "end": 124.6,
+      "speaker": "PATIENT",
+      "text": "And, I've been working really long hours."
+    },
+    {
+      "id": 32,
+      "start": 124.8,
+      "end": 128.51,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Well I'm sorry to hear that, and I hope it gets better."
+    },
+    {
+      "id": 33,
+      "start": 128.51,
+      "end": 141.65,
+      "speaker": "DOCTOR",
+      "text": "Um, going back to your skin. I mean is it anything you've done perhaps, uh, which may have triggered your symptoms? Anything you've touched or, you know, for example shower gels, soaps, fabric , fabric cleaners?"
+    },
+    {
+      "id": 34,
+      "start": 140.82,
+      "end": 144.55,
+      "speaker": "PATIENT",
+      "text": ", I went swimming a few days ago."
+    },
+    {
+      "id": 35,
+      "start": 144.12,
+      "end": 147.88,
+      "speaker": "DOCTOR",
+      "text": "OK. Is that the first time in your life or have you been before?"
+    },
+    {
+      "id": 36,
+      "start": 148.51,
+      "end": 150.11,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I've been before."
+    },
+    {
+      "id": 37,
+      "start": 150.05,
+      "end": 154.06,
+      "speaker": "DOCTOR",
+      "text": "OK. And did your symptoms start after you went swimming?"
+    },
+    {
+      "id": 38,
+      "start": 155.19,
+      "end": 156.43,
+      "speaker": "PATIENT",
+      "text": "Uh, yes, ."
+    },
+    {
+      "id": 39,
+      "start": 156.27,
+      "end": 162.69,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, you mentioned you've had no other fevers, is that right? No fevers? No vomiting?"
+    },
+    {
+      "id": 40,
+      "start": 163.53,
+      "end": 164.66,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 41,
+      "start": 164.48,
+      "end": 166.94,
+      "speaker": "DOCTOR",
+      "text": "No. How's your health otherwise?"
+    },
+    {
+      "id": 42,
+      "start": 167.86,
+      "end": 170.53,
+      "speaker": "PATIENT",
+      "text": "It's pretty good, yeah. I'm not on any medication."
+    },
+    {
+      "id": 43,
+      "start": 171.1,
+      "end": 178.33,
+      "speaker": "DOCTOR",
+      "text": "And all , we'll get to medication in just a second. Um, , do you, do you feel generally run-down? Do you feel tired?"
+    },
+    {
+      "id": 44,
+      "start": 179.69,
+      "end": 183.03,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I think I have been, quite tired."
+    },
+    {
+      "id": 45,
+      "start": 182.91,
+      "end": 187.16,
+      "speaker": "DOCTOR",
+      "text": "OK, OK. Are you eating and drinking OK?"
+    },
+    {
+      "id": 46,
+      "start": 188.47,
+      "end": 190.98,
+      "speaker": "PATIENT",
+      "text": "Yeah, I've been drinking, and eating as normal."
+    },
+    {
+      "id": 47,
+      "start": 190.54,
+      "end": 194.26,
+      "speaker": "DOCTOR",
+      "text": "Your appetite's fine is it? OK. And your bowels, are your bowels working OK?"
+    },
+    {
+      "id": 48,
+      "start": 195.03,
+      "end": 195.77,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 49,
+      "start": 196.02,
+      "end": 199.51,
+      "speaker": "DOCTOR",
+      "text": "Uh, no, no problems with vomiting, or loose stools?"
+    },
+    {
+      "id": 50,
+      "start": 200.3,
+      "end": 201.39,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 51,
+      "start": 201.31,
+      "end": 205.35,
+      "speaker": "DOCTOR",
+      "text": "OK. And your waterworks are uh, all OK? You're passing urine OK?"
+    },
+    {
+      "id": 52,
+      "start": 205.7,
+      "end": 206.46,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 53,
+      "start": 206.35,
+      "end": 213.17,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, so just moving on. In terms of your other medical history, is there anything else I should be aware of?"
+    },
+    {
+      "id": 54,
+      "start": 214.61,
+      "end": 217.21,
+      "speaker": "PATIENT",
+      "text": "I'm currently taking ."
+    },
+    {
+      "id": 55,
+      "start": 217.4,
+      "end": 218.8,
+      "speaker": "DOCTOR",
+      "text": "Microgynon."
+    },
+    {
+      "id": 56,
+      "start": 219.23,
+      "end": 219.98,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 57,
+      "start": 220.02,
+      "end": 221.42,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you know what that is?"
+    },
+    {
+      "id": 58,
+      "start": 221.94,
+      "end": 222.97,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 59,
+      "start": 222.72,
+      "end": 225.09,
+      "speaker": "DOCTOR",
+      "text": "OK. , it's a contraceptive pill"
+    },
+    {
+      "id": 61,
+      "start": 227.21,
+      "end": 230.45,
+      "speaker": "DOCTOR",
+      "text": "Does that make sense? Is that something you're, is that, does that ring a bell now?"
+    },
+    {
+      "id": 62,
+      "start": 230.9,
+      "end": 231.69,
+      "speaker": "PATIENT",
+      "text": "Ohh yeah."
+    },
+    {
+      "id": 63,
+      "start": 231.45,
+      "end": 235.74,
+      "speaker": "DOCTOR",
+      "text": "OK. Is there, any other medications that you take?"
+    },
+    {
+      "id": 64,
+      "start": 236.03,
+      "end": 237.11,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 65,
+      "start": 236.74,
+      "end": 245.84,
+      "speaker": "DOCTOR",
+      "text": "No. So, in terms of your medical history, there's no, problems of skin problems in the past, things like eczema or, um, dermatitis?"
+    },
+    {
+      "id": 66,
+      "start": 246.92,
+      "end": 249.23,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I think it might just be the weather."
+    },
+    {
+      "id": 67,
+      "start": 251.2,
+      "end": 252.98,
+      "speaker": "DOCTOR",
+      "text": "Sorry what was that? You think it's."
+    },
+    {
+      "id": 68,
+      "start": 254.01,
+      "end": 254.71,
+      "speaker": "DOCTOR",
+      "text": "The ."
+    },
+    {
+      "id": 69,
+      "start": 254.06,
+      "end": 255.68,
+      "speaker": "PATIENT",
+      "text": "I think it might just be the weather."
+    },
+    {
+      "id": 70,
+      "start": 257.2,
+      "end": 258.14,
+      "speaker": "DOCTOR",
+      "text": "The weather?"
+    },
+    {
+      "id": 71,
+      "start": 258.77,
+      "end": 264.09,
+      "speaker": "PATIENT",
+      "text": "Yeah, ."
+    },
+    {
+      "id": 72,
+      "start": 259.26,
+      "end": 262.54,
+      "speaker": "DOCTOR",
+      "text": "Ohh, you think the , OK. You think the weather, OK."
+    },
+    {
+      "id": 73,
+      "start": 263.52,
+      "end": 269.97,
+      "speaker": "DOCTOR",
+      "text": "OK. No that's OK, no, no problems. Well um, uh, move . Do you, do you suffer from allergies? Are you someone who suffers from allergies?"
+    },
+    {
+      "id": 74,
+      "start": 270.56,
+      "end": 271.75,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 75,
+      "start": 270.97,
+      "end": 273.56,
+      "speaker": "DOCTOR",
+      "text": "Food allergies? Medication allergies?"
+    },
+    {
+      "id": 76,
+      "start": 273.67,
+      "end": 277.84,
+      "speaker": "PATIENT",
+      "text": "I think, um, I might be lactose intolerant."
+    },
+    {
+      "id": 77,
+      "start": 277.62,
+      "end": 285.65,
+      "speaker": "DOCTOR",
+      "text": "Lactose intolerant, OK, that could be helpful to know. Um, fine. And tell me of family history, is there anything in the family that you're aware of?"
+    },
+    {
+      "id": 78,
+      "start": 287.18,
+      "end": 293.99,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, so um, my dad has asthma, and, my mum has hayfever."
+    },
+    {
+      "id": 79,
+      "start": 293.98,
+      "end": 301.8,
+      "speaker": "DOCTOR",
+      "text": "Hayfever, OK. Um, fine, but any, again, any skin problems that you're aware of?"
+    },
+    {
+      "id": 80,
+      "start": 295.69,
+      "end": 296.29,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 81,
+      "start": 302.41,
+      "end": 303.37,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 82,
+      "start": 303.22,
+      "end": 307.52,
+      "speaker": "DOCTOR",
+      "text": "No, OK, all right. Socially, who do you live with at home?"
+    },
+    {
+      "id": 83,
+      "start": 308.36,
+      "end": 309.49,
+      "speaker": "PATIENT",
+      "text": "Ohh, it's just me."
+    },
+    {
+      "id": 84,
+      "start": 309.5,
+      "end": 310.57,
+      "speaker": "DOCTOR",
+      "text": "Live alone?"
+    },
+    {
+      "id": 85,
+      "start": 311.06,
+      "end": 312.06,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 86,
+      "start": 311.7,
+      "end": 315.71,
+      "speaker": "DOCTOR",
+      "text": "And, uh, do you smoke at all? Do you, can I ask? Do you smoke? Are you a smoker?"
+    },
+    {
+      "id": 87,
+      "start": 315.61,
+      "end": 317.53,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I don't smoke."
+    },
+    {
+      "id": 88,
+      "start": 317.49,
+      "end": 319.44,
+      "speaker": "DOCTOR",
+      "text": "Do you drink much in the way of alcohol?"
+    },
+    {
+      "id": 89,
+      "start": 320.07,
+      "end": 320.94,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 90,
+      "start": 321.99,
+      "end": 323.4,
+      "speaker": "DOCTOR",
+      "text": "Recreational drugs?"
+    },
+    {
+      "id": 91,
+      "start": 323.87,
+      "end": 324.58,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 92,
+      "start": 324.86,
+      "end": 327.96,
+      "speaker": "DOCTOR",
+      "text": "OK. And you said you , you work as a primary school teacher?"
+    },
+    {
+      "id": 93,
+      "start": 328.4,
+      "end": 329.81,
+      "speaker": "PATIENT",
+      "text": "Yes, that's right."
+    },
+    {
+      "id": 94,
+      "start": 329.0,
+      "end": 338.37,
+      "speaker": "DOCTOR",
+      "text": "Uh , the reason I ask is sometimes stress can be a , contributing factor. Um, you felt, you noticed yourself, find, uh, , life's been more stressful recently. Is that right?"
+    },
+    {
+      "id": 95,
+      "start": 339.84,
+      "end": 342.42,
+      "speaker": "DOCTOR",
+      "text": "Do you think that might have any correlation to your symptoms?"
+    },
+    {
+      "id": 96,
+      "start": 344.11,
+      "end": 346.8,
+      "speaker": "PATIENT",
+      "text": "I don't. I certainly think so."
+    },
+    {
+      "id": 97,
+      "start": 346.52,
+      "end": 352.47,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, fine. Um."
+    },
+    {
+      "id": 98,
+      "start": 353.97,
+      "end": 360.26,
+      "speaker": "DOCTOR",
+      "text": "OK, well, normally at this stage I like to proceed to examination, but um, based on your uh, story."
+    },
+    {
+      "id": 99,
+      "start": 360.26,
+      "end": 374.81,
+      "speaker": "DOCTOR",
+      "text": "Um, it's difficult. I think that, you know, , you've, essentially the story is you've got a dry itchy rash on your, mainly your hands. you mentioned. Um and your arms which started, perhaps after swimming a few days ago."
+    },
+    {
+      "id": 100,
+      "start": 374.81,
+      "end": 382.07,
+      "speaker": "DOCTOR",
+      "text": "Um, but no other symptoms, you're feeling otherwise, well, no fevers, no bleeding or discharge from skin."
+    },
+    {
+      "id": 101,
+      "start": 375.39,
+      "end": 376.0,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 102,
+      "start": 382.07,
+      "end": 388.36,
+      "speaker": "DOCTOR",
+      "text": "I wonder whether you may have something called dermatitis. Um, have you heard of that condition before?"
+    },
+    {
+      "id": 103,
+      "start": 388.86,
+      "end": 389.98,
+      "speaker": "PATIENT",
+      "text": "I have, yeah."
+    },
+    {
+      "id": 104,
+      "start": 390.37,
+      "end": 400.25,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, great. Well I can give you a patient information leaflet about that, which gives a bit more information about the disease, but, um, it, it's something that we can readily treated. Um."
+    },
+    {
+      "id": 105,
+      "start": 400.25,
+      "end": 405.21,
+      "speaker": "DOCTOR",
+      "text": "With couple options, we have steroid creams I can give you, um, which will help with the inflammation."
+    },
+    {
+      "id": 106,
+      "start": 405.21,
+      "end": 411.42,
+      "speaker": "DOCTOR",
+      "text": "And, uh, something called emollients, which can help with the dry, dry skin."
+    },
+    {
+      "id": 107,
+      "start": 411.42,
+      "end": 420.76,
+      "speaker": "DOCTOR",
+      "text": "And that's something you just need to kind of paste on, uh, on to your skin, uh, , throughout the day for the next few days. Um, and hopefully that helps your symptoms."
+    },
+    {
+      "id": 108,
+      "start": 422.78,
+      "end": 424.71,
+      "speaker": "PATIENT",
+      "text": "OK, it's cool. Thank you very much."
+    },
+    {
+      "id": 109,
+      "start": 424.5,
+      "end": 432.23,
+      "speaker": "DOCTOR",
+      "text": "Um, , you can also try antihistamines, so you can get things over the counter, Piriton, Loratadine, they can sometimes help with the itchiness."
+    },
+    {
+      "id": 110,
+      "start": 436.14,
+      "end": 437.5,
+      "speaker": "PATIENT",
+      "text": "Yeah, that sounds good."
+    },
+    {
+      "id": 111,
+      "start": 437.01,
+      "end": 442.5,
+      "speaker": "DOCTOR",
+      "text": "OK. And um, that's probably what I recommend. Paracetamol on this occasion, wouldn't be helpful."
+    },
+    {
+      "id": 112,
+      "start": 442.5,
+      "end": 449.44,
+      "speaker": "DOCTOR",
+      "text": "Um, uh, uh, painkillers wouldn't be helpful , on this occasion, but let's, let's, let's see how the next few days go."
+    },
+    {
+      "id": 113,
+      "start": 449.44,
+      "end": 453.91,
+      "speaker": "DOCTOR",
+      "text": "And if it's still not getting better, come back and see me next week, and we can have another look again, at your symptoms."
+    },
+    {
+      "id": 114,
+      "start": 454.74,
+      "end": 456.59,
+      "speaker": "PATIENT",
+      "text": "OK, perfect. Thank you very much."
+    },
+    {
+      "id": 115,
+      "start": 456.51,
+      "end": 458.0,
+      "speaker": "DOCTOR",
+      "text": "Right. Do you have any questions for me?"
+    },
+    {
+      "id": 116,
+      "start": 458.57,
+      "end": 459.57,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 117,
+      "start": 459.17,
+      "end": 461.97,
+      "speaker": "DOCTOR",
+      "text": "OK. Well, I wish you all the best. Have a good day."
+    },
+    {
+      "id": 118,
+      "start": 462.37,
+      "end": 464.24,
+      "speaker": "PATIENT",
+      "text": "Well, thank you very much. Bye."
+    },
+    {
+      "id": 119,
+      "start": 463.38,
+      "end": 464.73,
+      "speaker": "DOCTOR",
+      "text": "Thank you. Bye bye."
+    }
+  ]
+}

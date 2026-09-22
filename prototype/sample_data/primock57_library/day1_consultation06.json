@@ -1,0 +1,1107 @@
+{
+  "visit_id": "PRIMOCK57-day1_consultation06",
+  "presenting_complaint": "hard to breathe",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "2/5 hx of SOB, worsening over the past 2/7. Feeling more SOB on minimal exertion, nil SOB at rest. No chest pain/palpitations. Assoc cough - mainly dry. No fevers. Has also noticed ankle odema bilaterally over past few days extending to shins. \nDiagnosed with heart failure previously and currently on diuretics. \nUrinary - Polyuria, nil else\n\nPMH: Heart failure, ?unstable angina \nDH: furosemide, aspirin, bisoprolol, simvastatin\nNKDA\nFH - father died of MI early 60s , mother - osteoporosis \nSH: lives alone, 2 cats , works part time as a lorry driver. Ex-smoker - a pack/d for 25 years. No etOH\n\nImp: exacerbation of heart failure\n\nPlan:\n1.\tIncrease furosemide BD\n2.\tBlood tests, inc U+Es, FBC, BNP\n3.\tArrange echo \n4.\tReview in 7d, or earlier if worsening sx (chest pain, SOB, dizziness, etc)\n",
+  "segments": [
+    {
+      "id": 2,
+      "start": 1.99,
+      "end": 2.81,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 3,
+      "start": 5.25,
+      "end": 6.12,
+      "speaker": "PATIENT",
+      "text": "Hello there."
+    },
+    {
+      "id": 4,
+      "start": 6.53,
+      "end": 8.49,
+      "speaker": "DOCTOR",
+      "text": "Uh, hello. Can you hear me OK?"
+    },
+    {
+      "id": 5,
+      "start": 9.89,
+      "end": 11.33,
+      "speaker": "PATIENT",
+      "text": "Yes, I can hear you."
+    },
+    {
+      "id": 6,
+      "start": 11.2,
+      "end": 18.99,
+      "speaker": "DOCTOR",
+      "text": "OK, great. . I am, yes. Nice to see you here, Oscar. Um, how can I help you this afternoon?"
+    },
+    {
+      "id": 7,
+      "start": 12.2,
+      "end": 13.28,
+      "speaker": "PATIENT",
+      "text": "Are you the doctor?"
+    },
+    {
+      "id": 8,
+      "start": 20.3,
+      "end": 24.93,
+      "speaker": "PATIENT",
+      "text": "Um, I'm, contacting you because I've been, quite short of breath lately."
+    },
+    {
+      "id": 9,
+      "start": 25.12,
+      "end": 28.78,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you want to tell me a bit more about it? When did it all start?"
+    },
+    {
+      "id": 10,
+      "start": 30.38,
+      "end": 34.76,
+      "speaker": "PATIENT",
+      "text": "Uh, well it seems to have been, slowly getting worse over the last couple of weeks."
+    },
+    {
+      "id": 11,
+      "start": 34.76,
+      "end": 39.31,
+      "speaker": "PATIENT",
+      "text": "Um, now it's, become quite troublesome, in the last few days."
+    },
+    {
+      "id": 12,
+      "start": 39.31,
+      "end": 51.43,
+      "speaker": "PATIENT",
+      "text": "Uh, I kind of, normally I can walk to the shops, without a problem but, now I'm having to sort of sit down and catch my breath. And I'm really starting to get a bit breathless, just about the house."
+    },
+    {
+      "id": 14,
+      "start": 51.43,
+      "end": 55.13,
+      "speaker": "PATIENT",
+      "text": "And uh, it's got me kind of worried, don't really know what's going on."
+    },
+    {
+      "id": 15,
+      "start": 51.44,
+      "end": 52.15,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 16,
+      "start": 55.15,
+      "end": 58.14,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. Is there anything you're particularly worried about?"
+    },
+    {
+      "id": 17,
+      "start": 60.13,
+      "end": 67.17,
+      "speaker": "PATIENT",
+      "text": "Um, well, I've, I've uh, I've got um, heart failure."
+    },
+    {
+      "id": 18,
+      "start": 66.84,
+      "end": 67.71,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 19,
+      "start": 67.17,
+      "end": 72.25,
+      "speaker": "PATIENT",
+      "text": "Uh, I was told that, uh, a while ago."
+    },
+    {
+      "id": 20,
+      "start": 72.25,
+      "end": 81.74,
+      "speaker": "PATIENT",
+      "text": "Um, and I got a bit breathless when I was first diagnosed, and put on some medicine that, that um, that helped, but I'm a bit worried it's just getting worse."
+    },
+    {
+      "id": 21,
+      "start": 72.66,
+      "end": 73.27,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 22,
+      "start": 75.33,
+      "end": 75.99,
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "id": 24,
+      "start": 81.56,
+      "end": 87.42,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So you mentioned you're feeling, uh, short of breath for the last couple of weeks, but mainly the last couple of days it's got a bit worse."
+    },
+    {
+      "id": 25,
+      "start": 87.42,
+      "end": 98.76,
+      "speaker": "DOCTOR",
+      "text": "Um, uh, and you're now feeling more breathless on kind of minimal, minimal exertion you mentioned. Um, have you noticed any other symptoms at all, uh, uh, with your breath? So, for example, any pain in your chest?"
+    },
+    {
+      "id": 26,
+      "start": 100.67,
+      "end": 102.0,
+      "speaker": "PATIENT",
+      "text": "No pain in my chest."
+    },
+    {
+      "id": 27,
+      "start": 102.14,
+      "end": 105.62,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you found yourself coughing, coughing at all?"
+    },
+    {
+      "id": 28,
+      "start": 104.08,
+      "end": 104.64,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 29,
+      "start": 107.06,
+      "end": 110.54,
+      "speaker": "PATIENT",
+      "text": "Uh, I've got a bit of a dry cough, but it's not too troublesome."
+    },
+    {
+      "id": 30,
+      "start": 110.54,
+      "end": 117.39,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. And how's your general health otherwise? Are you feeling uh, weak, lethargic?"
+    },
+    {
+      "id": 31,
+      "start": 119.03,
+      "end": 125.08,
+      "speaker": "PATIENT",
+      "text": "Um, I'm feeling a little run-down, um, but otherwise, otherwise pretty normal."
+    },
+    {
+      "id": 32,
+      "start": 124.98,
+      "end": 125.77,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 33,
+      "start": 125.31,
+      "end": 127.2,
+      "speaker": "PATIENT",
+      "text": "I've noticed my ankles have got a bit bigger."
+    },
+    {
+      "id": 34,
+      "start": 127.44,
+      "end": 129.1,
+      "speaker": "DOCTOR",
+      "text": "OK. And what do you mean by that?"
+    },
+    {
+      "id": 35,
+      "start": 130.65,
+      "end": 134.81,
+      "speaker": "PATIENT",
+      "text": "Uh, it's just like, it's sort of swollen up a bit."
+    },
+    {
+      "id": 36,
+      "start": 135.21,
+      "end": 137.71,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, is that, is that both ?"
+    },
+    {
+      "id": 37,
+      "start": 137.23,
+      "end": 143.35,
+      "speaker": "PATIENT",
+      "text": "Kind of . Um, yeah, both ankles. Yeah, it's a bit embarrassing."
+    },
+    {
+      "id": 38,
+      "start": 138.73,
+      "end": 139.79,
+      "speaker": "DOCTOR",
+      "text": "Both ankles?"
+    },
+    {
+      "id": 39,
+      "start": 143.34,
+      "end": 149.34,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, I can imagine, yeah. Um, and again, over how long has this, have you noticed this for?"
+    },
+    {
+      "id": 40,
+      "start": 150.54,
+      "end": 153.42,
+      "speaker": "PATIENT",
+      "text": "Um, I kind of noticed it the last few days."
+    },
+    {
+      "id": 41,
+      "start": 153.39,
+      "end": 156.95,
+      "speaker": "DOCTOR",
+      "text": "Past few days, OK. And is this something that you've had before, in the past?"
+    },
+    {
+      "id": 42,
+      "start": 158.59,
+      "end": 165.1,
+      "speaker": "PATIENT",
+      "text": "Uh, I think my ankles did swell up a bit last time, the heart failure was a problem."
+    },
+    {
+      "id": 43,
+      "start": 164.91,
+      "end": 177.55,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. Um, fine. OK. So, um, just to really recap, uh, so you're really, in the last couple of weeks, uh, you've been feeling breathless, uh, but worse in the last couple of days. You mentioned you had a bit of a dry cough."
+    },
+    {
+      "id": 44,
+      "start": 177.55,
+      "end": 188.8,
+      "speaker": "DOCTOR",
+      "text": "Um, and some swelling in your ankles. Um, reporting no chest pain. Um, and, and have you had any, have you any, have you noticed your heartbeat racing at all? So, palpitations or skipped heartbeat?"
+    },
+    {
+      "id": 45,
+      "start": 189.59,
+      "end": 191.01,
+      "speaker": "PATIENT",
+      "text": "No, not really."
+    },
+    {
+      "id": 46,
+      "start": 190.91,
+      "end": 193.28,
+      "speaker": "DOCTOR",
+      "text": "OK. And any temperatures or fevers?"
+    },
+    {
+      "id": 47,
+      "start": 194.54,
+      "end": 195.38,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 48,
+      "start": 195.46,
+      "end": 198.79,
+      "speaker": "DOCTOR",
+      "text": "OK. And how about your appetite? Are you eating and drinking OK?"
+    },
+    {
+      "id": 49,
+      "start": 199.84,
+      "end": 201.68,
+      "speaker": "PATIENT",
+      "text": "Yeah, I, , I'm, that's fine."
+    },
+    {
+      "id": 50,
+      "start": 201.74,
+      "end": 204.95,
+      "speaker": "DOCTOR",
+      "text": "OK. And your waterworks? Are you passing urine OK?"
+    },
+    {
+      "id": 51,
+      "start": 206.38,
+      "end": 212.51,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, but yeah. I usually pee a lot, , ever since the drugs ."
+    },
+    {
+      "id": 52,
+      "start": 209.65,
+      "end": 211.91,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 53,
+      "start": 212.96,
+      "end": 222.59,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Alright. Um, fine. So, your uh, your past medical history. You mentioned heart failure. Any, any other medical history I should be aware of?"
+    },
+    {
+      "id": 54,
+      "start": 223.94,
+      "end": 227.98,
+      "speaker": "PATIENT",
+      "text": "Uh, well I was told I had like a, they called it like a small heart attack."
+    },
+    {
+      "id": 55,
+      "start": 228.41,
+      "end": 236.39,
+      "speaker": "PATIENT",
+      "text": "About, five years ago. Um, I uh, I had, I, I had like some chest pain and, they took me into hospital."
+    },
+    {
+      "id": 56,
+      "start": 236.34,
+      "end": 237.03,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 57,
+      "start": 236.9,
+      "end": 240.51,
+      "speaker": "PATIENT",
+      "text": "And um, they, uh, but then I just got better."
+    },
+    {
+      "id": 58,
+      "start": 240.92,
+      "end": 247.35,
+      "speaker": "DOCTOR",
+      "text": "OK. And when, when you say a small heart attack, did they give you a name, for what happened, a, a name of a diagnosis?"
+    },
+    {
+      "id": 59,
+      "start": 241.8,
+      "end": 242.46,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 60,
+      "start": 248.74,
+      "end": 254.98,
+      "speaker": "PATIENT",
+      "text": "Uh, I can't remember. They just called it something a , uh, something like that, a small heart attack."
+    },
+    {
+      "id": 61,
+      "start": 254.84,
+      "end": 259.25,
+      "speaker": "DOCTOR",
+      "text": "It's more hard to say. OK. Was it like angina or, um,"
+    },
+    {
+      "id": 62,
+      "start": 259.55,
+      "end": 260.08,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 63,
+      "start": 262.05,
+      "end": 265.78,
+      "speaker": "PATIENT",
+      "text": "Uh, no they, they said that it, uh, it seemed, it was like, more than angina."
+    },
+    {
+      "id": 64,
+      "start": 265.75,
+      "end": 266.52,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 65,
+      "start": 266.39,
+      "end": 275.9,
+      "speaker": "PATIENT",
+      "text": "Um, uh, but um, I didn't, but I only had to stay in hospital for a few days, and, uh."
+    },
+    {
+      "id": 66,
+      "start": 274.51,
+      "end": 275.34,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 67,
+      "start": 277.09,
+      "end": 277.79,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 68,
+      "start": 277.34,
+      "end": 279.18,
+      "speaker": "PATIENT",
+      "text": "And yeah, I've been OK since then."
+    },
+    {
+      "id": 69,
+      "start": 279.05,
+      "end": 285.29,
+      "speaker": "DOCTOR",
+      "text": "You've been OK since then. OK, alright. So, apart from the uh, the heart, the heart problems, the heart failure, any other problems I should be aware of?"
+    },
+    {
+      "id": 70,
+      "start": 286.71,
+      "end": 289.42,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I think I'm otherwise, I'm OK."
+    },
+    {
+      "id": 71,
+      "start": 289.26,
+      "end": 296.29,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, do you take any regular medications, apart from your diuretics that you're taking? And do you know which ones?"
+    },
+    {
+      "id": 72,
+      "start": 296.02,
+      "end": 298.84,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I take something called Furosemide."
+    },
+    {
+      "id": 73,
+      "start": 299.16,
+      "end": 301.01,
+      "speaker": "DOCTOR",
+      "text": ". Do you know which dose you're taking?"
+    },
+    {
+      "id": 74,
+      "start": 301.91,
+      "end": 305.64,
+      "speaker": "PATIENT",
+      "text": "I can't remember, I'm sorry doctor. I have to check."
+    },
+    {
+      "id": 75,
+      "start": 304.48,
+      "end": 305.18,
+      "speaker": "DOCTOR",
+      "text": "That's OK."
+    },
+    {
+      "id": 76,
+      "start": 306.33,
+      "end": 307.99,
+      "speaker": "DOCTOR",
+      "text": "No problems. Um,"
+    },
+    {
+      "id": 77,
+      "start": 308.77,
+      "end": 310.04,
+      "speaker": "DOCTOR",
+      "text": "Any other medications?"
+    },
+    {
+      "id": 78,
+      "start": 311.35,
+      "end": 314.41,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I take Aspirin."
+    },
+    {
+      "id": 79,
+      "start": 314.26,
+      "end": 314.89,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 80,
+      "start": 315.78,
+      "end": 317.84,
+      "speaker": "PATIENT",
+      "text": "And uh, Bisoprolol."
+    },
+    {
+      "id": 81,
+      "start": 319.18,
+      "end": 320.42,
+      "speaker": "DOCTOR",
+      "text": "The Metoprolol, was it?"
+    },
+    {
+      "id": 82,
+      "start": 321.27,
+      "end": 321.78,
+      "speaker": "DOCTOR",
+      "text": "Or?"
+    },
+    {
+      "id": 83,
+      "start": 321.66,
+      "end": 323.19,
+      "speaker": "PATIENT",
+      "text": "Uh, Bisoprolol."
+    },
+    {
+      "id": 84,
+      "start": 323.24,
+      "end": 325.61,
+      "speaker": "DOCTOR",
+      "text": "Sorry, the connection's not very good. OK. Thank you, yeah."
+    },
+    {
+      "id": 86,
+      "start": 327.62,
+      "end": 330.17,
+      "speaker": "PATIENT",
+      "text": "Um, ."
+    },
+    {
+      "id": 87,
+      "start": 330.16,
+      "end": 334.93,
+      "speaker": "DOCTOR",
+      "text": "And a thousand, OK. Alright. Any allergies at all? Any medications?"
+    },
+    {
+      "id": 88,
+      "start": 335.0,
+      "end": 337.43,
+      "speaker": "PATIENT",
+      "text": "Uh, no, no allergies."
+    },
+    {
+      "id": 89,
+      "start": 335.91,
+      "end": 336.39,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 90,
+      "start": 337.51,
+      "end": 346.04,
+      "speaker": "DOCTOR",
+      "text": "OK. And is there anything in the family that's, uh, that, that's uh, that's important for me to know? Any family history of medical problems, heart problems, lung problems?"
+    },
+    {
+      "id": 91,
+      "start": 347.38,
+      "end": 351.64,
+      "speaker": "PATIENT",
+      "text": "Uh , my, my father died of a, uh, of a heart attack."
+    },
+    {
+      "id": 92,
+      "start": 351.55,
+      "end": 356.23,
+      "speaker": "DOCTOR",
+      "text": "I'm sorry to hear that. And, um, how old was your father when he passed away?"
+    },
+    {
+      "id": 93,
+      "start": 357.22,
+      "end": 361.0,
+      "speaker": "PATIENT",
+      "text": "Uh, he was, um, early sixties."
+    },
+    {
+      "id": 94,
+      "start": 360.61,
+      "end": 364.44,
+      "speaker": "DOCTOR",
+      "text": "Early sixties, OK. Alright. Anything else I should be aware of?"
+    },
+    {
+      "id": 95,
+      "start": 365.93,
+      "end": 369.25,
+      "speaker": "PATIENT",
+      "text": "Um, my mother had osteoporosis."
+    },
+    {
+      "id": 96,
+      "start": 369.09,
+      "end": 369.76,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 97,
+      "start": 371.11,
+      "end": 372.41,
+      "speaker": "DOCTOR",
+      "text": "Is your mother still with us?"
+    },
+    {
+      "id": 98,
+      "start": 373.9,
+      "end": 375.58,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, she's still living."
+    },
+    {
+      "id": 99,
+      "start": 375.61,
+      "end": 382.28,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Um, and socially, sir, just tell me a bit more about your situation at home. Who lives at home with you?"
+    },
+    {
+      "id": 100,
+      "start": 383.2,
+      "end": 387.64,
+      "speaker": "PATIENT",
+      "text": "Uh, I live on my own. Well, I got two cats."
+    },
+    {
+      "id": 101,
+      "start": 387.65,
+      "end": 390.44,
+      "speaker": "DOCTOR",
+      "text": "You've got two cats. OK, great. Do they have names?"
+    },
+    {
+      "id": 102,
+      "start": 391.5,
+      "end": 399.88,
+      "speaker": "PATIENT",
+      "text": "They're my family. Uh, they're, they're called, um, they're called, Polly and Tim."
+    },
+    {
+      "id": 103,
+      "start": 399.68,
+      "end": 400.43,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 104,
+      "start": 401.49,
+      "end": 407.73,
+      "speaker": "DOCTOR",
+      "text": "Um, so it's just you and your cats. And um, in terms of day to day, are you working at the moment?"
+    },
+    {
+      "id": 105,
+      "start": 409.03,
+      "end": 414.72,
+      "speaker": "PATIENT",
+      "text": "Uh, I work part-time as, a, uh, lorry driver."
+    },
+    {
+      "id": 106,
+      "start": 415.43,
+      "end": 418.79,
+      "speaker": "DOCTOR",
+      "text": "OK. And how is that? Is that quite stressful, long hours?"
+    },
+    {
+      "id": 107,
+      "start": 419.51,
+      "end": 427.45,
+      "speaker": "PATIENT",
+      "text": "Uh, it's OK. Um, I uh, yeah , when I'm working it's pretty exhausting."
+    },
+    {
+      "id": 108,
+      "start": 427.35,
+      "end": 428.12,
+      "speaker": "DOCTOR",
+      "text": "Mm."
+    },
+    {
+      "id": 109,
+      "start": 427.45,
+      "end": 433.97,
+      "speaker": "PATIENT",
+      "text": "Um, I guess I'm a bit worried, that if I get sick I won't, if I get more sick then, I won't be able to work properly."
+    },
+    {
+      "id": 110,
+      "start": 434.13,
+      "end": 442.45,
+      "speaker": "DOCTOR",
+      "text": "Yeah, that's certainly a consideration, isn't it? So let's, let's try and get you better soon, so it doesn't have any um, impact on your, on your job."
+    },
+    {
+      "id": 111,
+      "start": 440.56,
+      "end": 441.1,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 112,
+      "start": 442.45,
+      "end": 448.84,
+      "speaker": "DOCTOR",
+      "text": "Uh, and do you find yourself doing a lot of anti-social hours? Do you , do you do a lot of night driving, weekend driving?"
+    },
+    {
+      "id": 114,
+      "start": 449.95,
+      "end": 454.93,
+      "speaker": "PATIENT",
+      "text": "Ohh no, I , I , I, I only take shifts during the day, I don't like working at night."
+    },
+    {
+      "id": 115,
+      "start": 453.28,
+      "end": 453.89,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 116,
+      "start": 454.82,
+      "end": 461.56,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. And what about smoking and alcohol? So, 'cause that can sometimes be very important when it comes to heart problems. Do you, do you smoke at all?"
+    },
+    {
+      "id": 117,
+      "start": 463.17,
+      "end": 464.19,
+      "speaker": "PATIENT",
+      "text": "Not any more."
+    },
+    {
+      "id": 118,
+      "start": 464.41,
+      "end": 465.94,
+      "speaker": "DOCTOR",
+      "text": "So, you used to smoke?"
+    },
+    {
+      "id": 119,
+      "start": 467.36,
+      "end": 468.03,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 120,
+      "start": 467.94,
+      "end": 470.11,
+      "speaker": "DOCTOR",
+      "text": "And how many did you smoke a day, on average?"
+    },
+    {
+      "id": 121,
+      "start": 472.58,
+      "end": 476.9,
+      "speaker": "PATIENT",
+      "text": "Ooh it was about, about a pack a day, back in the day."
+    },
+    {
+      "id": 122,
+      "start": 476.89,
+      "end": 480.13,
+      "speaker": "DOCTOR",
+      "text": "Um, and how many, how many years was that for?"
+    },
+    {
+      "id": 123,
+      "start": 481.59,
+      "end": 485.13,
+      "speaker": "PATIENT",
+      "text": "Ohh that was, oof, good twenty five years."
+    },
+    {
+      "id": 124,
+      "start": 485.15,
+      "end": 492.23,
+      "speaker": "DOCTOR",
+      "text": "OK. And what about the stopping? That must have been difficult for you. stopping. Um, and what, what about alcohol?"
+    },
+    {
+      "id": 125,
+      "start": 493.67,
+      "end": 495.0,
+      "speaker": "PATIENT",
+      "text": "I don't drink alcohol."
+    },
+    {
+      "id": 126,
+      "start": 494.92,
+      "end": 497.54,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you do much in the way of exercise, sir?"
+    },
+    {
+      "id": 127,
+      "start": 499.04,
+      "end": 502.97,
+      "speaker": "PATIENT",
+      "text": "Uh, I try and walk to the shops, at least once a day."
+    },
+    {
+      "id": 128,
+      "start": 502.94,
+      "end": 503.72,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 129,
+      "start": 503.52,
+      "end": 511.51,
+      "speaker": "PATIENT",
+      "text": "Um, but uh, that's about it, I've. Yeah, I don't, I don't go running like I used to when i was young."
+    },
+    {
+      "id": 130,
+      "start": 504.56,
+      "end": 505.3,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 131,
+      "start": 511.4,
+      "end": 517.95,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And certainly now your symptoms, you, you're, you said you're feeling more breathless even walking to the uh, to the shop, she said."
+    },
+    {
+      "id": 132,
+      "start": 517.95,
+      "end": 528.84,
+      "speaker": "DOCTOR",
+      "text": "Um, right. Ohh um, based on your, based on you history, and having listened to your story, I, I wonder whether you've had a flare-up of your heart failure, sir. Um,"
+    },
+    {
+      "id": 133,
+      "start": 528.84,
+      "end": 532.98,
+      "speaker": "DOCTOR",
+      "text": "Which can sometimes happen. Um, um, and uh,"
+    },
+    {
+      "id": 134,
+      "start": 530.09,
+      "end": 530.77,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 135,
+      "start": 532.26,
+      "end": 532.66,
+      "speaker": "PATIENT",
+      "text": "That."
+    },
+    {
+      "id": 136,
+      "start": 532.98,
+      "end": 541.2,
+      "speaker": "DOCTOR",
+      "text": "It's . So, it seems like your heart's not pumping as well as it should be. Um, and obviously having diagnosed with heart failure, there's obviously"
+    },
+    {
+      "id": 137,
+      "start": 533.56,
+      "end": 534.38,
+      "speaker": "PATIENT",
+      "text": "What's going on."
+    },
+    {
+      "id": 138,
+      "start": 541.2,
+      "end": 547.64,
+      "speaker": "DOCTOR",
+      "text": "Um, that's the first thing that comes to my mind. Um, now there's a couple of options move forward. Um,"
+    },
+    {
+      "id": 139,
+      "start": 545.1,
+      "end": 545.84,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 140,
+      "start": 547.64,
+      "end": 554.71,
+      "speaker": "DOCTOR",
+      "text": "Given that you're otherwise well at the moment, and having examined you, your chest, and your saturations and blood pressure are all OK,"
+    },
+    {
+      "id": 141,
+      "start": 554.71,
+      "end": 561.88,
+      "speaker": "DOCTOR",
+      "text": "I'm quite happy to increase your dose of Furosemide. Maybe, rather than one tablet a day, we can do two tablets a day, for the first few days."
+    },
+    {
+      "id": 142,
+      "start": 562.25,
+      "end": 565.13,
+      "speaker": "DOCTOR",
+      "text": "Um, and see, and see how you're getting on."
+    },
+    {
+      "id": 143,
+      "start": 566.3,
+      "end": 568.18,
+      "speaker": "PATIENT",
+      "text": "OK. If you think that'll be better."
+    },
+    {
+      "id": 144,
+      "start": 566.92,
+      "end": 567.56,
+      "speaker": "DOCTOR",
+      "text": "Uh,"
+    },
+    {
+      "id": 145,
+      "start": 568.37,
+      "end": 580.06,
+      "speaker": "DOCTOR",
+      "text": "I think, I think, it's, it's, it's definitely worth treating your symptoms. But what we should also think about is maybe doing a couple of other tests, like a blood test, and maybe an echocardiogram of your heart, to see how well your heart's pumping."
+    },
+    {
+      "id": 146,
+      "start": 581.28,
+      "end": 582.09,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 147,
+      "start": 582.47,
+      "end": 591.37,
+      "speaker": "DOCTOR",
+      "text": "Is that something you've had before? Yeah, so um, an , it's a, it's a general scan of your heart. You might have had this done before, when you were diagnosed. And it's just to get a good"
+    },
+    {
+      "id": 148,
+      "start": 582.99,
+      "end": 583.77,
+      "speaker": "PATIENT",
+      "text": "What does that?"
+    },
+    {
+      "id": 149,
+      "start": 590.95,
+      "end": 592.08,
+      "speaker": "PATIENT",
+      "text": "Ohh yes, I remember now."
+    },
+    {
+      "id": 150,
+      "start": 593.04,
+      "end": 593.77,
+      "speaker": "DOCTOR",
+      "text": "Sorry?"
+    },
+    {
+      "id": 151,
+      "start": 594.77,
+      "end": 597.36,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I remember now. ."
+    },
+    {
+      "id": 152,
+      "start": 595.81,
+      "end": 604.63,
+      "speaker": "DOCTOR",
+      "text": "You remember that. OK, fine. That's something I can organize for you today. And, and that might take a week or two weeks for that to be organized. But, I think certainly in the meantime, let's, um,"
+    },
+    {
+      "id": 153,
+      "start": 604.63,
+      "end": 612.64,
+      "speaker": "DOCTOR",
+      "text": "Let's, let's get a blood test done. We can check your um, you know your full blood count, look for signs of anemia. We can have a check of your kidney function."
+    },
+    {
+      "id": 154,
+      "start": 612.64,
+      "end": 620.46,
+      "speaker": "DOCTOR",
+      "text": "Um, and we can definitely increase your um, your Furosemide, uh, to you know, one tablet twice a day."
+    },
+    {
+      "id": 155,
+      "start": 620.46,
+      "end": 625.74,
+      "speaker": "DOCTOR",
+      "text": "But I really like, would like you to come back and see me in about a week's time, see how you're getting on. That sound reasonable?"
+    },
+    {
+      "id": 156,
+      "start": 626.68,
+      "end": 628.03,
+      "speaker": "PATIENT",
+      "text": "I think that sounds like a good plan."
+    },
+    {
+      "id": 157,
+      "start": 628.59,
+      "end": 642.04,
+      "speaker": "DOCTOR",
+      "text": "And of course, in the meantime if you are getting more unwell, feel like you're getting more breathless, or you're having any other symptoms like chest pain, or palpitations or dizziness, then, uh, you know I want you to give me a call sooner than that, and we can have a chat on the phone as well."
+    },
+    {
+      "id": 158,
+      "start": 643.03,
+      "end": 645.09,
+      "speaker": "PATIENT",
+      "text": "OK. I'll see how I get on."
+    },
+    {
+      "id": 159,
+      "start": 645.35,
+      "end": 647.0,
+      "speaker": "DOCTOR",
+      "text": "OK? Do you have any questions for me?"
+    },
+    {
+      "id": 160,
+      "start": 648.9,
+      "end": 652.07,
+      "speaker": "PATIENT",
+      "text": "Uh, I think that's all pretty clear. Thank you very much Doctor."
+    },
+    {
+      "id": 161,
+      "start": 651.86,
+      "end": 656.99,
+      "speaker": "DOCTOR",
+      "text": "Great, and then well I wish you all the best! Have a good day. OK. Thank you."
+    },
+    {
+      "id": 162,
+      "start": 654.26,
+      "end": 656.09,
+      "speaker": "PATIENT",
+      "text": "OK. See you soon."
+    }
+  ]
+}

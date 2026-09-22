@@ -1,0 +1,1023 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation03",
+  "presenting_complaint": "I don't have much appetite or energy lately",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History : having lack of energy for the past 3 months \nYou are also having loss of appetite \nYou are lacking motivation \nYou are complaining of breathlessness and some times associated with palpitations \nThere is no chest pain \nYou are not depressed or stressed \nYour bowels are normal \nYou feel nauseous most of the time \nThere is no vomiting \nYou are also experiencing some weight loss in the past 6 months about a stone \nThere is no history of acid reflux \nPast medical history: you suffer from underactive thyroid \nMedications: you have not been using the thyroxine for a while since you changed practice . You do not remember the last time you had your last set of bloods\nPlan: you have been advised to contact support to help you to organize your blood test. This will look at aneamia, thyoids, liver, kidney and vitamin levels \nYou will need to book in for another appointment after you receive a text message from Babylon. \nSafety netting: If you develop chest pain with the palpitations, change in bowel habits you will need to contact us urgently\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.09,
+      "end": 3.09,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 2,
+      "start": 4.62,
+      "end": 6.25,
+      "speaker": "DOCTOR",
+      "text": "Hello, can you hear me?"
+    },
+    {
+      "id": 3,
+      "start": 6.16,
+      "end": 8.12,
+      "speaker": "PATIENT",
+      "text": "Hi, I can hear you. Can you hear me?"
+    },
+    {
+      "id": 4,
+      "start": 7.75,
+      "end": 12.3,
+      "speaker": "DOCTOR",
+      "text": "Yes, I can. Hi, I'm Dr. Jacob and welcome to Babylon. How are you doing?"
+    },
+    {
+      "id": 5,
+      "start": 12.15,
+      "end": 16.06,
+      "speaker": "PATIENT",
+      "text": "Hello, I'm Peter. I'm, I'm doing OK, I guess."
+    },
+    {
+      "id": 6,
+      "start": 15.75,
+      "end": 21.93,
+      "speaker": "DOCTOR",
+      "text": "OK Peter, so just before we , is it alright if you could confirm your full name for me please?"
+    },
+    {
+      "id": 8,
+      "start": 21.92,
+      "end": 23.78,
+      "speaker": "PATIENT",
+      "text": "That's Peter Peterson."
+    },
+    {
+      "id": 9,
+      "start": 23.98,
+      "end": 26.33,
+      "speaker": "DOCTOR",
+      "text": "OK, and your date of birth?"
+    },
+    {
+      "id": 10,
+      "start": 26.64,
+      "end": 32.83,
+      "speaker": "PATIENT",
+      "text": "Um, I'm, I'm thirty five years old. That's gonna be difficult now."
+    },
+    {
+      "id": 11,
+      "start": 31.62,
+      "end": 37.28,
+      "speaker": "DOCTOR",
+      "text": ". And uh, and um, what's your email address?"
+    },
+    {
+      "id": 12,
+      "start": 37.45,
+      "end": 42.42,
+      "speaker": "PATIENT",
+      "text": "My email address is Peter dot Peterson at dot co dot UK"
+    },
+    {
+      "id": 13,
+      "start": 42.12,
+      "end": 48.52,
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "id": 14,
+      "start": 48.22,
+      "end": 50.39,
+      "speaker": "PATIENT",
+      "text": "I am. That's right, thank you very much."
+    },
+    {
+      "id": 15,
+      "start": 50.38,
+      "end": 59.33,
+      "speaker": "DOCTOR",
+      "text": "Alright. So, you've mentioned that you're not having much of an appetite and energy lately. I'm sorry to hear that. Could you tell me a bit more about it please?"
+    },
+    {
+      "id": 16,
+      "start": 59.33,
+      "end": 61.05,
+      "speaker": "PATIENT",
+      "text": "Ohh, that's right ."
+    },
+    {
+      "id": 17,
+      "start": 61.7,
+      "end": 68.43,
+      "speaker": "PATIENT",
+      "text": "Started long, long ago now. Uh, that have been feeling down and, and didn't really have yeah, energy."
+    },
+    {
+      "id": 18,
+      "start": 68.43,
+      "end": 75.19,
+      "speaker": "PATIENT",
+      "text": "Um, my, my, my wife was starting to complain as well, uh in, in nightly activities."
+    },
+    {
+      "id": 20,
+      "start": 75.19,
+      "end": 85.29,
+      "speaker": "PATIENT",
+      "text": "And um, I just felt like I, I needed to call you guys and needed to get some, some more information about what could be going on."
+    },
+    {
+      "id": 21,
+      "start": 85.29,
+      "end": 94.17,
+      "speaker": "PATIENT",
+      "text": "Um, it's just that, yeah, nothing is like, feeling right and I feel out of place. And, and, it's, it's, yeah, just down ."
+    },
+    {
+      "id": 22,
+      "start": 93.9,
+      "end": 100.36,
+      "speaker": "DOCTOR",
+      "text": "So, so you, are you telling me that your, your mood's low? Is that what you're trying to tell me?"
+    },
+    {
+      "id": 23,
+      "start": 100.34,
+      "end": 101.26,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 24,
+      "start": 101.9,
+      "end": 110.51,
+      "speaker": "PATIENT",
+      "text": "Yes, and like I'm feeling short of breath, breath it's like always yeah, out of energy I would say, yes, definitely ."
+    },
+    {
+      "id": 25,
+      "start": 108.2,
+      "end": 113.35,
+      "speaker": "DOCTOR",
+      "text": "your mood, would you say you're depressed?"
+    },
+    {
+      "id": 26,
+      "start": 113.47,
+      "end": 114.47,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 27,
+      "start": 116.1,
+      "end": 120.03,
+      "speaker": "PATIENT",
+      "text": "Are you, you never want to say that do you?"
+    },
+    {
+      "id": 28,
+      "start": 118.84,
+      "end": 123.2,
+      "speaker": "DOCTOR",
+      "text": "it's a tough one isn't it? Because we don't want to actually say"
+    },
+    {
+      "id": 29,
+      "start": 123.09,
+      "end": 131.65,
+      "speaker": "PATIENT",
+      "text": "I mean, I mean, work is OK. Um, I have trouble at work sometimes, having headaches, feeling nauseous."
+    },
+    {
+      "id": 30,
+      "start": 131.65,
+      "end": 136.78,
+      "speaker": "PATIENT",
+      "text": "Um, uh I can do my work that's. that's OK ."
+    },
+    {
+      "id": 31,
+      "start": 135.72,
+      "end": 140.29,
+      "speaker": "DOCTOR",
+      "text": "Uh do you like your work? Do you like your work?"
+    },
+    {
+      "id": 32,
+      "start": 137.87,
+      "end": 138.55,
+      "speaker": "PATIENT",
+      "text": "Again?"
+    },
+    {
+      "id": 33,
+      "start": 140.41,
+      "end": 145.98,
+      "speaker": "PATIENT",
+      "text": "Um, who likes to be a lawyer? Sorry, that was mean. Um"
+    },
+    {
+      "id": 34,
+      "start": 146.61,
+      "end": 148.49,
+      "speaker": "PATIENT",
+      "text": "Yes, of course I like, I like."
+    },
+    {
+      "id": 35,
+      "start": 148.36,
+      "end": 156.19,
+      "speaker": "DOCTOR",
+      "text": "You like your work. OK. And um you, and how are things at home? Alright? Are you having any kind of stress at home?"
+    },
+    {
+      "id": 36,
+      "start": 156.09,
+      "end": 168.11,
+      "speaker": "PATIENT",
+      "text": "Um, it is OK. Uh, sometimes, because I'm having a loss of appetite, I'm, uh, yeah I'm not eating very much, and ."
+    },
+    {
+      "id": 37,
+      "start": 168.11,
+      "end": 171.61,
+      "speaker": "PATIENT",
+      "text": "Um, other than that, it's, it's OK, yeah."
+    },
+    {
+      "id": 38,
+      "start": 171.19,
+      "end": 173.98,
+      "speaker": "DOCTOR",
+      "text": "And have you lost any weight?"
+    },
+    {
+      "id": 39,
+      "start": 174.9,
+      "end": 179.85,
+      "speaker": "PATIENT",
+      "text": "I have, a little bit, yes. Uh, but, uh, but that's, that's"
+    },
+    {
+      "id": 40,
+      "start": 180.85,
+      "end": 182.52,
+      "speaker": "PATIENT",
+      "text": "Over, over long period now."
+    },
+    {
+      "id": 41,
+      "start": 182.42,
+      "end": 190.35,
+      "speaker": "DOCTOR",
+      "text": "OK, right. So you mentioned that you've lost your appetite for a while now. So how long are we talking about?"
+    },
+    {
+      "id": 42,
+      "start": 192.41,
+      "end": 194.44,
+      "speaker": "PATIENT",
+      "text": "It must have started when I"
+    },
+    {
+      "id": 43,
+      "start": 195.06,
+      "end": 199.81,
+      "speaker": "PATIENT",
+      "text": "When I changed over to the new law firm. Uh, I would say months ago."
+    },
+    {
+      "id": 44,
+      "start": 200.42,
+      "end": 205.97,
+      "speaker": "DOCTOR",
+      "text": "We talking about two months, three months, or six months ?"
+    },
+    {
+      "id": 45,
+      "start": 204.9,
+      "end": 206.79,
+      "speaker": "PATIENT",
+      "text": "Uh, uh."
+    },
+    {
+      "id": 46,
+      "start": 207.41,
+      "end": 209.66,
+      "speaker": "PATIENT",
+      "text": "Three months ago, three and a half months ago, that was."
+    },
+    {
+      "id": 47,
+      "start": 208.83,
+      "end": 214.87,
+      "speaker": "DOCTOR",
+      "text": "and a half months ago. But you said your weight loss is much longer than that?"
+    },
+    {
+      "id": 48,
+      "start": 214.54,
+      "end": 217.22,
+      "speaker": "PATIENT",
+      "text": "Yeah it stopped doing that, uh, yeah."
+    },
+    {
+      "id": 49,
+      "start": 217.1,
+      "end": 220.82,
+      "speaker": "DOCTOR",
+      "text": "Sorry, could you , I couldn't hear you. What did you say, your weight loss, how long?"
+    },
+    {
+      "id": 50,
+      "start": 220.55,
+      "end": 226.62,
+      "speaker": "PATIENT",
+      "text": "It started a little bit earlier than that. I, I, I'm not sure, though, how it's gonna"
+    },
+    {
+      "id": 51,
+      "start": 225.64,
+      "end": 228.54,
+      "speaker": "DOCTOR",
+      "text": "at least six months, would you say?"
+    },
+    {
+      "id": 52,
+      "start": 228.55,
+      "end": 229.54,
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "id": 53,
+      "start": 231.05,
+      "end": 232.39,
+      "speaker": "PATIENT",
+      "text": "Something like that, yeah."
+    },
+    {
+      "id": 54,
+      "start": 232.04,
+      "end": 238.62,
+      "speaker": "DOCTOR",
+      "text": "six months. And roughly how much have you lost? Just approximately."
+    },
+    {
+      "id": 55,
+      "start": 238.64,
+      "end": 243.51,
+      "speaker": "PATIENT",
+      "text": "Ohh gosh. I would say, less than a storm, something like that."
+    },
+    {
+      "id": 56,
+      "start": 243.29,
+      "end": 249.82,
+      "speaker": "DOCTOR",
+      "text": "So about a stone, yeah? Six months, OK. OK. , OK."
+    },
+    {
+      "id": 57,
+      "start": 250.75,
+      "end": 261.24,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So, just a few more questions. It might seem a bit awkward, but it's quite relevant. OK? So, how are your bowels? Are they OK?"
+    },
+    {
+      "id": 60,
+      "start": 261.82,
+      "end": 274.59,
+      "speaker": "PATIENT",
+      "text": "Um, I feel nauseous every now and again. Uh, it, it's, it's coming up, uh, yeah, it's just every now and again not feeling very good. Uh, trying to eat something, but don't really want to."
+    },
+    {
+      "id": 62,
+      "start": 274.26,
+      "end": 278.14,
+      "speaker": "DOCTOR",
+      "text": "Yeah, um, your bowels. How's your toilet?"
+    },
+    {
+      "id": 63,
+      "start": 278.84,
+      "end": 279.89,
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "id": 64,
+      "start": 280.57,
+      "end": 288.63,
+      "speaker": "PATIENT",
+      "text": "That's OK, I would say. Uh, I don't really have problems when going to the toilet, it's just painless."
+    },
+    {
+      "id": 65,
+      "start": 282.46,
+      "end": 283.46,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 66,
+      "start": 288.42,
+      "end": 290.43,
+      "speaker": "DOCTOR",
+      "text": "So, you're not going to the toilet?"
+    },
+    {
+      "id": 68,
+      "start": 292.31,
+      "end": 293.44,
+      "speaker": "PATIENT",
+      "text": "Yes. Yes."
+    },
+    {
+      "id": 69,
+      "start": 292.75,
+      "end": 298.72,
+      "speaker": "DOCTOR",
+      "text": "you are going. Like, to be very more specific, you don't have any diarrhoea?"
+    },
+    {
+      "id": 70,
+      "start": 298.84,
+      "end": 303.26,
+      "speaker": "PATIENT",
+      "text": "Uh, no. No diarrhoea. No,no ."
+    },
+    {
+      "id": 71,
+      "start": 301.18,
+      "end": 308.19,
+      "speaker": "DOCTOR",
+      "text": "OK, so there's blood in the poo no mucus nothing of that sort?"
+    },
+    {
+      "id": 72,
+      "start": 303.6,
+      "end": 304.18,
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "id": 73,
+      "start": 308.11,
+      "end": 310.22,
+      "speaker": "PATIENT",
+      "text": "Uh, no, no, nothing."
+    },
+    {
+      "id": 74,
+      "start": 309.34,
+      "end": 313.66,
+      "speaker": "DOCTOR",
+      "text": "Just now, you mentioned nausea. Have you been ever sick with it?"
+    },
+    {
+      "id": 75,
+      "start": 315.67,
+      "end": 326.5,
+      "speaker": "PATIENT",
+      "text": "No, actually not. Uh, . Yeah I'm feeling not well, uh, in the, in the, in the bowel region, yeah."
+    },
+    {
+      "id": 77,
+      "start": 326.78,
+      "end": 334.01,
+      "speaker": "DOCTOR",
+      "text": "OK, well just the nausea, OK. Is there any particular foods that make you nauseous?"
+    },
+    {
+      "id": 78,
+      "start": 327.14,
+      "end": 327.88,
+      "speaker": "PATIENT",
+      "text": "Nauseous."
+    },
+    {
+      "id": 79,
+      "start": 335.29,
+      "end": 336.4,
+      "speaker": "PATIENT",
+      "text": "No, nothing."
+    },
+    {
+      "id": 80,
+      "start": 336.68,
+      "end": 341.81,
+      "speaker": "DOCTOR",
+      "text": "OK. So you can't think of any real.... Do you suffer from acid reflux?"
+    },
+    {
+      "id": 81,
+      "start": 342.2,
+      "end": 343.91,
+      "speaker": "PATIENT",
+      "text": "I do not, no."
+    },
+    {
+      "id": 82,
+      "start": 343.74,
+      "end": 353.74,
+      "speaker": "DOCTOR",
+      "text": "OK, OK. You also mentioned that you're feeling short of breath so yeah is there any cough?"
+    },
+    {
+      "id": 84,
+      "start": 354.55,
+      "end": 359.36,
+      "speaker": "PATIENT",
+      "text": "Um, no, not really just, just"
+    },
+    {
+      "id": 85,
+      "start": 359.51,
+      "end": 360.64,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 86,
+      "start": 360.42,
+      "end": 370.03,
+      "speaker": "PATIENT",
+      "text": "It's like when, when when I go into the lift, uh, it, it happens to be that, uh, I like, you know, my heart starts beating and I can't really breath, uh"
+    },
+    {
+      "id": 87,
+      "start": 369.11,
+      "end": 372.31,
+      "speaker": "DOCTOR",
+      "text": "Yeah. Is it like in closed spaces?"
+    },
+    {
+      "id": 89,
+      "start": 376.08,
+      "end": 382.24,
+      "speaker": "PATIENT",
+      "text": "No, it happens every time. It happens very significantly in, in the lift or when I'm, when I'm"
+    },
+    {
+      "id": 90,
+      "start": 381.98,
+      "end": 391.25,
+      "speaker": "DOCTOR",
+      "text": "So, how far can you walk and when you start feeling short of breath? So how far can you walk with no shortness of breath?"
+    },
+    {
+      "id": 91,
+      "start": 390.64,
+      "end": 391.47,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 92,
+      "start": 392.96,
+      "end": 395.26,
+      "speaker": "PATIENT",
+      "text": "Walk or run."
+    },
+    {
+      "id": 93,
+      "start": 395.15,
+      "end": 403.15,
+      "speaker": "DOCTOR",
+      "text": "Walk, you start with walk. Do you feel short of breathlet's start this way, do you feel short of uh breath when you walk at all?"
+    },
+    {
+      "id": 94,
+      "start": 403.26,
+      "end": 405.03,
+      "speaker": "PATIENT",
+      "text": "No, actually not."
+    },
+    {
+      "id": 95,
+      "start": 404.17,
+      "end": 408.6,
+      "speaker": "DOCTOR",
+      "text": "Right. You so you can walk about a mile and you don't feel short of breath at all."
+    },
+    {
+      "id": 96,
+      "start": 409.41,
+      "end": 410.58,
+      "speaker": "PATIENT",
+      "text": "That's right, yes."
+    },
+    {
+      "id": 97,
+      "start": 409.84,
+      "end": 417.72,
+      "speaker": "DOCTOR",
+      "text": "OK, so just explain a bit more just make myself clear about the lift thing. So you said you're short of breath when you're in the lift?"
+    },
+    {
+      "id": 98,
+      "start": 417.53,
+      "end": 425.2,
+      "speaker": "PATIENT",
+      "text": "Yeah, my heart starts beating. I, I feel like I can't breathe and, and, uh, it's, it's very difficult too."
+    },
+    {
+      "id": 99,
+      "start": 426.2,
+      "end": 436.08,
+      "speaker": "PATIENT",
+      "text": "Uh yeah, two twenty nine. Uh, it's going, yeah just, just that you, you know, when, when you just feel unwell, and yeah, your heart starts beating."
+    },
+    {
+      "id": 100,
+      "start": 434.42,
+      "end": 440.53,
+      "speaker": "DOCTOR",
+      "text": "described them like palpitations to me, yeah? So that's what you're, you're feeling your own heartbeat."
+    },
+    {
+      "id": 101,
+      "start": 440.5,
+      "end": 442.8,
+      "speaker": "PATIENT",
+      "text": "Yep"
+    },
+    {
+      "id": 102,
+      "start": 441.05,
+      "end": 445.01,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. You get any chest pains with it?"
+    },
+    {
+      "id": 103,
+      "start": 445.91,
+      "end": 450.24,
+      "speaker": "PATIENT",
+      "text": "Not really, no. It's just that"
+    },
+    {
+      "id": 104,
+      "start": 447.28,
+      "end": 448.28,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 105,
+      "start": 450.32,
+      "end": 452.42,
+      "speaker": "DOCTOR",
+      "text": "OK, no chest pains."
+    },
+    {
+      "id": 106,
+      "start": 451.63,
+      "end": 452.38,
+      "speaker": "PATIENT",
+      "text": "I'm up."
+    },
+    {
+      "id": 107,
+      "start": 453.05,
+      "end": 454.76,
+      "speaker": "PATIENT",
+      "text": "No chest pain."
+    },
+    {
+      "id": 108,
+      "start": 454.68,
+      "end": 468.58,
+      "speaker": "DOCTOR",
+      "text": "OK. Alright. Fine. So, what we need to do, um, just before that, um, just a few more things. Uh, any any past medical history you'd like to share with me today?"
+    },
+    {
+      "id": 109,
+      "start": 468.5,
+      "end": 473.87,
+      "speaker": "PATIENT",
+      "text": "Uh, yes. I had too little activity of my thyroid, uh."
+    },
+    {
+      "id": 110,
+      "start": 472.99,
+      "end": 476.09,
+      "speaker": "DOCTOR",
+      "text": "Sorry you had thyroid problems."
+    },
+    {
+      "id": 111,
+      "start": 475.93,
+      "end": 478.5,
+      "speaker": "PATIENT",
+      "text": "Thyroid. Too little activity, yes."
+    },
+    {
+      "id": 112,
+      "start": 478.08,
+      "end": 481.58,
+      "speaker": "DOCTOR",
+      "text": "Ohh yeah, underactive thyroid, yes. Yep."
+    },
+    {
+      "id": 113,
+      "start": 480.71,
+      "end": 484.34,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, yeah, yeah. Um, and in, in"
+    },
+    {
+      "id": 114,
+      "start": 485.62,
+      "end": 488.14,
+      "speaker": "PATIENT",
+      "text": "In view of that, I took thyroxine."
+    },
+    {
+      "id": 115,
+      "start": 487.79,
+      "end": 492.31,
+      "speaker": "DOCTOR",
+      "text": "Yeah, you're taking thyroxine? Are you using it every day?"
+    },
+    {
+      "id": 117,
+      "start": 493.03,
+      "end": 494.71,
+      "speaker": "PATIENT",
+      "text": "Uh, not anymore."
+    },
+    {
+      "id": 118,
+      "start": 494.86,
+      "end": 496.38,
+      "speaker": "DOCTOR",
+      "text": "Why is that?"
+    },
+    {
+      "id": 119,
+      "start": 496.09,
+      "end": 502.08,
+      "speaker": "PATIENT",
+      "text": "Uh, I have, I have not been taking it in the last, actually since I changed doctor, I would say."
+    },
+    {
+      "id": 120,
+      "start": 501.76,
+      "end": 508.08,
+      "speaker": "DOCTOR",
+      "text": "OK, so is that, so all these things are since you've stopped taking the thyroxine?"
+    },
+    {
+      "id": 121,
+      "start": 508.66,
+      "end": 509.56,
+      "speaker": "PATIENT",
+      "text": "Ohh."
+    },
+    {
+      "id": 122,
+      "start": 510.78,
+      "end": 513.91,
+      "speaker": "PATIENT",
+      "text": "That might be coinciding, I'm not sure about that."
+    },
+    {
+      "id": 123,
+      "start": 513.71,
+      "end": 516.34,
+      "speaker": "DOCTOR",
+      "text": "When was your last blood test?"
+    },
+    {
+      "id": 124,
+      "start": 517.05,
+      "end": 519.4,
+      "speaker": "PATIENT",
+      "text": "Uh, haven't taken one in a long time."
+    },
+    {
+      "id": 125,
+      "start": 519.16,
+      "end": 521.74,
+      "speaker": "DOCTOR",
+      "text": "OK, so you've not had a blood test."
+    },
+    {
+      "id": 126,
+      "start": 521.71,
+      "end": 522.27,
+      "speaker": "PATIENT",
+      "text": "Mm hmm"
+    },
+    {
+      "id": 127,
+      "start": 522.74,
+      "end": 547.09,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. It could, you know, generally for you know for underactive thyroids what symptoms you've said um it's the opposite that usually happens, yeah. It's for overactive thyroid like you can feel a bit like the racing of your heart beat and all so I'm not quite clear on what picture we are having here. Yeah?"
+    },
+    {
+      "id": 128,
+      "start": 537.19,
+      "end": 537.9,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 129,
+      "start": 547.09,
+      "end": 574.36,
+      "speaker": "DOCTOR",
+      "text": "I think a general set of bloods is a good , good start. So what we look at, because you're not, you're not having the umph, aren't you? You're like, you're just feeling a bit, you know low and things like that, right? Well, um, and weak and things like that. So we'll just do a general set of bloods. we look at things like anaemia, how your kidney functions are, your livers, all that, with vitamin levels, and your ."
+    },
+    {
+      "id": 130,
+      "start": 547.92,
+      "end": 548.71,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 131,
+      "start": 561.13,
+      "end": 562.24,
+      "speaker": "PATIENT",
+      "text": "yes."
+    },
+    {
+      "id": 132,
+      "start": 573.16,
+      "end": 573.93,
+      "speaker": "PATIENT",
+      "text": "No problem."
+    },
+    {
+      "id": 133,
+      "start": 574.36,
+      "end": 587.69,
+      "speaker": "DOCTOR",
+      "text": "OK. And uh, now after we get those set of bloods, we will find out if we can find anything in them. If that's all clear, then we would need to do a physical examination. OK?"
+    },
+    {
+      "id": 134,
+      "start": 575.4,
+      "end": 576.12,
+      "speaker": "PATIENT",
+      "text": "Uh huh"
+    },
+    {
+      "id": 135,
+      "start": 587.31,
+      "end": 587.93,
+      "speaker": "PATIENT",
+      "text": "Okay."
+    },
+    {
+      "id": 136,
+      "start": 587.69,
+      "end": 602.6,
+      "speaker": "DOCTOR",
+      "text": "We would need to then go in and do . But there's nothing from what your history you've said that, that we urgently warrant a physical examination at this point in time. I think it's a good idea to start off with a blood test, and then take it from there."
+    },
+    {
+      "id": 137,
+      "start": 588.76,
+      "end": 589.23,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 138,
+      "start": 602.6,
+      "end": 624.03,
+      "speaker": "DOCTOR",
+      "text": "Obviously with palpitations or chest pain, if you get that's more of a medical emergency. You need to go to A and E for that. OK? If things change, you've mentioned now your bowels are fine, and you're not being sick. So if that's the case it's OK, but if your, you know, bowels change or you're being sick again, you need to get in touch with us. OK?"
+    },
+    {
+      "id": 139,
+      "start": 622.2,
+      "end": 634.24,
+      "speaker": "PATIENT",
+      "text": "OK, I have, I haven't been walking lately at all. I haven't, yes. I haven't been walking lately at all so like, it's really hard for me to identify when I feel the shortness of breath."
+    },
+    {
+      "id": 140,
+      "start": 625.56,
+      "end": 627.84,
+      "speaker": "DOCTOR",
+      "text": "Sorry? Could you repeat that?"
+    },
+    {
+      "id": 141,
+      "start": 634.12,
+      "end": 634.74,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 142,
+      "start": 634.24,
+      "end": 644.14,
+      "speaker": "PATIENT",
+      "text": "Uh, just wanted to add that into , because, um, I haven't been walking. I haven't been feeling good enough for a good at all. So, yep."
+    },
+    {
+      "id": 143,
+      "start": 643.33,
+      "end": 653.31,
+      "speaker": "DOCTOR",
+      "text": "OK. So let's do all the blood tests first and we'll take it from there. OK? But you know, if you have any chest pains, or change in bowel habits, do get in touch with us."
+    },
+    {
+      "id": 144,
+      "start": 646.47,
+      "end": 647.2,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 146,
+      "start": 654.0,
+      "end": 655.26,
+      "speaker": "PATIENT",
+      "text": "I will, yes."
+    },
+    {
+      "id": 147,
+      "start": 654.48,
+      "end": 677.55,
+      "speaker": "DOCTOR",
+      "text": "OK. Now what we need to do is now you need to ring up support. And I'll the form for you, but in the interim you need to call support so that we can organise that blood test for you. And when you get the result, you will receive a text message through your phone to tell you to book an appointment. If you're feeling poorly, don't wait for that. Just get in touch with us again, yeah?"
+    },
+    {
+      "id": 148,
+      "start": 658.42,
+      "end": 658.96,
+      "speaker": "PATIENT",
+      "text": "Uh huh."
+    },
+    {
+      "id": 150,
+      "start": 671.84,
+      "end": 673.09,
+      "speaker": "PATIENT",
+      "text": "OK. Can I"
+    },
+    {
+      "id": 151,
+      "start": 677.2,
+      "end": 680.0,
+      "speaker": "PATIENT",
+      "text": "I will. How do I call to report?"
+    },
+    {
+      "id": 152,
+      "start": 680.25,
+      "end": 689.37,
+      "speaker": "DOCTOR",
+      "text": "Ohh, there's a number on your app, yeah? If you open up your app there's the number on there. It's an oh three hundred number, yeah? So just call that number."
+    },
+    {
+      "id": 153,
+      "start": 687.1,
+      "end": 687.76,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 154,
+      "start": 689.37,
+      "end": 690.59,
+      "speaker": "PATIENT",
+      "text": "I will find it, thank you."
+    },
+    {
+      "id": 155,
+      "start": 690.38,
+      "end": 693.08,
+      "speaker": "DOCTOR",
+      "text": "Alright then. You take care. Bye now."
+    },
+    {
+      "id": 156,
+      "start": 693.12,
+      "end": 694.3,
+      "speaker": "PATIENT",
+      "text": "Thank you, ciao."
+    },
+    {
+      "id": 157,
+      "start": 694.19,
+      "end": 695.36,
+      "speaker": "DOCTOR",
+      "text": "Ciao, bye."
+    }
+  ]
+}

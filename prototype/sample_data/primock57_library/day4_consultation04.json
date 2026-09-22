@@ -1,0 +1,722 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation04",
+  "presenting_complaint": "I'm wheezy",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC : sobar pmhx of childhood asthma and hayfever.\n\nHPC. 2 day history of wheezing and SOBAR, after cleaning dusty environment\nNo chest pain. No nausea,no vomiting, no problems e+d\nSOB worse at night\nNow having problems speaking in full sentences\n\n\nPMH: As above.\n\nDhx : allergy nils no regular medications. \n\nDDx : acute exacerbation of asthma, ?? allergy\n\nPlan : antihistamine and further examination and investigation. \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.94,
+      "end": 3.76,
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "id": 2,
+      "start": 5.45,
+      "end": 6.23,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 3,
+      "start": 6.16,
+      "end": 7.22,
+      "speaker": "DOCTOR",
+      "text": "Hi. How are you?"
+    },
+    {
+      "id": 4,
+      "start": 8.22,
+      "end": 13.73,
+      "speaker": "PATIENT",
+      "text": "Uh, , yeah. I'm all right, thanks. Um, though, I'm actually feeling a bit wheezy."
+    },
+    {
+      "id": 5,
+      "start": 13.86,
+      "end": 15.68,
+      "speaker": "DOCTOR",
+      "text": "OK. My name is Doctor ."
+    },
+    {
+      "id": 6,
+      "start": 15.18,
+      "end": 18.47,
+      "speaker": "PATIENT",
+      "text": "Like ."
+    },
+    {
+      "id": 7,
+      "start": 16.21,
+      "end": 19.08,
+      "speaker": "DOCTOR",
+      "text": "I'm one of that work for Babylon."
+    },
+    {
+      "id": 8,
+      "start": 20.13,
+      "end": 22.48,
+      "speaker": "DOCTOR",
+      "text": "Can I confirm your name and date of birth, please?"
+    },
+    {
+      "id": 9,
+      "start": 23.24,
+      "end": 24.53,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah."
+    },
+    {
+      "id": 10,
+      "start": 24.87,
+      "end": 28.41,
+      "speaker": "PATIENT",
+      "text": "My, my name is, um, uh, Tina Smith."
+    },
+    {
+      "id": 11,
+      "start": 29.05,
+      "end": 30.8,
+      "speaker": "PATIENT",
+      "text": "And, I'm forty years old."
+    },
+    {
+      "id": 12,
+      "start": 30.67,
+      "end": 34.38,
+      "speaker": "DOCTOR",
+      "text": "OK. And, are you in a space that's quiet and private?"
+    },
+    {
+      "id": 13,
+      "start": 35.57,
+      "end": 38.3,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, yeah, yeah. I'm just, I'm ."
+    },
+    {
+      "id": 14,
+      "start": 36.43,
+      "end": 41.08,
+      "speaker": "DOCTOR",
+      "text": "OK. And, you mentioned that you are wheezy."
+    },
+    {
+      "id": 15,
+      "start": 41.38,
+      "end": 42.13,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 16,
+      "start": 41.85,
+      "end": 44.38,
+      "speaker": "DOCTOR",
+      "text": "Can you tell me a little bit more about that?"
+    },
+    {
+      "id": 17,
+      "start": 44.99,
+      "end": 48.76,
+      "speaker": "PATIENT",
+      "text": "Yeah. So, um, it started, like, about two days ago."
+    },
+    {
+      "id": 18,
+      "start": 48.76,
+      "end": 65.2,
+      "speaker": "PATIENT",
+      "text": "Um, I don't know if it's because, you know, I was, like, cleaning the house. And, like, um, all this dust came out of the, the carpet. And, you know, I've always thought that maybe I've got, uh, an allergy to, like, dust. Um, I think so. So, if it was triggered by"
+    },
+    {
+      "id": 19,
+      "start": 66.63,
+      "end": 70.26,
+      "speaker": "PATIENT",
+      "text": "Um, you know, two days later. Still not gonna be better. So."
+    },
+    {
+      "id": 20,
+      "start": 70.26,
+      "end": 72.58,
+      "speaker": "PATIENT",
+      "text": "Um, just getting a little bit worried about it now."
+    },
+    {
+      "id": 21,
+      "start": 73.68,
+      "end": 78.35,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you were cleaning the house two days ago. And, that's when it first started?"
+    },
+    {
+      "id": 22,
+      "start": 79.33,
+      "end": 80.69,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. That's right."
+    },
+    {
+      "id": 23,
+      "start": 80.63,
+      "end": 83.22,
+      "speaker": "DOCTOR",
+      "text": "Did the wheezing start suddenly, or was it gradual?"
+    },
+    {
+      "id": 24,
+      "start": 85.48,
+      "end": 89.97,
+      "speaker": "PATIENT",
+      "text": "Uh, so, it started after maybe, uh, an hour or so ."
+    },
+    {
+      "id": 25,
+      "start": 91.28,
+      "end": 94.28,
+      "speaker": "DOCTOR",
+      "text": "And, has it got worse over the past two days?"
+    },
+    {
+      "id": 26,
+      "start": 96.42,
+      "end": 100.01,
+      "speaker": "PATIENT",
+      "text": "Yeah. So, it get's a bit worse, um, at night, I find."
+    },
+    {
+      "id": 27,
+      "start": 99.91,
+      "end": 100.65,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 28,
+      "start": 101.35,
+      "end": 103.32,
+      "speaker": "DOCTOR",
+      "text": "And, have you taken anything for the wheeze?"
+    },
+    {
+      "id": 29,
+      "start": 105.83,
+      "end": 108.18,
+      "speaker": "PATIENT",
+      "text": "Uh, no. No, I haven't actually."
+    },
+    {
+      "id": 30,
+      "start": 108.84,
+      "end": 117.41,
+      "speaker": "DOCTOR",
+      "text": "OK. And so, and the wheeze has been getting worse. And, today you're particularly worried. Is it because you're finding it hard to breathe or finding it hard to talk?"
+    },
+    {
+      "id": 31,
+      "start": 118.03,
+      "end": 122.91,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah. A bit of both actually. So, um, I'm feeling like a little bit, uh, uh, short of breath."
+    },
+    {
+      "id": 32,
+      "start": 122.96,
+      "end": 123.71,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 33,
+      "start": 124.09,
+      "end": 134.24,
+      "speaker": "PATIENT",
+      "text": "Um, and, actually, when I'm, you know, talking, um, to my friends, I start finding that, uh, sometimes, um, I'm unable to , complete my sentences."
+    },
+    {
+      "id": 34,
+      "start": 134.19,
+      "end": 134.8,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 35,
+      "start": 134.24,
+      "end": 136.74,
+      "speaker": "PATIENT",
+      "text": "Um, it can, it can get really bad, yeah."
+    },
+    {
+      "id": 36,
+      "start": 137.01,
+      "end": 141.85,
+      "speaker": "DOCTOR",
+      "text": "And, when you can breathe, and you take a deep breath, do you notice any pain?"
+    },
+    {
+      "id": 37,
+      "start": 144.6,
+      "end": 145.84,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 38,
+      "start": 146.87,
+      "end": 149.4,
+      "speaker": "PATIENT",
+      "text": "Mmm, no, no. No pain."
+    },
+    {
+      "id": 39,
+      "start": 149.19,
+      "end": 153.67,
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you noticed yourself feeling dizzy or the rooms spinning more than normal?"
+    },
+    {
+      "id": 40,
+      "start": 155.0,
+      "end": 157.82,
+      "speaker": "PATIENT",
+      "text": "Uh, no. No dizziness. Uh, none of that."
+    },
+    {
+      "id": 41,
+      "start": 157.65,
+      "end": 161.59,
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you been eating and drinking OK, particularly water?"
+    },
+    {
+      "id": 42,
+      "start": 162.7,
+      "end": 166.84,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah. I think I'm having, like, you know, four or five glasses a day. Yeah."
+    },
+    {
+      "id": 43,
+      "start": 167.19,
+      "end": 171.75,
+      "speaker": "DOCTOR",
+      "text": "OK. And, are you normally fit and well? Or do you have any other medical problems?"
+    },
+    {
+      "id": 44,
+      "start": 172.61,
+      "end": 173.49,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 45,
+      "start": 174.21,
+      "end": 178.82,
+      "speaker": "PATIENT",
+      "text": "Well, actually, uh, I used to have, like, a bit of, um, asthma, uh, as a child."
+    },
+    {
+      "id": 46,
+      "start": 178.82,
+      "end": 183.37,
+      "speaker": "PATIENT",
+      "text": "Um, and, also in the summer I sometimes get, um, hay fever."
+    },
+    {
+      "id": 47,
+      "start": 184.4,
+      "end": 187.37,
+      "speaker": "DOCTOR",
+      "text": "And, when you get hay fever, do you take any medications for it?"
+    },
+    {
+      "id": 48,
+      "start": 189.29,
+      "end": 190.33,
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "id": 49,
+      "start": 190.86,
+      "end": 191.82,
+      "speaker": "PATIENT",
+      "text": "Not really."
+    },
+    {
+      "id": 50,
+      "start": 191.96,
+      "end": 192.65,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 51,
+      "start": 192.96,
+      "end": 196.44,
+      "speaker": "DOCTOR",
+      "text": "And, your asthma, did it resolve when you were a child?"
+    },
+    {
+      "id": 52,
+      "start": 198.25,
+      "end": 212.1,
+      "speaker": "PATIENT",
+      "text": "Uh, I think mostly, yeah. I mean, sometimes when I, um, run for, like, long periods, it can, it can start up a bit. But, um, I have, uh, I have, like, an asthma inhaler. I use that."
+    },
+    {
+      "id": 53,
+      "start": 212.45,
+      "end": 214.65,
+      "speaker": "DOCTOR",
+      "text": "OK. So, do you still have your inhalers?"
+    },
+    {
+      "id": 54,
+      "start": 215.83,
+      "end": 220.25,
+      "speaker": "PATIENT",
+      "text": "Um, I think I might have one from, like, a couple of months ago."
+    },
+    {
+      "id": 55,
+      "start": 221.02,
+      "end": 221.72,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 56,
+      "start": 221.03,
+      "end": 221.87,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 57,
+      "start": 223.04,
+      "end": 225.48,
+      "speaker": "DOCTOR",
+      "text": "But, you don't see your doctor regularly for asthma?"
+    },
+    {
+      "id": 58,
+      "start": 226.78,
+      "end": 227.62,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I don't."
+    },
+    {
+      "id": 59,
+      "start": 227.51,
+      "end": 228.22,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 60,
+      "start": 229.32,
+      "end": 232.22,
+      "speaker": "DOCTOR",
+      "text": "And, apart from this, do you know if you're allergic to anything?"
+    },
+    {
+      "id": 61,
+      "start": 234.27,
+      "end": 236.5,
+      "speaker": "PATIENT",
+      "text": "Uh, not that I know of."
+    },
+    {
+      "id": 62,
+      "start": 239.4,
+      "end": 243.29,
+      "speaker": "DOCTOR",
+      "text": "OK. And, how far are you away from a doctor's surgery at the moment?"
+    },
+    {
+      "id": 63,
+      "start": 245.49,
+      "end": 246.8,
+      "speaker": "PATIENT",
+      "text": "Sorry, could you repeat that?"
+    },
+    {
+      "id": 64,
+      "start": 246.64,
+      "end": 249.84,
+      "speaker": "DOCTOR",
+      "text": "How far are you away from a doctor's surgery at the moment?"
+    },
+    {
+      "id": 65,
+      "start": 252.04,
+      "end": 255.95,
+      "speaker": "PATIENT",
+      "text": "Uh, they may be minutes' drive away."
+    },
+    {
+      "id": 66,
+      "start": 255.75,
+      "end": 256.85,
+      "speaker": "DOCTOR",
+      "text": "OK, good."
+    },
+    {
+      "id": 67,
+      "start": 257.51,
+      "end": 261.69,
+      "speaker": "DOCTOR",
+      "text": "So, given that you've had a history of asthma when you were a child,"
+    },
+    {
+      "id": 68,
+      "start": 262.58,
+      "end": 265.51,
+      "speaker": "DOCTOR",
+      "text": "And, you get hay fever sometimes in the summer."
+    },
+    {
+      "id": 69,
+      "start": 266.82,
+      "end": 268.28,
+      "speaker": "DOCTOR",
+      "text": "Your shortness of breath."
+    },
+    {
+      "id": 70,
+      "start": 269.75,
+      "end": 273.36,
+      "speaker": "DOCTOR",
+      "text": "Hi. I've lost, um, video signal. Can you still hear me?"
+    },
+    {
+      "id": 71,
+      "start": 274.45,
+      "end": 276.52,
+      "speaker": "PATIENT",
+      "text": "Um, yeah. We just turned off."
+    },
+    {
+      "id": 73,
+      "start": 278.13,
+      "end": 280.69,
+      "speaker": "DOCTOR",
+      "text": "So, given you've got a history of asthma and"
+    },
+    {
+      "id": 74,
+      "start": 281.75,
+      "end": 284.55,
+      "speaker": "DOCTOR",
+      "text": "hay fever. This could be one of two things."
+    },
+    {
+      "id": 75,
+      "start": 285.52,
+      "end": 288.75,
+      "speaker": "DOCTOR",
+      "text": "But, we want to rule out asthma or an allergy first."
+    },
+    {
+      "id": 76,
+      "start": 290.22,
+      "end": 295.47,
+      "speaker": "DOCTOR",
+      "text": "So, what you'll need is visit one of our clinics, so we can do some more tests."
+    },
+    {
+      "id": 77,
+      "start": 290.7,
+      "end": 291.65,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 78,
+      "start": 297.43,
+      "end": 299.03,
+      "speaker": "DOCTOR",
+      "text": "Such as check your ."
+    },
+    {
+      "id": 79,
+      "start": 297.92,
+      "end": 299.39,
+      "speaker": "PATIENT",
+      "text": "OK. Well what sort?"
+    },
+    {
+      "id": 80,
+      "start": 299.65,
+      "end": 305.31,
+      "speaker": "DOCTOR",
+      "text": "So, the first thing we would do, is use a small device on your finger, to check the amount of oxygen in your blood."
+    },
+    {
+      "id": 81,
+      "start": 307.63,
+      "end": 308.39,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 82,
+      "start": 308.09,
+      "end": 310.94,
+      "speaker": "DOCTOR",
+      "text": "And, from that we can tell if it's asthma or something else."
+    },
+    {
+      "id": 83,
+      "start": 311.99,
+      "end": 313.24,
+      "speaker": "PATIENT",
+      "text": "Right, OK."
+    },
+    {
+      "id": 84,
+      "start": 312.69,
+      "end": 323.08,
+      "speaker": "DOCTOR",
+      "text": "Before this happens, if you've got something, like an antihistamine, which you normally take for hay fever at home, I would take one, just in case it is an allergy you've had from the dust."
+    },
+    {
+      "id": 85,
+      "start": 324.32,
+      "end": 327.77,
+      "speaker": "PATIENT",
+      "text": "OK. Uh, yeah. I don't have any antihistamines at home, unfortunately."
+    },
+    {
+      "id": 86,
+      "start": 326.94,
+      "end": 331.8,
+      "speaker": "DOCTOR",
+      "text": "You might be able to get one on your way to the doctor's surgery. If not, they can prescribe you one."
+    },
+    {
+      "id": 87,
+      "start": 332.79,
+      "end": 335.48,
+      "speaker": "PATIENT",
+      "text": "OK, OK. So, I can just get it over the counter then?"
+    },
+    {
+      "id": 88,
+      "start": 335.31,
+      "end": 338.07,
+      "speaker": "DOCTOR",
+      "text": "Yes. And it, they're normally about four to six pounds."
+    },
+    {
+      "id": 89,
+      "start": 339.07,
+      "end": 339.68,
+      "speaker": "PATIENT",
+      "text": "Great."
+    },
+    {
+      "id": 90,
+      "start": 340.24,
+      "end": 343.16,
+      "speaker": "DOCTOR",
+      "text": "Is there anything else that you're particularly worried about, you want to ask me?"
+    },
+    {
+      "id": 91,
+      "start": 345.15,
+      "end": 348.04,
+      "speaker": "PATIENT",
+      "text": "Um, um, not really. I mean."
+    },
+    {
+      "id": 92,
+      "start": 349.12,
+      "end": 353.91,
+      "speaker": "PATIENT",
+      "text": "I have, before, taken steroids for asthma. Um, I don't know if that's relevant."
+    },
+    {
+      "id": 93,
+      "start": 354.22,
+      "end": 360.64,
+      "speaker": "DOCTOR",
+      "text": "Yes, that is. And, you may need to take some steroids now. But, we cannot, we, we won't be able to know until we've done those tests first."
+    },
+    {
+      "id": 94,
+      "start": 361.67,
+      "end": 363.67,
+      "speaker": "PATIENT",
+      "text": "OK, OK."
+    },
+    {
+      "id": 95,
+      "start": 362.85,
+      "end": 371.96,
+      "speaker": "DOCTOR",
+      "text": "Cool. So, I'm gonna write a letter for your GP, just to let him know what's happened. And, the consultation with the GP in person shouldn't take too long."
+    },
+    {
+      "id": 96,
+      "start": 374.24,
+      "end": 375.9,
+      "speaker": "PATIENT",
+      "text": "All right. How long do you think it will take?"
+    },
+    {
+      "id": 97,
+      "start": 376.0,
+      "end": 377.39,
+      "speaker": "DOCTOR",
+      "text": "Probably ten minutes."
+    },
+    {
+      "id": 98,
+      "start": 378.74,
+      "end": 380.36,
+      "speaker": "PATIENT",
+      "text": "OK, that's great."
+    },
+    {
+      "id": 99,
+      "start": 380.33,
+      "end": 385.16,
+      "speaker": "DOCTOR",
+      "text": "Cool. Um, you should get the letter over the app. And then, we can, you can take yourself to the GP."
+    },
+    {
+      "id": 100,
+      "start": 387.06,
+      "end": 388.87,
+      "speaker": "PATIENT",
+      "text": "All right. Thank you very much."
+    },
+    {
+      "id": 101,
+      "start": 387.66,
+      "end": 388.33,
+      "speaker": "DOCTOR",
+      "text": "Cool."
+    },
+    {
+      "id": 102,
+      "start": 389.65,
+      "end": 390.77,
+      "speaker": "DOCTOR",
+      "text": "OK, bye."
+    },
+    {
+      "id": 103,
+      "start": 391.26,
+      "end": 393.3,
+      "speaker": "PATIENT",
+      "text": "OK. Thank you. Bye bye."
+    }
+  ]
+}

@@ -1,0 +1,932 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation06",
+  "presenting_complaint": "my chest hurts and it's been hard to breathe",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Name and DOB confirmed\nPC: presenting with headache - significant \nSx. started this morning\nAssociated symptoms - dizzy / blurry vision - sudden onset headache - severity score - 6/10\nNew headache\nHeadache over left side of head \nVision blurry - funny lines\nHas tried paracetamol 3 hours ago- no improvement\nStill having visual problems - some improvement\nLooking at screens making sx. Worse\nWhen moving sx. Worse\nHas felt nauseous - and vomited x2\nNo neurological symptoms\n\nUnlikely to be pregnant\n\nWorried re: brain cancer or a stroke - wondering if needs to go to a&e\n\nPmh: renal stones\n\nDhx: nil regular,\nNKDA\n\nFhx: mother - migraines, Hypothyroidism\n\nVideo assessment - appeared well - in a brightly lit environment - does not appear photophobic\n\nPlan - 1) ibuprofen + sugary drink + anti sickness to try until appointment\nLikely migraine however need to consider more serious differentials\nFor review face to face as 1st onset of headache - to be seen today at earliest - earliest appointment available - will need neurological assessment - also to assess for neck stiffness and fever and rash \n",
+  "segments": [
+    {
+      "id": 2,
+      "start": 1.12,
+      "end": 1.63,
+      "speaker": "DOCTOR",
+      "text": "Ah."
+    },
+    {
+      "id": 3,
+      "start": 3.45,
+      "end": 4.24,
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "id": 4,
+      "start": 7.95,
+      "end": 8.78,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 5,
+      "start": 8.92,
+      "end": 17.44,
+      "speaker": "DOCTOR",
+      "text": "Hi, uh, my name is Doctor Kumar. I'm one of the GPs here. Can I just get you to confirm your name and date of birth for me, please?"
+    },
+    {
+      "id": 6,
+      "start": 18.33,
+      "end": 20.12,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I'm Maria."
+    },
+    {
+      "id": 8,
+      "start": 21.19,
+      "end": 21.76,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 9,
+      "start": 22.35,
+      "end": 23.27,
+      "speaker": "DOCTOR",
+      "text": "Date of birth?"
+    },
+    {
+      "id": 10,
+      "start": 24.69,
+      "end": 25.39,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 11,
+      "start": 24.77,
+      "end": 26.78,
+      "speaker": "DOCTOR",
+      "text": "And your date of birth?"
+    },
+    {
+      "id": 12,
+      "start": 27.4,
+      "end": 33.38,
+      "speaker": "PATIENT",
+      "text": "Um, twenty second uh, of March, of um, ninety."
+    },
+    {
+      "id": 14,
+      "start": 33.67,
+      "end": 35.03,
+      "speaker": "DOCTOR",
+      "text": "Again, how can I help today?"
+    },
+    {
+      "id": 15,
+      "start": 36.44,
+      "end": 44.63,
+      "speaker": "PATIENT",
+      "text": "Um, so, I'm having like a really, really strong headache. I don't know what is happening. I'm, quite concerned."
+    },
+    {
+      "id": 16,
+      "start": 44.63,
+      "end": 62.64,
+      "speaker": "PATIENT",
+      "text": "So, it started in the morning. Um, I feel like um, uh, dizzy. Uh, my vision is a little bit blurred. Um, like, it's, it's really painful, and I'm getting really concerned. Especially because I'm having like these, uh, changes in the vision."
+    },
+    {
+      "id": 17,
+      "start": 64.07,
+      "end": 69.41,
+      "speaker": "DOCTOR",
+      "text": "OK. So, it started this morning, was it a sudden onset headache, did it come on suddenly?"
+    },
+    {
+      "id": 18,
+      "start": 69.76,
+      "end": 70.99,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "id": 19,
+      "start": 71.22,
+      "end": 79.31,
+      "speaker": "DOCTOR",
+      "text": "OK. And did it come on really bad or did it start off, uh, like a slight headache and build up to a, a severe headache?"
+    },
+    {
+      "id": 20,
+      "start": 79.73,
+      "end": 82.64,
+      "speaker": "PATIENT",
+      "text": "Uh, it came like, kind of suddenly."
+    },
+    {
+      "id": 21,
+      "start": 83.79,
+      "end": 89.96,
+      "speaker": "DOCTOR",
+      "text": "And if , if ten is the worst pain you've ever felt in your life, how bad would you say the pain was between one and ten?"
+    },
+    {
+      "id": 22,
+      "start": 90.91,
+      "end": 102.04,
+      "speaker": "PATIENT",
+      "text": "Well, I had the kidney stone, so let's say that that's ten. Um, I have now, , maybe five, well, six, six probably."
+    },
+    {
+      "id": 23,
+      "start": 101.97,
+      "end": 103.27,
+      "speaker": "DOCTOR",
+      "text": "It's not ten. Great!"
+    },
+    {
+      "id": 24,
+      "start": 102.8,
+      "end": 106.93,
+      "speaker": "PATIENT",
+      "text": "But, it's more about me being really concerned, because this is very weird."
+    },
+    {
+      "id": 25,
+      "start": 108.41,
+      "end": 111.31,
+      "speaker": "DOCTOR",
+      "text": "OK. No, that's fine. Have you ever had a headache before?"
+    },
+    {
+      "id": 26,
+      "start": 113.74,
+      "end": 114.51,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 27,
+      "start": 114.22,
+      "end": 117.46,
+      "speaker": "DOCTOR",
+      "text": "Have you ever had a headache like this in the past?"
+    },
+    {
+      "id": 28,
+      "start": 118.71,
+      "end": 121.65,
+      "speaker": "PATIENT",
+      "text": "Um, well not, really."
+    },
+    {
+      "id": 29,
+      "start": 122.09,
+      "end": 123.99,
+      "speaker": "DOCTOR",
+      "text": "OK. So, it's a first ."
+    },
+    {
+      "id": 30,
+      "start": 122.74,
+      "end": 127.92,
+      "speaker": "PATIENT",
+      "text": "Like this, I, yeah, like this, no, definitely. It's something new."
+    },
+    {
+      "id": 31,
+      "start": 128.06,
+      "end": 135.2,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. If you had to say where uh, uh, across the head, uh, the headache is, is it across the front, around the back?"
+    },
+    {
+      "id": 32,
+      "start": 136.54,
+      "end": 140.76,
+      "speaker": "PATIENT",
+      "text": "It's in uh, one side, uh, the left side, only."
+    },
+    {
+      "id": 33,
+      "start": 140.91,
+      "end": 143.78,
+      "speaker": "DOCTOR",
+      "text": "And tell me what visual problems are you getting?"
+    },
+    {
+      "id": 34,
+      "start": 144.56,
+      "end": 151.6,
+      "speaker": "PATIENT",
+      "text": "My vision is quite blurred. Um, it, it's, it's really weird, like some zigzag lines."
+    },
+    {
+      "id": 35,
+      "start": 151.56,
+      "end": 152.27,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 36,
+      "start": 152.1,
+      "end": 155.25,
+      "speaker": "PATIENT",
+      "text": "Kind of. I don't know how to describe it properly."
+    },
+    {
+      "id": 37,
+      "start": 155.3,
+      "end": 159.2,
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, have you tried any painkillers for this already?"
+    },
+    {
+      "id": 38,
+      "start": 159.98,
+      "end": 165.44,
+      "speaker": "PATIENT",
+      "text": "Yeah, I tried Paracetemol, but uh, didn't work. To be honest, I feel exactly the same."
+    },
+    {
+      "id": 39,
+      "start": 165.62,
+      "end": 172.1,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, OK. Um, what time did you take the paracetamol? How long ago was it you'd taken it?"
+    },
+    {
+      "id": 40,
+      "start": 172.77,
+      "end": 181.49,
+      "speaker": "PATIENT",
+      "text": "Uh, well, uh, the headache started like four year, four hours ago. So, I would say like, maybe three hours ago, because I couldn't stand it."
+    },
+    {
+      "id": 41,
+      "start": 181.51,
+      "end": 185.76,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and your visual problem is still ongoing now?"
+    },
+    {
+      "id": 42,
+      "start": 187.4,
+      "end": 194.13,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, yeah. I feel a little bit, a little bit better. , I cannot stand screens."
+    },
+    {
+      "id": 43,
+      "start": 194.13,
+      "end": 203.15,
+      "speaker": "PATIENT",
+      "text": "Um, but, yeah, definitely. And, when I move, like the thing is that if I, if I leave bed, I start to feel like, even worse if I move."
+    },
+    {
+      "id": 44,
+      "start": 203.15,
+      "end": 207.82,
+      "speaker": "PATIENT",
+      "text": "So, I just want to have my hay, my head like really, uh, not moving."
+    },
+    {
+      "id": 45,
+      "start": 207.82,
+      "end": 214.03,
+      "speaker": "DOCTOR",
+      "text": "OK. OK, Um, so, what about, , have you felt sort of nauseous or like you want to vomit?"
+    },
+    {
+      "id": 46,
+      "start": 214.9,
+      "end": 218.67,
+      "speaker": "PATIENT",
+      "text": "Ohh yeah. Ohh, I forgot to mention, definitely, I vomit twice."
+    },
+    {
+      "id": 47,
+      "start": 218.67,
+      "end": 229.97,
+      "speaker": "PATIENT",
+      "text": "Actually, as soon as the, the headache started, I also vomited. So, initially, I thought it was something that I ate, but then the headache started to be really bad, and I still feel nausea."
+    },
+    {
+      "id": 48,
+      "start": 229.95,
+      "end": 230.66,
+      "speaker": "DOCTOR",
+      "text": "Still feel."
+    },
+    {
+      "id": 49,
+      "start": 229.97,
+      "end": 233.53,
+      "speaker": "PATIENT",
+      "text": "To be honest, I'm about to vomit, very soon, I think."
+    },
+    {
+      "id": 50,
+      "start": 233.4,
+      "end": 238.98,
+      "speaker": "DOCTOR",
+      "text": "All right. OK. You've mentioned, in the past, you've had kidney stones, any other medical problems?"
+    },
+    {
+      "id": 51,
+      "start": 240.34,
+      "end": 241.18,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 52,
+      "start": 241.18,
+      "end": 247.73,
+      "speaker": "DOCTOR",
+      "text": "Uh, you've mentioned that in the past, you've had kidney stones. Have you had any other medical problems in the past?"
+    },
+    {
+      "id": 53,
+      "start": 245.39,
+      "end": 246.09,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 54,
+      "start": 248.19,
+      "end": 257.63,
+      "speaker": "PATIENT",
+      "text": "Uh, so, uh, uh, not actually. Uh, my mother has migraines. I'm not sure if that's relevant?"
+    },
+    {
+      "id": 55,
+      "start": 257.63,
+      "end": 261.38,
+      "speaker": "PATIENT",
+      "text": "And uh, also, I have hypothyroidism in the family."
+    },
+    {
+      "id": 56,
+      "start": 261.38,
+      "end": 264.79,
+      "speaker": "PATIENT",
+      "text": "So, it might be. I don't know, uh, I've, I don't know."
+    },
+    {
+      "id": 57,
+      "start": 264.68,
+      "end": 266.64,
+      "speaker": "DOCTOR",
+      "text": ", what else do you have in the family?"
+    },
+    {
+      "id": 58,
+      "start": 269.16,
+      "end": 273.57,
+      "speaker": "PATIENT",
+      "text": "I think we are losing connection. Sorry, I, I think we lost connection."
+    },
+    {
+      "id": 59,
+      "start": 274.94,
+      "end": 282.66,
+      "speaker": "DOCTOR",
+      "text": "Ohh, can you still hear me? Ohh, it's gone. You can hear me. Um, you said, you mentioned your mother has migraines. What else do you have in the family?"
+    },
+    {
+      "id": 60,
+      "start": 276.79,
+      "end": 277.99,
+      "speaker": "PATIENT",
+      "text": "Yeah. Yeah, yeah."
+    },
+    {
+      "id": 61,
+      "start": 282.91,
+      "end": 284.1,
+      "speaker": "PATIENT",
+      "text": "Hypothyroidism."
+    },
+    {
+      "id": 62,
+      "start": 284.21,
+      "end": 285.22,
+      "speaker": "DOCTOR",
+      "text": "Hyperthyroid"
+    },
+    {
+      "id": 63,
+      "start": 284.58,
+      "end": 287.18,
+      "speaker": "PATIENT",
+      "text": ". She also has Hypothyroidism."
+    },
+    {
+      "id": 64,
+      "start": 287.23,
+      "end": 292.52,
+      "speaker": "DOCTOR",
+      "text": "OK. Bye. OK. Um, and no other relevant family history?"
+    },
+    {
+      "id": 65,
+      "start": 292.98,
+      "end": 295.43,
+      "speaker": "PATIENT",
+      "text": "Uh, no, not that I'm aware."
+    },
+    {
+      "id": 66,
+      "start": 295.44,
+      "end": 298.23,
+      "speaker": "DOCTOR",
+      "text": "And do you take any regular medications?"
+    },
+    {
+      "id": 67,
+      "start": 299.15,
+      "end": 300.92,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 68,
+      "start": 301.4,
+      "end": 303.63,
+      "speaker": "DOCTOR",
+      "text": "Are you allergic to any medications?"
+    },
+    {
+      "id": 69,
+      "start": 304.28,
+      "end": 306.05,
+      "speaker": "PATIENT",
+      "text": "Not that I'm aware, uh."
+    },
+    {
+      "id": 70,
+      "start": 306.38,
+      "end": 307.86,
+      "speaker": "PATIENT",
+      "text": "Yeah, not that I'm aware."
+    },
+    {
+      "id": 71,
+      "start": 307.95,
+      "end": 310.17,
+      "speaker": "DOCTOR",
+      "text": "OK. Is there any chance you could be pregnant?"
+    },
+    {
+      "id": 72,
+      "start": 311.15,
+      "end": 313.12,
+      "speaker": "PATIENT",
+      "text": "Uh, I really doubt it."
+    },
+    {
+      "id": 73,
+      "start": 314.99,
+      "end": 319.44,
+      "speaker": "DOCTOR",
+      "text": "Fine. And so, you're not allergic to any medications. Fine from."
+    },
+    {
+      "id": 74,
+      "start": 319.44,
+      "end": 326.08,
+      "speaker": "DOCTOR",
+      "text": "And what, what were you thinking might be going on? I know you seemed quite worried about it. Was there anything in particular you were worried about?"
+    },
+    {
+      "id": 75,
+      "start": 327.15,
+      "end": 342.4,
+      "speaker": "PATIENT",
+      "text": "Well, I'm a little bit hypochondriac. So, I feel that this can be some kind of brain tumour, tumour or something? Because, I'm like this is, , really, the pain is so horrible that, or maybe a stroke. I don't know, it's, it's just like you know, you hear so many stories."
+    },
+    {
+      "id": 76,
+      "start": 342.4,
+      "end": 349.6,
+      "speaker": "PATIENT",
+      "text": "That, you definitely start wonder, if i should go to A and E urgently, because , I might really have something serious."
+    },
+    {
+      "id": 77,
+      "start": 349.36,
+      "end": 358.96,
+      "speaker": "DOCTOR",
+      "text": "OK. OK, fine. Um, now just, uh, another, uh, question, have you noticed any weakness in your arms or legs, anything like that?"
+    },
+    {
+      "id": 78,
+      "start": 360.12,
+      "end": 362.24,
+      "speaker": "PATIENT",
+      "text": "No, no , no, no."
+    },
+    {
+      "id": 79,
+      "start": 362.09,
+      "end": 369.16,
+      "speaker": "DOCTOR",
+      "text": "Uh, and when you're walking, you're able to walk fine in a straight line or is your, your uh walk, are you walking a bit funny?"
+    },
+    {
+      "id": 80,
+      "start": 369.33,
+      "end": 370.93,
+      "speaker": "PATIENT",
+      "text": "Uh, not really."
+    },
+    {
+      "id": 81,
+      "start": 371.18,
+      "end": 371.97,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 82,
+      "start": 372.39,
+      "end": 375.63,
+      "speaker": "PATIENT",
+      "text": "It's really about the head. That's why I find it very weird."
+    },
+    {
+      "id": 83,
+      "start": 375.41,
+      "end": 384.86,
+      "speaker": "DOCTOR",
+      "text": "OK. So, just, just to clarify what, what you said . This morning, uh, you woke up and then later on in the, in the morning, about four hours ago, you've developed a headache?"
+    },
+    {
+      "id": 84,
+      "start": 384.86,
+      "end": 387.82,
+      "speaker": "DOCTOR",
+      "text": "Um, on the left side of the head?"
+    },
+    {
+      "id": 85,
+      "start": 385.07,
+      "end": 385.79,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 86,
+      "start": 388.12,
+      "end": 388.79,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 87,
+      "start": 388.56,
+      "end": 391.24,
+      "speaker": "DOCTOR",
+      "text": "Left side of the head, is it behind the eye?"
+    },
+    {
+      "id": 88,
+      "start": 389.46,
+      "end": 390.32,
+      "speaker": "PATIENT",
+      "text": "Exactly."
+    },
+    {
+      "id": 89,
+      "start": 392.21,
+      "end": 393.08,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 90,
+      "start": 392.85,
+      "end": 395.79,
+      "speaker": "DOCTOR",
+      "text": "Is it behind the eye? Is that where the pain is?"
+    },
+    {
+      "id": 91,
+      "start": 396.25,
+      "end": 405.46,
+      "speaker": "PATIENT",
+      "text": "Uh, no, no it's, ugh, I don't know how to describe it. But it's, just like, , kind of."
+    },
+    {
+      "id": 92,
+      "start": 402.56,
+      "end": 405.16,
+      "speaker": "DOCTOR",
+      "text": "Um, you've ."
+    },
+    {
+      "id": 93,
+      "start": 406.78,
+      "end": 414.24,
+      "speaker": "DOCTOR",
+      "text": "OK. That's fine. You've noticed that your vision is blurry, there's funny lines, you feel a bit nauseous, you vomited twice."
+    },
+    {
+      "id": 94,
+      "start": 414.24,
+      "end": 421.46,
+      "speaker": "DOCTOR",
+      "text": "Um, and, uh, you feeling dizzy as well, but your, you've got no neurological symptoms. You're walking fine."
+    },
+    {
+      "id": 95,
+      "start": 415.12,
+      "end": 415.99,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 96,
+      "start": 421.46,
+      "end": 426.33,
+      "speaker": "DOCTOR",
+      "text": "Um, and, and you've taken paracetamol and it hasn't helped. Is that all? OK."
+    },
+    {
+      "id": 97,
+      "start": 424.69,
+      "end": 425.52,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 98,
+      "start": 426.33,
+      "end": 432.68,
+      "speaker": "DOCTOR",
+      "text": "So, it sounds like what you're suffering from is what's known as a migraine. Is that something you've heard of before?"
+    },
+    {
+      "id": 99,
+      "start": 426.63,
+      "end": 427.13,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 100,
+      "start": 433.0,
+      "end": 435.96,
+      "speaker": "PATIENT",
+      "text": "Uh. Uh, no, it's the first time."
+    },
+    {
+      "id": 101,
+      "start": 435.98,
+      "end": 436.91,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 102,
+      "start": 436.39,
+      "end": 440.91,
+      "speaker": "PATIENT",
+      "text": "But, to be honest, I'm very familiar with the disease, because my mother has it, so."
+    },
+    {
+      "id": 103,
+      "start": 440.91,
+      "end": 452.78,
+      "speaker": "PATIENT",
+      "text": "Uh, well, but I never had it, and I thought that the onset of migraine will be, you know, in much, uh, early ages. So, that's why I'm not sure, if migraine makes sense. ."
+    },
+    {
+      "id": 104,
+      "start": 451.82,
+      "end": 462.15,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, usually with, with migraines they can present at different times in people's lives, so, sometimes they can present as a child, sometimes they can present when they're older."
+    },
+    {
+      "id": 105,
+      "start": 462.15,
+      "end": 466.53,
+      "speaker": "DOCTOR",
+      "text": "Um, and sometimes they can present, you know, even postmenopausally."
+    },
+    {
+      "id": 106,
+      "start": 466.53,
+      "end": 474.61,
+      "speaker": "DOCTOR",
+      "text": "So, there's different, there's different ways you can get migraines. Uh, and the reason why this sounds like migraines is because it's on one side of the head."
+    },
+    {
+      "id": 107,
+      "start": 474.61,
+      "end": 482.58,
+      "speaker": "DOCTOR",
+      "text": "typical of a migraine, you've got blurry vision, again which is very typical, with the nausea and vomiting, that's also typical of a migraine."
+    },
+    {
+      "id": 108,
+      "start": 474.95,
+      "end": 475.77,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 109,
+      "start": 482.58,
+      "end": 494.97,
+      "speaker": "DOCTOR",
+      "text": "Now, um, uh, obviously, if the headache is really severe, and I'll suggest some medications you can try, if that doesn't work, we would want to see you, um, as soon as possible, to do like a full neurological exam as well."
+    },
+    {
+      "id": 110,
+      "start": 494.97,
+      "end": 502.46,
+      "speaker": "DOCTOR",
+      "text": "to make sure that, you know, there's, you know, when we do a more specific examination that, um, everything all seems fine."
+    },
+    {
+      "id": 111,
+      "start": 495.22,
+      "end": 496.61,
+      "speaker": "PATIENT",
+      "text": "Ohh, that's great."
+    },
+    {
+      "id": 112,
+      "start": 502.46,
+      "end": 510.72,
+      "speaker": "DOCTOR",
+      "text": "Um, I I would recommend in the time between now and when we can see you, uh, if you take some medications, maybe something like ibuprofen?"
+    },
+    {
+      "id": 114,
+      "start": 507.35,
+      "end": 507.91,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 115,
+      "start": 511.29,
+      "end": 520.03,
+      "speaker": "PATIENT",
+      "text": "OK. So, and, uh, you're, you're saying that if this is a migraine, and if I try that medication. This should go away, kind of, today?"
+    },
+    {
+      "id": 116,
+      "start": 519.97,
+      "end": 528.3,
+      "speaker": "DOCTOR",
+      "text": "So, yes, a migraine, yeah, no, you know, even sooner than that, we can look at maybe half an hour to forty minutes, depending on what your response to it is, for some people,"
+    },
+    {
+      "id": 117,
+      "start": 528.3,
+      "end": 538.67,
+      "speaker": "DOCTOR",
+      "text": "Uh, whatever medications they take the migraine doesn't improve, um, and they can last from anywhere from four hours to seventy two hours, migraines can last. Um, but ."
+    },
+    {
+      "id": 118,
+      "start": 538.1,
+      "end": 541.0,
+      "speaker": "PATIENT",
+      "text": "Ugh. OK. That doesn't sound good."
+    },
+    {
+      "id": 120,
+      "start": 541.38,
+      "end": 549.87,
+      "speaker": "DOCTOR",
+      "text": "No. So, what, there's lots of medication treatments so, there's, it can be ibuprofen with an anti-sickness, um, so and , which you can get from the pharmacy."
+    },
+    {
+      "id": 121,
+      "start": 549.87,
+      "end": 555.24,
+      "speaker": "DOCTOR",
+      "text": "Um, and you also to drink, uh, sugary and carbonated drinks, something like Coke."
+    },
+    {
+      "id": 122,
+      "start": 555.6,
+      "end": 556.48,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 123,
+      "start": 556.2,
+      "end": 564.39,
+      "speaker": "DOCTOR",
+      "text": "For the three of them is, uh, is a good sort of cocktail to start them, then we can go up the treatment ladder, you can get specific migraine relief medication."
+    },
+    {
+      "id": 124,
+      "start": 564.39,
+      "end": 569.5,
+      "speaker": "DOCTOR",
+      "text": "And that should be something to try between now and when we see you to do the, um, to do the assessment."
+    },
+    {
+      "id": 125,
+      "start": 564.63,
+      "end": 565.18,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 126,
+      "start": 569.95,
+      "end": 571.29,
+      "speaker": "PATIENT",
+      "text": "OK. Sounds."
+    },
+    {
+      "id": 127,
+      "start": 570.45,
+      "end": 574.19,
+      "speaker": "DOCTOR",
+      "text": "assessment to where we can see you today at some point."
+    },
+    {
+      "id": 128,
+      "start": 574.53,
+      "end": 575.42,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 129,
+      "start": 575.48,
+      "end": 584.94,
+      "speaker": "DOCTOR",
+      "text": "And, but however, if you do take these medications and, you know, by the time your appointment time comes in and you feel much better in yourself, you can cancel it, um, you can give us a call and cancel it."
+    },
+    {
+      "id": 130,
+      "start": 585.18,
+      "end": 588.73,
+      "speaker": "PATIENT",
+      "text": "OK, sounds good, yeah. Sounds, sounds a good plan."
+    },
+    {
+      "id": 131,
+      "start": 586.68,
+      "end": 587.19,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 132,
+      "start": 588.57,
+      "end": 590.38,
+      "speaker": "DOCTOR",
+      "text": "Uh, any, any questions for me?"
+    },
+    {
+      "id": 133,
+      "start": 590.5,
+      "end": 593.66,
+      "speaker": "PATIENT",
+      "text": "Uh, no, thank you very much. You were very helpful."
+    },
+    {
+      "id": 134,
+      "start": 593.49,
+      "end": 598.43,
+      "speaker": "DOCTOR",
+      "text": "All right. OK. Um, any, any further problems between now and your appointment, please do let us know."
+    },
+    {
+      "id": 135,
+      "start": 599.3,
+      "end": 601.5,
+      "speaker": "PATIENT",
+      "text": "OK, yeah. Thank you very much."
+    },
+    {
+      "id": 136,
+      "start": 601.32,
+      "end": 602.32,
+      "speaker": "DOCTOR",
+      "text": "OK. Bye."
+    },
+    {
+      "id": 138,
+      "start": 604.03,
+      "end": 604.97,
+      "speaker": "PATIENT",
+      "text": "Should I disconnect?"
+    }
+  ]
+}

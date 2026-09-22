@@ -1,0 +1,827 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation07",
+  "presenting_complaint": "Cough and a cold",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: Cough and cold.\nHPC: 4-5 day hx runny nose, dry cough. No sputum/haemoptysis. No epistaxis/sinus pain. Feels hot, hasn't measured temperature. No SOB/inspiratory pain/wheeze. Aches and pains. No vomiting. E&D ok. PUing ok. \nNo hx chest problems/recurrent chest infections/wt loss.\nThinks last BP was fine, can't remember when last BP/DM check up was. Doesn't check blood sugars/urine at home. \nNo increased thirst/urinary freq.\nTaking 2-3 lemsips a day which eases sx.\n\nPMH: Hypertension\nT2 DM\n\nDH: Lisinopril \nMetformin\n\nHeight- 5ft 5in\nWeight - 65kg\n\nSH: Non smoker, odd sherry. Lives with partner and dog. Office manager.\n\nImp: Viral bronchitis.\n\nPlan: Advised continue lemsips but no other paracetamol containing products. Avoid cough syrup but can take if unable to sleep at night. \nMay take 1-2 weeks to settle and cough can persist for up to a month but to contact us if symptoms not worse/fever persists - check with thermometer/coughing up phlegm/blood in sputum/nose bleeds.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.24,
+      "end": 3.12,
+      "speaker": "DOCTOR",
+      "text": "Hi there, it's Doctor Smith from Babylon."
+    },
+    {
+      "id": 2,
+      "start": 3.36,
+      "end": 4.06,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 3,
+      "start": 4.34,
+      "end": 7.49,
+      "speaker": "DOCTOR",
+      "text": "Hi. Can you confirm you name, date of birth and your home address, please?"
+    },
+    {
+      "id": 4,
+      "start": 7.79,
+      "end": 13.35,
+      "speaker": "PATIENT",
+      "text": "Uh, Sandra Bullock, uh, twentieth of February, nineteen fifty eight."
+    },
+    {
+      "id": 5,
+      "start": 8.43,
+      "end": 11.29,
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "id": 7,
+      "start": 15.29,
+      "end": 16.63,
+      "speaker": "DOCTOR",
+      "text": "And your home address?"
+    },
+    {
+      "id": 8,
+      "start": 17.6,
+      "end": 22.29,
+      "speaker": "PATIENT",
+      "text": "Uh, seven three four, court in St. ."
+    },
+    {
+      "id": 9,
+      "start": 22.13,
+      "end": 26.88,
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. Uh, are you in a private place that you can have a consultation at the moment?"
+    },
+    {
+      "id": 10,
+      "start": 27.07,
+      "end": 28.23,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, I am."
+    },
+    {
+      "id": 11,
+      "start": 28.6,
+      "end": 30.37,
+      "speaker": "DOCTOR",
+      "text": "OK, what can I do for you today?"
+    },
+    {
+      "id": 12,
+      "start": 30.94,
+      "end": 36.84,
+      "speaker": "PATIENT",
+      "text": "Um, well, like five days ago I started having problems like a cough, and my nose is just constantly streaming."
+    },
+    {
+      "id": 13,
+      "start": 37.57,
+      "end": 41.52,
+      "speaker": "DOCTOR",
+      "text": "OK. And, and are you normally fit and well?"
+    },
+    {
+      "id": 14,
+      "start": 42.13,
+      "end": 47.36,
+      "speaker": "PATIENT",
+      "text": "Yeah, normally I'm diabetic, but other than that, like, generally pretty good."
+    },
+    {
+      "id": 15,
+      "start": 47.51,
+      "end": 51.33,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So, just tell me about the last, did you say five days?"
+    },
+    {
+      "id": 16,
+      "start": 51.61,
+      "end": 53.22,
+      "speaker": "PATIENT",
+      "text": "Yeah, five days or so ago."
+    },
+    {
+      "id": 17,
+      "start": 53.17,
+      "end": 55.45,
+      "speaker": "DOCTOR",
+      "text": "OK. How about your cough at the moment?"
+    },
+    {
+      "id": 18,
+      "start": 56.12,
+      "end": 60.3,
+      "speaker": "PATIENT",
+      "text": "Uh, it's quite bad. It's kind of quite dry, um."
+    },
+    {
+      "id": 19,
+      "start": 61.09,
+      "end": 64.56,
+      "speaker": "PATIENT",
+      "text": "I'm coughing maybe every twenty, thirty minutes or so."
+    },
+    {
+      "id": 20,
+      "start": 64.61,
+      "end": 66.9,
+      "speaker": "DOCTOR",
+      "text": "OK, you bringing up any phlegm at all?"
+    },
+    {
+      "id": 21,
+      "start": 67.75,
+      "end": 68.75,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 22,
+      "start": 69.17,
+      "end": 71.3,
+      "speaker": "DOCTOR",
+      "text": "No. Any chest pain?"
+    },
+    {
+      "id": 23,
+      "start": 70.24,
+      "end": 70.75,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 24,
+      "start": 72.0,
+      "end": 73.24,
+      "speaker": "PATIENT",
+      "text": "Chest what, sorry?"
+    },
+    {
+      "id": 25,
+      "start": 72.91,
+      "end": 74.61,
+      "speaker": "DOCTOR",
+      "text": "Any pain in your chest?"
+    },
+    {
+      "id": 26,
+      "start": 74.84,
+      "end": 75.78,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 27,
+      "start": 75.99,
+      "end": 81.01,
+      "speaker": "DOCTOR",
+      "text": "Any difficulty breathing, feeling short of breath or any pain when you take a deep breath?"
+    },
+    {
+      "id": 28,
+      "start": 81.42,
+      "end": 82.66,
+      "speaker": "PATIENT",
+      "text": "No, that's all fine."
+    },
+    {
+      "id": 29,
+      "start": 82.64,
+      "end": 85.0,
+      "speaker": "DOCTOR",
+      "text": "Have you coughed up any blood or anything like that?"
+    },
+    {
+      "id": 30,
+      "start": 85.55,
+      "end": 86.06,
+      "speaker": "PATIENT",
+      "text": "Nope."
+    },
+    {
+      "id": 31,
+      "start": 86.32,
+      "end": 88.86,
+      "speaker": "DOCTOR",
+      "text": "And what about your nose symptoms?"
+    },
+    {
+      "id": 32,
+      "start": 89.62,
+      "end": 92.97,
+      "speaker": "DOCTOR",
+      "text": "Are you front of your sinuses or anything?"
+    },
+    {
+      "id": 33,
+      "start": 89.73,
+      "end": 91.98,
+      "speaker": "PATIENT",
+      "text": "Uh, just ."
+    },
+    {
+      "id": 34,
+      "start": 93.22,
+      "end": 99.2,
+      "speaker": "PATIENT",
+      "text": "Uh, nothing up in here but just constant streaming, like, using a million tissues."
+    },
+    {
+      "id": 35,
+      "start": 98.87,
+      "end": 101.49,
+      "speaker": "DOCTOR",
+      "text": "OK. And any blood coming from the nose?"
+    },
+    {
+      "id": 36,
+      "start": 101.77,
+      "end": 103.5,
+      "speaker": "PATIENT",
+      "text": "No, it's pretty green."
+    },
+    {
+      "id": 37,
+      "start": 103.86,
+      "end": 107.89,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Any other symptoms, like sore ears? Sore throat?"
+    },
+    {
+      "id": 38,
+      "start": 108.1,
+      "end": 119.61,
+      "speaker": "PATIENT",
+      "text": "Uh, I I've been feeling really hot, um, I don't know if it's fever as such, but, like, to touch I'm quite hot but sometimes I'm feeling really chilly, needing to be under a blanket, that sort of thing."
+    },
+    {
+      "id": 39,
+      "start": 119.23,
+      "end": 121.82,
+      "speaker": "DOCTOR",
+      "text": "Have you checked your temperature with a thermometer?"
+    },
+    {
+      "id": 40,
+      "start": 122.26,
+      "end": 123.62,
+      "speaker": "PATIENT",
+      "text": "Uhh, no, I haven't."
+    },
+    {
+      "id": 41,
+      "start": 123.87,
+      "end": 128.1,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and are you eating and drinking normally?"
+    },
+    {
+      "id": 42,
+      "start": 128.88,
+      "end": 138.61,
+      "speaker": "PATIENT",
+      "text": "Uhh, yes. Um, kind of around when it started, I had some diarrhoea, but I don't know if that was associated. But since then it's all been pretty fine."
+    },
+    {
+      "id": 43,
+      "start": 138.8,
+      "end": 142.6,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you're drinking well, holding down fluids OK?"
+    },
+    {
+      "id": 44,
+      "start": 143.24,
+      "end": 143.79,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 45,
+      "start": 143.81,
+      "end": 145.5,
+      "speaker": "DOCTOR",
+      "text": "And passing water OK?"
+    },
+    {
+      "id": 46,
+      "start": 146.05,
+      "end": 147.1,
+      "speaker": "PATIENT",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "id": 47,
+      "start": 146.63,
+      "end": 148.39,
+      "speaker": "DOCTOR",
+      "text": "No vomiting, diarrhoea now?"
+    },
+    {
+      "id": 48,
+      "start": 148.66,
+      "end": 149.23,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 49,
+      "start": 149.64,
+      "end": 154.37,
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. Um, any rashes that you've noticed?"
+    },
+    {
+      "id": 50,
+      "start": 154.74,
+      "end": 157.83,
+      "speaker": "PATIENT",
+      "text": "Rashes? Uhh, no, nothing like that."
+    },
+    {
+      "id": 51,
+      "start": 155.52,
+      "end": 156.14,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 52,
+      "start": 157.62,
+      "end": 160.16,
+      "speaker": "DOCTOR",
+      "text": "Any headaches or change in your vision?"
+    },
+    {
+      "id": 53,
+      "start": 160.42,
+      "end": 164.77,
+      "speaker": "PATIENT",
+      "text": "No, um, I've had quite achy muscles, but that's pretty much it."
+    },
+    {
+      "id": 54,
+      "start": 165.38,
+      "end": 169.35,
+      "speaker": "DOCTOR",
+      "text": "OK. And normally, do you have any chest problems?"
+    },
+    {
+      "id": 55,
+      "start": 170.13,
+      "end": 171.19,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 56,
+      "start": 171.14,
+      "end": 173.97,
+      "speaker": "DOCTOR",
+      "text": "Do you ever get wheezing, short of breath?"
+    },
+    {
+      "id": 57,
+      "start": 175.0,
+      "end": 178.88,
+      "speaker": "PATIENT",
+      "text": "Uh, I mean, like, if I do intense exercise, then yes. But not ."
+    },
+    {
+      "id": 58,
+      "start": 177.95,
+      "end": 185.41,
+      "speaker": "DOCTOR",
+      "text": ". And, do you regularly have any infections in your chest, or anything that needs treatment, normally?"
+    },
+    {
+      "id": 59,
+      "start": 185.92,
+      "end": 191.9,
+      "speaker": "PATIENT",
+      "text": "No, uh, I've got hypertension, um, so I'm on some drugs for that, um, but that's it, really."
+    },
+    {
+      "id": 60,
+      "start": 191.8,
+      "end": 195.24,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, any other medical problems?"
+    },
+    {
+      "id": 61,
+      "start": 196.79,
+      "end": 200.08,
+      "speaker": "PATIENT",
+      "text": "Uh, just the hypertension and the diabetes."
+    },
+    {
+      "id": 62,
+      "start": 199.83,
+      "end": 202.14,
+      "speaker": "DOCTOR",
+      "text": "OK, and what type of drugs are you on?"
+    },
+    {
+      "id": 63,
+      "start": 202.76,
+      "end": 208.76,
+      "speaker": "PATIENT",
+      "text": "Uh, I think something called metformin, and lisinopril I think is the other one."
+    },
+    {
+      "id": 64,
+      "start": 209.21,
+      "end": 211.7,
+      "speaker": "DOCTOR",
+      "text": "OK, and when did you last have your blood pressure checked?"
+    },
+    {
+      "id": 65,
+      "start": 213.03,
+      "end": 220.51,
+      "speaker": "PATIENT",
+      "text": "Uh, ooh, uh, a while ago. Um, ."
+    },
+    {
+      "id": 66,
+      "start": 217.96,
+      "end": 221.28,
+      "speaker": "DOCTOR",
+      "text": "Do you know if it, do you know if it's been stable?"
+    },
+    {
+      "id": 67,
+      "start": 221.93,
+      "end": 223.33,
+      "speaker": "PATIENT",
+      "text": "Uh, I can't remember."
+    },
+    {
+      "id": 68,
+      "start": 223.24,
+      "end": 230.58,
+      "speaker": "DOCTOR",
+      "text": "OK. And with your blood, with your diabetes, have you had a blood test recently?"
+    },
+    {
+      "id": 69,
+      "start": 231.47,
+      "end": 235.73,
+      "speaker": "PATIENT",
+      "text": "Um, yeah. Like."
+    },
+    {
+      "id": 70,
+      "start": 236.79,
+      "end": 240.33,
+      "speaker": "PATIENT",
+      "text": "Yeah, it was normal. It was around three weeks ago."
+    },
+    {
+      "id": 71,
+      "start": 240.81,
+      "end": 244.2,
+      "speaker": "DOCTOR",
+      "text": "OK, and do you know what dose of the lisinopril you're taking?"
+    },
+    {
+      "id": 72,
+      "start": 244.89,
+      "end": 247.49,
+      "speaker": "PATIENT",
+      "text": "Uh, two hundred."
+    },
+    {
+      "id": 73,
+      "start": 248.37,
+      "end": 256.41,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you been able to pass water normally? Any increase in in frequency that you're passing water or any increased thirst?"
+    },
+    {
+      "id": 74,
+      "start": 257.17,
+      "end": 259.63,
+      "speaker": "PATIENT",
+      "text": "Uh, no, not particularly."
+    },
+    {
+      "id": 75,
+      "start": 259.76,
+      "end": 261.87,
+      "speaker": "DOCTOR",
+      "text": "And has your weight been stable?"
+    },
+    {
+      "id": 76,
+      "start": 262.72,
+      "end": 263.47,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 77,
+      "start": 263.48,
+      "end": 265.58,
+      "speaker": "DOCTOR",
+      "text": "What is your weight and height?"
+    },
+    {
+      "id": 78,
+      "start": 265.86,
+      "end": 272.52,
+      "speaker": "PATIENT",
+      "text": "Uh, my height is five foot five, and my weight is sixty five kilograms."
+    },
+    {
+      "id": 79,
+      "start": 272.87,
+      "end": 275.58,
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke at all?"
+    },
+    {
+      "id": 81,
+      "start": 276.66,
+      "end": 278.22,
+      "speaker": "DOCTOR",
+      "text": "You drink any alcohol?"
+    },
+    {
+      "id": 82,
+      "start": 278.72,
+      "end": 280.75,
+      "speaker": "PATIENT",
+      "text": "Yes, the odd cherry."
+    },
+    {
+      "id": 83,
+      "start": 281.42,
+      "end": 284.12,
+      "speaker": "DOCTOR",
+      "text": "OK.Um, who do you live with at home?"
+    },
+    {
+      "id": 84,
+      "start": 284.52,
+      "end": 286.59,
+      "speaker": "PATIENT",
+      "text": "Uh, my partner and my dog."
+    },
+    {
+      "id": 85,
+      "start": 288.13,
+      "end": 289.71,
+      "speaker": "DOCTOR",
+      "text": "And do you work?"
+    },
+    {
+      "id": 86,
+      "start": 290.28,
+      "end": 293.31,
+      "speaker": "PATIENT",
+      "text": "Uh, yes. I'm an office manager."
+    },
+    {
+      "id": 87,
+      "start": 293.22,
+      "end": 293.99,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 88,
+      "start": 295.22,
+      "end": 301.0,
+      "speaker": "DOCTOR",
+      "text": "And have you been doing anything yourself to help with the symptoms? Anything that you've bought in the chemist?"
+    },
+    {
+      "id": 89,
+      "start": 302.02,
+      "end": 308.5,
+      "speaker": "PATIENT",
+      "text": "Um, uh, a quite a few lemon sips. Um, they seems to be helping."
+    },
+    {
+      "id": 91,
+      "start": 308.58,
+      "end": 312.38,
+      "speaker": "DOCTOR",
+      "text": "Do you, what, what do you mean by quite a few? How many in, in a day do you normally take?"
+    },
+    {
+      "id": 92,
+      "start": 312.75,
+      "end": 316.59,
+      "speaker": "PATIENT",
+      "text": "Uh, maybe two or three. Maybe, like, at the start of the day and at the end of the day."
+    },
+    {
+      "id": 93,
+      "start": 316.89,
+      "end": 319.45,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you noticed any improvement in that?"
+    },
+    {
+      "id": 94,
+      "start": 320.32,
+      "end": 323.72,
+      "speaker": "PATIENT",
+      "text": "Yeah. It tends to soothe my throat a bit for when I'm going to sleep."
+    },
+    {
+      "id": 95,
+      "start": 324.47,
+      "end": 328.32,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, do you have any allergies to anything?"
+    },
+    {
+      "id": 96,
+      "start": 329.14,
+      "end": 333.64,
+      "speaker": "PATIENT",
+      "text": "Uh, I sometimes suffer from some, like, hay fever. But, um, but it's not bad"
+    },
+    {
+      "id": 97,
+      "start": 332.24,
+      "end": 335.81,
+      "speaker": "DOCTOR",
+      "text": "Any . Any allergies to any medications at all?"
+    },
+    {
+      "id": 98,
+      "start": 336.05,
+      "end": 337.61,
+      "speaker": "PATIENT",
+      "text": "Not that I'm aware of, no."
+    },
+    {
+      "id": 99,
+      "start": 337.83,
+      "end": 358.22,
+      "speaker": "DOCTOR",
+      "text": "OK. So, what you've described to me, it sounds like you, you probably have got an infection in the chest, um, because it's, it, you know, you're obviously getting symptoms of from your nose and your chest. Um, it sounds like you might have a high temperature, it's definitely worth getting a thermometer and checking your temperature."
+    },
+    {
+      "id": 100,
+      "start": 358.5,
+      "end": 361.58,
+      "speaker": "PATIENT",
+      "text": "OK. I can just get one of those at a pharmacy or something?"
+    },
+    {
+      "id": 101,
+      "start": 361.9,
+      "end": 380.1,
+      "speaker": "DOCTOR",
+      "text": "Yeah, and most of the time, these infections are caused by viruses, so they do normally settle by themselves. But it can take, you know, a week or two, um, and you can persistently have the cough ongoing longer than that."
+    },
+    {
+      "id": 102,
+      "start": 380.82,
+      "end": 384.11,
+      "speaker": "DOCTOR",
+      "text": "Um, the important thing to do would be to take your temperature."
+    },
+    {
+      "id": 103,
+      "start": 384.81,
+      "end": 404.2,
+      "speaker": "DOCTOR",
+      "text": "Um, and if you feel like, if the temperature's ongoing, above thirty seven point five, thirty eight, um, and you keep spiking temperatures and that's not settling down, or your cough's getting worse, you're coughing up lots of nasty phlegm or you cough up any blood or get blood coming out your nose,"
+    },
+    {
+      "id": 104,
+      "start": 404.2,
+      "end": 419.58,
+      "speaker": "DOCTOR",
+      "text": "um, or any shortness of breath, chest pain, then we certainly would need to speak to you again. With the diabetes you are a bit more likely to get a bacterial infection than if you didn't have the diabetes, so it's something we do need to be careful of."
+    },
+    {
+      "id": 105,
+      "start": 411.11,
+      "end": 411.85,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 106,
+      "start": 420.62,
+      "end": 424.97,
+      "speaker": "PATIENT",
+      "text": "OK. So, then we would at potentially antibiotics at that time, perhaps?"
+    },
+    {
+      "id": 107,
+      "start": 424.75,
+      "end": 430.77,
+      "speaker": "DOCTOR",
+      "text": "Yeah, potentially. If it is, if it's not settling or the temperature's ongoing, getting worse, then we definitely need to talk to you again."
+    },
+    {
+      "id": 108,
+      "start": 430.93,
+      "end": 431.72,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 431.77,
+      "end": 435.02,
+      "speaker": "DOCTOR",
+      "text": "Um, have you got any other questions?"
+    },
+    {
+      "id": 110,
+      "start": 435.64,
+      "end": 438.05,
+      "speaker": "PATIENT",
+      "text": "Um, no, that's all fine."
+    },
+    {
+      "id": 111,
+      "start": 437.96,
+      "end": 451.29,
+      "speaker": "DOCTOR",
+      "text": "It's fine to carry on what you're doing at the moment, with the lemsip. I wouldn't take, and that, that contains paracetamol so don't take any other paracetamol containing products, um, with that at the same time."
+    },
+    {
+      "id": 112,
+      "start": 445.79,
+      "end": 446.33,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 113,
+      "start": 451.29,
+      "end": 464.64,
+      "speaker": "DOCTOR",
+      "text": "Um, the cough syrup isn't advisable in the daytime because it's best for your body if you just keep coughing. But if you're kept up all night and you can't sleep at all, then it, it's OK to have a little bit of cough syrup, just to settle that down."
+    },
+    {
+      "id": 114,
+      "start": 465.35,
+      "end": 466.51,
+      "speaker": "PATIENT",
+      "text": "OK. Cool."
+    },
+    {
+      "id": 115,
+      "start": 467.22,
+      "end": 483.12,
+      "speaker": "DOCTOR",
+      "text": "OK? Do you have blood sugar checking equipment? Do you check? No, OK. Well, if you make sure that you have the regular diabetes and blood pressure checkups that your GP has asked you for?"
+    },
+    {
+      "id": 116,
+      "start": 468.56,
+      "end": 469.16,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 117,
+      "start": 473.12,
+      "end": 474.41,
+      "speaker": "PATIENT",
+      "text": "I'm not at home."
+    },
+    {
+      "id": 118,
+      "start": 483.43,
+      "end": 483.95,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 119,
+      "start": 484.32,
+      "end": 489.24,
+      "speaker": "DOCTOR",
+      "text": "OK, great. Alright then, take care. Bye."
+    },
+    {
+      "id": 121,
+      "start": 486.74,
+      "end": 489.18,
+      "speaker": "PATIENT",
+      "text": "Alright. Thanks so much. Bye."
+    }
+  ]
+}

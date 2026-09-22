@@ -1,0 +1,827 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation03",
+  "presenting_complaint": "I'm feeling short of breath",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC SOBAR, c section 2-3 weeks ago\n\nHPC;\nSOBAR while watching tv, acute onset.  Cough 1/7 previously, unproductive.\nNo fever, no chills, non positional.\nNo chest pain, no pain on inspiration\n\nC section 2-3 weeks ago. No complications, baby well.  No symptoms.\nNo of blood thinners.\n\n\nPMHx nill\nDhx. allergies to ibuprofen \n\n\nOex HR via telephone roughly 120bpm . tachy, regular\n\n\nFHx,\nMother hx of clots on legs.\n\nDDx: PE\n\nPlan : Further examination and investigation in acute setting.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.53,
+      "end": 2.14,
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "id": 2,
+      "start": 1.54,
+      "end": 2.28,
+      "speaker": "PATIENT",
+      "text": "Hey."
+    },
+    {
+      "id": 3,
+      "start": 6.5,
+      "end": 7.71,
+      "speaker": "DOCTOR",
+      "text": "Hi. Can you hear me?"
+    },
+    {
+      "id": 4,
+      "start": 7.61,
+      "end": 8.7,
+      "speaker": "PATIENT",
+      "text": "Yeah. I can hear you."
+    },
+    {
+      "id": 5,
+      "start": 8.86,
+      "end": 14.45,
+      "speaker": "DOCTOR",
+      "text": "Good. Um, my name is Doctor Gohil. I'm one of the physicians that works here at Babylon."
+    },
+    {
+      "id": 6,
+      "start": 14.32,
+      "end": 15.25,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 7,
+      "start": 14.45,
+      "end": 17.1,
+      "speaker": "DOCTOR",
+      "text": "May I confirm your name and date of birth, please?"
+    },
+    {
+      "id": 8,
+      "start": 17.07,
+      "end": 25.44,
+      "speaker": "PATIENT",
+      "text": "Uh, uh, my name is Sarah Smith. And, my date of birth is the twentieth of April nineteen eighty."
+    },
+    {
+      "id": 10,
+      "start": 26.19,
+      "end": 26.84,
+      "speaker": "PATIENT",
+      "text": "Great."
+    },
+    {
+      "id": 11,
+      "start": 27.45,
+      "end": 32.15,
+      "speaker": "DOCTOR",
+      "text": "Nineteen eighty three. And, are you in a space that's private and quiet, and you can talk?"
+    },
+    {
+      "id": 12,
+      "start": 28.62,
+      "end": 29.17,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 14,
+      "start": 32.58,
+      "end": 33.18,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 15,
+      "start": 33.68,
+      "end": 39.86,
+      "speaker": "DOCTOR",
+      "text": "Good. So, it says, erm, I've got a note to say, it says you're feeling short of breath. Is that correct?"
+    },
+    {
+      "id": 16,
+      "start": 39.26,
+      "end": 40.81,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 17,
+      "start": 41.8,
+      "end": 44.0,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you able to tell me a little bit more about that?"
+    },
+    {
+      "id": 18,
+      "start": 44.44,
+      "end": 51.16,
+      "speaker": "PATIENT",
+      "text": "Yeah. I was watching TV and, um, just like over the last hour, I've started to feel, like, a bit short of breath."
+    },
+    {
+      "id": 19,
+      "start": 53.25,
+      "end": 55.35,
+      "speaker": "DOCTOR",
+      "text": "That is, while you're sitting watching TV?"
+    },
+    {
+      "id": 20,
+      "start": 55.46,
+      "end": 56.14,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 21,
+      "start": 57.11,
+      "end": 60.14,
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you noticed anything like this before?"
+    },
+    {
+      "id": 22,
+      "start": 60.79,
+      "end": 62.33,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 23,
+      "start": 64.49,
+      "end": 68.07,
+      "speaker": "DOCTOR",
+      "text": "OK. And, apart from the shortness of breath, have you noticed anything else?"
+    },
+    {
+      "id": 24,
+      "start": 68.79,
+      "end": 72.11,
+      "speaker": "PATIENT",
+      "text": "Um, so, I , I started with a cough yesterday."
+    },
+    {
+      "id": 25,
+      "start": 72.06,
+      "end": 72.85,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 26,
+      "start": 75.75,
+      "end": 76.92,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 27,
+      "start": 77.74,
+      "end": 83.03,
+      "speaker": "PATIENT",
+      "text": "Yeah. I, I don't know if it's, um, relevant, but I had a C-section a few weeks ago."
+    },
+    {
+      "id": 28,
+      "start": 83.47,
+      "end": 86.29,
+      "speaker": "DOCTOR",
+      "text": "OK. And, how long ago was that? Just a few weeks?"
+    },
+    {
+      "id": 29,
+      "start": 86.54,
+      "end": 87.5,
+      "speaker": "PATIENT",
+      "text": "Yeah, four weeks."
+    },
+    {
+      "id": 30,
+      "start": 87.71,
+      "end": 89.58,
+      "speaker": "DOCTOR",
+      "text": "OK. And, are you with baby at the moment?"
+    },
+    {
+      "id": 31,
+      "start": 89.99,
+      "end": 90.87,
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "id": 32,
+      "start": 91.86,
+      "end": 93.34,
+      "speaker": "DOCTOR",
+      "text": "And, how is baby doing?"
+    },
+    {
+      "id": 33,
+      "start": 93.94,
+      "end": 95.17,
+      "speaker": "PATIENT",
+      "text": "Yeah. ."
+    },
+    {
+      "id": 34,
+      "start": 95.06,
+      "end": 98.38,
+      "speaker": "DOCTOR",
+      "text": "OK. Any coughs or colds with, uh, them?"
+    },
+    {
+      "id": 35,
+      "start": 98.81,
+      "end": 100.36,
+      "speaker": "PATIENT",
+      "text": "No, no. He's fine."
+    },
+    {
+      "id": 36,
+      "start": 100.21,
+      "end": 105.27,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've noticed shortness of breath for just an hour, while sitting and watching TV?"
+    },
+    {
+      "id": 37,
+      "start": 103.77,
+      "end": 104.51,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 38,
+      "start": 105.38,
+      "end": 105.97,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 39,
+      "start": 105.76,
+      "end": 108.84,
+      "speaker": "DOCTOR",
+      "text": "And, you had your C-section a couple of weeks ago?"
+    },
+    {
+      "id": 40,
+      "start": 109.18,
+      "end": 109.76,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 41,
+      "start": 109.68,
+      "end": 111.64,
+      "speaker": "DOCTOR",
+      "text": "And, yesterday you noticed a cough?"
+    },
+    {
+      "id": 42,
+      "start": 112.1,
+      "end": 112.97,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 43,
+      "start": 113.02,
+      "end": 116.04,
+      "speaker": "DOCTOR",
+      "text": "So, talk to me about the cough. Have you bought anything up?"
+    },
+    {
+      "id": 44,
+      "start": 116.51,
+      "end": 117.97,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I haven't, no."
+    },
+    {
+      "id": 45,
+      "start": 118.51,
+      "end": 122.84,
+      "speaker": "DOCTOR",
+      "text": "And, when was the last time you were ill with the flu, or symptoms like this?"
+    },
+    {
+      "id": 46,
+      "start": 123.32,
+      "end": 127.88,
+      "speaker": "PATIENT",
+      "text": "Um, you know, I get coughs and colds quite a lot, but probably."
+    },
+    {
+      "id": 47,
+      "start": 129.18,
+      "end": 130.52,
+      "speaker": "PATIENT",
+      "text": "Good few months ago."
+    },
+    {
+      "id": 48,
+      "start": 131.95,
+      "end": 136.06,
+      "speaker": "DOCTOR",
+      "text": "OK. And, this shortness of breath you're having, is it getting worse?"
+    },
+    {
+      "id": 49,
+      "start": 137.07,
+      "end": 138.33,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 50,
+      "start": 139.18,
+      "end": 145.65,
+      "speaker": "PATIENT",
+      "text": "No. I mean, I don't know. I feel like I'm getting really stressed out because, like, my heart, it's really going."
+    },
+    {
+      "id": 51,
+      "start": 145.41,
+      "end": 148.2,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you're feeling your heart more than normal?"
+    },
+    {
+      "id": 52,
+      "start": 148.22,
+      "end": 149.1,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 53,
+      "start": 150.77,
+      "end": 154.26,
+      "speaker": "DOCTOR",
+      "text": "And, the shortness of breath, does it cause any pain in your chest?"
+    },
+    {
+      "id": 54,
+      "start": 155.42,
+      "end": 157.03,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 55,
+      "start": 157.07,
+      "end": 159.68,
+      "speaker": "DOCTOR",
+      "text": "How about when you take a very deep breath in?"
+    },
+    {
+      "id": 56,
+      "start": 162.03,
+      "end": 168.97,
+      "speaker": "PATIENT",
+      "text": "Um, I mean, yeah. My chest feels sore, but so does my C-section scar. You know, it's, it's all tender."
+    },
+    {
+      "id": 57,
+      "start": 168.49,
+      "end": 169.14,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 58,
+      "start": 170.05,
+      "end": 173.49,
+      "speaker": "DOCTOR",
+      "text": "And, since your C-section, did you have to take any medications?"
+    },
+    {
+      "id": 59,
+      "start": 174.19,
+      "end": 176.26,
+      "speaker": "PATIENT",
+      "text": "Um, no. Just some painkillers."
+    },
+    {
+      "id": 60,
+      "start": 179.34,
+      "end": 182.1,
+      "speaker": "DOCTOR",
+      "text": "All right. And, can you remember what the name of those were?"
+    },
+    {
+      "id": 61,
+      "start": 182.31,
+      "end": 186.33,
+      "speaker": "PATIENT",
+      "text": "Uh, they gave me some, uh, Codeine."
+    },
+    {
+      "id": 62,
+      "start": 187.61,
+      "end": 189.58,
+      "speaker": "DOCTOR",
+      "text": "And, have you had to use that regularly?"
+    },
+    {
+      "id": 63,
+      "start": 189.91,
+      "end": 195.49,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I, I've been taking that fairly, fairly regularly. But, probably haven't taken it for a week."
+    },
+    {
+      "id": 64,
+      "start": 195.55,
+      "end": 201.9,
+      "speaker": "DOCTOR",
+      "text": "OK. And, apart from the C-section and the shortness of breath, have you got any other medical problems I should know about?"
+    },
+    {
+      "id": 65,
+      "start": 199.47,
+      "end": 200.1,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 66,
+      "start": 202.5,
+      "end": 204.87,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 67,
+      "start": 205.64,
+      "end": 207.05,
+      "speaker": "DOCTOR",
+      "text": "And, you were ."
+    },
+    {
+      "id": 68,
+      "start": 205.96,
+      "end": 209.07,
+      "speaker": "PATIENT",
+      "text": "tell you, I'm allergic to Ibuprofen, though."
+    },
+    {
+      "id": 69,
+      "start": 208.83,
+      "end": 209.54,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 70,
+      "start": 210.31,
+      "end": 212.29,
+      "speaker": "DOCTOR",
+      "text": "And, what happens when you take Ibuprofen?"
+    },
+    {
+      "id": 71,
+      "start": 212.83,
+      "end": 213.91,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 72,
+      "start": 214.66,
+      "end": 217.26,
+      "speaker": "PATIENT",
+      "text": "I don't know. Sorry."
+    },
+    {
+      "id": 74,
+      "start": 218.4,
+      "end": 222.93,
+      "speaker": "DOCTOR",
+      "text": "So, I need you to do something for me. Have you measured the rate of your heart before?"
+    },
+    {
+      "id": 75,
+      "start": 223.23,
+      "end": 224.36,
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "id": 76,
+      "start": 224.46,
+      "end": 227.69,
+      "speaker": "DOCTOR",
+      "text": "Have you measured it recently, either with an iWatch or something similar?"
+    },
+    {
+      "id": 77,
+      "start": 228.74,
+      "end": 230.03,
+      "speaker": "PATIENT",
+      "text": "No, I haven't, no."
+    },
+    {
+      "id": 78,
+      "start": 229.72,
+      "end": 240.33,
+      "speaker": "DOCTOR",
+      "text": "OK. We might need to do that over the phone. So, are you able to put your right hand on your left wrist, just underneath your thumb? And, see if you can feel your heartbeat."
+    },
+    {
+      "id": 79,
+      "start": 238.74,
+      "end": 239.41,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 80,
+      "start": 241.43,
+      "end": 242.15,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 81,
+      "start": 242.28,
+      "end": 250.44,
+      "speaker": "DOCTOR",
+      "text": "So, uh, what I need you to do is, when I count to three, count down from three, just count the number of beats you've noticed. And, I'll tell you when to stop. Is that OK?"
+    },
+    {
+      "id": 82,
+      "start": 248.71,
+      "end": 249.44,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 83,
+      "start": 250.43,
+      "end": 251.13,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 84,
+      "start": 250.95,
+      "end": 254.55,
+      "speaker": "DOCTOR",
+      "text": "So, we'll start in three, two, one. Go."
+    },
+    {
+      "id": 85,
+      "start": 263.82,
+      "end": 266.12,
+      "speaker": "DOCTOR",
+      "text": "Great. That should be enough. How many did you count?"
+    },
+    {
+      "id": 86,
+      "start": 266.83,
+      "end": 270.96,
+      "speaker": "PATIENT",
+      "text": "Uh, I counted thirty."
+    },
+    {
+      "id": 87,
+      "start": 271.01,
+      "end": 271.81,
+      "speaker": "DOCTOR",
+      "text": "Good."
+    },
+    {
+      "id": 88,
+      "start": 273.6,
+      "end": 280.91,
+      "speaker": "DOCTOR",
+      "text": "So, your heart is running slightly fast at the moment, which is probably because of the shortness of breath and some of the pain that you're under."
+    },
+    {
+      "id": 89,
+      "start": 276.69,
+      "end": 277.5,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 90,
+      "start": 280.93,
+      "end": 281.93,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 91,
+      "start": 282.08,
+      "end": 288.4,
+      "speaker": "DOCTOR",
+      "text": "Given that you've had a C-section, and you're short of breath, which has come on quite recently and quite quickly"
+    },
+    {
+      "id": 92,
+      "start": 288.4,
+      "end": 293.66,
+      "speaker": "DOCTOR",
+      "text": "It might be worth you going into the hospital to get checked out the bit further."
+    },
+    {
+      "id": 93,
+      "start": 293.71,
+      "end": 294.62,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 94,
+      "start": 294.53,
+      "end": 302.66,
+      "speaker": "DOCTOR",
+      "text": "So, there's two ways of us doing this. The first is, I can call an ambulance. Or, you can take yourself to the hospital with baby."
+    },
+    {
+      "id": 95,
+      "start": 302.91,
+      "end": 303.67,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 96,
+      "start": 303.32,
+      "end": 304.87,
+      "speaker": "DOCTOR",
+      "text": "Which one would you prefer?"
+    },
+    {
+      "id": 97,
+      "start": 305.09,
+      "end": 311.29,
+      "speaker": "PATIENT",
+      "text": "Uh, it feels a bit dramatic to call an ambulance. Um, I, I will, I will go. I will, I will take myself."
+    },
+    {
+      "id": 98,
+      "start": 311.45,
+      "end": 317.63,
+      "speaker": "DOCTOR",
+      "text": "Sure. And, what I would suggest is, go fairly quickly and take some bits for baby at the same time."
+    },
+    {
+      "id": 99,
+      "start": 317.67,
+      "end": 318.43,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 100,
+      "start": 318.61,
+      "end": 323.43,
+      "speaker": "DOCTOR",
+      "text": "And, if you're taking any medications like Codeine, don't, don't take them for the time being."
+    },
+    {
+      "id": 101,
+      "start": 323.64,
+      "end": 324.88,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm, OK."
+    },
+    {
+      "id": 102,
+      "start": 324.78,
+      "end": 326.75,
+      "speaker": "DOCTOR",
+      "text": "Is anyone else with you at home?"
+    },
+    {
+      "id": 103,
+      "start": 326.86,
+      "end": 328.59,
+      "speaker": "PATIENT",
+      "text": "Uh, no. My partner's at work."
+    },
+    {
+      "id": 104,
+      "start": 328.69,
+      "end": 329.44,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 105,
+      "start": 330.83,
+      "end": 333.59,
+      "speaker": "DOCTOR",
+      "text": "So, I think that's the best thing to do, for the time being."
+    },
+    {
+      "id": 106,
+      "start": 333.54,
+      "end": 334.35,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 107,
+      "start": 334.37,
+      "end": 338.01,
+      "speaker": "DOCTOR",
+      "text": "So, what I'm worried about at the moment is, given that you've had a C-section"
+    },
+    {
+      "id": 108,
+      "start": 338.57,
+      "end": 345.1,
+      "speaker": "DOCTOR",
+      "text": "Some people can suffer with clots. And, those can either be found in the legs or your chest, so in your lungs."
+    },
+    {
+      "id": 109,
+      "start": 345.33,
+      "end": 346.07,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 110,
+      "start": 345.67,
+      "end": 350.82,
+      "speaker": "DOCTOR",
+      "text": "It's quite a common thing to happen. And, it's not something to worry about. But, needs to be checked out in the hospital first."
+    },
+    {
+      "id": 111,
+      "start": 351.08,
+      "end": 351.84,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 112,
+      "start": 351.61,
+      "end": 356.2,
+      "speaker": "DOCTOR",
+      "text": "And, if it, if that does become the case, they can give you something to reduce the clot."
+    },
+    {
+      "id": 113,
+      "start": 356.47,
+      "end": 358.68,
+      "speaker": "PATIENT",
+      "text": "All right, OK. That makes sense."
+    },
+    {
+      "id": 114,
+      "start": 357.25,
+      "end": 358.63,
+      "speaker": "DOCTOR",
+      "text": "Fairly quick process."
+    },
+    {
+      "id": 115,
+      "start": 359.82,
+      "end": 364.65,
+      "speaker": "PATIENT",
+      "text": "OK. Yeah. I mean, my mum's had, uh, clots in her legs before. So, I guess, you know."
+    },
+    {
+      "id": 116,
+      "start": 365.92,
+      "end": 368.83,
+      "speaker": "PATIENT",
+      "text": "Yeah, that makes sense. I know, I know what they are."
+    },
+    {
+      "id": 117,
+      "start": 369.07,
+      "end": 373.32,
+      "speaker": "DOCTOR",
+      "text": "Good. Are you, uh, are you particularly worried about anything, or do you want to ask me anything, before we go?"
+    },
+    {
+      "id": 118,
+      "start": 373.37,
+      "end": 377.39,
+      "speaker": "PATIENT",
+      "text": "No, no. I'm fine. I'll, uh, I'll just take myself to the hospital."
+    },
+    {
+      "id": 119,
+      "start": 377.19,
+      "end": 378.63,
+      "speaker": "DOCTOR",
+      "text": "Great. Thank you so much."
+    },
+    {
+      "id": 120,
+      "start": 378.55,
+      "end": 380.11,
+      "speaker": "PATIENT",
+      "text": "All right. Thank you. Bye."
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation09",
+  "presenting_complaint": "I have pain in my jaw",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Numbness of the left arm for 2 weeks \nMild weakness on holding things and playing the piano \nNo neck pain \nVisual disturbace in the left peripheral field lasting 20 minutes 2 weeks ago \nyou recently started some boxing lessons \nhad vomiting over a month ago for 2 weeks , started after a party \nnumbness over the left second, third and fourth finger \nno fits \nno weakness elsewhere, gait is normal\nMedication: ibuprofen, Vitamin D , iron tablets , melatonin\nFH : Dad - hypothyroidism\nMOM- diabetes , high cholesterol and high BP\nPlan : urgent neurology review \nr/o MS \nIf there is progressing weakness of the arms and legs, vomiting, visual disturbances, fits you will need to go to A & E\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.43,
+      "end": 1.43,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 2,
+      "start": 1.35,
+      "end": 17.14,
+      "speaker": "DOCTOR",
+      "text": "Hello. Hi, I'm Doctor Jacob and welcome to Babylon. Hello. Hi. So, um, just before we start, is it all right if you could confirm your name for me please? And your date of birth?"
+    },
+    {
+      "id": 4,
+      "start": 12.96,
+      "end": 15.05,
+      "speaker": "PATIENT",
+      "text": "Sure, my name is Mary Smith."
+    },
+    {
+      "id": 5,
+      "start": 17.41,
+      "end": 21.85,
+      "speaker": "PATIENT",
+      "text": "My date of birth is August sixteen, nineteen seventy six."
+    },
+    {
+      "id": 6,
+      "start": 21.63,
+      "end": 24.73,
+      "speaker": "DOCTOR",
+      "text": "And your email address for me, please."
+    },
+    {
+      "id": 7,
+      "start": 24.65,
+      "end": 28.5,
+      "speaker": "PATIENT",
+      "text": "My email address is Mary dot Smith at gmail dot com."
+    },
+    {
+      "id": 8,
+      "start": 28.47,
+      "end": 34.4,
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm, that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "id": 9,
+      "start": 34.5,
+      "end": 35.53,
+      "speaker": "PATIENT",
+      "text": "Absolutely."
+    },
+    {
+      "id": 10,
+      "start": 35.52,
+      "end": 40.46,
+      "speaker": "DOCTOR",
+      "text": "Right. So you've mentioned that you have some pain in your jaw. Is that correct?"
+    },
+    {
+      "id": 11,
+      "start": 40.59,
+      "end": 42.86,
+      "speaker": "PATIENT",
+      "text": "Um, well."
+    },
+    {
+      "id": 12,
+      "start": 43.63,
+      "end": 52.53,
+      "speaker": "PATIENT",
+      "text": "I think that's just, like, the first thing that I typed, but, uh, uh, it wasn't really what I, you know, I just typed it and then I clicked submit, so, that was uh, um."
+    },
+    {
+      "id": 13,
+      "start": 52.53,
+      "end": 67.11,
+      "speaker": "PATIENT",
+      "text": "I mean it's part of the problem but I would say that, more of a problem for me, is that I can't quite move my left arm. I mean, I can move it but it's it's numb, and then I also feel some, like tingling in my fingertips."
+    },
+    {
+      "id": 14,
+      "start": 67.75,
+      "end": 73.36,
+      "speaker": "DOCTOR",
+      "text": "OK, so numbness in the left arm, yeah? How long has it been going on for?"
+    },
+    {
+      "id": 15,
+      "start": 70.44,
+      "end": 71.91,
+      "speaker": "PATIENT",
+      "text": "Yes, yes."
+    },
+    {
+      "id": 16,
+      "start": 74.26,
+      "end": 83.05,
+      "speaker": "PATIENT",
+      "text": "So, I've started taking this boxing class. I've been taking this boxing class for a few weeks, and I feel like maybe, um"
+    },
+    {
+      "id": 17,
+      "start": 77.55,
+      "end": 78.25,
+      "speaker": "DOCTOR",
+      "text": "Mm hmm."
+    },
+    {
+      "id": 18,
+      "start": 84.47,
+      "end": 93.58,
+      "speaker": "PATIENT",
+      "text": "It's probably been, I'd say, for at least two weeks, and it's kind of gotten worse. Like,in the beginning, I just kind of felt a little bit of a tingling."
+    },
+    {
+      "id": 19,
+      "start": 89.98,
+      "end": 90.81,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 20,
+      "start": 93.58,
+      "end": 105.15,
+      "speaker": "PATIENT",
+      "text": "and then it's gotten, it's gotten worse since then. Then the numbing kind of started I can feel it both in my, uh, um, you know a little bit in my elbow, and then in my arm, as well as in my hand"
+    },
+    {
+      "id": 21,
+      "start": 105.01,
+      "end": 105.68,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 22,
+      "start": 105.15,
+      "end": 117.67,
+      "speaker": "PATIENT",
+      "text": "And now because it hasn't gotten better, I tried to get a massage, it's not better. Or, you know, try to take warm baths. It's not better, so I figured I'd call you and, and just figure out what's going on."
+    },
+    {
+      "id": 23,
+      "start": 117.81,
+      "end": 123.63,
+      "speaker": "DOCTOR",
+      "text": "Right. So, have you mentioned that message and a warm bath, any medications that you've taken so far?"
+    },
+    {
+      "id": 24,
+      "start": 124.62,
+      "end": 126.62,
+      "speaker": "PATIENT",
+      "text": "Uh, well it's."
+    },
+    {
+      "id": 25,
+      "start": 127.43,
+      "end": 141.15,
+      "speaker": "PATIENT",
+      "text": "You know it's, it's numb and I, I kind of looked at stuff online, um, but you know I, I do take Ibuprofen because my muscles were sore, a little bit, and I've been taking this boxing class."
+    },
+    {
+      "id": 26,
+      "start": 131.37,
+      "end": 132.05,
+      "speaker": "DOCTOR",
+      "text": "Uh huh."
+    },
+    {
+      "id": 28,
+      "start": 141.15,
+      "end": 149.51,
+      "speaker": "PATIENT",
+      "text": "So, you know, I kind of hurt like my knuckles on my right hand. So that's been a little bit painful, so I've just kind of taken ibuprofen for that."
+    },
+    {
+      "id": 29,
+      "start": 149.25,
+      "end": 149.95,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 30,
+      "start": 149.51,
+      "end": 156.86,
+      "speaker": "PATIENT",
+      "text": "But, like I said, I mean, I tried massage, I tried some hot baths, and that didn't help with this numbness thing."
+    },
+    {
+      "id": 31,
+      "start": 153.97,
+      "end": 154.56,
+      "speaker": "DOCTOR",
+      "text": "Mmm."
+    },
+    {
+      "id": 32,
+      "start": 157.06,
+      "end": 157.77,
+      "speaker": "DOCTOR",
+      "text": "Sure."
+    },
+    {
+      "id": 33,
+      "start": 157.6,
+      "end": 159.7,
+      "speaker": "PATIENT",
+      "text": "I'm just kind of getting a little worried."
+    },
+    {
+      "id": 34,
+      "start": 159.4,
+      "end": 171.21,
+      "speaker": "DOCTOR",
+      "text": "Of course. So you just mentioned that your pain is from elbow downwards, is that, you know, the tingling, numbness elbow . Not from your shoulder?"
+    },
+    {
+      "id": 36,
+      "start": 171.28,
+      "end": 186.2,
+      "speaker": "PATIENT",
+      "text": "And, um, well it's kind of funny, you know sometimes I will feel it in my shoulder. Like if I try to, if I try to like you know move like in boxing and stuff, I will even like, uh, um, maybe feel a little bit of, a little bit of pain."
+    },
+    {
+      "id": 37,
+      "start": 186.2,
+      "end": 195.65,
+      "speaker": "PATIENT",
+      "text": "Uh, but I would say, if i'm just like resting if I'm sitting like, right now, I can feel like it's numb, and I, I actually feel, tingling right now, not in all of my fingers, just in some."
+    },
+    {
+      "id": 38,
+      "start": 195.84,
+      "end": 198.03,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, which fingers do you feel numb?"
+    },
+    {
+      "id": 39,
+      "start": 198.57,
+      "end": 202.35,
+      "speaker": "PATIENT",
+      "text": "OK, so it's my second, third, and fourth finger."
+    },
+    {
+      "id": 40,
+      "start": 202.31,
+      "end": 210.89,
+      "speaker": "DOCTOR",
+      "text": "Uh huh. Second, third and fourth finger. And is it your palm side or, you know, the back of your hand side which is numb, or both?"
+    },
+    {
+      "id": 41,
+      "start": 210.69,
+      "end": 214.46,
+      "speaker": "PATIENT",
+      "text": "No. It's, it's the, it's this side. So, the front side."
+    },
+    {
+      "id": 42,
+      "start": 214.39,
+      "end": 226.29,
+      "speaker": "DOCTOR",
+      "text": "It's the front side. OK, right. And have you been dropping things at all? Like, you know, when you try to hold onto things, like a glass or something, have dropping it?"
+    },
+    {
+      "id": 43,
+      "start": 224.84,
+      "end": 225.71,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 44,
+      "start": 226.87,
+      "end": 235.73,
+      "speaker": "PATIENT",
+      "text": "So not so much with the glass, but I will say, um, well I play a little bit of a piano and so I just noticed it's been kind of harder to get the notes."
+    },
+    {
+      "id": 45,
+      "start": 235.64,
+      "end": 236.29,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 46,
+      "start": 235.73,
+      "end": 246.18,
+      "speaker": "PATIENT",
+      "text": "I can, I can grasp, I can grasp a a glass but because I use my right hand most of the time, you know, I'm not left handed so, it's kind of hard for me to."
+    },
+    {
+      "id": 48,
+      "start": 244.52,
+      "end": 262.12,
+      "speaker": "DOCTOR",
+      "text": "So So you would say this in mind weakness, mind. So just to get my facts right. So you would say it's definitely weakness rather than because of the pain, you can't hold it. That's two different things. So you know sometimes you can't hold it because it's hurting you ."
+    },
+    {
+      "id": 49,
+      "start": 248.98,
+      "end": 249.75,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 50,
+      "start": 252.68,
+      "end": 253.28,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 51,
+      "start": 260.92,
+      "end": 267.32,
+      "speaker": "PATIENT",
+      "text": "No, no, it's not hurting, it's not hurting, it's, like, numb, I can't feel it, right? Well, yeah."
+    },
+    {
+      "id": 52,
+      "start": 264.63,
+      "end": 274.25,
+      "speaker": "DOCTOR",
+      "text": "OK. Fine. So, you're definitely having some sort some form of weakness, OK. Edward, any neck pain at all?"
+    },
+    {
+      "id": 53,
+      "start": 270.9,
+      "end": 272.47,
+      "speaker": "PATIENT",
+      "text": "Yes, absolutely."
+    },
+    {
+      "id": 54,
+      "start": 274.97,
+      "end": 277.22,
+      "speaker": "PATIENT",
+      "text": "No, not, no, nothing ."
+    },
+    {
+      "id": 55,
+      "start": 276.77,
+      "end": 290.59,
+      "speaker": "DOCTOR",
+      "text": "neck pain and all? OK, right, OK. So, just a bit more of a background because I don't have much information on the system. Um, do you have any past, uh, medical history that you'd like to share?"
+    },
+    {
+      "id": 56,
+      "start": 284.52,
+      "end": 285.18,
+      "speaker": "PATIENT",
+      "text": "Mm hmm."
+    },
+    {
+      "id": 57,
+      "start": 291.83,
+      "end": 299.58,
+      "speaker": "PATIENT",
+      "text": "Well, I guess because of this. You know, I'm not sure if it's boxing. I also had a really bad cold, like a month ago."
+    },
+    {
+      "id": 58,
+      "start": 299.27,
+      "end": 299.95,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 59,
+      "start": 299.58,
+      "end": 306.88,
+      "speaker": "PATIENT",
+      "text": "I mean, I was out, you know, drinking with, uh, friends, um, one of our co-workers just had his three year anniversary and"
+    },
+    {
+      "id": 60,
+      "start": 306.88,
+      "end": 321.3,
+      "speaker": "PATIENT",
+      "text": "We kinda went crazy and we were like out partying until, you know, late hours, and I just got uncharacteristically drunk for me. And then after that, I was sick for probably good like two weeks. I was at home. I think I must have had some kind of like a flu or something."
+    },
+    {
+      "id": 61,
+      "start": 314.15,
+      "end": 314.72,
+      "speaker": "DOCTOR",
+      "text": "what"
+    },
+    {
+      "id": 62,
+      "start": 321.11,
+      "end": 321.67,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 63,
+      "start": 321.3,
+      "end": 335.13,
+      "speaker": "PATIENT",
+      "text": "So it's that. And then, I'd say another weird thing that happened to me a few weeks ago, is like, I all of a sudden just couldn't see from the, uh, from my left eye. Like, I, I lost some, like a little bit of a field of vision"
+    },
+    {
+      "id": 64,
+      "start": 335.13,
+      "end": 342.82,
+      "speaker": "PATIENT",
+      "text": "Uh, and, but that, that just lasted not very long. I mean, that just lasted maybe for, I don't know, twenty, twenty minutes?"
+    },
+    {
+      "id": 65,
+      "start": 335.3,
+      "end": 335.86,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 66,
+      "start": 342.82,
+      "end": 348.62,
+      "speaker": "PATIENT",
+      "text": "Uh, and I kind of thought, I don't know maybe it was the the cold you know and the virus and all that so"
+    },
+    {
+      "id": 67,
+      "start": 348.54,
+      "end": 349.14,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 68,
+      "start": 349.27,
+      "end": 360.43,
+      "speaker": "PATIENT",
+      "text": "I, I guess that's what I can, you know, that's the last thing I can remember, but in general, I'm, I'm pretty healthy. You know, I work out, uh, , and I, I don't really have any medical problems."
+    },
+    {
+      "id": 69,
+      "start": 357.07,
+      "end": 357.69,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 70,
+      "start": 360.21,
+      "end": 363.64,
+      "speaker": "DOCTOR",
+      "text": "Do you have any headaches at all, from the, in the recent past?"
+    },
+    {
+      "id": 71,
+      "start": 364.52,
+      "end": 369.49,
+      "speaker": "PATIENT",
+      "text": "Um, sometimes I get headaches but I think they're just tired headaches. You know sometimes I'll get kind of"
+    },
+    {
+      "id": 72,
+      "start": 370.34,
+      "end": 379.94,
+      "speaker": "PATIENT",
+      "text": "Tired but I think that's probably because I work too much. Or, you know because like I'll go for a workout and then I'll really just exhaust myself and then I just kind of feel this fatigue."
+    },
+    {
+      "id": 73,
+      "start": 379.94,
+      "end": 390.18,
+      "speaker": "PATIENT",
+      "text": "Uh, or sometimes like this morning for example, I just felt really, fatigued and I couldn't even get myself to the gym. But, you know, since I have this numbness it's kind of like, hard to workout right?"
+    },
+    {
+      "id": 74,
+      "start": 379.97,
+      "end": 380.63,
+      "speaker": "DOCTOR",
+      "text": "Hmm."
+    },
+    {
+      "id": 75,
+      "start": 390.49,
+      "end": 394.0,
+      "speaker": "DOCTOR",
+      "text": "Do you wear glasses at all, glasses, contact lenses?"
+    },
+    {
+      "id": 76,
+      "start": 394.51,
+      "end": 395.21,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 77,
+      "start": 394.81,
+      "end": 402.18,
+      "speaker": "DOCTOR",
+      "text": "No, so no glasses . And, you've not experienced anything like a seizure or a fit, anything like that?"
+    },
+    {
+      "id": 78,
+      "start": 402.82,
+      "end": 403.86,
+      "speaker": "PATIENT",
+      "text": "What's a seizure?"
+    },
+    {
+      "id": 79,
+      "start": 403.96,
+      "end": 407.64,
+      "speaker": "DOCTOR",
+      "text": "Like when you you lose consciousness and you start shaking."
+    },
+    {
+      "id": 80,
+      "start": 408.26,
+      "end": 410.95,
+      "speaker": "PATIENT",
+      "text": "Ohh, no, no, no, no, nothing like that, mmm mmm."
+    },
+    {
+      "id": 81,
+      "start": 409.14,
+      "end": 420.63,
+      "speaker": "DOCTOR",
+      "text": "OK, no fits, yeah, OK. And your weakness is only in your left arm. Legs are walking and all this, normal, yeah?"
+    },
+    {
+      "id": 82,
+      "start": 416.79,
+      "end": 418.1,
+      "speaker": "PATIENT",
+      "text": "Right, exactly."
+    },
+    {
+      "id": 83,
+      "start": 420.68,
+      "end": 423.25,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, yeah, walking is normal, yeah."
+    },
+    {
+      "id": 84,
+      "start": 423.16,
+      "end": 431.55,
+      "speaker": "DOCTOR",
+      "text": "You mentioned for a while you couldn't see, you know, the outside peripheral vision from your left eye. How long did that episode last for?"
+    },
+    {
+      "id": 85,
+      "start": 432.15,
+      "end": 447.39,
+      "speaker": "PATIENT",
+      "text": "You know I think it was only maybe like twenty minutes or so. It's almost like it happened and I thought ohh my God. It's probably I'm still like sick from this, you know virus thing, cold, and so I just kind of slacked it off. And then when I, uh, um, when I woke up it was gone."
+    },
+    {
+      "id": 86,
+      "start": 447.83,
+      "end": 454.12,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Um, OK. So is there any regular medications that you're using?"
+    },
+    {
+      "id": 87,
+      "start": 455.19,
+      "end": 469.53,
+      "speaker": "PATIENT",
+      "text": "Not really. I just take ibuprofen every once in a while, I take vitamin D. Um, I take some I, I like my my GP really wants me to take iron supplements, but you know, they're just like huge pills so I, I, most of the time I just forget."
+    },
+    {
+      "id": 88,
+      "start": 469.53,
+      "end": 470.09,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 89,
+      "start": 469.53,
+      "end": 473.6,
+      "speaker": "PATIENT",
+      "text": "But, vitamin D I take. And then, sometimes I take Melatonin to help me sleep."
+    },
+    {
+      "id": 90,
+      "start": 473.54,
+      "end": 474.17,
+      "speaker": "DOCTOR",
+      "text": "OK"
+    },
+    {
+      "id": 91,
+      "start": 475.49,
+      "end": 476.43,
+      "speaker": "DOCTOR",
+      "text": "Alright."
+    },
+    {
+      "id": 92,
+      "start": 477.65,
+      "end": 484.02,
+      "speaker": "DOCTOR",
+      "text": "And any family history you'd like to share? Any significant family history?"
+    },
+    {
+      "id": 93,
+      "start": 484.41,
+      "end": 492.51,
+      "speaker": "PATIENT",
+      "text": "I know that my dad has I don't know if it it's hypo, I think it's hypothyroidism."
+    },
+    {
+      "id": 94,
+      "start": 492.37,
+      "end": 493.01,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 95,
+      "start": 492.51,
+      "end": 498.27,
+      "speaker": "PATIENT",
+      "text": "Um, and then my, like, he's got he's got some autoimmune stuff going on, like that much I know."
+    },
+    {
+      "id": 96,
+      "start": 496.87,
+      "end": 498.69,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 97,
+      "start": 498.27,
+      "end": 505.78,
+      "speaker": "PATIENT",
+      "text": "And then, my mom, my mom, she's actually not in a great shape. She's got diabetes type two."
+    },
+    {
+      "id": 98,
+      "start": 505.78,
+      "end": 518.24,
+      "speaker": "PATIENT",
+      "text": "She's got hypertension, um, she's got, gosh, what is it, ohh, yeah, she's got high cholesterol, um, and I think that's it for her. Yeah."
+    },
+    {
+      "id": 99,
+      "start": 518.08,
+      "end": 523.07,
+      "speaker": "DOCTOR",
+      "text": "Yeah, right. Any neurological conditions in the family?"
+    },
+    {
+      "id": 100,
+      "start": 524.38,
+      "end": 525.42,
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "id": 101,
+      "start": 525.26,
+      "end": 528.73,
+      "speaker": "DOCTOR",
+      "text": "there are related conditions. No, OK, that's fine."
+    },
+    {
+      "id": 104,
+      "start": 530.04,
+      "end": 546.04,
+      "speaker": "DOCTOR",
+      "text": "OK, so, right. So after, you know, speaking and examining, you know, yourself, I think it's quite important that we do investigate it a bit further. I'm just wondering whether there's something a bit more than just the boxing here."
+    },
+    {
+      "id": 105,
+      "start": 546.04,
+      "end": 566.57,
+      "speaker": "DOCTOR",
+      "text": "OK, few things that's, made me think other than, just like a boxing injury, is for instance, um, you know, when you said you can't, your vision went, your peripheral vision was not there for about twenty. So, and that with the weakness of the arms, make me think, is there something else going on rather than just an injury?"
+    },
+    {
+      "id": 106,
+      "start": 546.19,
+      "end": 546.91,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 566.76,
+      "end": 568.59,
+      "speaker": "PATIENT",
+      "text": "What do you think may be going on?"
+    },
+    {
+      "id": 110,
+      "start": 568.52,
+      "end": 588.69,
+      "speaker": "DOCTOR",
+      "text": "sometimes you know you do get things like MS, multiple sclerosis. So people with multiple sclerosis can have, um, visual problems, like what you've experienced and sometimes you know the odd numbness tingling sensations going on. OK?"
+    },
+    {
+      "id": 111,
+      "start": 574.89,
+      "end": 575.63,
+      "speaker": "PATIENT",
+      "text": "Ohh!"
+    },
+    {
+      "id": 112,
+      "start": 587.96,
+      "end": 591.02,
+      "speaker": "PATIENT",
+      "text": "Ohh my God! Will I be in a wheelchair?"
+    },
+    {
+      "id": 113,
+      "start": 592.09,
+      "end": 609.45,
+      "speaker": "DOCTOR",
+      "text": "We, if we capture it a bit early there are treatments for it. OK? I'm not, obviously I'm not suggesting that you do have it, but it is quite important to find out that, whether you have it or not that's the most serious kind of thing that needs to be, uh, dealt with here."
+    },
+    {
+      "id": 114,
+      "start": 609.45,
+      "end": 623.49,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, what we can do is I'm going to do an urgent, very urgent neurology referral. Yeah? What they, what that might entail is the brain scan and things like that. Hello?"
+    },
+    {
+      "id": 115,
+      "start": 609.7,
+      "end": 611.61,
+      "speaker": "PATIENT",
+      "text": "K, OK."
+    },
+    {
+      "id": 116,
+      "start": 617.91,
+      "end": 619.26,
+      "speaker": "PATIENT",
+      "text": "OK"
+    },
+    {
+      "id": 117,
+      "start": 622.88,
+      "end": 626.19,
+      "speaker": "PATIENT",
+      "text": "I see. Yeah yeah yeah! Yeah, I'm here, I'm here."
+    },
+    {
+      "id": 118,
+      "start": 625.77,
+      "end": 637.66,
+      "speaker": "DOCTOR",
+      "text": "I know this might sound a bit of a shock to you, um, but I'm, I think it is more important that we investigate this a bit more seriously."
+    },
+    {
+      "id": 119,
+      "start": 632.01,
+      "end": 632.68,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 120,
+      "start": 638.16,
+      "end": 640.6,
+      "speaker": "PATIENT",
+      "text": "Alright. Yeah, that makes sense."
+    },
+    {
+      "id": 121,
+      "start": 640.48,
+      "end": 642.83,
+      "speaker": "DOCTOR",
+      "text": "OK. Any questions at all?"
+    },
+    {
+      "id": 122,
+      "start": 643.42,
+      "end": 649.66,
+      "speaker": "PATIENT",
+      "text": "Well, what's, OK, so you're gonna do the referral, um, should I be taking any drugs or, um"
+    },
+    {
+      "id": 123,
+      "start": 648.29,
+      "end": 664.07,
+      "speaker": "DOCTOR",
+      "text": "No, that's something we can't do. The treatment for it is actually some steroids and things like that, uh, when you have an acute you know, acute reaction or things like that. But, saying that, first we need to firm diagnosis."
+    },
+    {
+      "id": 124,
+      "start": 664.07,
+      "end": 685.61,
+      "speaker": "DOCTOR",
+      "text": "Yeah. While you're waiting for this to be done, if there's any weakness, uh, you know, if the weakness progresses to your legs, or there's any kind of headaches, vomiting, fits, and your visual symptoms are getting worse and not getting better, then that would be an A and E."
+    },
+    {
+      "id": 125,
+      "start": 664.08,
+      "end": 666.5,
+      "speaker": "PATIENT",
+      "text": "Mm hmm, yes, OK."
+    },
+    {
+      "id": 126,
+      "start": 686.11,
+      "end": 687.72,
+      "speaker": "PATIENT",
+      "text": "OK, got it."
+    },
+    {
+      "id": 127,
+      "start": 688.33,
+      "end": 689.33,
+      "speaker": "DOCTOR",
+      "text": "Alright."
+    },
+    {
+      "id": 128,
+      "start": 688.63,
+      "end": 691.71,
+      "speaker": "PATIENT",
+      "text": "Sounds good! OK, thank you, doctor."
+    },
+    {
+      "id": 129,
+      "start": 691.63,
+      "end": 704.03,
+      "speaker": "DOCTOR",
+      "text": "Yeah. I'm I'm sorry. I, I do appreciate you are a bit worried, but, you know, it's good that we know that you've come and spoken to us today, and hopefully we'll get things sorted and the ball rolling. OK?"
+    },
+    {
+      "id": 130,
+      "start": 703.42,
+      "end": 706.66,
+      "speaker": "PATIENT",
+      "text": "Thank you, doctor. Appreciate your time."
+    },
+    {
+      "id": 131,
+      "start": 706.64,
+      "end": 708.71,
+      "speaker": "DOCTOR",
+      "text": "That's OK. You take care."
+    },
+    {
+      "id": 132,
+      "start": 707.66,
+      "end": 708.43,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 133,
+      "start": 709.08,
+      "end": 709.87,
+      "speaker": "PATIENT",
+      "text": "Bye bye!"
+    },
+    {
+      "id": 134,
+      "start": 709.72,
+      "end": 710.94,
+      "speaker": "DOCTOR",
+      "text": "Good bye now, bye."
+    }
+  ]
+}

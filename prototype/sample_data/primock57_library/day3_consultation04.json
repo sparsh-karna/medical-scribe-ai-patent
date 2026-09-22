@@ -1,0 +1,687 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation04",
+  "presenting_complaint": "my chest feels very tight",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History: Having breathlessness for 3-4 days \nHaving to use the blue inhalers twice a day \nYou normally use it only as and when \nYou are also on the clenil and taking it everyday 2 puff twice a day \nYou are having a cough but no sputum \nThere is some wheezing \nMedical history : you had asthma since your childhood\nYou suffer from eczema . your last asthma attack was 3 years ago \nYou have never needed anitibiotics or steroids \nYou have never been hospitalized because of your asthma \nYour normal peak flow reading is 380\nYou don't have any allergies \nMedication : you also use hydrocortisone and cetraban for eczema\nPlan : you have been advised to increase you brown inhaler to 4 puffs twice daily and can use the blue inhalers upto every 2-4 hrs \nYou will need your chest reviewed by a doctor in the next 2 days \nIf you were to get increasingly breathless with the treatment that has been advised and not seen a doctor yet, please go to A & E\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.05,
+      "end": 2.8,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 2,
+      "start": 2.77,
+      "end": 12.71,
+      "speaker": "DOCTOR",
+      "text": "Hi, hello. I'm Doctor Jacob and welcome to Babylon. Hello. Hi. So just before we start, is it alright if you could confirm your name for me please?"
+    },
+    {
+      "id": 3,
+      "start": 6.17,
+      "end": 7.78,
+      "speaker": "PATIENT",
+      "text": "Hi there."
+    },
+    {
+      "id": 4,
+      "start": 12.93,
+      "end": 14.76,
+      "speaker": "PATIENT",
+      "text": "get to my name"
+    },
+    {
+      "id": 5,
+      "start": 13.09,
+      "end": 17.53,
+      "speaker": "DOCTOR",
+      "text": ". And your date of birth?"
+    },
+    {
+      "id": 6,
+      "start": 16.57,
+      "end": 18.68,
+      "speaker": "PATIENT",
+      "text": "Fourteenth November nineteen ninety six."
+    },
+    {
+      "id": 7,
+      "start": 18.88,
+      "end": 20.69,
+      "speaker": "DOCTOR",
+      "text": "And your address for me please?"
+    },
+    {
+      "id": 8,
+      "start": 20.68,
+      "end": 24.2,
+      "speaker": "PATIENT",
+      "text": "And twenty eight Great Road SW nineteen one EZ."
+    },
+    {
+      "id": 9,
+      "start": 24.21,
+      "end": 30.03,
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "id": 10,
+      "start": 30.62,
+      "end": 31.44,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 11,
+      "start": 31.4,
+      "end": 39.42,
+      "speaker": "DOCTOR",
+      "text": "OK. So you've mentioned in in our notes that you've got some tightness. If you'd like to tell me a bit more about it please."
+    },
+    {
+      "id": 12,
+      "start": 39.88,
+      "end": 59.37,
+      "speaker": "PATIENT",
+      "text": "Yeah about two to three days ago, I was running with a friend. And usually I can talk to her whilst I run, but I found myself actually short of breath. I'm not really sure of that when I'm walking. Um, but definitely um, if I'm walking briskly now. Um, and I've used my blue inhaler but to no avail. It hasn't really helped me."
+    },
+    {
+      "id": 13,
+      "start": 59.3,
+      "end": 61.57,
+      "speaker": "DOCTOR",
+      "text": ". OK."
+    },
+    {
+      "id": 14,
+      "start": 60.65,
+      "end": 66.8,
+      "speaker": "PATIENT",
+      "text": "Um, ohh yeah, so I'm having, I'm just wheezing a bit, and coughing and just generally a bit short of breath"
+    },
+    {
+      "id": 15,
+      "start": 67.02,
+      "end": 74.14,
+      "speaker": "DOCTOR",
+      "text": "Wheezing and coughing, OK. And you've mentioned you're using the blue inhaler. So, how often are you using the blue inhaler?"
+    },
+    {
+      "id": 16,
+      "start": 74.85,
+      "end": 78.05,
+      "speaker": "PATIENT",
+      "text": "Um, I think I'm just using that as and when I have symptoms."
+    },
+    {
+      "id": 17,
+      "start": 77.85,
+      "end": 84.25,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, um, at the moment you are having shortness of breath. So, are you using it every day at the moment?"
+    },
+    {
+      "id": 18,
+      "start": 84.96,
+      "end": 89.14,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, and morning or evening to kinda prevent it as well."
+    },
+    {
+      "id": 19,
+      "start": 89.19,
+      "end": 93.27,
+      "speaker": "DOCTOR",
+      "text": "OK, and um what, which colour? What's the name of your preventor?"
+    },
+    {
+      "id": 20,
+      "start": 94.01,
+      "end": 105.11,
+      "speaker": "PATIENT",
+      "text": "Um, it's blue. Um, I think, in totality, I'm Salbutamol, Flanel Bactroban and Hydrocortisone that I'm taking as well."
+    },
+    {
+      "id": 21,
+      "start": 101.62,
+      "end": 102.28,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 22,
+      "start": 105.3,
+      "end": 108.78,
+      "speaker": "DOCTOR",
+      "text": "OK. So could you repeat that?"
+    },
+    {
+      "id": 23,
+      "start": 109.94,
+      "end": 112.43,
+      "speaker": "PATIENT",
+      "text": "Er, Cetraben and Hydrocortisone."
+    },
+    {
+      "id": 24,
+      "start": 112.96,
+      "end": 116.28,
+      "speaker": "DOCTOR",
+      "text": "And hydrocortisone. So you'd have eczema also, yeah?"
+    },
+    {
+      "id": 25,
+      "start": 117.91,
+      "end": 118.91,
+      "speaker": "PATIENT",
+      "text": "What's that, sorry?"
+    },
+    {
+      "id": 26,
+      "start": 118.83,
+      "end": 120.99,
+      "speaker": "DOCTOR",
+      "text": "You do have a history of eczema, ?"
+    },
+    {
+      "id": 27,
+      "start": 121.75,
+      "end": 130.99,
+      "speaker": "PATIENT",
+      "text": "Em, my brother is asthmatic and my sister has eczema. Em, and I've got a few issues, um, that I think could be eczema as well."
+    },
+    {
+      "id": 28,
+      "start": 131.04,
+      "end": 141.32,
+      "speaker": "DOCTOR",
+      "text": "OK, right. So coming back to your, um, you know your shortness of breath. You've mentioned you're wheezy, and you're coughing. Are you bringing up any phlegm at all?"
+    },
+    {
+      "id": 29,
+      "start": 141.61,
+      "end": 145.73,
+      "speaker": "PATIENT",
+      "text": "Um, no I don't, um, I'm not covering up much ."
+    },
+    {
+      "id": 30,
+      "start": 145.5,
+      "end": 147.53,
+      "speaker": "DOCTOR",
+      "text": "OK, no sputum, OK."
+    },
+    {
+      "id": 31,
+      "start": 148.38,
+      "end": 156.89,
+      "speaker": "DOCTOR",
+      "text": "Right . And um, how are you using your, um, your ? So are you using it every day?"
+    },
+    {
+      "id": 32,
+      "start": 157.6,
+      "end": 162.66,
+      "speaker": "PATIENT",
+      "text": "Um, I think I'm using that every day and the Salbutamol just like as and when"
+    },
+    {
+      "id": 33,
+      "start": 162.56,
+      "end": 165.73,
+      "speaker": "DOCTOR",
+      "text": "So, how are you using the ? Is it twice a day?"
+    },
+    {
+      "id": 34,
+      "start": 166.38,
+      "end": 168.68,
+      "speaker": "PATIENT",
+      "text": "Um, yes"
+    },
+    {
+      "id": 35,
+      "start": 167.56,
+      "end": 168.19,
+      "speaker": "DOCTOR",
+      "text": "twice"
+    },
+    {
+      "id": 36,
+      "start": 168.73,
+      "end": 175.43,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you ever been admitted in hospital because your was so bad?"
+    },
+    {
+      "id": 37,
+      "start": 177.33,
+      "end": 179.2,
+      "speaker": "PATIENT",
+      "text": "Um, no, I haven't."
+    },
+    {
+      "id": 38,
+      "start": 179.26,
+      "end": 180.19,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 39,
+      "start": 180.81,
+      "end": 183.96,
+      "speaker": "DOCTOR",
+      "text": "Righty-ho. When was the last time you had an asthma attack?"
+    },
+    {
+      "id": 40,
+      "start": 185.35,
+      "end": 187.64,
+      "speaker": "PATIENT",
+      "text": "Um, about three to four years ago."
+    },
+    {
+      "id": 41,
+      "start": 187.89,
+      "end": 192.26,
+      "speaker": "DOCTOR",
+      "text": "Three to four years ago. And what, what did the GP do at that time?"
+    },
+    {
+      "id": 42,
+      "start": 193.41,
+      "end": 199.32,
+      "speaker": "PATIENT",
+      "text": "Um, just, um, encourage me to carry on using my inhalers as a preventative."
+    },
+    {
+      "id": 43,
+      "start": 199.19,
+      "end": 204.03,
+      "speaker": "DOCTOR",
+      "text": "OK. So you didn't have any oral steroids or antibiotics?"
+    },
+    {
+      "id": 44,
+      "start": 204.07,
+      "end": 205.46,
+      "speaker": "PATIENT",
+      "text": "Not that I can remember."
+    },
+    {
+      "id": 45,
+      "start": 205.24,
+      "end": 211.64,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, OK. Right, have you ever had oral steroids in the past?"
+    },
+    {
+      "id": 46,
+      "start": 213.16,
+      "end": 214.27,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 47,
+      "start": 214.61,
+      "end": 218.53,
+      "speaker": "DOCTOR",
+      "text": "When was the last time you had an asthma review with our nurse?"
+    },
+    {
+      "id": 48,
+      "start": 219.6,
+      "end": 221.24,
+      "speaker": "PATIENT",
+      "text": "Uh, about two years ago."
+    },
+    {
+      "id": 49,
+      "start": 220.91,
+      "end": 222.86,
+      "speaker": "DOCTOR",
+      "text": "OK. Two years ago."
+    },
+    {
+      "id": 50,
+      "start": 223.86,
+      "end": 228.2,
+      "speaker": "DOCTOR",
+      "text": "OK. But, your asthma was pretty under control till, till now, isn't it?"
+    },
+    {
+      "id": 51,
+      "start": 228.91,
+      "end": 231.9,
+      "speaker": "PATIENT",
+      "text": "Uh, yes, just in the last two to three days ."
+    },
+    {
+      "id": 52,
+      "start": 229.57,
+      "end": 237.69,
+      "speaker": "DOCTOR",
+      "text": "Yes. So do you do a peak flow meter at home? Peak flow reading? Where you blow into, you know"
+    },
+    {
+      "id": 53,
+      "start": 238.76,
+      "end": 240.0,
+      "speaker": "DOCTOR",
+      "text": "Do you do that? No?"
+    },
+    {
+      "id": 54,
+      "start": 241.87,
+      "end": 246.67,
+      "speaker": "PATIENT",
+      "text": "Um, just every now and then. I haven't done overlap since I've has symptoms."
+    },
+    {
+      "id": 55,
+      "start": 246.44,
+      "end": 252.7,
+      "speaker": "DOCTOR",
+      "text": "OK. So, what was what's your peak flow reading when you're good?"
+    },
+    {
+      "id": 56,
+      "start": 254.1,
+      "end": 257.66,
+      "speaker": "DOCTOR",
+      "text": "Like normally peak flow reading."
+    },
+    {
+      "id": 57,
+      "start": 254.8,
+      "end": 255.67,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 58,
+      "start": 258.27,
+      "end": 263.49,
+      "speaker": "PATIENT",
+      "text": "Um, I think"
+    },
+    {
+      "id": 59,
+      "start": 264.34,
+      "end": 270.37,
+      "speaker": "DOCTOR",
+      "text": "OK. Let's see it's about, um, three eighty, yeah? Yeah? three . OK."
+    },
+    {
+      "id": 60,
+      "start": 268.69,
+      "end": 269.33,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 61,
+      "start": 270.37,
+      "end": 276.84,
+      "speaker": "DOCTOR",
+      "text": "Right. So that's your normal, yeah? Righty-ho, OK. So what we need"
+    },
+    {
+      "id": 62,
+      "start": 273.93,
+      "end": 274.75,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 63,
+      "start": 278.71,
+      "end": 281.21,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have any allergies at all?"
+    },
+    {
+      "id": 64,
+      "start": 282.56,
+      "end": 284.53,
+      "speaker": "PATIENT",
+      "text": "Erm, I have a fever."
+    },
+    {
+      "id": 65,
+      "start": 284.72,
+      "end": 286.46,
+      "speaker": "DOCTOR",
+      "text": "Sorry, could you repeat that please?"
+    },
+    {
+      "id": 66,
+      "start": 287.25,
+      "end": 288.96,
+      "speaker": "PATIENT",
+      "text": "Sorry, I have hay fever."
+    },
+    {
+      "id": 67,
+      "start": 288.91,
+      "end": 292.7,
+      "speaker": "DOCTOR",
+      "text": "OK. Now any allergies to medication?"
+    },
+    {
+      "id": 68,
+      "start": 293.82,
+      "end": 295.27,
+      "speaker": "PATIENT",
+      "text": "Ohh no"
+    },
+    {
+      "id": 69,
+      "start": 295.7,
+      "end": 298.52,
+      "speaker": "DOCTOR",
+      "text": "OK. So you're not allergic to anything? OK."
+    },
+    {
+      "id": 70,
+      "start": 298.85,
+      "end": 304.08,
+      "speaker": "DOCTOR",
+      "text": "So no allergies. OK, excellent. Righty-ho."
+    },
+    {
+      "id": 71,
+      "start": 304.08,
+      "end": 313.71,
+      "speaker": "DOCTOR",
+      "text": "So what we need to do that obviously we you haven't had an asthma check for sometime and it looks like you can be having a small, small exacerbation."
+    },
+    {
+      "id": 72,
+      "start": 313.71,
+      "end": 319.68,
+      "speaker": "DOCTOR",
+      "text": "So what, I would like you to be seen by one of our GP's in the next few days."
+    },
+    {
+      "id": 73,
+      "start": 314.42,
+      "end": 314.93,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 74,
+      "start": 319.68,
+      "end": 324.95,
+      "speaker": "DOCTOR",
+      "text": "In the interim, what I'd like you to do is you can use your blue inhaler as and when."
+    },
+    {
+      "id": 75,
+      "start": 324.95,
+      "end": 338.93,
+      "speaker": "DOCTOR",
+      "text": "OK. You can use it maximum about every two to four, four hours, but if you're using it that often that means pretty much that, you know, your asthma is really bad. You can use it, but that's not ideal."
+    },
+    {
+      "id": 76,
+      "start": 325.64,
+      "end": 326.22,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 77,
+      "start": 338.93,
+      "end": 343.21,
+      "speaker": "DOCTOR",
+      "text": "But uh, the brown your Clenil. The brown inhaler."
+    },
+    {
+      "id": 78,
+      "start": 339.06,
+      "end": 339.55,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 79,
+      "start": 343.21,
+      "end": 351.07,
+      "speaker": "DOCTOR",
+      "text": "You can up the dose. If you're using just three puffs twice a day, you can increase it to four puffs twice a day."
+    },
+    {
+      "id": 80,
+      "start": 351.07,
+      "end": 356.04,
+      "speaker": "DOCTOR",
+      "text": "Yeah. And while, this is to do while you're waiting to see us."
+    },
+    {
+      "id": 81,
+      "start": 351.47,
+      "end": 352.22,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 82,
+      "start": 356.04,
+      "end": 368.83,
+      "speaker": "DOCTOR",
+      "text": "Now, I've mentioned, you know, you're doing you know, increase the, uh, Clenil to four puffs twice a day and you're using the asthma, you know, the blue inhalers every two to four hours."
+    },
+    {
+      "id": 83,
+      "start": 356.82,
+      "end": 357.48,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 84,
+      "start": 368.83,
+      "end": 375.67,
+      "speaker": "DOCTOR",
+      "text": "And your breathing is getting really worse, then you would need to take yourself to A and E. You shouldn't wait for our appointment."
+    },
+    {
+      "id": 85,
+      "start": 375.67,
+      "end": 381.53,
+      "speaker": "DOCTOR",
+      "text": "OK. So, when you'd opt to sneeze you, what we're going to do is we're gonna examine your chest, yeah."
+    },
+    {
+      "id": 86,
+      "start": 376.96,
+      "end": 377.44,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 87,
+      "start": 381.53,
+      "end": 388.74,
+      "speaker": "DOCTOR",
+      "text": "Make you do the peak flow reading. So depending on what we find, you might need some antibiotics and some steroids."
+    },
+    {
+      "id": 88,
+      "start": 382.64,
+      "end": 383.14,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 89,
+      "start": 388.74,
+      "end": 396.69,
+      "speaker": "DOCTOR",
+      "text": "But anyway, while you're at home, we're going to by increasing your Clenil, we are increasing your steroid intake anyway."
+    },
+    {
+      "id": 90,
+      "start": 397.11,
+      "end": 397.8,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 91,
+      "start": 398.01,
+      "end": 403.76,
+      "speaker": "DOCTOR",
+      "text": "So, yeah. So, any questions you wanted to ask me?"
+    },
+    {
+      "id": 92,
+      "start": 402.57,
+      "end": 404.46,
+      "speaker": "PATIENT",
+      "text": "No, that's thanks."
+    },
+    {
+      "id": 93,
+      "start": 404.62,
+      "end": 411.28,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, book an call support, book an appointment to see and I will recommend that meet her face to face."
+    },
+    {
+      "id": 94,
+      "start": 411.28,
+      "end": 425.56,
+      "speaker": "DOCTOR",
+      "text": "In the interim, increase your brown inhaler to four puffs twice a day, and your salbutamol inhalers up to every two hourly. But, if you breathing's getting worse and you've not seen us, do take your puffs to A and E."
+    },
+    {
+      "id": 95,
+      "start": 425.56,
+      "end": 426.6,
+      "speaker": "DOCTOR",
+      "text": "All right?"
+    },
+    {
+      "id": 96,
+      "start": 426.41,
+      "end": 431.11,
+      "speaker": "PATIENT",
+      "text": "Great, OK. Thank you so much for your time. Thank you."
+    },
+    {
+      "id": 97,
+      "start": 428.6,
+      "end": 431.92,
+      "speaker": "DOCTOR",
+      "text": "You're welcome. You take care then, bye, bye now, bye. Bye."
+    }
+  ]
+}

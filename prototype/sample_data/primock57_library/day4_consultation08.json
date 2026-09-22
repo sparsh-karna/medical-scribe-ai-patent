@@ -1,0 +1,1142 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation08",
+  "presenting_complaint": "lately, I haven't had much appetite or energy",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Confirmed name \nDOB confrimed. \n\n\n8 weeks. \nNot able to get up in the morning \nNo energy during the day. \nNot eating \nDifficulty sleeping. \nMood is Distracted difficulty focusing. \nLower mood recently \nDecreased sex drive. \nNo suicidal ideation \n\nNew job - 2 months ago. \n\nICE - would like to get back to how he was. \n\n\nMarried - \n\nPMHx - Hypothyroidism. \n\nDHx - Thyroxine.\n\nNKDA \n\nShx - \n\nFhx \nFather - suicide. \nMother well \nNo brothers or sisters. \n\nImp- depression. Hypothyroidism. (Low T3/4) \n\nPlan \nTSH, FBC, \nExamination \nGP review. \n",
+  "segments": [
+    {
+      "id": 2,
+      "start": 3.16,
+      "end": 4.04,
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "id": 3,
+      "start": 5.75,
+      "end": 6.41,
+      "speaker": "PATIENT",
+      "text": "Hi there."
+    },
+    {
+      "id": 4,
+      "start": 6.86,
+      "end": 14.37,
+      "speaker": "DOCTOR",
+      "text": "Hi! Hi there. Uh, my name's Joe. I'm one of the doctors at Babylon. I, just, can I confirm your name please?"
+    },
+    {
+      "id": 5,
+      "start": 14.54,
+      "end": 17.38,
+      "speaker": "PATIENT",
+      "text": ", yeah. Uh, my name's ."
+    },
+    {
+      "id": 6,
+      "start": 15.69,
+      "end": 17.72,
+      "speaker": "DOCTOR",
+      "text": "Makes sense. Yeah."
+    },
+    {
+      "id": 7,
+      "start": 19.48,
+      "end": 21.62,
+      "speaker": "DOCTOR",
+      "text": "So, . Sorry, your name is?"
+    },
+    {
+      "id": 8,
+      "start": 22.04,
+      "end": 23.32,
+      "speaker": "PATIENT",
+      "text": "Name was Brian."
+    },
+    {
+      "id": 9,
+      "start": 23.24,
+      "end": 25.56,
+      "speaker": "DOCTOR",
+      "text": "Brian. Hi Brian. Nice to"
+    },
+    {
+      "id": 10,
+      "start": 24.89,
+      "end": 25.56,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 11,
+      "start": 25.83,
+      "end": 29.58,
+      "speaker": "DOCTOR",
+      "text": "Um, uh, and your date of birth."
+    },
+    {
+      "id": 12,
+      "start": 30.38,
+      "end": 34.49,
+      "speaker": "PATIENT",
+      "text": "Yeah, my date of birth is the eighth of August, nineteen eighty two."
+    },
+    {
+      "id": 14,
+      "start": 35.92,
+      "end": 42.77,
+      "speaker": "DOCTOR",
+      "text": "Great. And uh, are you in a sort of, uh, confidential place where you can speak freely?"
+    },
+    {
+      "id": 15,
+      "start": 43.04,
+      "end": 44.7,
+      "speaker": "PATIENT",
+      "text": "Yeah. No, no one else can hear me."
+    },
+    {
+      "id": 16,
+      "start": 44.86,
+      "end": 47.37,
+      "speaker": "DOCTOR",
+      "text": "Great. And you're happy to continue with the consultation."
+    },
+    {
+      "id": 17,
+      "start": 47.43,
+      "end": 48.17,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 18,
+      "start": 48.37,
+      "end": 51.71,
+      "speaker": "DOCTOR",
+      "text": "Marvelous. OK. So, um, how can i help today?"
+    },
+    {
+      "id": 19,
+      "start": 52.2,
+      "end": 57.41,
+      "speaker": "PATIENT",
+      "text": "Yeah, um. So basically it's, just been happening over the last few weeks or so."
+    },
+    {
+      "id": 20,
+      "start": 58.65,
+      "end": 66.65,
+      "speaker": "PATIENT",
+      "text": "But I don't really feel like um, like, getting up in the morning's really difficult, and I don't have much energy at all, during the day, um."
+    },
+    {
+      "id": 21,
+      "start": 67.41,
+      "end": 68.46,
+      "speaker": "PATIENT",
+      "text": "Often."
+    },
+    {
+      "id": 22,
+      "start": 69.37,
+      "end": 75.32,
+      "speaker": "PATIENT",
+      "text": "Yeah just like, doing most things that I would normally find, easy , is become quite difficult."
+    },
+    {
+      "id": 23,
+      "start": 78.06,
+      "end": 81.0,
+      "speaker": "DOCTOR",
+      "text": "OK. So, things have become quite difficult for you."
+    },
+    {
+      "id": 24,
+      "start": 81.18,
+      "end": 81.88,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 25,
+      "start": 81.73,
+      "end": 82.97,
+      "speaker": "DOCTOR",
+      "text": "Is there anything else?"
+    },
+    {
+      "id": 26,
+      "start": 84.98,
+      "end": 94.01,
+      "speaker": "PATIENT",
+      "text": "Um, no it's quite hard to say like. Things like, I'm not, I'm not eating very much at the moment. I just don't feel like I have a lot of energy."
+    },
+    {
+      "id": 27,
+      "start": 95.23,
+      "end": 97.53,
+      "speaker": "DOCTOR",
+      "text": "OK. I'm sorry to hear that."
+    },
+    {
+      "id": 28,
+      "start": 97.53,
+      "end": 104.11,
+      "speaker": "DOCTOR",
+      "text": "Um, so you had difficulty waking up. No energy, not eating."
+    },
+    {
+      "id": 29,
+      "start": 104.11,
+      "end": 112.55,
+      "speaker": "DOCTOR",
+      "text": "And that's been going on for a few weeks. When you say a few weeks, do you mean two or three or five? how many hours of sleep?"
+    },
+    {
+      "id": 30,
+      "start": 110.08,
+      "end": 121.96,
+      "speaker": "PATIENT",
+      "text": "Actually, well, now I kind of think about it maybe, maybe even longer, um. I guess uh, , might be related to, so I also started a new job, um, slightly recently."
+    },
+    {
+      "id": 31,
+      "start": 121.96,
+      "end": 129.14,
+      "speaker": "PATIENT",
+      "text": "Um. It might of even coincided, coincided with uh, with that, job, a couple of months ago."
+    },
+    {
+      "id": 32,
+      "start": 129.23,
+      "end": 131.55,
+      "speaker": "DOCTOR",
+      "text": "When did you start your new job? Two months ago, did you say?"
+    },
+    {
+      "id": 33,
+      "start": 131.92,
+      "end": 132.48,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 35,
+      "start": 133.94,
+      "end": 141.22,
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, so this has been going on perhaps for um, sort of, six weeks or so?"
+    },
+    {
+      "id": 36,
+      "start": 142.75,
+      "end": 145.07,
+      "speaker": "PATIENT",
+      "text": "More like, , two months, I would say, yeah."
+    },
+    {
+      "id": 37,
+      "start": 147.66,
+      "end": 148.49,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 38,
+      "start": 149.41,
+      "end": 151.67,
+      "speaker": "DOCTOR",
+      "text": "Alright. So, um,"
+    },
+    {
+      "id": 39,
+      "start": 153.99,
+      "end": 161.04,
+      "speaker": "DOCTOR",
+      "text": "Is there anything that you're particularly, sort of concerned about, um, or hoping to get out of this consultation?"
+    },
+    {
+      "id": 40,
+      "start": 161.81,
+      "end": 171.86,
+      "speaker": "PATIENT",
+      "text": "Well, um, I, I know that it's not really normal for me, so, before this phase. So I'd have thing, you know I wouldn't have, uh, any problems sort of."
+    },
+    {
+      "id": 41,
+      "start": 171.86,
+      "end": 180.86,
+      "speaker": "PATIENT",
+      "text": ", eating, what I want to eat, or you know, doing standard things in life, and, and, what I want, to do is just like, kind of return to that previous state."
+    },
+    {
+      "id": 42,
+      "start": 180.86,
+      "end": 189.38,
+      "speaker": "PATIENT",
+      "text": "Uh, somehow. Um, I'm not sure how that is. Uh, what, what the best ways of doing that are, but, yeah. Do you have some advice or?"
+    },
+    {
+      "id": 44,
+      "start": 190.49,
+      "end": 192.15,
+      "speaker": "PATIENT",
+      "text": "Whatever, that'd be really useful."
+    },
+    {
+      "id": 45,
+      "start": 192.04,
+      "end": 204.97,
+      "speaker": "DOCTOR",
+      "text": "OK. Sure. OK. Um, well what would I like to do is just ask you a few more, sort of questions around what's been going on, um, and also around your background health and um, and things like that."
+    },
+    {
+      "id": 46,
+      "start": 204.97,
+      "end": 208.37,
+      "speaker": "DOCTOR",
+      "text": "And then we can go on to sort of what can be done from there. Is that alright?"
+    },
+    {
+      "id": 47,
+      "start": 209.1,
+      "end": 209.68,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 48,
+      "start": 209.87,
+      "end": 222.08,
+      "speaker": "DOCTOR",
+      "text": "OK, great. so you say you've been, um, feeling unwell with not a lot of energy, difficult waking up in the mornings. Do you tend to just on that , do you tend to wake up early, and then stay in bed in the morning?"
+    },
+    {
+      "id": 49,
+      "start": 222.58,
+      "end": 235.42,
+      "speaker": "PATIENT",
+      "text": "Um, actually I'm, just uh, not, not really waking up early. It's more like I'm just having trouble sleeping at all, really. I think that's probably closer."
+    },
+    {
+      "id": 50,
+      "start": 234.78,
+      "end": 237.18,
+      "speaker": "DOCTOR",
+      "text": ", difficulty sleeping as well."
+    },
+    {
+      "id": 51,
+      "start": 238.36,
+      "end": 239.07,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 52,
+      "start": 238.39,
+      "end": 244.7,
+      "speaker": "DOCTOR",
+      "text": "Um, and have you, and, how, how has your mood been over this period?"
+    },
+    {
+      "id": 53,
+      "start": 246.15,
+      "end": 249.73,
+      "speaker": "DOCTOR",
+      "text": "Have you been feeling your usual self?"
+    },
+    {
+      "id": 54,
+      "start": 246.42,
+      "end": 247.42,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 55,
+      "start": 248.94,
+      "end": 254.06,
+      "speaker": "PATIENT",
+      "text": "Distracted, , I'd say. Uh, I, I kind of, um."
+    },
+    {
+      "id": 56,
+      "start": 255.36,
+      "end": 261.16,
+      "speaker": "PATIENT",
+      "text": "Yeah, uh, finding it really hard to, quite, difficult to keep focusing, I would say."
+    },
+    {
+      "id": 57,
+      "start": 261.16,
+      "end": 267.8,
+      "speaker": "PATIENT",
+      "text": "Um, not unhappy or, happy, but just uh, quite, just , not focused."
+    },
+    {
+      "id": 58,
+      "start": 269.93,
+      "end": 273.55,
+      "speaker": "DOCTOR",
+      "text": "OK. So difficulty focusing, quite distracted."
+    },
+    {
+      "id": 59,
+      "start": 273.55,
+      "end": 277.41,
+      "speaker": "DOCTOR",
+      "text": "And, would you say you've been in good spirits? Or is your mood low?"
+    },
+    {
+      "id": 60,
+      "start": 278.64,
+      "end": 279.53,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 61,
+      "start": 280.68,
+      "end": 286.28,
+      "speaker": "PATIENT",
+      "text": "Actually uh, now you, you, you mention it like, my, mood is a bit lower recently."
+    },
+    {
+      "id": 62,
+      "start": 286.28,
+      "end": 295.86,
+      "speaker": "PATIENT",
+      "text": "Um, and so I've noticed like, uh, my sex drive has kind of decreased, um, a bit over the, the past few months as well, so, yeah."
+    },
+    {
+      "id": 63,
+      "start": 293.95,
+      "end": 294.85,
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "id": 64,
+      "start": 297.49,
+      "end": 305.51,
+      "speaker": "DOCTOR",
+      "text": "K. And uh, so lower mood, decreased sex drive recently as well."
+    },
+    {
+      "id": 65,
+      "start": 305.51,
+      "end": 310.09,
+      "speaker": "DOCTOR",
+      "text": "And, just on that note, just a few questions around that."
+    },
+    {
+      "id": 66,
+      "start": 310.09,
+      "end": 315.86,
+      "speaker": "DOCTOR",
+      "text": "Are you able to, uh, it may be slightly personal questions, but if you're O. O. K. to answer this,"
+    },
+    {
+      "id": 67,
+      "start": 315.86,
+      "end": 323.25,
+      "speaker": "DOCTOR",
+      "text": "Do you tend to, to have morning erections like you, is that something that you've noticed, ?"
+    },
+    {
+      "id": 68,
+      "start": 315.98,
+      "end": 316.67,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 69,
+      "start": 322.55,
+      "end": 326.03,
+      "speaker": "PATIENT",
+      "text": "Um, I haven't noticed anything like that, specifically, no."
+    },
+    {
+      "id": 70,
+      "start": 326.22,
+      "end": 339.36,
+      "speaker": "DOCTOR",
+      "text": "So, you've not, so you're saying you have not noticed morning erections, and usually you would. So, normal thing to have, uh, waking up in the morning with something. But you have not noticed those recently."
+    },
+    {
+      "id": 71,
+      "start": 336.03,
+      "end": 336.88,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 72,
+      "start": 340.1,
+      "end": 341.66,
+      "speaker": "PATIENT",
+      "text": "I have not noticed those recently."
+    },
+    {
+      "id": 73,
+      "start": 342.06,
+      "end": 344.34,
+      "speaker": "DOCTOR",
+      "text": "OK. So, and that's been a change, has it?"
+    },
+    {
+      "id": 74,
+      "start": 345.14,
+      "end": 346.0,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 75,
+      "start": 348.23,
+      "end": 353.96,
+      "speaker": "PATIENT",
+      "text": "Important one I don't think, um, yeah. Not, I don't think it's important to change, no."
+    },
+    {
+      "id": 76,
+      "start": 350.22,
+      "end": 351.14,
+      "speaker": "DOCTOR",
+      "text": "Sorry?"
+    },
+    {
+      "id": 77,
+      "start": 353.86,
+      "end": 358.0,
+      "speaker": "DOCTOR",
+      "text": "Uh, so you, you, you, you don't think there's been a change there. You"
+    },
+    {
+      "id": 78,
+      "start": 357.85,
+      "end": 359.59,
+      "speaker": "PATIENT",
+      "text": "No, there hasn't been a change there."
+    },
+    {
+      "id": 79,
+      "start": 359.77,
+      "end": 361.39,
+      "speaker": "DOCTOR",
+      "text": "Ohh OK, sorry. Right, so"
+    },
+    {
+      "id": 80,
+      "start": 361.39,
+      "end": 363.53,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um,"
+    },
+    {
+      "id": 81,
+      "start": 364.15,
+      "end": 375.17,
+      "speaker": "DOCTOR",
+      "text": "Just going back to the mood symptoms as well. Uh, you have had uh, difficulty focusing, easily distracted. Your mood has been uh, slightly lower, with lower sex drive."
+    },
+    {
+      "id": 82,
+      "start": 367.11,
+      "end": 367.76,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 83,
+      "start": 375.36,
+      "end": 375.95,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 84,
+      "start": 375.91,
+      "end": 382.52,
+      "speaker": "DOCTOR",
+      "text": "Um, and in what way has your sex drive been lower? are you in a relationship at the moment?"
+    },
+    {
+      "id": 85,
+      "start": 382.43,
+      "end": 386.4,
+      "speaker": "PATIENT",
+      "text": "Yeah, I, I'm married, um, have been for, many years."
+    },
+    {
+      "id": 86,
+      "start": 386.38,
+      "end": 387.07,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 87,
+      "start": 386.4,
+      "end": 393.87,
+      "speaker": "PATIENT",
+      "text": "And, uh, yeah just, um. Over the last few months, just uh, been disinterested."
+    },
+    {
+      "id": 88,
+      "start": 394.45,
+      "end": 395.26,
+      "speaker": "DOCTOR",
+      "text": "Disinterested."
+    },
+    {
+      "id": 89,
+      "start": 398.54,
+      "end": 399.05,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 90,
+      "start": 400.16,
+      "end": 402.23,
+      "speaker": "DOCTOR",
+      "text": "OK. Sorry, you froze there for a moment."
+    },
+    {
+      "id": 91,
+      "start": 402.23,
+      "end": 405.88,
+      "speaker": "DOCTOR",
+      "text": "Um, . So less interested as well, OK."
+    },
+    {
+      "id": 93,
+      "start": 405.86,
+      "end": 406.62,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 94,
+      "start": 405.88,
+      "end": 415.4,
+      "speaker": "DOCTOR",
+      "text": "And, just to ask you a few questions before we uh, wrap up is, uh, any significant past medical history?"
+    },
+    {
+      "id": 95,
+      "start": 415.4,
+      "end": 423.64,
+      "speaker": "DOCTOR",
+      "text": "Um, so do you suffer from any, uh, mental health problems in the past, or any, uh, physical health problems?"
+    },
+    {
+      "id": 96,
+      "start": 422.98,
+      "end": 431.28,
+      "speaker": "PATIENT",
+      "text": "Um, so, in the past, um, I have a, a history of, hypothyroidism, um."
+    },
+    {
+      "id": 97,
+      "start": 431.08,
+      "end": 432.07,
+      "speaker": "DOCTOR",
+      "text": "Hypo?"
+    },
+    {
+      "id": 98,
+      "start": 432.86,
+      "end": 434.28,
+      "speaker": "PATIENT",
+      "text": "Hypothyroidism."
+    },
+    {
+      "id": 99,
+      "start": 434.69,
+      "end": 436.17,
+      "speaker": "DOCTOR",
+      "text": "Hyperthyroid."
+    },
+    {
+      "id": 100,
+      "start": 437.64,
+      "end": 438.35,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 101,
+      "start": 438.89,
+      "end": 442.06,
+      "speaker": "DOCTOR",
+      "text": "K, so that's high thyroid, just to sort of confirm that."
+    },
+    {
+      "id": 102,
+      "start": 439.15,
+      "end": 439.9,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 103,
+      "start": 442.66,
+      "end": 444.36,
+      "speaker": "PATIENT",
+      "text": "Sorry, can you say that again please?"
+    },
+    {
+      "id": 104,
+      "start": 443.3,
+      "end": 447.27,
+      "speaker": "DOCTOR",
+      "text": "hyper, as in high, hyperthyroid."
+    },
+    {
+      "id": 105,
+      "start": 447.78,
+      "end": 448.71,
+      "speaker": "PATIENT",
+      "text": "Hypo."
+    },
+    {
+      "id": 106,
+      "start": 448.86,
+      "end": 451.73,
+      "speaker": "DOCTOR",
+      "text": "Hypo, OK. Hypothyroid. Thank you."
+    },
+    {
+      "id": 107,
+      "start": 452.37,
+      "end": 454.15,
+      "speaker": "PATIENT",
+      "text": "Thank you. Um."
+    },
+    {
+      "id": 108,
+      "start": 455.26,
+      "end": 465.12,
+      "speaker": "PATIENT",
+      "text": "Yeah, and uh, also in the past, I mean, I haven't had any kind of specific, uh, medical diagnoses, along these lines."
+    },
+    {
+      "id": 109,
+      "start": 455.87,
+      "end": 456.54,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 110,
+      "start": 465.12,
+      "end": 475.81,
+      "speaker": "PATIENT",
+      "text": "Um, but the suspicion, that it may have uh, had an impact on me, but my father has commited suicide, um, about fifteen years ago."
+    },
+    {
+      "id": 111,
+      "start": 476.41,
+      "end": 477.81,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 112,
+      "start": 478.46,
+      "end": 480.74,
+      "speaker": "DOCTOR",
+      "text": "OK. And um,"
+    },
+    {
+      "id": 113,
+      "start": 482.37,
+      "end": 485.5,
+      "speaker": "DOCTOR",
+      "text": "Uh, do you take any medications?"
+    },
+    {
+      "id": 114,
+      "start": 488.07,
+      "end": 491.68,
+      "speaker": "PATIENT",
+      "text": "I had a, a, drug history of Thyroxine."
+    },
+    {
+      "id": 115,
+      "start": 492.03,
+      "end": 493.06,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 116,
+      "start": 493.28,
+      "end": 495.71,
+      "speaker": "PATIENT",
+      "text": "So, maybe, yes."
+    },
+    {
+      "id": 117,
+      "start": 495.69,
+      "end": 498.95,
+      "speaker": "DOCTOR",
+      "text": "Do you, do you continue to take Thyrocsin now?"
+    },
+    {
+      "id": 118,
+      "start": 501.33,
+      "end": 502.27,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 119,
+      "start": 502.41,
+      "end": 505.49,
+      "speaker": "DOCTOR",
+      "text": "You do. You're, so you're taking Thyrocsin at the moment?"
+    },
+    {
+      "id": 120,
+      "start": 506.7,
+      "end": 507.67,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 121,
+      "start": 510.72,
+      "end": 511.56,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 122,
+      "start": 511.83,
+      "end": 515.64,
+      "speaker": "DOCTOR",
+      "text": "Cool. And any drug allergies? Are you allergic to any medications?"
+    },
+    {
+      "id": 123,
+      "start": 515.44,
+      "end": 519.13,
+      "speaker": "PATIENT",
+      "text": "No, I have no uh, medication allergies, no."
+    },
+    {
+      "id": 124,
+      "start": 517.52,
+      "end": 518.11,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 125,
+      "start": 518.93,
+      "end": 533.35,
+      "speaker": "DOCTOR",
+      "text": "No allergies. And you mentioned the , the suicide of your father fifteen years ago. I'm very sorry to hear that. Is there any other, um, uh, significant family history of medical conditions, or psychiatric conditions?"
+    },
+    {
+      "id": 126,
+      "start": 533.69,
+      "end": 534.4,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 127,
+      "start": 534.69,
+      "end": 538.68,
+      "speaker": "DOCTOR",
+      "text": "No depression or anything like that running in your family, or uh,"
+    },
+    {
+      "id": 128,
+      "start": 537.63,
+      "end": 539.78,
+      "speaker": "PATIENT",
+      "text": "Uh, nothing, nothing, that sort."
+    },
+    {
+      "id": 129,
+      "start": 539.88,
+      "end": 543.64,
+      "speaker": "DOCTOR",
+      "text": "OK. And your mother is, is well? Any brothers or sisters?"
+    },
+    {
+      "id": 130,
+      "start": 543.93,
+      "end": 547.05,
+      "speaker": "PATIENT",
+      "text": "Yeah she's fine, um, and no, I'm an only child. Um."
+    },
+    {
+      "id": 131,
+      "start": 550.93,
+      "end": 551.86,
+      "speaker": "DOCTOR",
+      "text": "Um,"
+    },
+    {
+      "id": 132,
+      "start": 553.35,
+      "end": 554.19,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 133,
+      "start": 554.61,
+      "end": 561.92,
+      "speaker": "DOCTOR",
+      "text": "So, I just uh, uh, sorry it might seem like a slightly random question, but any uh, change in vision?"
+    },
+    {
+      "id": 134,
+      "start": 563.06,
+      "end": 563.69,
+      "speaker": "DOCTOR",
+      "text": "No"
+    },
+    {
+      "id": 135,
+      "start": 563.07,
+      "end": 564.55,
+      "speaker": "PATIENT",
+      "text": "No, no, nothing like that."
+    },
+    {
+      "id": 136,
+      "start": 564.38,
+      "end": 578.3,
+      "speaker": "DOCTOR",
+      "text": ". OK. And, just to go back to your, you were saying you had low mood. Some people who , who do have low mood, uh, and low sex drive can sometimes feel uh, suicidal as well. Have you had any thoughts of harming yourself or harming anyone else?"
+    },
+    {
+      "id": 137,
+      "start": 577.76,
+      "end": 578.52,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 138,
+      "start": 578.64,
+      "end": 579.2,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 139,
+      "start": 579.59,
+      "end": 581.41,
+      "speaker": "PATIENT",
+      "text": "No, not , not really, no."
+    },
+    {
+      "id": 140,
+      "start": 581.14,
+      "end": 587.19,
+      "speaker": "DOCTOR",
+      "text": "and are you able to get the usual enjoyment out of your daily activities, that you have done in the past?"
+    },
+    {
+      "id": 141,
+      "start": 588.04,
+      "end": 599.66,
+      "speaker": "PATIENT",
+      "text": "Sometimes, I mean, I guess, um, most of the activites, but, when I've been doing sports as well, , I find sometimes it's quite difficult to breathe, um."
+    },
+    {
+      "id": 142,
+      "start": 600.43,
+      "end": 606.79,
+      "speaker": "PATIENT",
+      "text": "So, I have some kind of like, shortness of breath um, when doing, sports, compared to maybe a couple of months ago."
+    },
+    {
+      "id": 143,
+      "start": 606.96,
+      "end": 610.96,
+      "speaker": "DOCTOR",
+      "text": "OK. So you, you've become more short of breath over the last few months."
+    },
+    {
+      "id": 144,
+      "start": 610.93,
+      "end": 611.69,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 145,
+      "start": 611.5,
+      "end": 614.72,
+      "speaker": "DOCTOR",
+      "text": "Um, and you've had a"
+    },
+    {
+      "id": 146,
+      "start": 615.38,
+      "end": 623.65,
+      "speaker": "DOCTOR",
+      "text": "OK. So uh, any other things around that? So, more fatigue, more shortness of breath, um, over the last few months?"
+    },
+    {
+      "id": 147,
+      "start": 623.73,
+      "end": 624.41,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 148,
+      "start": 624.34,
+      "end": 632.78,
+      "speaker": "DOCTOR",
+      "text": "Um, with a low, lower mood, decreased sex drive. Um, is there, just before we wrap up, is there anything else that you would like to talk about?"
+    },
+    {
+      "id": 149,
+      "start": 634.06,
+      "end": 637.27,
+      "speaker": "PATIENT",
+      "text": "Um, no, nothing specific, no."
+    },
+    {
+      "id": 150,
+      "start": 637.49,
+      "end": 638.99,
+      "speaker": "DOCTOR",
+      "text": "So, um,"
+    },
+    {
+      "id": 151,
+      "start": 639.65,
+      "end": 645.52,
+      "speaker": "DOCTOR",
+      "text": "We're getting a little bit towards the end now, but I would quite like to make a bit more of a plan for you. Um,"
+    },
+    {
+      "id": 152,
+      "start": 645.52,
+      "end": 655.92,
+      "speaker": "DOCTOR",
+      "text": "I would like to, probably see you in person, and do an examination. And, and also, we would probably like to do some blood tests um, as well."
+    },
+    {
+      "id": 153,
+      "start": 655.92,
+      "end": 668.59,
+      "speaker": "DOCTOR",
+      "text": "So, do you think it would be possible to see uh, to to book an appointment in the next few days uh, with your GP? Or, or um, that would be ideal, I think here."
+    },
+    {
+      "id": 154,
+      "start": 668.59,
+      "end": 677.96,
+      "speaker": "DOCTOR",
+      "text": "Um, and then we can, we can probably do some more uh, we'll do an examination and uh, do some investigations really, to see what's going on here a little bit more."
+    },
+    {
+      "id": 155,
+      "start": 670.11,
+      "end": 671.15,
+      "speaker": "PATIENT",
+      "text": ", yes."
+    },
+    {
+      "id": 156,
+      "start": 678.55,
+      "end": 679.71,
+      "speaker": "PATIENT",
+      "text": "That makes sense, yeah."
+    },
+    {
+      "id": 157,
+      "start": 679.76,
+      "end": 680.86,
+      "speaker": "DOCTOR",
+      "text": "Is that alright?"
+    },
+    {
+      "id": 158,
+      "start": 680.95,
+      "end": 683.06,
+      "speaker": "PATIENT",
+      "text": "Yeah, that's very useful, thank you, um."
+    },
+    {
+      "id": 159,
+      "start": 683.3,
+      "end": 684.09,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 160,
+      "start": 683.4,
+      "end": 686.92,
+      "speaker": "PATIENT",
+      "text": "Yeah, it feels, better to have some kind of plan, uh."
+    },
+    {
+      "id": 161,
+      "start": 686.21,
+      "end": 692.47,
+      "speaker": "DOCTOR",
+      "text": "Yeah. Yeah, yeah. I think , I definitely think we need a plan here. Um, it's been nice talking to you. I'm sorry, we've run out of time now."
+    },
+    {
+      "id": 162,
+      "start": 692.47,
+      "end": 697.07,
+      "speaker": "DOCTOR",
+      "text": "Uh, but we've at least started the ball rolling with um, some further investigations and tests."
+    },
+    {
+      "id": 163,
+      "start": 697.07,
+      "end": 705.27,
+      "speaker": "DOCTOR",
+      "text": "I'm glad you're, you know, you're, you're , you're, although you have a low mood, um, you're, you're, um, you're not feeling suicidal, just to confirm that."
+    },
+    {
+      "id": 164,
+      "start": 705.01,
+      "end": 706.61,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm, yes."
+    },
+    {
+      "id": 165,
+      "start": 705.27,
+      "end": 714.97,
+      "speaker": "DOCTOR",
+      "text": "And, and you're, uh, and uh, we'll hopefully get to the bottom of some your tiredness, and your other symptoms, when we see you. OK?"
+    },
+    {
+      "id": 166,
+      "start": 715.19,
+      "end": 717.26,
+      "speaker": "PATIENT",
+      "text": "Thank you very much, for taking the time. Thank you."
+    },
+    {
+      "id": 167,
+      "start": 716.54,
+      "end": 718.28,
+      "speaker": "DOCTOR",
+      "text": "OK. Thank you. Thanks."
+    }
+  ]
+}

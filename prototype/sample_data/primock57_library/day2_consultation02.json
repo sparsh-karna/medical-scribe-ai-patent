@@ -1,0 +1,750 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation02",
+  "presenting_complaint": "I have a strange swelling on my elbow",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Hx: 1 week history of spontaneous elbow swelling left. Not painful. No trauma. \nNo FH of rheumatological disease- NB pt says he has been old he has OA previously by doctors- ? need to confirm this\nWorks in a desk job\nNot happened before\nOtherwise well- \nPMHx: nil of note\nFH: nil of note\nDH: not on any medication, allergic to peanuts\nSH: exercises regularly, active\nEx: looks well, not in pain. Mild erythema and minimal swelling (if any) around olecranon process left elbow\nImp: possible bursitis\nPlan: for NSAIDs- usual advice re SE\nFor rheum bloods: esr, crp, fbc, rheum factor and urate\nReview thereafter in person/ via video\nTo contact us back in interim if any deterioration/concerns- pt warned re symptoms of septic arthritis\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.87,
+      "end": 2.68,
+      "speaker": "DOCTOR",
+      "text": "Hi there. Good morning."
+    },
+    {
+      "id": 2,
+      "start": 2.79,
+      "end": 4.14,
+      "speaker": "PATIENT",
+      "text": "Hello, good morning."
+    },
+    {
+      "id": 3,
+      "start": 4.1,
+      "end": 7.54,
+      "speaker": "DOCTOR",
+      "text": "Um, I'm Doctor Deen Mirza from GP at Hand. Nice to see you."
+    },
+    {
+      "id": 4,
+      "start": 7.61,
+      "end": 8.84,
+      "speaker": "PATIENT",
+      "text": "Nice to see you."
+    },
+    {
+      "id": 5,
+      "start": 8.89,
+      "end": 13.17,
+      "speaker": "DOCTOR",
+      "text": "OK. Before we start your appointment, could you please tell me your first name and your date of birth."
+    },
+    {
+      "id": 6,
+      "start": 13.62,
+      "end": 22.01,
+      "speaker": "PATIENT",
+      "text": "Yes. Uh, my name is John Smith. And I was born on the fifth of April, uh, nineteen seventy three."
+    },
+    {
+      "id": 7,
+      "start": 22.1,
+      "end": 26.92,
+      "speaker": "DOCTOR",
+      "text": "OK, that's great. Thank you for that. Um, are you in a private place where you're OK to speak freely?"
+    },
+    {
+      "id": 8,
+      "start": 27.05,
+      "end": 28.7,
+      "speaker": "PATIENT",
+      "text": "Yes. ."
+    },
+    {
+      "id": 9,
+      "start": 27.78,
+      "end": 34.9,
+      "speaker": "DOCTOR",
+      "text": "OK, OK, great. OK, so um, tell me a bit about what's been happening? You said you mentioned in the notes that you've got a problem with your elbow."
+    },
+    {
+      "id": 10,
+      "start": 35.25,
+      "end": 45.82,
+      "speaker": "PATIENT",
+      "text": "Yeah. Um, I just noticed this like about a week ago, or something? Um, have like a weird swelling on, on, on my elbow. I noticed that when I was in the shower. Uh,"
+    },
+    {
+      "id": 11,
+      "start": 45.82,
+      "end": 52.66,
+      "speaker": "PATIENT",
+      "text": "It's not painful at all, or like, I I feel fine. But it's just, just a bit, a bit weird, to see that."
+    },
+    {
+      "id": 12,
+      "start": 52.66,
+      "end": 64.24,
+      "speaker": "PATIENT",
+      "text": "Um, it's, it's slightly warm. Um, and I, I, cannot feel like this, little bit fluid in inside, or, uh, um?"
+    },
+    {
+      "id": 13,
+      "start": 53.1,
+      "end": 53.89,
+      "speaker": "DOCTOR",
+      "text": "Sure."
+    },
+    {
+      "id": 14,
+      "start": 63.24,
+      "end": 66.05,
+      "speaker": "DOCTOR",
+      "text": "Sure, sure. , and ."
+    },
+    {
+      "id": 15,
+      "start": 64.95,
+      "end": 68.44,
+      "speaker": "PATIENT",
+      "text": "So, I, I like to know what's going on with ."
+    },
+    {
+      "id": 16,
+      "start": 68.17,
+      "end": 71.25,
+      "speaker": "DOCTOR",
+      "text": ", and so, did you say it was the left elbow or the right elbow?"
+    },
+    {
+      "id": 17,
+      "start": 71.5,
+      "end": 75.45,
+      "speaker": "PATIENT",
+      "text": "Um, it's the, the left elbow."
+    },
+    {
+      "id": 18,
+      "start": 75.11,
+      "end": 79.68,
+      "speaker": "DOCTOR",
+      "text": "Left elbow, OK. , and have you banged that elbow? Do you have any kind of injury?"
+    },
+    {
+      "id": 19,
+      "start": 80.12,
+      "end": 94.78,
+      "speaker": "PATIENT",
+      "text": "No, not really. Um, not that I know of. I haven't noticed anything. I can actually like move it normally. Um, it's just, I , I can just see that. It feels a bit strange, a bit"
+    },
+    {
+      "id": 20,
+      "start": 92.87,
+      "end": 99.82,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. , and um, , in terms of your job, do you do anything physical?"
+    },
+    {
+      "id": 21,
+      "start": 100.11,
+      "end": 105.52,
+      "speaker": "PATIENT",
+      "text": "Not really. No, I just, you know sit at a desk. Um, yeah."
+    },
+    {
+      "id": 22,
+      "start": 103.79,
+      "end": 108.14,
+      "speaker": "DOCTOR",
+      "text": "Right. OK. , and um, has this happened before?"
+    },
+    {
+      "id": 23,
+      "start": 108.6,
+      "end": 116.46,
+      "speaker": "PATIENT",
+      "text": "No, no I haven't noticed that before. Um, I don't have any like history of, of seeing this. I don't remember ."
+    },
+    {
+      "id": 24,
+      "start": 117.33,
+      "end": 128.08,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Uh, and can I um, can I just double-check? Has anyone in your family, got any, kind of rheumatology, diseases, like rheumatoid arthritis, or lupus or anything like that?"
+    },
+    {
+      "id": 25,
+      "start": 128.24,
+      "end": 135.83,
+      "speaker": "PATIENT",
+      "text": "Um, no, well I, I do, well I think, I think I have something like uh, osteoarthritis. Um,"
+    },
+    {
+      "id": 26,
+      "start": 135.83,
+      "end": 142.56,
+      "speaker": "PATIENT",
+      "text": "Uh, uh, it sometimes kind of hurts, uh, my joints. But uh, in my family, I'm not sure."
+    },
+    {
+      "id": 27,
+      "start": 143.25,
+      "end": 144.24,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 28,
+      "start": 143.72,
+      "end": 145.16,
+      "speaker": "PATIENT",
+      "text": ". No."
+    },
+    {
+      "id": 29,
+      "start": 145.03,
+      "end": 153.27,
+      "speaker": "DOCTOR",
+      "text": "Sure. , so you know you said you think you've got , uh, osteoarthritis. Has anyone ever told you that? Have you ever seen a doctor who's confirmed that, and told you you've got osteoarthritis?"
+    },
+    {
+      "id": 30,
+      "start": 153.64,
+      "end": 156.15,
+      "speaker": "PATIENT",
+      "text": "Um, yes. Yes, a few years ago."
+    },
+    {
+      "id": 31,
+      "start": 156.83,
+      "end": 161.84,
+      "speaker": "DOCTOR",
+      "text": "OK. , was that a GP or a specialist or, was it, a physiotherapist?"
+    },
+    {
+      "id": 32,
+      "start": 161.06,
+      "end": 164.09,
+      "speaker": "PATIENT",
+      "text": "a a GP. Um, yeah."
+    },
+    {
+      "id": 33,
+      "start": 163.3,
+      "end": 169.38,
+      "speaker": "DOCTOR",
+      "text": "GP, OK, all right. Um, look can I just, uh, sorry can I just double-check how old you are please?"
+    },
+    {
+      "id": 34,
+      "start": 169.72,
+      "end": 171.04,
+      "speaker": "PATIENT",
+      "text": "I'm uh, fifty three."
+    },
+    {
+      "id": 35,
+      "start": 171.06,
+      "end": 176.19,
+      "speaker": "DOCTOR",
+      "text": "Fifty three, OK. Fantastic. All right. Um, and, do you have any other illnesses at all?"
+    },
+    {
+      "id": 36,
+      "start": 176.51,
+      "end": 178.1,
+      "speaker": "PATIENT",
+      "text": "Um,"
+    },
+    {
+      "id": 37,
+      "start": 178.95,
+      "end": 191.09,
+      "speaker": "PATIENT",
+      "text": "Well not, not really, no. Um, I'm, I'm allergic to, to peanuts. Um, but that's, that's pretty much all I uh, have to say about my medical history, yeah."
+    },
+    {
+      "id": 38,
+      "start": 184.76,
+      "end": 187.48,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. ."
+    },
+    {
+      "id": 39,
+      "start": 188.93,
+      "end": 192.96,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, are you, are, are you allergic to any medication?"
+    },
+    {
+      "id": 40,
+      "start": 193.29,
+      "end": 195.3,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Not that I know of."
+    },
+    {
+      "id": 41,
+      "start": 194.12,
+      "end": 194.75,
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "id": 42,
+      "start": 195.3,
+      "end": 200.56,
+      "speaker": "DOCTOR",
+      "text": "Sure. , and um, do you um, are you on any medication on a regular basis?"
+    },
+    {
+      "id": 43,
+      "start": 200.76,
+      "end": 201.78,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 44,
+      "start": 201.89,
+      "end": 206.52,
+      "speaker": "DOCTOR",
+      "text": "No, OK. And are you normally fit and well? Mobile and active?"
+    },
+    {
+      "id": 45,
+      "start": 205.63,
+      "end": 217.29,
+      "speaker": "PATIENT",
+      "text": "yeah. I do, I do, I do some sports. I run regularly, like two, three times a week. Um, yeah, no, I'm, think I'm healthy."
+    },
+    {
+      "id": 46,
+      "start": 216.36,
+      "end": 226.41,
+      "speaker": "DOCTOR",
+      "text": "OK, good, good, glad to hear. Well done that's , it's good that you're doing that on a regular basis. OK. Um, and um, uh, can I, is it possible for me to have a look at your elbow, now?"
+    },
+    {
+      "id": 47,
+      "start": 226.34,
+      "end": 227.55,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, sure."
+    },
+    {
+      "id": 48,
+      "start": 228.96,
+      "end": 230.84,
+      "speaker": "DOCTOR",
+      "text": "OK, good, bear with me one second."
+    },
+    {
+      "id": 49,
+      "start": 232.94,
+      "end": 239.81,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And if you can just raise your elbow up a little bit like that, a bit higher, so I can just see the underside. OK, fantastic, all right."
+    },
+    {
+      "id": 50,
+      "start": 239.81,
+      "end": 249.37,
+      "speaker": "DOCTOR",
+      "text": "And then, just, bring it round to this side, , I can see other side. OK, fantastic. All right. And if you can just touch the tip of your elbow with your fingers."
+    },
+    {
+      "id": 51,
+      "start": 249.37,
+      "end": 254.34,
+      "speaker": "DOCTOR",
+      "text": "There's, , is it, is it hot, compared to the surrounding skin, the adjacent skin?"
+    },
+    {
+      "id": 52,
+      "start": 249.58,
+      "end": 250.4,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 53,
+      "start": 255.34,
+      "end": 256.94,
+      "speaker": "PATIENT",
+      "text": "It's a bit warm, yes."
+    },
+    {
+      "id": 54,
+      "start": 256.65,
+      "end": 265.82,
+      "speaker": "DOCTOR",
+      "text": "It's a bit warmer. OK. Um, and um, is it very tender when you're pressing on that nerve? Is it, if you, if you give it a press, does it hurt you at all?"
+    },
+    {
+      "id": 55,
+      "start": 266.96,
+      "end": 276.61,
+      "speaker": "PATIENT",
+      "text": "On the, on the tip of the elbow, it's, it's OK, just like, next to it like where the, the swelling is, it's a bit, yeah it feels weird."
+    },
+    {
+      "id": 56,
+      "start": 277.02,
+      "end": 285.63,
+      "speaker": "DOCTOR",
+      "text": "OK. All right. Um, well, um, I noticed the skin was a bit dry, , on the tip of the elbow. Do you, do you have dry skin anywhere else on the body?"
+    },
+    {
+      "id": 57,
+      "start": 286.34,
+      "end": 290.92,
+      "speaker": "PATIENT",
+      "text": "Uh, no not really. I have skin really dry now."
+    },
+    {
+      "id": 58,
+      "start": 287.38,
+      "end": 292.2,
+      "speaker": "DOCTOR",
+      "text": ", do you , do you suffer from eczema at all?"
+    },
+    {
+      "id": 59,
+      "start": 292.71,
+      "end": 293.68,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 60,
+      "start": 293.56,
+      "end": 294.77,
+      "speaker": "DOCTOR",
+      "text": "No. Alright."
+    },
+    {
+      "id": 61,
+      "start": 296.1,
+      "end": 301.56,
+      "speaker": "DOCTOR",
+      "text": "OK. So um, what I think we should do, with regards to your elbow problem"
+    },
+    {
+      "id": 62,
+      "start": 301.56,
+      "end": 313.67,
+      "speaker": "DOCTOR",
+      "text": "OK. Is um, I think, it would be worthwhile. , this seems like uh, what we call the Bursitis. OK. So, that's an inflammation of one of the fluid sacs around the joint."
+    },
+    {
+      "id": 63,
+      "start": 313.67,
+      "end": 321.26,
+      "speaker": "DOCTOR",
+      "text": "Um, what I think we should do is, I think you should be on some anti-inflammatory medication, in the, in the first instance."
+    },
+    {
+      "id": 64,
+      "start": 319.15,
+      "end": 320.15,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 65,
+      "start": 321.26,
+      "end": 329.67,
+      "speaker": "DOCTOR",
+      "text": "And, as well as that, what I would like to do, is to get some blood tests done, to check for other types of uh, causes of joint swelling. K?"
+    },
+    {
+      "id": 66,
+      "start": 325.35,
+      "end": 326.35,
+      "speaker": "PATIENT",
+      "text": "Alright."
+    },
+    {
+      "id": 67,
+      "start": 329.67,
+      "end": 341.13,
+      "speaker": "DOCTOR",
+      "text": "So, um, what we're going to do is, we're going to arrange some, um, blood test forms to be sent out to your house. And, there'll be instructions within that pack, about where to go to get those blood tests done."
+    },
+    {
+      "id": 68,
+      "start": 341.13,
+      "end": 351.06,
+      "speaker": "DOCTOR",
+      "text": "And, that will involve you, um, having some tests done to check for inflammatory markers, infection, rheumatological antibodies."
+    },
+    {
+      "id": 70,
+      "start": 351.06,
+      "end": 356.82,
+      "speaker": "DOCTOR",
+      "text": "So we'll do a full screen, and also check for things like Gout as well, OK. Um."
+    },
+    {
+      "id": 71,
+      "start": 355.4,
+      "end": 356.4,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 72,
+      "start": 356.82,
+      "end": 364.12,
+      "speaker": "DOCTOR",
+      "text": "The time frame for that, will be um, the results will come back to us after about five or six days. Um."
+    },
+    {
+      "id": 73,
+      "start": 363.83,
+      "end": 367.76,
+      "speaker": "PATIENT",
+      "text": "K . O"
+    },
+    {
+      "id": 74,
+      "start": 364.12,
+      "end": 374.23,
+      "speaker": "DOCTOR",
+      "text": "From now, but it may take time for the form to come out to you. And if you get the form get the blood tests done straight away, by the time that we're expecting result back, you know one or two days after that, we're looking maybe six days."
+    },
+    {
+      "id": 75,
+      "start": 374.23,
+      "end": 386.37,
+      "speaker": "DOCTOR",
+      "text": "And, what I would suggest, is, we can arrange a follow-up appointment for you, in one of our clinics, where we can have a look at your joint, feel it, we can review the blood test."
+    },
+    {
+      "id": 76,
+      "start": 374.45,
+      "end": 375.6,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 77,
+      "start": 386.37,
+      "end": 392.9,
+      "speaker": "DOCTOR",
+      "text": "Uh, we can um, get a gauge as to, uh, what's going on. Now in terms of your joint right now,"
+    },
+    {
+      "id": 78,
+      "start": 393.9,
+      "end": 402.69,
+      "speaker": "DOCTOR",
+      "text": "It doesn't look like, to me that's something called, excuse me, septic arthritis. So, we're worried sometimes that someone might have an acutely infected joint."
+    },
+    {
+      "id": 79,
+      "start": 398.41,
+      "end": 399.67,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 80,
+      "start": 404.17,
+      "end": 408.28,
+      "speaker": "DOCTOR",
+      "text": "Um, and uh, your, your joint doesn't look like that."
+    },
+    {
+      "id": 81,
+      "start": 404.43,
+      "end": 405.18,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 82,
+      "start": 408.28,
+      "end": 422.11,
+      "speaker": "DOCTOR",
+      "text": "However, if your, the elbow was to become very red, very painful, uh, and the redness was to spread or become uh, you know more intense. Then you need to get on the phone or get, have a video appointment , with one of us as soon as possible."
+    },
+    {
+      "id": 83,
+      "start": 421.89,
+      "end": 423.03,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 84,
+      "start": 422.11,
+      "end": 427.81,
+      "speaker": "DOCTOR",
+      "text": "'Cause that would be an emergency. That would require more immediate assessment, more immediate treatment. OK?"
+    },
+    {
+      "id": 85,
+      "start": 427.47,
+      "end": 436.12,
+      "speaker": "PATIENT",
+      "text": "do you, do you think it's something dangerous? Like something, like could I die from that, or is it, is it"
+    },
+    {
+      "id": 86,
+      "start": 435.19,
+      "end": 449.77,
+      "speaker": "DOCTOR",
+      "text": "No. I, I don't think this is anything dangerous. don't need to worry. OK? What I'm doing, is I'm just outlining the worst case scenario if things were to, to develop. K? So, , this, this is not the case right now. Right now, it looks quite straightforward."
+    },
+    {
+      "id": 87,
+      "start": 438.16,
+      "end": 439.16,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 88,
+      "start": 444.43,
+      "end": 445.85,
+      "speaker": "PATIENT",
+      "text": "Yeah, OK, I see."
+    },
+    {
+      "id": 89,
+      "start": 449.77,
+      "end": 461.87,
+      "speaker": "DOCTOR",
+      "text": "It's nothing , sinister or life-threatening. Um, what I'm doing is I'm just saying, in case things worsen, these are the things that we'd be looking out for, and this is what we have to do. But you don't have that now, thankfully, and I don't think you're going to have it."
+    },
+    {
+      "id": 90,
+      "start": 457.41,
+      "end": 458.41,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 91,
+      "start": 461.87,
+      "end": 465.33,
+      "speaker": "DOCTOR",
+      "text": "But I'm just saying, the what if scenario. Is that OK?"
+    },
+    {
+      "id": 92,
+      "start": 465.08,
+      "end": 467.67,
+      "speaker": "PATIENT",
+      "text": "Yeah that, that sounds good. Thank you."
+    },
+    {
+      "id": 93,
+      "start": 467.43,
+      "end": 470.28,
+      "speaker": "DOCTOR",
+      "text": "All right. Did you have any questions that you wanted to ask me?"
+    },
+    {
+      "id": 94,
+      "start": 470.51,
+      "end": 482.06,
+      "speaker": "PATIENT",
+      "text": "Um, well just yeah I just wanted to know about this. Um, yeah it feels a bit better now . Uh, but yeah, no that's it. Thank you."
+    },
+    {
+      "id": 95,
+      "start": 478.22,
+      "end": 480.27,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um."
+    },
+    {
+      "id": 96,
+      "start": 481.6,
+      "end": 495.45,
+      "speaker": "DOCTOR",
+      "text": "OK. So, I, I would take Ibuprofen regularly, OK. You can get that , over the counter. Um, that's four hundred milligrams, two times a day. And you should take, take that after food, not on an empty stomach. If you get any heartburn, stop taking it. OK."
+    },
+    {
+      "id": 97,
+      "start": 485.32,
+      "end": 485.99,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 98,
+      "start": 495.48,
+      "end": 497.82,
+      "speaker": "PATIENT",
+      "text": "Sure. thanks. Bye."
+    },
+    {
+      "id": 99,
+      "start": 496.3,
+      "end": 499.31,
+      "speaker": "DOCTOR",
+      "text": "All right. So, what I wanna do is, I'll get the forms sent out to you."
+    },
+    {
+      "id": 100,
+      "start": 499.31,
+      "end": 503.0,
+      "speaker": "DOCTOR",
+      "text": "And, um, we are going to arrange a, a follow-up appointment."
+    },
+    {
+      "id": 101,
+      "start": 503.0,
+      "end": 516.93,
+      "speaker": "DOCTOR",
+      "text": "Maybe within a um, actually you know, the follow-up appointment doesn't have to be face-to-face, if it's more convenient for you do, to do it over the phone, we can do that over the phone, uh, over video. We can do that as well, that's, that's your call. But you contact us, , after you've had the blood test done, and we can review things then, OK."
+    },
+    {
+      "id": 102,
+      "start": 510.18,
+      "end": 511.18,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 103,
+      "start": 516.95,
+      "end": 524.05,
+      "speaker": "PATIENT",
+      "text": "OK, yeah that sounds good. I, I'll do that. And if I see that it's getting worse, I'll probably ask for a physical appointment."
+    },
+    {
+      "id": 104,
+      "start": 523.59,
+      "end": 535.71,
+      "speaker": "DOCTOR",
+      "text": "Sure, sure that's a good idea. All right then, OK. Um, take care then. So , look just leave that with me, I'll sort all those bits and pieces out, and then we'll get them sent out to you, and then we'll, we'll um, review you after the tests, things goes well, OK."
+    },
+    {
+      "id": 106,
+      "start": 534.7,
+      "end": 537.57,
+      "speaker": "PATIENT",
+      "text": "Thank you. Alright. Sounds"
+    },
+    {
+      "id": 107,
+      "start": 536.53,
+      "end": 538.9,
+      "speaker": "DOCTOR",
+      "text": "All right then. Take care then, all the best. Bye bye."
+    },
+    {
+      "id": 108,
+      "start": 538.81,
+      "end": 539.41,
+      "speaker": "PATIENT",
+      "text": "Bye."
+    }
+  ]
+}

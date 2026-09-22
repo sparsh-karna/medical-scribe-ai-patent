@@ -1,0 +1,20 @@
+.back-link {
+  position: absolute; top: 24px; left: 28px;
+  font-size: 13.5px; font-weight: 600; color: var(--text-muted); text-decoration: none;
+}
+.back-link:hover { color: var(--text); }
+
+.auth-wrap { min-height: 100dvh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+
+.auth-card { width: 100%; max-width: 380px; padding: 28px; }
+
+.tabs { display: flex; gap: 4px; background: var(--surface-2); border-radius: var(--radius-sm); padding: 4px; margin-bottom: 22px; }
+.tab {
+  flex: 1; padding: 9px; border: none; background: transparent; border-radius: 6px;
+  font: inherit; font-size: 13.5px; font-weight: 600; color: var(--text-muted); cursor: pointer;
+}
+.tab.active { background: var(--surface); color: var(--text); box-shadow: var(--shadow-sm); }
+
+.auth-form { display: flex; flex-direction: column; gap: 16px; }
+.auth-form .btn { margin-top: 4px; }
+.error { color: var(--rejected); font-size: 13px; margin: 0; }

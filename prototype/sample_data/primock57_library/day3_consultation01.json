@@ -1,0 +1,666 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation01",
+  "presenting_complaint": "lips swelling after eating a sandwich",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History: you are having lip swelling for the past 1 hr\nIt started after eating a prawn soup\nYou initially had some weird feeling around your lips \nThe swelling started after half an hour \nNow you are complaining of your throat closing \nYour chest is tight at the moment with difficulty breathing \nExamination : during the consultation, it looked like you were having some problems breathing and your lips appeared to be increasingly swelling\nPast medical history : you suffer from asthma \nYou have had an injection as a child for a peanut allergy \nMedication: you are currently on salbutamol inhalers \nTreatment: your Mom was around and I have advised that you use an antihistamine straight away. I have advised Mom to call the ambulance as a 999 call as we are suspecting an anaphylactic reaction\nAfter discharge from hospital please book a review with the doctor to consider prescribing an epipen\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 4.43,
+      "end": 5.18,
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "id": 2,
+      "start": 6.48,
+      "end": 7.26,
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "id": 3,
+      "start": 7.38,
+      "end": 9.11,
+      "speaker": "PATIENT",
+      "text": "Hi, hi I'm Maria."
+    },
+    {
+      "id": 5,
+      "start": 9.58,
+      "end": 12.57,
+      "speaker": "DOCTOR",
+      "text": "Hello, I'm Doctor Jacob and welcome to Babylon."
+    },
+    {
+      "id": 7,
+      "start": 13.73,
+      "end": 14.89,
+      "speaker": "DOCTOR",
+      "text": "How are you doing?"
+    },
+    {
+      "id": 8,
+      "start": 15.59,
+      "end": 20.26,
+      "speaker": "PATIENT",
+      "text": "I'm all right, thank you. Well I feel a little weird today, to be honest."
+    },
+    {
+      "id": 9,
+      "start": 20.09,
+      "end": 25.65,
+      "speaker": "DOCTOR",
+      "text": "Yeah, so just before we we start, is it all right if you could confirm your full name for me please?"
+    },
+    {
+      "id": 10,
+      "start": 26.05,
+      "end": 28.88,
+      "speaker": "PATIENT",
+      "text": "Yes. Maria Trabalotsa."
+    },
+    {
+      "id": 11,
+      "start": 28.87,
+      "end": 31.16,
+      "speaker": "DOCTOR",
+      "text": "OK, day and your date of birth?"
+    },
+    {
+      "id": 12,
+      "start": 31.79,
+      "end": 36.23,
+      "speaker": "PATIENT",
+      "text": "That is the first of October, ninety-nine."
+    },
+    {
+      "id": 13,
+      "start": 36.42,
+      "end": 39.86,
+      "speaker": "DOCTOR",
+      "text": "OK, and your email address for me please?"
+    },
+    {
+      "id": 14,
+      "start": 40.56,
+      "end": 45.21,
+      "speaker": "PATIENT",
+      "text": "Yes, M Traba at Gmail dot com."
+    },
+    {
+      "id": 16,
+      "start": 45.64,
+      "end": 52.04,
+      "speaker": "DOCTOR",
+      "text": "OK, and just to confirm that you're in a secure location and we can have a confidential conversation?"
+    },
+    {
+      "id": 17,
+      "start": 52.96,
+      "end": 55.29,
+      "speaker": "PATIENT",
+      "text": "Yes I think I am, yeah."
+    },
+    {
+      "id": 18,
+      "start": 55.12,
+      "end": 65.95,
+      "speaker": "DOCTOR",
+      "text": "Good, right, you've mentioned in in, in your patient notes that you're having some sort of lip swelling, and you after you had a sandwich. Is that correct?"
+    },
+    {
+      "id": 19,
+      "start": 66.5,
+      "end": 75.56,
+      "speaker": "PATIENT",
+      "text": "Yeah that is, well, I don't think, I don't think it was, it it wasn't a sandwich but it was, it was something with prawn so."
+    },
+    {
+      "id": 20,
+      "start": 75.56,
+      "end": 83.02,
+      "speaker": "PATIENT",
+      "text": "Basically, I, I sometimes go with my friends to, to this place called ."
+    },
+    {
+      "id": 21,
+      "start": 83.02,
+      "end": 91.33,
+      "speaker": "PATIENT",
+      "text": "And, we, we regularly have like usually I have like a normal vegetarian soup or something."
+    },
+    {
+      "id": 22,
+      "start": 91.04,
+      "end": 91.73,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 23,
+      "start": 91.33,
+      "end": 95.81,
+      "speaker": "PATIENT",
+      "text": "And yeah, and, then I wanted to try something new."
+    },
+    {
+      "id": 24,
+      "start": 95.39,
+      "end": 96.24,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 25,
+      "start": 95.81,
+      "end": 107.97,
+      "speaker": "PATIENT",
+      "text": "Um, so what happened was, I, I ordered a prawn soup it it's it it's called it's like a soup, I ordered a prawn one this time."
+    },
+    {
+      "id": 26,
+      "start": 107.6,
+      "end": 108.33,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 27,
+      "start": 107.97,
+      "end": 116.76,
+      "speaker": "PATIENT",
+      "text": "And, yeah and then my feel like my lips started feeling a little weird just in the in the corner sort of on the left first."
+    },
+    {
+      "id": 28,
+      "start": 116.25,
+      "end": 117.01,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 29,
+      "start": 116.76,
+      "end": 126.23,
+      "speaker": "PATIENT",
+      "text": "And then, I don't know and then, we went back we had little bit of chat, of banter I wasn't really, paying attention."
+    },
+    {
+      "id": 31,
+      "start": 126.23,
+      "end": 138.09,
+      "speaker": "PATIENT",
+      "text": "Uh, now I feel the that there is a swelling, there is like a swelling on my, on my upper lip and it's kind of getting bigger. I don't know what to do."
+    },
+    {
+      "id": 32,
+      "start": 131.28,
+      "end": 131.94,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 33,
+      "start": 136.57,
+      "end": 137.14,
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "id": 34,
+      "start": 138.14,
+      "end": 142.77,
+      "speaker": "DOCTOR",
+      "text": "All right. So when did you have the prawn soup? What time?"
+    },
+    {
+      "id": 35,
+      "start": 143.95,
+      "end": 149.81,
+      "speaker": "PATIENT",
+      "text": "That was, that must have been just after work, so maybe like around seven."
+    },
+    {
+      "id": 36,
+      "start": 150.04,
+      "end": 155.91,
+      "speaker": "DOCTOR",
+      "text": "OK, around seven o'clock, and um how long did it take to develop the swelling?"
+    },
+    {
+      "id": 37,
+      "start": 156.91,
+      "end": 166.47,
+      "speaker": "PATIENT",
+      "text": "Well I wasn't really paying attention so, it must have been like, must have been like, I don't know half an hour maybe."
+    },
+    {
+      "id": 38,
+      "start": 166.14,
+      "end": 168.99,
+      "speaker": "DOCTOR",
+      "text": "OK in half an hour you developed the swelling yeah?"
+    },
+    {
+      "id": 39,
+      "start": 169.21,
+      "end": 170.28,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 40,
+      "start": 170.44,
+      "end": 173.12,
+      "speaker": "DOCTOR",
+      "text": "OK, and it's getting bigger and bigger?"
+    },
+    {
+      "id": 41,
+      "start": 174.02,
+      "end": 182.21,
+      "speaker": "PATIENT",
+      "text": "Yeah it's it it still feel it like, really pumping blood and it's kinda getting bigger it feels like it's getting worse."
+    },
+    {
+      "id": 42,
+      "start": 180.89,
+      "end": 193.89,
+      "speaker": "DOCTOR",
+      "text": "OK. So, just a few more questions. Um, so you mentioned about your swelling of your lips. Is there any feeling of swelling in in your throat, like your throat is closing up, any feeling like that?"
+    },
+    {
+      "id": 43,
+      "start": 194.39,
+      "end": 199.89,
+      "speaker": "PATIENT",
+      "text": "Yeah actually, I, I feel like I can't breathe that well right now."
+    },
+    {
+      "id": 44,
+      "start": 199.8,
+      "end": 200.6,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 45,
+      "start": 201.75,
+      "end": 205.18,
+      "speaker": "DOCTOR",
+      "text": "And do you feel like, like your chest is tight?"
+    },
+    {
+      "id": 46,
+      "start": 207.05,
+      "end": 216.63,
+      "speaker": "PATIENT",
+      "text": "And I don't know if it's the chest it just generally feels a little difficult, but yeah it might be, I'm not sure."
+    },
+    {
+      "id": 47,
+      "start": 212.73,
+      "end": 213.48,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 48,
+      "start": 216.57,
+      "end": 218.5,
+      "speaker": "DOCTOR",
+      "text": "OK, right."
+    },
+    {
+      "id": 49,
+      "start": 219.6,
+      "end": 227.93,
+      "speaker": "DOCTOR",
+      "text": "And just a few have you ever these any kind of lip swelling in the past? After eating any food?"
+    },
+    {
+      "id": 50,
+      "start": 228.53,
+      "end": 234.32,
+      "speaker": "PATIENT",
+      "text": "Yeah, well, maybe, I remember like a year ago."
+    },
+    {
+      "id": 51,
+      "start": 234.89,
+      "end": 239.09,
+      "speaker": "PATIENT",
+      "text": "A year ago I was, out with my friends."
+    },
+    {
+      "id": 52,
+      "start": 238.61,
+      "end": 239.35,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 53,
+      "start": 239.4,
+      "end": 251.59,
+      "speaker": "PATIENT",
+      "text": "And I think we went like, to a late night kinda Chinese place, and I remember that I was quite drunk to be honest."
+    },
+    {
+      "id": 54,
+      "start": 251.08,
+      "end": 251.96,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK."
+    },
+    {
+      "id": 55,
+      "start": 251.59,
+      "end": 256.34,
+      "speaker": "PATIENT",
+      "text": "And I remember that after like having that very late."
+    },
+    {
+      "id": 56,
+      "start": 256.68,
+      "end": 270.01,
+      "speaker": "PATIENT",
+      "text": "I've woke up the next morning quite swollen up and had also I, felt really bad and quite difficult breathing, but I don't know what it was I had it was like a curry or something I think."
+    },
+    {
+      "id": 57,
+      "start": 261.1,
+      "end": 261.83,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 58,
+      "start": 265.25,
+      "end": 266.07,
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "id": 59,
+      "start": 269.22,
+      "end": 278.2,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and what did you take at that time? Did you use anything like antihistamine or anything, when you had that last time?"
+    },
+    {
+      "id": 60,
+      "start": 278.68,
+      "end": 287.32,
+      "speaker": "PATIENT",
+      "text": "But I generally have asthma so, I took I, I take, ohh what's it called? Salbutamol inhalers?"
+    },
+    {
+      "id": 61,
+      "start": 286.99,
+      "end": 287.76,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 62,
+      "start": 288.35,
+      "end": 293.92,
+      "speaker": "PATIENT",
+      "text": "Yeah, so I do take that regularly but I've always taken it. I generally have asthma."
+    },
+    {
+      "id": 63,
+      "start": 293.76,
+      "end": 300.29,
+      "speaker": "DOCTOR",
+      "text": "And any other inhalers? Is it just the Salbutamol that you use? Any other brown inhalers?"
+    },
+    {
+      "id": 64,
+      "start": 301.36,
+      "end": 305.48,
+      "speaker": "PATIENT",
+      "text": "Ohh I, no I don't think so, no."
+    },
+    {
+      "id": 66,
+      "start": 304.54,
+      "end": 315.5,
+      "speaker": "DOCTOR",
+      "text": "OK right and um so, do you use antihistamines like Cetirizine, Loratadine, Piriton, any of those, kind of things?"
+    },
+    {
+      "id": 67,
+      "start": 316.58,
+      "end": 326.98,
+      "speaker": "PATIENT",
+      "text": "Hmm, no. I, I got no I do sometimes but I don't know which ones, but I have a peanut allergy as well, like always had it."
+    },
+    {
+      "id": 68,
+      "start": 324.63,
+      "end": 325.29,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 69,
+      "start": 326.91,
+      "end": 327.55,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 70,
+      "start": 326.98,
+      "end": 332.32,
+      "speaker": "PATIENT",
+      "text": "I, think I do get antihistamines for that but I'm not sure which ones."
+    },
+    {
+      "id": 71,
+      "start": 332.19,
+      "end": 338.83,
+      "speaker": "DOCTOR",
+      "text": "And any point because you had peanut allergy, any time you have to ever use like an injection?"
+    },
+    {
+      "id": 72,
+      "start": 340.97,
+      "end": 349.35,
+      "speaker": "PATIENT",
+      "text": "When I was a kid I think I remember my mom told me about it, but I don't know what it was 'cause I was small and I've changed doctors since."
+    },
+    {
+      "id": 73,
+      "start": 349.98,
+      "end": 356.84,
+      "speaker": "DOCTOR",
+      "text": "Right, so has your mum ever said that you had to go to hospital because you had an severe allergic reaction?"
+    },
+    {
+      "id": 74,
+      "start": 357.19,
+      "end": 369.3,
+      "speaker": "PATIENT",
+      "text": "Yeah is that well I was like six or something I, I, I think. Ohh sorry, the swelling is getting, ohh my god ohh, yeah I think when I was six."
+    },
+    {
+      "id": 75,
+      "start": 365.55,
+      "end": 366.12,
+      "speaker": "DOCTOR",
+      "text": "Oh."
+    },
+    {
+      "id": 76,
+      "start": 368.33,
+      "end": 370.73,
+      "speaker": "DOCTOR",
+      "text": "You all right? Are you OK now?"
+    },
+    {
+      "id": 77,
+      "start": 371.86,
+      "end": 375.53,
+      "speaker": "PATIENT",
+      "text": "Ohh, I feel a little dizzy right now to be honest, ohh."
+    },
+    {
+      "id": 78,
+      "start": 371.92,
+      "end": 372.87,
+      "speaker": "DOCTOR",
+      "text": "Are you ."
+    },
+    {
+      "id": 79,
+      "start": 374.52,
+      "end": 381.72,
+      "speaker": "DOCTOR",
+      "text": "You're feeling dizzy. OK, right do you have any kind of, uh, antihistamines with you at the moment?"
+    },
+    {
+      "id": 80,
+      "start": 384.25,
+      "end": 387.6,
+      "speaker": "PATIENT",
+      "text": "No, I don't think I have no."
+    },
+    {
+      "id": 81,
+      "start": 386.6,
+      "end": 389.53,
+      "speaker": "DOCTOR",
+      "text": "OK, right OK, so."
+    },
+    {
+      "id": 83,
+      "start": 390.0,
+      "end": 414.72,
+      "speaker": "DOCTOR",
+      "text": "Right, uh, all right I, I'm really a bit worried about you at the moment, Maria. Um I think we need to call an ambulance, because, um, from what history you've been telling me. It sounds like you could be going into what we say an a, an anaphylactic reaction. That's when your throat and your chest, you know closes in and you might need an injection like what your mum's."
+    },
+    {
+      "id": 84,
+      "start": 414.72,
+      "end": 423.71,
+      "speaker": "DOCTOR",
+      "text": "Um, you know what your mum told you as you were a young child. OK, all right so is there any, anyone with you at the moment or are you alone?"
+    },
+    {
+      "id": 86,
+      "start": 423.8,
+      "end": 426.21,
+      "speaker": "PATIENT",
+      "text": "I'm alone at the moment, yeah."
+    },
+    {
+      "id": 87,
+      "start": 425.25,
+      "end": 435.37,
+      "speaker": "DOCTOR",
+      "text": "Ohh no so hang on the line, while I'll call the ambulance OK, and I'll send them right to you, OK and ."
+    },
+    {
+      "id": 88,
+      "start": 434.17,
+      "end": 439.62,
+      "speaker": "PATIENT",
+      "text": "Hey ohh somebody just came, somebody just came yes, I'm not alone any more. Thank."
+    },
+    {
+      "id": 89,
+      "start": 438.75,
+      "end": 459.04,
+      "speaker": "DOCTOR",
+      "text": "All right, OK somebody just came. So just call the ambulance make sure that person's with you till the ambulance comes, yeah. Uh and because we are worried about an anaphylactic reaction so you need go straight away. Could you ask the person whether they have any antihistamines around, in the interim, while we're waiting."
+    },
+    {
+      "id": 90,
+      "start": 459.23,
+      "end": 464.47,
+      "speaker": "PATIENT",
+      "text": "Yes, uh Mum, Mum do we have any antihistamines around? Yes."
+    },
+    {
+      "id": 91,
+      "start": 464.23,
+      "end": 481.15,
+      "speaker": "DOCTOR",
+      "text": "Yes K. Do that straight away and if mum can call. Mum, if you can call the uh nine nine , nine nine nine yeah, and say that your there is a suspected anaphylactic reaction and they need to come straight away. OK."
+    },
+    {
+      "id": 92,
+      "start": 464.47,
+      "end": 467.14,
+      "speaker": "PATIENT",
+      "text": "Ohh yeah yeah we do ."
+    },
+    {
+      "id": 93,
+      "start": 481.28,
+      "end": 483.7,
+      "speaker": "PATIENT",
+      "text": "Yes she said she will yes, yes."
+    },
+    {
+      "id": 94,
+      "start": 482.9,
+      "end": 487.58,
+      "speaker": "DOCTOR",
+      "text": "All right, so straight away take the antihistamines in the meantime all right."
+    },
+    {
+      "id": 95,
+      "start": 487.47,
+      "end": 490.28,
+      "speaker": "PATIENT",
+      "text": "OK, OK. Yes, thank ."
+    },
+    {
+      "id": 96,
+      "start": 488.46,
+      "end": 498.78,
+      "speaker": "DOCTOR",
+      "text": "And after you come out from the hospital do give us a ring back we might need to sort you out, um, with your injections and things like that OK?"
+    },
+    {
+      "id": 97,
+      "start": 498.3,
+      "end": 502.6,
+      "speaker": "PATIENT",
+      "text": "Yes, yes will do, yes, thank ."
+    },
+    {
+      "id": 98,
+      "start": 501.49,
+      "end": 502.17,
+      "speaker": "DOCTOR",
+      "text": "All ."
+    },
+    {
+      "id": 99,
+      "start": 502.59,
+      "end": 504.51,
+      "speaker": "DOCTOR",
+      "text": "OK then, take care."
+    },
+    {
+      "id": 100,
+      "start": 504.78,
+      "end": 507.71,
+      "speaker": "PATIENT",
+      "text": "Thank you very much thank bye bye."
+    },
+    {
+      "id": 101,
+      "start": 505.74,
+      "end": 507.67,
+      "speaker": "DOCTOR",
+      "text": "Bye bye, bye."
+    }
+  ]
+}

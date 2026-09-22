@@ -1,0 +1,512 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation01",
+  "presenting_complaint": "I don't hear as well as I used to",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History: \nHx of difficulty hearing left ear for 6 weeks with tinnitus and slight nausea/ dizziness. \nOne previous similar episode in the past- resolved spontaneously.\nNo discharge/ fever/ itchiness/ pain\nDoesn't use cotton wool buds\nNo Pmhx of note\nEx: Looks well, not in pain.\nImp: need to exclude impacted wax in ear canal first\nPln: for face to face GP appointment in 5 days to examine ear\nPt to read about tinnitus in the meantime via following link: www.patient.co.uk/tinnitus\nIf any problems in interim to ring us back\nPt happy with and understands plan\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.31,
+      "end": 3.31,
+      "speaker": "DOCTOR",
+      "text": "Hi, there. Good morning!"
+    },
+    {
+      "id": 3,
+      "start": 4.88,
+      "end": 7.3,
+      "speaker": "DOCTOR",
+      "text": "Uh, I'm Dr. Dean Mesa from Babylon."
+    },
+    {
+      "id": 5,
+      "start": 9.28,
+      "end": 11.31,
+      "speaker": "DOCTOR",
+      "text": "Can you hear me OK?"
+    },
+    {
+      "id": 6,
+      "start": 11.52,
+      "end": 12.72,
+      "speaker": "PATIENT",
+      "text": "Yep. Can you find"
+    },
+    {
+      "id": 7,
+      "start": 12.71,
+      "end": 19.49,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK, great. Well, nice to see you this morning. Um, before we start your appointment, could I confirm your full name and date of birth please?"
+    },
+    {
+      "id": 8,
+      "start": 19.38,
+      "end": 25.32,
+      "speaker": "PATIENT",
+      "text": "Uh yeah, uh Jack Smith, uh thirty first October nineteen ninety."
+    },
+    {
+      "id": 9,
+      "start": 25.12,
+      "end": 29.66,
+      "speaker": "DOCTOR",
+      "text": "That's perfect, thank you, John. Um, are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "id": 10,
+      "start": 29.84,
+      "end": 30.79,
+      "speaker": "PATIENT",
+      "text": "I am, yes"
+    },
+    {
+      "id": 11,
+      "start": 30.66,
+      "end": 36.12,
+      "speaker": "DOCTOR",
+      "text": "OK, great. So, um, tell me what's been going on. You've been saying there's a problem with your hearing. Is that right?"
+    },
+    {
+      "id": 12,
+      "start": 36.28,
+      "end": 41.27,
+      "speaker": "PATIENT",
+      "text": "Yeah, so I just feel I can't really hear as well as I used to, like my hearing is kind of deteriorating in some way."
+    },
+    {
+      "id": 13,
+      "start": 41.46,
+      "end": 43.75,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. How long has this been going on for?"
+    },
+    {
+      "id": 14,
+      "start": 43.92,
+      "end": 45.3,
+      "speaker": "PATIENT",
+      "text": "Uh about six weeks."
+    },
+    {
+      "id": 15,
+      "start": 45.4,
+      "end": 50.02,
+      "speaker": "DOCTOR",
+      "text": "Six weeks, OK. Um, and before that have you had any hearing problem at all?"
+    },
+    {
+      "id": 16,
+      "start": 50.59,
+      "end": 56.79,
+      "speaker": "PATIENT",
+      "text": "Um I had something maybe, about a year ago, but it only lasted a couple of days, it wasn't anything as long as this."
+    },
+    {
+      "id": 17,
+      "start": 56.65,
+      "end": 64.27,
+      "speaker": "DOCTOR",
+      "text": "Right, OK, OK. And, um, in this six week period, have you had anything else happen? Have you had any other ear symptoms at all?"
+    },
+    {
+      "id": 18,
+      "start": 65.1,
+      "end": 74.41,
+      "speaker": "PATIENT",
+      "text": "Um, I occasionally get like a ringing in my left ear, uh just on the one side and um there's actually been a few times when I felt kind of a bit sick or a bit dizzy as well."
+    },
+    {
+      "id": 19,
+      "start": 74.35,
+      "end": 80.95,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Uh, uh, um, just to clarify, the difficulty you've got in hearing, is that both ears or just the left ear?"
+    },
+    {
+      "id": 20,
+      "start": 81.0,
+      "end": 82.17,
+      "speaker": "PATIENT",
+      "text": "Uh just the left ear, yeah."
+    },
+    {
+      "id": 21,
+      "start": 82.19,
+      "end": 84.06,
+      "speaker": "DOCTOR",
+      "text": "Alright, so your right ear is fine."
+    },
+    {
+      "id": 22,
+      "start": 84.36,
+      "end": 85.36,
+      "speaker": "PATIENT",
+      "text": "It seems be yeah."
+    },
+    {
+      "id": 23,
+      "start": 85.73,
+      "end": 91.8,
+      "speaker": "DOCTOR",
+      "text": "OK. So you've had ringing, difficulty hearing in your left ear, and feeling slightly sick."
+    },
+    {
+      "id": 24,
+      "start": 90.36,
+      "end": 90.83,
+      "speaker": "PATIENT",
+      "text": "Mh-mm."
+    },
+    {
+      "id": 25,
+      "start": 91.8,
+      "end": 97.02,
+      "speaker": "DOCTOR",
+      "text": "Um, that's been, on and off for the six weeks, or is it continuous there throughout that six weeks?"
+    },
+    {
+      "id": 26,
+      "start": 92.02,
+      "end": 92.81,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 27,
+      "start": 97.23,
+      "end": 104.86,
+      "speaker": "PATIENT",
+      "text": "Uh it's kind of on and off. Like some things trigger it as well. So, for example, if I'm watching TV or listen to music or something that'll solve the ringing in the ear."
+    },
+    {
+      "id": 28,
+      "start": 104.79,
+      "end": 110.57,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, and, um, have you had any pain from the ear at all?"
+    },
+    {
+      "id": 29,
+      "start": 110.86,
+      "end": 112.05,
+      "speaker": "PATIENT",
+      "text": "Uh no my left ear."
+    },
+    {
+      "id": 30,
+      "start": 112.27,
+      "end": 118.97,
+      "speaker": "DOCTOR",
+      "text": "OK. Any discharge coming out of the ear? No, OK. Um, have, have you been experiencing any fever?"
+    },
+    {
+      "id": 32,
+      "start": 119.58,
+      "end": 123.16,
+      "speaker": "PATIENT",
+      "text": "Uh, not specifically apart from the dizziness so much."
+    },
+    {
+      "id": 33,
+      "start": 123.34,
+      "end": 127.14,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And, um, has your ear been itchy at all?"
+    },
+    {
+      "id": 35,
+      "start": 128.16,
+      "end": 133.15,
+      "speaker": "DOCTOR",
+      "text": "OK. Now, do you use cotton ball buds to try and clean out wax from your ears?"
+    },
+    {
+      "id": 36,
+      "start": 133.34,
+      "end": 134.81,
+      "speaker": "PATIENT",
+      "text": "Uh nah I'll do it."
+    },
+    {
+      "id": 37,
+      "start": 134.75,
+      "end": 143.77,
+      "speaker": "DOCTOR",
+      "text": "No, OK. Well, you're right, you should, you shouldn't be doing that. Doesn't clean up wax, it pushes it back in. Alright, um, the first thing that we need to do is we need to get someone to have a look inside your ear."
+    },
+    {
+      "id": 38,
+      "start": 143.77,
+      "end": 152.63,
+      "speaker": "DOCTOR",
+      "text": "'K. I'm just exclude the simple things. Simple things might be wax. You know. Someone might have impacted wax, blocking the tube going into the eardrum, which can"
+    },
+    {
+      "id": 39,
+      "start": 144.08,
+      "end": 144.5,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 40,
+      "start": 152.63,
+      "end": 160.61,
+      "speaker": "DOCTOR",
+      "text": "lead to muffled hearing. Um, if that's the case, that that's something that's easy fixable. But, um, so we need to exclude that first."
+    },
+    {
+      "id": 41,
+      "start": 160.61,
+      "end": 167.84,
+      "speaker": "DOCTOR",
+      "text": "and then after that, we can consider other potential possibilities. Um, and for that we need to have a look inside the ear drum."
+    },
+    {
+      "id": 42,
+      "start": 167.84,
+      "end": 175.95,
+      "speaker": "DOCTOR",
+      "text": "So, um, what I think we could do is, um, maybe if we book you in for a face-to-face appointment in one of our clinics. It's not an emergency."
+    },
+    {
+      "id": 43,
+      "start": 175.95,
+      "end": 182.82,
+      "speaker": "DOCTOR",
+      "text": "It can be done within the next four, five days or so, OK? And then, um, what I'll do, I'll send a message to our admin team."
+    },
+    {
+      "id": 44,
+      "start": 182.82,
+      "end": 190.91,
+      "speaker": "DOCTOR",
+      "text": "I'll ask them to slot you into the clinic, one of our clinics in that time frame. You can come in and one of the GPs will just have a quick look in the ear and figure out"
+    },
+    {
+      "id": 45,
+      "start": 190.91,
+      "end": 200.13,
+      "speaker": "DOCTOR",
+      "text": "whether there's physical blockage or whether there's something else going on, OK? Um, can I just double check, the dizziness that you've been getting, um, how severe is it?"
+    },
+    {
+      "id": 46,
+      "start": 194.2,
+      "end": 194.62,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 47,
+      "start": 198.4,
+      "end": 198.83,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 48,
+      "start": 200.98,
+      "end": 211.54,
+      "speaker": "PATIENT",
+      "text": "Uh nothing major it's just kind of uh it's, it's not the kind of dizziness you get with nausea, like uh not, not proper room spinning or anything like that but just, just a little bit kind of off balance."
+    },
+    {
+      "id": 50,
+      "start": 211.79,
+      "end": 215.77,
+      "speaker": "DOCTOR",
+      "text": "Right, right, OK. Have, have you had any chest pain with it?"
+    },
+    {
+      "id": 52,
+      "start": 216.25,
+      "end": 216.66,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 53,
+      "start": 216.59,
+      "end": 219.07,
+      "speaker": "DOCTOR",
+      "text": "No. Any palpitations, heart beating fast?"
+    },
+    {
+      "id": 55,
+      "start": 220.13,
+      "end": 228.71,
+      "speaker": "DOCTOR",
+      "text": "OK, fine, alright. Um, so let's get your ear checked out. I think that will be the, the most sensible thing to do. And then after that, we can, we'll be a step closer to figuring out which way we"
+    },
+    {
+      "id": 56,
+      "start": 228.71,
+      "end": 235.4,
+      "speaker": "DOCTOR",
+      "text": "It might be that there's a problem inside the drum or the balance system within the ear. But, we just need to exclude whether there's"
+    },
+    {
+      "id": 57,
+      "start": 235.4,
+      "end": 240.35,
+      "speaker": "DOCTOR",
+      "text": "physical blockage first and trying to deal with that if that's the case, OK? Um, but"
+    },
+    {
+      "id": 58,
+      "start": 239.07,
+      "end": 246.28,
+      "speaker": "PATIENT",
+      "text": "is that the sort of thing that can cause uh like this uh ringing I've got in my ear, 'cause it seems ."
+    },
+    {
+      "id": 59,
+      "start": 244.97,
+      "end": 250.56,
+      "speaker": "DOCTOR",
+      "text": "The ringing that you got, that you've got, it's something called Tinnitus. OK? Um"
+    },
+    {
+      "id": 60,
+      "start": 249.37,
+      "end": 249.79,
+      "speaker": "PATIENT",
+      "text": "Right."
+    },
+    {
+      "id": 61,
+      "start": 250.56,
+      "end": 256.69,
+      "speaker": "DOCTOR",
+      "text": "and Tinnitus is something actually that medicine doctors, we don't really understand it fully. We haven't"
+    },
+    {
+      "id": 62,
+      "start": 255.81,
+      "end": 256.25,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 63,
+      "start": 256.69,
+      "end": 264.82,
+      "speaker": "DOCTOR",
+      "text": "Uh, people can't give you a specific cause for why some patients get Tinnitus and some patients don't. It can be triggered by a wide range of different things, and in fact"
+    },
+    {
+      "id": 64,
+      "start": 264.82,
+      "end": 271.89,
+      "speaker": "DOCTOR",
+      "text": "I'm glad that you've mentioned that. What I might do, in the time between now and when you come for the appointment, I'm going to, uh, put"
+    },
+    {
+      "id": 65,
+      "start": 271.89,
+      "end": 279.54,
+      "speaker": "DOCTOR",
+      "text": "paste the link for a leaflet about Tinnitus, um, in the notes for this appointment. I'd really appreciate it if you could start reading about it."
+    },
+    {
+      "id": 66,
+      "start": 275.41,
+      "end": 275.88,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 67,
+      "start": 279.47,
+      "end": 279.94,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 68,
+      "start": 279.54,
+      "end": 286.35,
+      "speaker": "DOCTOR",
+      "text": "OK. And often that, that, uh, awareness of what it is and what the treatment options are, and there are limited options"
+    },
+    {
+      "id": 69,
+      "start": 286.35,
+      "end": 294.74,
+      "speaker": "DOCTOR",
+      "text": "um that helps us in terms of conversation about what we do next, if your ear is clear, OK? So, um, I'm going to paste a link to that, um, and you can read about that and"
+    },
+    {
+      "id": 70,
+      "start": 294.74,
+      "end": 298.85,
+      "speaker": "DOCTOR",
+      "text": "what we'll do is we'll see you in about four, five days time. It won't be with me, it'll be another GP"
+    },
+    {
+      "id": 71,
+      "start": 298.85,
+      "end": 304.68,
+      "speaker": "DOCTOR",
+      "text": "but they'll have my notes and they'll know exactly what, what my question is, which is just to check your ears. Is that OK?"
+    },
+    {
+      "id": 72,
+      "start": 302.71,
+      "end": 303.15,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 73,
+      "start": 304.81,
+      "end": 305.72,
+      "speaker": "PATIENT",
+      "text": "Yeah it sounds great."
+    },
+    {
+      "id": 74,
+      "start": 305.85,
+      "end": 313.48,
+      "speaker": "DOCTOR",
+      "text": "Alright, great. So, um, bear with me five minutes and then you can ring the support team, I'll leave the number in the notes for this appointment. Ring them, and then they'll slot you in, OK?"
+    },
+    {
+      "id": 75,
+      "start": 313.73,
+      "end": 314.6,
+      "speaker": "PATIENT",
+      "text": "OK brilliant."
+    },
+    {
+      "id": 76,
+      "start": 314.67,
+      "end": 322.68,
+      "speaker": "DOCTOR",
+      "text": "Alright. If there's any problem, any issues between now and when the clinic appointment is, just book another appointment and you can speak to one of us over video, OK?"
+    },
+    {
+      "id": 77,
+      "start": 323.04,
+      "end": 323.5,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 78,
+      "start": 323.97,
+      "end": 327.15,
+      "speaker": "DOCTOR",
+      "text": "Alright then. Take care. Nice to see you this morning. OK. Bye bye."
+    },
+    {
+      "id": 79,
+      "start": 325.48,
+      "end": 327.01,
+      "speaker": "PATIENT",
+      "text": "Thank you. See you later."
+    }
+  ]
+}

@@ -1,0 +1,1107 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation02",
+  "presenting_complaint": "I'm feeling hot and have severe headaches",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC. Headaches, loss of appetite, tingling, feel hot, palpitations,  acute onset, at random times of the day while at work (lawyer)\n\nHPC: \nPC started when started new job (lawer, high stress, works in front of a computer)\nHeadaches:\n-\tNo pre aura, \n-\tFrontal\n-\tNo radiation\n-\tSome nausea  no vomiting,\n-\tNo pmhx of headache.\n\nReduced appetite, with unintentional weight loss, loss of 5lbs \nPins and needles in both arms, no radiation to legs, maintains motor and sense, no loss of function\nFevers with headaches \nPalpitations with mild SOBOE and SOBAR.\n\n\nSymptoms occur at random times of the day while at work, with no pre-symptoms, sometimes together, sometimes individually.\n\nPMHx , hypothyroid. \n\nDHx allergies - nil\nThyroxine. \n\nSHx lawer , stressful job.\n\nDDx ??hypothyroid?\n\nPlans : requires further examination and blood tests.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.17,
+      "speaker": "DOCTOR",
+      "text": "You have to do it, part of your training as a doctor."
+    },
+    {
+      "id": 2,
+      "start": 2.19,
+      "end": 2.84,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 3,
+      "start": 3.83,
+      "end": 4.68,
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "id": 4,
+      "start": 5.68,
+      "end": 7.29,
+      "speaker": "DOCTOR",
+      "text": "Hi. Can you hear me?"
+    },
+    {
+      "id": 5,
+      "start": 6.75,
+      "end": 8.72,
+      "speaker": "PATIENT",
+      "text": ". Yes, I can hear fine."
+    },
+    {
+      "id": 6,
+      "start": 8.53,
+      "end": 15.81,
+      "speaker": "DOCTOR",
+      "text": "Hi. My name's Doctor Gohill, I'm one of the general practitioners, that works here. Can I check your name and date of birth please?"
+    },
+    {
+      "id": 7,
+      "start": 16.69,
+      "end": 20.59,
+      "speaker": "PATIENT",
+      "text": "Uh, I am, uh, Patrick Smith."
+    },
+    {
+      "id": 8,
+      "start": 20.57,
+      "end": 21.32,
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "id": 9,
+      "start": 21.85,
+      "end": 24.22,
+      "speaker": "PATIENT",
+      "text": "Uh, thirty five years old."
+    },
+    {
+      "id": 10,
+      "start": 25.19,
+      "end": 28.96,
+      "speaker": "PATIENT",
+      "text": "Um, October, seventh. Uh."
+    },
+    {
+      "id": 11,
+      "start": 28.96,
+      "end": 33.9,
+      "speaker": "PATIENT",
+      "text": "ninety , three something."
+    },
+    {
+      "id": 12,
+      "start": 31.44,
+      "end": 32.26,
+      "speaker": "DOCTOR",
+      "text": "Great."
+    },
+    {
+      "id": 13,
+      "start": 33.85,
+      "end": 37.41,
+      "speaker": "DOCTOR",
+      "text": "And Patrick, are you in a, space, that's private and quiet?"
+    },
+    {
+      "id": 14,
+      "start": 37.37,
+      "end": 38.05,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 15,
+      "start": 38.11,
+      "end": 39.79,
+      "speaker": "DOCTOR",
+      "text": "Great, and so, we're OK to chat?"
+    },
+    {
+      "id": 16,
+      "start": 40.91,
+      "end": 41.77,
+      "speaker": "PATIENT",
+      "text": "Yes, we are."
+    },
+    {
+      "id": 17,
+      "start": 41.77,
+      "end": 47.46,
+      "speaker": "DOCTOR",
+      "text": "OK. So it says here, um, you are feeling hot, and have had severe headaches. Is that correct?"
+    },
+    {
+      "id": 18,
+      "start": 49.41,
+      "end": 55.24,
+      "speaker": "PATIENT",
+      "text": "Yeah. It's, it's really affecting my work. Uh, uh, it comes and goes. Uh."
+    },
+    {
+      "id": 19,
+      "start": 55.24,
+      "end": 62.44,
+      "speaker": "PATIENT",
+      "text": "Uh, I kind of, feel like, uh, it's, it's hard 'cause I, I , kinda lose my appetite."
+    },
+    {
+      "id": 20,
+      "start": 62.99,
+      "end": 69.78,
+      "speaker": "PATIENT",
+      "text": "Also. Uh, one thing that's kinda weird is, I just sometimes also get like some, tingling in my arms."
+    },
+    {
+      "id": 21,
+      "start": 70.15,
+      "end": 71.02,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 22,
+      "start": 70.97,
+      "end": 78.63,
+      "speaker": "PATIENT",
+      "text": ". And, like, especially if, for example when I, come into the elevator, in the morning."
+    },
+    {
+      "id": 23,
+      "start": 78.49,
+      "end": 79.33,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 24,
+      "start": 79.2,
+      "end": 83.13,
+      "speaker": "PATIENT",
+      "text": "I, I can uh, of have, my heart is beating, kinda fast."
+    },
+    {
+      "id": 25,
+      "start": 83.34,
+      "end": 84.12,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 26,
+      "start": 84.53,
+      "end": 88.43,
+      "speaker": "DOCTOR",
+      "text": "So, those are lots of things. Are they all happening at the same time?"
+    },
+    {
+      "id": 27,
+      "start": 88.24,
+      "end": 93.32,
+      "speaker": "PATIENT",
+      "text": "Almost randomly like. Yeah, it's, it's, it's at different , times."
+    },
+    {
+      "id": 28,
+      "start": 93.66,
+      "end": 98.7,
+      "speaker": "DOCTOR",
+      "text": "And, do they all happen at the same time? Or is it one thing one time, and one ?"
+    },
+    {
+      "id": 29,
+      "start": 97.59,
+      "end": 99.97,
+      "speaker": "PATIENT",
+      "text": ", one time, one thing at a time."
+    },
+    {
+      "id": 30,
+      "start": 99.77,
+      "end": 106.99,
+      "speaker": "DOCTOR",
+      "text": "OK. So, let's start with the headaches. When they do come, do you have any idea the headache is going to come?"
+    },
+    {
+      "id": 33,
+      "start": 108.22,
+      "end": 112.41,
+      "speaker": "PATIENT",
+      "text": "Uh, not really but, generally during, work times."
+    },
+    {
+      "id": 34,
+      "start": 113.66,
+      "end": 114.93,
+      "speaker": "DOCTOR",
+      "text": "So, it's normally at work?"
+    },
+    {
+      "id": 35,
+      "start": 116.02,
+      "end": 117.96,
+      "speaker": "PATIENT",
+      "text": "I'm at work, I'm in a meeting, or on my laptop."
+    },
+    {
+      "id": 36,
+      "start": 117.88,
+      "end": 123.24,
+      "speaker": "DOCTOR",
+      "text": "OK. And, where does the headache sit in your head? Is it the front, or the back?"
+    },
+    {
+      "id": 37,
+      "start": 124.93,
+      "end": 129.81,
+      "speaker": "PATIENT",
+      "text": "Um, I can't say, so like, kind of over."
+    },
+    {
+      "id": 38,
+      "start": 128.13,
+      "end": 132.4,
+      "speaker": "DOCTOR",
+      "text": ". OK. And, does it else?"
+    },
+    {
+      "id": 41,
+      "start": 134.08,
+      "end": 135.49,
+      "speaker": "DOCTOR",
+      "text": "Does it go anywhere else?"
+    },
+    {
+      "id": 42,
+      "start": 135.73,
+      "end": 140.11,
+      "speaker": "PATIENT",
+      "text": ", the headache? No, it's mostly in the front, and then yeah, it just kind of stays there."
+    },
+    {
+      "id": 43,
+      "start": 141.69,
+      "end": 146.38,
+      "speaker": "DOCTOR",
+      "text": "And, when you have the headaches, specifically, do you feel sick?"
+    },
+    {
+      "id": 44,
+      "start": 145.13,
+      "end": 145.77,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 45,
+      "start": 150.04,
+      "end": 156.97,
+      "speaker": "PATIENT",
+      "text": ", not, not, not really, but it's like, making it hard. I, yeah, I kind of feel a little bit nauseous maybe. Um."
+    },
+    {
+      "id": 46,
+      "start": 155.99,
+      "end": 156.89,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 47,
+      "start": 158.72,
+      "end": 160.43,
+      "speaker": "PATIENT",
+      "text": "And sometimes I also feel like."
+    },
+    {
+      "id": 48,
+      "start": 161.83,
+      "end": 168.1,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. It's like uh, maybe, probably, breathing or something."
+    },
+    {
+      "id": 49,
+      "start": 168.22,
+      "end": 169.11,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 50,
+      "start": 169.1,
+      "end": 169.67,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 51,
+      "start": 169.56,
+      "end": 173.43,
+      "speaker": "DOCTOR",
+      "text": "And, do you normally get headaches, before all of this started?"
+    },
+    {
+      "id": 52,
+      "start": 175.26,
+      "end": 176.3,
+      "speaker": "PATIENT",
+      "text": "Uh, so."
+    },
+    {
+      "id": 53,
+      "start": 177.26,
+      "end": 180.8,
+      "speaker": "PATIENT",
+      "text": "No, I, I feel like my, like, health situation was mostly under control."
+    },
+    {
+      "id": 55,
+      "start": 180.62,
+      "end": 181.23,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 56,
+      "start": 181.68,
+      "end": 182.23,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 57,
+      "start": 183.18,
+      "end": 184.11,
+      "speaker": "DOCTOR",
+      "text": "And then let's."
+    },
+    {
+      "id": 58,
+      "start": 183.55,
+      "end": 186.93,
+      "speaker": "PATIENT",
+      "text": "But it , it started roughly when I changed jobs."
+    },
+    {
+      "id": 59,
+      "start": 186.87,
+      "end": 189.7,
+      "speaker": "DOCTOR",
+      "text": "OK. So, talk to me about your job, what do you do?"
+    },
+    {
+      "id": 60,
+      "start": 189.93,
+      "end": 190.83,
+      "speaker": "PATIENT",
+      "text": "I'm a lawyer."
+    },
+    {
+      "id": 61,
+      "start": 191.53,
+      "end": 194.64,
+      "speaker": "DOCTOR",
+      "text": "And, do you work in London at the moment?"
+    },
+    {
+      "id": 62,
+      "start": 195.14,
+      "end": 195.86,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 63,
+      "start": 196.04,
+      "end": 199.1,
+      "speaker": "DOCTOR",
+      "text": "So, do you get these headaches on your commute in to work?"
+    },
+    {
+      "id": 64,
+      "start": 201.21,
+      "end": 205.0,
+      "speaker": "PATIENT",
+      "text": "Not really. I get it, mostly when I'm, at work."
+    },
+    {
+      "id": 65,
+      "start": 204.97,
+      "end": 211.04,
+      "speaker": "DOCTOR",
+      "text": "OK, and tell me about what you do. Do you sit in front of a computer most of the time? Or do you speak to people?"
+    },
+    {
+      "id": 66,
+      "start": 210.92,
+      "end": 214.52,
+      "speaker": "PATIENT",
+      "text": "Like fifty-fifty. I go to meetings and then uh, sit in front of a computer."
+    },
+    {
+      "id": 67,
+      "start": 214.69,
+      "end": 215.69,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 68,
+      "start": 215.1,
+      "end": 216.38,
+      "speaker": "PATIENT",
+      "text": "There's a lot of reading."
+    },
+    {
+      "id": 69,
+      "start": 216.98,
+      "end": 220.67,
+      "speaker": "DOCTOR",
+      "text": "And, these things have happened mostly when you're sitting at your computer?"
+    },
+    {
+      "id": 70,
+      "start": 223.45,
+      "end": 224.63,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 71,
+      "start": 226.5,
+      "end": 229.45,
+      "speaker": "PATIENT",
+      "text": ", yeah, it happens then, yeah."
+    },
+    {
+      "id": 72,
+      "start": 229.52,
+      "end": 232.53,
+      "speaker": "DOCTOR",
+      "text": "OK, and tell me, what did you do, before being a lawyer?"
+    },
+    {
+      "id": 73,
+      "start": 234.85,
+      "end": 237.01,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I was a lawyer at previous job as well."
+    },
+    {
+      "id": 74,
+      "start": 236.9,
+      "end": 237.49,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 76,
+      "start": 238.21,
+      "end": 248.71,
+      "speaker": "DOCTOR",
+      "text": "So, talk to me about the stress that you're under at the moment. If, uh, ten out of ten is, extremely stressful, and one out of ten is being on vacation. Where would moment?"
+    },
+    {
+      "id": 78,
+      "start": 249.02,
+      "end": 251.38,
+      "speaker": "PATIENT",
+      "text": "Think it's, seven, or eight."
+    },
+    {
+      "id": 79,
+      "start": 251.59,
+      "end": 253.11,
+      "speaker": "DOCTOR",
+      "text": "And, is that normal for you?"
+    },
+    {
+      "id": 80,
+      "start": 255.34,
+      "end": 257.78,
+      "speaker": "PATIENT",
+      "text": "Yeah, it's like, a law firm, like, there's always pressure."
+    },
+    {
+      "id": 81,
+      "start": 258.74,
+      "end": 259.49,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 82,
+      "start": 260.27,
+      "end": 266.15,
+      "speaker": "DOCTOR",
+      "text": "So, you mentioned your headaches. You also mentioned your reduced appetite. So, you don't want to eat as much."
+    },
+    {
+      "id": 83,
+      "start": 266.29,
+      "end": 266.92,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 84,
+      "start": 266.91,
+      "end": 268.21,
+      "speaker": "DOCTOR",
+      "text": "Have you lost weight?"
+    },
+    {
+      "id": 85,
+      "start": 269.6,
+      "end": 270.27,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 86,
+      "start": 270.54,
+      "end": 272.42,
+      "speaker": "DOCTOR",
+      "text": "Can you remember how much you've lost?"
+    },
+    {
+      "id": 87,
+      "start": 273.91,
+      "end": 274.74,
+      "speaker": "PATIENT",
+      "text": "Five pounds."
+    },
+    {
+      "id": 88,
+      "start": 275.88,
+      "end": 279.41,
+      "speaker": "DOCTOR",
+      "text": "And, is that because you're going to the gym? Or is that unintentional?"
+    },
+    {
+      "id": 89,
+      "start": 279.43,
+      "end": 280.88,
+      "speaker": "PATIENT",
+      "text": "It's not intentional, no."
+    },
+    {
+      "id": 90,
+      "start": 280.71,
+      "end": 284.65,
+      "speaker": "DOCTOR",
+      "text": "OK. So, have you noticed your clothes feeling looser?"
+    },
+    {
+      "id": 91,
+      "start": 285.84,
+      "end": 288.3,
+      "speaker": "PATIENT",
+      "text": ", not really, ah, no."
+    },
+    {
+      "id": 92,
+      "start": 289.02,
+      "end": 292.05,
+      "speaker": "DOCTOR",
+      "text": "And, have people said, or commented that you've lost weight?"
+    },
+    {
+      "id": 93,
+      "start": 292.6,
+      "end": 293.27,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 94,
+      "start": 294.8,
+      "end": 300.24,
+      "speaker": "DOCTOR",
+      "text": "Great. And, another thing that you also mentioned. Is that you noticed tingling in your hand."
+    },
+    {
+      "id": 95,
+      "start": 300.71,
+      "end": 301.39,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 96,
+      "start": 301.45,
+      "end": 304.56,
+      "speaker": "DOCTOR",
+      "text": "So, talk to me about that. Is it in one hand? Or both hands?"
+    },
+    {
+      "id": 97,
+      "start": 305.09,
+      "end": 305.69,
+      "speaker": "PATIENT",
+      "text": "Both."
+    },
+    {
+      "id": 98,
+      "start": 306.41,
+      "end": 308.61,
+      "speaker": "DOCTOR",
+      "text": "And, do you get that in your legs as well?"
+    },
+    {
+      "id": 99,
+      "start": 308.97,
+      "end": 309.53,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 100,
+      "start": 311.25,
+      "end": 313.27,
+      "speaker": "DOCTOR",
+      "text": "And, what does it feel like, the tingling?"
+    },
+    {
+      "id": 101,
+      "start": 314.83,
+      "end": 316.67,
+      "speaker": "PATIENT",
+      "text": "Quick picking, yeah."
+    },
+    {
+      "id": 102,
+      "start": 318.74,
+      "end": 321.59,
+      "speaker": "DOCTOR",
+      "text": "And again, is this the first time you've noticed this?"
+    },
+    {
+      "id": 103,
+      "start": 322.68,
+      "end": 323.23,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 104,
+      "start": 323.75,
+      "end": 324.53,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 105,
+      "start": 325.66,
+      "end": 331.14,
+      "speaker": "DOCTOR",
+      "text": "And the other two things that I've just, jotted down. Is, you're feeling hot, but you didn't mention that."
+    },
+    {
+      "id": 106,
+      "start": 331.7,
+      "end": 332.84,
+      "speaker": "DOCTOR",
+      "text": "Is that correct?"
+    },
+    {
+      "id": 108,
+      "start": 334.54,
+      "end": 335.7,
+      "speaker": "PATIENT",
+      "text": "Uh, but like."
+    },
+    {
+      "id": 109,
+      "start": 336.85,
+      "end": 342.75,
+      "speaker": "PATIENT",
+      "text": "I would say like, I get this like, feeling of, short, like, , short of breath, sometimes."
+    },
+    {
+      "id": 110,
+      "start": 341.13,
+      "end": 341.86,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 111,
+      "start": 343.76,
+      "end": 346.78,
+      "speaker": "PATIENT",
+      "text": "So, like, that could be what, you we're, referring to."
+    },
+    {
+      "id": 112,
+      "start": 346.75,
+      "end": 350.24,
+      "speaker": "DOCTOR",
+      "text": "Yes. So, do you feel short of breath while you're sitting at your desk?"
+    },
+    {
+      "id": 113,
+      "start": 350.22,
+      "end": 353.1,
+      "speaker": "PATIENT",
+      "text": "Yeah, no. Yes. Sorry, yeah."
+    },
+    {
+      "id": 114,
+      "start": 352.25,
+      "end": 357.07,
+      "speaker": "DOCTOR",
+      "text": ". OK. And, how about when you're exercising?"
+    },
+    {
+      "id": 115,
+      "start": 358.43,
+      "end": 359.02,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 116,
+      "start": 359.14,
+      "end": 359.85,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 117,
+      "start": 360.41,
+      "end": 364.97,
+      "speaker": "DOCTOR",
+      "text": "And the last thing is. You mentioned that you noticed your heart beating?"
+    },
+    {
+      "id": 118,
+      "start": 365.83,
+      "end": 366.47,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 119,
+      "start": 366.52,
+      "end": 368.46,
+      "speaker": "DOCTOR",
+      "text": "Again, how often do you get that?"
+    },
+    {
+      "id": 120,
+      "start": 370.2,
+      "end": 375.78,
+      "speaker": "PATIENT",
+      "text": "I, I, when I like, it's maybe once a day, uh, maybe more. Uh."
+    },
+    {
+      "id": 121,
+      "start": 377.52,
+      "end": 382.26,
+      "speaker": "PATIENT",
+      "text": "There's one more thing that I, I think I should mention, like, I do have like, some loss of libido at home."
+    },
+    {
+      "id": 122,
+      "start": 382.3,
+      "end": 385.45,
+      "speaker": "DOCTOR",
+      "text": "OK. How long has that been happening for?"
+    },
+    {
+      "id": 123,
+      "start": 387.35,
+      "end": 390.41,
+      "speaker": "PATIENT",
+      "text": "Same amount of time really, like, since I changed my job."
+    },
+    {
+      "id": 124,
+      "start": 392.03,
+      "end": 397.49,
+      "speaker": "DOCTOR",
+      "text": "Fine. And, apart from all of these things that you've told me. Do you have any other medical problems?"
+    },
+    {
+      "id": 125,
+      "start": 398.22,
+      "end": 400.69,
+      "speaker": "PATIENT",
+      "text": "Uh, well I have, hyperthyroidism."
+    },
+    {
+      "id": 126,
+      "start": 402.34,
+      "end": 405.08,
+      "speaker": "DOCTOR",
+      "text": "OK. And, do you take medications for that?"
+    },
+    {
+      "id": 127,
+      "start": 405.41,
+      "end": 406.23,
+      "speaker": "PATIENT",
+      "text": "Thyroxine."
+    },
+    {
+      "id": 128,
+      "start": 407.54,
+      "end": 410.07,
+      "speaker": "DOCTOR",
+      "text": "And, are you remembering to take your medications?"
+    },
+    {
+      "id": 129,
+      "start": 410.68,
+      "end": 411.42,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 130,
+      "start": 411.38,
+      "end": 413.95,
+      "speaker": "DOCTOR",
+      "text": "OK. And, do you drink or smoke?"
+    },
+    {
+      "id": 131,
+      "start": 414.56,
+      "end": 415.14,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 132,
+      "start": 415.34,
+      "end": 416.71,
+      "speaker": "DOCTOR",
+      "text": "How much do you drink?"
+    },
+    {
+      "id": 133,
+      "start": 418.12,
+      "end": 420.78,
+      "speaker": "PATIENT",
+      "text": "Like, once a week, couple of glasses, of wine."
+    },
+    {
+      "id": 134,
+      "start": 420.79,
+      "end": 422.63,
+      "speaker": "DOCTOR",
+      "text": "OK. And, how about smoking?"
+    },
+    {
+      "id": 135,
+      "start": 422.81,
+      "end": 423.46,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 136,
+      "start": 424.95,
+      "end": 431.3,
+      "speaker": "DOCTOR",
+      "text": "And, uh, I need to ask this to all of my patients, but do you do anything else recreational, in terms of drugs?"
+    },
+    {
+      "id": 137,
+      "start": 433.5,
+      "end": 434.15,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 138,
+      "start": 435.61,
+      "end": 438.89,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've never taken cocaine, or marijuana?"
+    },
+    {
+      "id": 139,
+      "start": 437.22,
+      "end": 439.57,
+      "speaker": "PATIENT",
+      "text": ". No."
+    },
+    {
+      "id": 140,
+      "start": 440.38,
+      "end": 443.38,
+      "speaker": "DOCTOR",
+      "text": "OK, thank you. And, are you allergic to anything?"
+    },
+    {
+      "id": 142,
+      "start": 446.1,
+      "end": 453.29,
+      "speaker": "DOCTOR",
+      "text": "Good. So, you've told me lots of things happening to you at the moment, and I can understand, they probably feel quite strange and unusual."
+    },
+    {
+      "id": 143,
+      "start": 453.28,
+      "end": 454.0,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 144,
+      "start": 454.32,
+      "end": 459.97,
+      "speaker": "DOCTOR",
+      "text": "Um, I think the best course of action is, you come and see, one of our doctors, in the clinic."
+    },
+    {
+      "id": 145,
+      "start": 459.99,
+      "end": 460.56,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 146,
+      "start": 460.23,
+      "end": 465.2,
+      "speaker": "DOCTOR",
+      "text": "We can give you an examination, and what that means is, we check your heart and your breathing."
+    },
+    {
+      "id": 147,
+      "start": 465.35,
+      "end": 465.83,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 148,
+      "start": 465.62,
+      "end": 468.51,
+      "speaker": "DOCTOR",
+      "text": "Make sure that those things are functioning correctly."
+    },
+    {
+      "id": 149,
+      "start": 468.36,
+      "end": 469.01,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 150,
+      "start": 468.51,
+      "end": 472.01,
+      "speaker": "DOCTOR",
+      "text": "And probably do some blood tests, for your thyroxine."
+    },
+    {
+      "id": 151,
+      "start": 472.11,
+      "end": 472.71,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 152,
+      "start": 472.93,
+      "end": 475.17,
+      "speaker": "DOCTOR",
+      "text": "And take it from there. How does that sound?"
+    },
+    {
+      "id": 153,
+      "start": 475.56,
+      "end": 477.67,
+      "speaker": "PATIENT",
+      "text": "That sounds, uh, very good. Thank you."
+    },
+    {
+      "id": 154,
+      "start": 477.35,
+      "end": 481.17,
+      "speaker": "DOCTOR",
+      "text": "I think before we give you any medications, we should see you in person."
+    },
+    {
+      "id": 155,
+      "start": 481.57,
+      "end": 482.99,
+      "speaker": "PATIENT",
+      "text": "OK. ."
+    },
+    {
+      "id": 156,
+      "start": 482.1,
+      "end": 490.24,
+      "speaker": "DOCTOR",
+      "text": "So, what we're going to do is book an appointment. Or I think you can book an appointment through the app, to come and see us clinic, and see one of my colleagues."
+    },
+    {
+      "id": 157,
+      "start": 487.2,
+      "end": 487.78,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 158,
+      "start": 488.55,
+      "end": 489.11,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 159,
+      "start": 490.52,
+      "end": 491.05,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 160,
+      "start": 491.12,
+      "end": 495.18,
+      "speaker": "DOCTOR",
+      "text": "I'll let them know what you've told me today, so you won't have to repeat exactly what you've said."
+    },
+    {
+      "id": 161,
+      "start": 495.45,
+      "end": 496.16,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 162,
+      "start": 496.47,
+      "end": 499.11,
+      "speaker": "DOCTOR",
+      "text": "Great. Do you have any questions?"
+    },
+    {
+      "id": 163,
+      "start": 497.3,
+      "end": 497.83,
+      "speaker": "PATIENT",
+      "text": "Right."
+    },
+    {
+      "id": 164,
+      "start": 499.12,
+      "end": 500.71,
+      "speaker": "PATIENT",
+      "text": "No, that was it. Thank you very much."
+    },
+    {
+      "id": 165,
+      "start": 500.62,
+      "end": 501.66,
+      "speaker": "DOCTOR",
+      "text": "Thank you very much."
+    },
+    {
+      "id": 166,
+      "start": 501.71,
+      "end": 502.76,
+      "speaker": "PATIENT",
+      "text": "Yep, bye."
+    }
+  ]
+}

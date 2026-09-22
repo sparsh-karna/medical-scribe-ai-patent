@@ -1,0 +1,1037 @@
+{
+  "visit_id": "PRIMOCK57-day1_consultation11",
+  "presenting_complaint": "pouring diarrhoea from my bottom",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "3/7 hx of diarrhea - watery stools, opening bowels every hour. No blood in stools. Assoc crampy abdo pain - central, intermittent, severity 6/10. Feels nauseous, has vomited occasionally. Feeling feverish, hot/cold\nNil urinary sx - passing less urine . no weight loss. \nBrother also had similar sx - improving \nTolerating oral intake \n\nPMH: nil\nDH: nil regular \nNKDA\nFH: father - colon Ca \nSH: lives with sister and mum. Works in office. Smokes socially, EtOH - socially \n\nImp: gastroenteritis \n\nPlan:\n1.\tPush fluids \n2.\tOTC diarolyte \n3.\tEncourage soft diet\n4.\tRegular paracetamol \n5.\tReview in 48 hours, or earlier if worsening sx\n\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.14,
+      "end": 2.97,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 2,
+      "start": 3.22,
+      "end": 3.82,
+      "speaker": "PATIENT",
+      "text": "Hello?"
+    },
+    {
+      "id": 3,
+      "start": 3.83,
+      "end": 8.02,
+      "speaker": "DOCTOR",
+      "text": "Hello? Can you hear me OK?"
+    },
+    {
+      "id": 4,
+      "start": 4.92,
+      "end": 5.84,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 5,
+      "start": 7.62,
+      "end": 10.01,
+      "speaker": "PATIENT",
+      "text": "Uh I can hear you, but I can't really see you."
+    },
+    {
+      "id": 6,
+      "start": 10.02,
+      "end": 12.31,
+      "speaker": "DOCTOR",
+      "text": "That's perfect. Um"
+    },
+    {
+      "id": 7,
+      "start": 12.68,
+      "end": 14.43,
+      "speaker": "PATIENT",
+      "text": "Is, is that OK? Am I meant to"
+    },
+    {
+      "id": 8,
+      "start": 14.61,
+      "end": 19.57,
+      "speaker": "DOCTOR",
+      "text": "this audio. And then it's absolutely fine."
+    },
+    {
+      "id": 9,
+      "start": 14.86,
+      "end": 17.38,
+      "speaker": "PATIENT",
+      "text": "Just connection on the screen."
+    },
+    {
+      "id": 10,
+      "start": 19.57,
+      "end": 23.83,
+      "speaker": "DOCTOR",
+      "text": "Uh, now before I go any further, can I confirm your name and your age?"
+    },
+    {
+      "id": 11,
+      "start": 20.04,
+      "end": 20.49,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 12,
+      "start": 25.21,
+      "end": 32.15,
+      "speaker": "PATIENT",
+      "text": "Um so, um my name is uh Dan Choudhry. I am seven, twenty seven."
+    },
+    {
+      "id": 13,
+      "start": 32.24,
+      "end": 35.07,
+      "speaker": "DOCTOR",
+      "text": "Twenty seven, OK. And how can I help you this afternoon, Dan?"
+    },
+    {
+      "id": 14,
+      "start": 35.62,
+      "end": 47.0,
+      "speaker": "PATIENT",
+      "text": "Um so I've just um, been having some troubles, basically in the uh, I guess it's been a little while now. And I've just been feeling not so great. And"
+    },
+    {
+      "id": 15,
+      "start": 47.0,
+      "end": 60.36,
+      "speaker": "PATIENT",
+      "text": "It's all come from like, uh it's like basically I think it's diarrhoea. And it's like just coming out, like loads of it. Like I go to the toilet and it's just super watery and it"
+    },
+    {
+      "id": 16,
+      "start": 60.68,
+      "end": 67.23,
+      "speaker": "PATIENT",
+      "text": "Yeah it doesn't feel very solid. It so, it just, it's just pouring straight from my bum, and like just coming out. And it's, uh,"
+    },
+    {
+      "id": 17,
+      "start": 67.78,
+      "end": 75.49,
+      "speaker": "PATIENT",
+      "text": "Yeah it's just uh not, not been very pleasant. And like I just, it just kind of hasn't, doesn't feel like it's getting better. So"
+    },
+    {
+      "id": 18,
+      "start": 75.6,
+      "end": 80.87,
+      "speaker": "DOCTOR",
+      "text": "Wow, no. Sorry to hear. Seems like there's a lot going on there. Well, when did it all start, your symptoms?"
+    },
+    {
+      "id": 19,
+      "start": 81.08,
+      "end": 85.44,
+      "speaker": "PATIENT",
+      "text": "Um, so I think it was a few, when I think about it"
+    },
+    {
+      "id": 20,
+      "start": 85.97,
+      "end": 92.59,
+      "speaker": "PATIENT",
+      "text": "So Monday, Tuesday, I I, so I think it was about three, it's been about three days now."
+    },
+    {
+      "id": 21,
+      "start": 92.31,
+      "end": 97.26,
+      "speaker": "DOCTOR",
+      "text": "OK. And is it mainly diarrhoea? So, you mentioned watery stools. Um"
+    },
+    {
+      "id": 22,
+      "start": 97.26,
+      "end": 100.94,
+      "speaker": "DOCTOR",
+      "text": "How many times are you going a day, would you say?"
+    },
+    {
+      "id": 23,
+      "start": 101.8,
+      "end": 107.61,
+      "speaker": "PATIENT",
+      "text": "Um so I , I feel like it's like almost every hour, when I'm awake."
+    },
+    {
+      "id": 24,
+      "start": 107.61,
+      "end": 111.95,
+      "speaker": "PATIENT",
+      "text": "Um, so . Sorry?"
+    },
+    {
+      "id": 25,
+      "start": 108.28,
+      "end": 113.55,
+      "speaker": "DOCTOR",
+      "text": "Alright, wow. OK. So you're losing a lot of, a lot of, you're using a lot of fluid there."
+    },
+    {
+      "id": 26,
+      "start": 113.77,
+      "end": 117.18,
+      "speaker": "PATIENT",
+      "text": "Yeah, so I mean I'm , I'm trying to drink a lot of water."
+    },
+    {
+      "id": 27,
+      "start": 117.18,
+      "end": 119.99,
+      "speaker": "PATIENT",
+      "text": "But um, yeah it's just quite a lot and"
+    },
+    {
+      "id": 28,
+      "start": 119.99,
+      "end": 125.28,
+      "speaker": "PATIENT",
+      "text": "Uh it's, yeah I I, I think I I feel like it's just, just fluids coming out."
+    },
+    {
+      "id": 29,
+      "start": 124.99,
+      "end": 127.54,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you got any blood in your stools?"
+    },
+    {
+      "id": 30,
+      "start": 128.06,
+      "end": 129.03,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 31,
+      "start": 130.11,
+      "end": 137.81,
+      "speaker": "PATIENT",
+      "text": "So I, no I don't, I don't remember anything, like, no I , I think it's just I, nothing like that. There's nothing like that."
+    },
+    {
+      "id": 32,
+      "start": 136.64,
+      "end": 141.73,
+      "speaker": "DOCTOR",
+      "text": "OK. And any, any tummy pain? Any, any, any pain in your tummy?"
+    },
+    {
+      "id": 33,
+      "start": 141.18,
+      "end": 144.44,
+      "speaker": "PATIENT",
+      "text": "Yeah. I mean I, it, I feel, I feel a cramp."
+    },
+    {
+      "id": 34,
+      "start": 144.44,
+      "end": 156.21,
+      "speaker": "PATIENT",
+      "text": "and then, and then I know it's time to go right? So, around every hour I just feel something come up. And then I have to go. So, yeah I mean that's, that's the , kind of the first sign."
+    },
+    {
+      "id": 36,
+      "start": 156.12,
+      "end": 158.94,
+      "speaker": "DOCTOR",
+      "text": "Where is this crampy pain? Which part of your tummy?"
+    },
+    {
+      "id": 37,
+      "start": 159.21,
+      "end": 167.71,
+      "speaker": "PATIENT",
+      "text": "It's kind of, . If I think about it, it's like, it's like at the bottom. Uh, I don't know if that makes sense. Um"
+    },
+    {
+      "id": 38,
+      "start": 166.82,
+      "end": 171.49,
+      "speaker": "DOCTOR",
+      "text": ". Well why don't we start with, is it, is it in the middle, or is it to one particular side?"
+    },
+    {
+      "id": 39,
+      "start": 171.92,
+      "end": 179.12,
+      "speaker": "PATIENT",
+      "text": "Um I I think it it , it feels pretty , like in the middle, to me. Not on any side, left or right."
+    },
+    {
+      "id": 40,
+      "start": 178.82,
+      "end": 182.81,
+      "speaker": "DOCTOR",
+      "text": "OK. And does the pain come and go, or is it there constantly?"
+    },
+    {
+      "id": 41,
+      "start": 182.94,
+      "end": 186.02,
+      "speaker": "PATIENT",
+      "text": "Um, it it comes and goes. It comes and goes."
+    },
+    {
+      "id": 42,
+      "start": 185.06,
+      "end": 192.11,
+      "speaker": "DOCTOR",
+      "text": ". Fine, OK. And if I was to ask you on a scale of one to ten, ten being the worst pain you ever had, how bad is this pain?"
+    },
+    {
+      "id": 43,
+      "start": 193.25,
+      "end": 194.5,
+      "speaker": "PATIENT",
+      "text": "OK so like"
+    },
+    {
+      "id": 44,
+      "start": 195.46,
+      "end": 196.36,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 46,
+      "start": 199.94,
+      "end": 200.57,
+      "speaker": "PATIENT",
+      "text": "So"
+    },
+    {
+      "id": 47,
+      "start": 201.51,
+      "end": 206.34,
+      "speaker": "PATIENT",
+      "text": "What do you mean by, uh pain? So I, I think it's maybe a"
+    },
+    {
+      "id": 48,
+      "start": 204.84,
+      "end": 214.52,
+      "speaker": "DOCTOR",
+      "text": "Is it, is this pain as in making you double over? Is it ten, is it ten out of ten, the worst pain you ever had? Or is it more of a kind of a mild pain, like a three out of ten?"
+    },
+    {
+      "id": 49,
+      "start": 214.44,
+      "end": 221.39,
+      "speaker": "PATIENT",
+      "text": "I I guess so. I'm, when I think about it, like when I get it, I can pretend that I don't feel it. So I can still sit down and"
+    },
+    {
+      "id": 50,
+      "start": 221.39,
+      "end": 230.56,
+      "speaker": "PATIENT",
+      "text": "Uh I can still like cover it up, and people don't really notice. So I, I don't know what that means. But maybe is that like a six, or a seven?"
+    },
+    {
+      "id": 51,
+      "start": 229.32,
+      "end": 238.31,
+      "speaker": "DOCTOR",
+      "text": "solid six. OK, OK. Alright, good. Um, and apart from the pain and diarrhea, any other symptoms like nausea, vomiting?"
+    },
+    {
+      "id": 52,
+      "start": 231.66,
+      "end": 232.09,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 53,
+      "start": 239.55,
+      "end": 244.48,
+      "speaker": "PATIENT",
+      "text": "Um, yeah I definitely, I definitely feel kind of nauseous. Um"
+    },
+    {
+      "id": 54,
+      "start": 244.48,
+      "end": 260.22,
+      "speaker": "PATIENT",
+      "text": "Like I and, like I've have vomited. And when I like, I think it's maybe something to do with like, whenever I have like milk or something like that, I just feel like I want to vomit. And actually, yeah one time I just like had some milk, and I just completely vomited it."
+    },
+    {
+      "id": 55,
+      "start": 259.81,
+      "end": 263.21,
+      "speaker": "DOCTOR",
+      "text": "Not sleeping. OK, alright. Uh"
+    },
+    {
+      "id": 56,
+      "start": 260.22,
+      "end": 265.51,
+      "speaker": "PATIENT",
+      "text": "Um, I've been, I've been trying to avoid it. But um, yeah."
+    },
+    {
+      "id": 57,
+      "start": 265.72,
+      "end": 269.21,
+      "speaker": "DOCTOR",
+      "text": "And the vomiting is not as pronounced as the diarrhea. Is that right?"
+    },
+    {
+      "id": 58,
+      "start": 269.63,
+      "end": 272.09,
+      "speaker": "PATIENT",
+      "text": "Um, sorry could you repeat that?"
+    },
+    {
+      "id": 59,
+      "start": 271.47,
+      "end": 275.65,
+      "speaker": "DOCTOR",
+      "text": "and the vomiting is not as, uh, prominent as the diarrhea. Is that right?"
+    },
+    {
+      "id": 60,
+      "start": 275.59,
+      "end": 277.09,
+      "speaker": "PATIENT",
+      "text": "Uh no, no it's not."
+    },
+    {
+      "id": 61,
+      "start": 276.93,
+      "end": 281.62,
+      "speaker": "DOCTOR",
+      "text": "OK. OK, alright. Um, any other symptoms, like fevers or temperatures?"
+    },
+    {
+      "id": 62,
+      "start": 281.93,
+      "end": 300.88,
+      "speaker": "PATIENT",
+      "text": "Um so I, yeah I think I am pretty, I feel kind of really hot all the time. And uh I'm pretty sure I'm burning up. I haven't actually done any temperature reading, or anything like that. But it's, I, yeah I've, I've sure I'm, I'm not a, like not a normal temperature."
+    },
+    {
+      "id": 63,
+      "start": 296.04,
+      "end": 297.04,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 64,
+      "start": 300.69,
+      "end": 305.32,
+      "speaker": "DOCTOR",
+      "text": "OK, so you're feeling hoarse. OK. And in terms of your waterworks, are you passing urine OK?"
+    },
+    {
+      "id": 65,
+      "start": 306.15,
+      "end": 312.5,
+      "speaker": "PATIENT",
+      "text": "Um yeah a bit, I guess less frequently maybe. Um but yeah, it seems to be OK."
+    },
+    {
+      "id": 66,
+      "start": 312.31,
+      "end": 326.7,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Um, fine. And, and you said that, you mentioned, three days ago was when it all kicked off. Are you aware of any triggers? I mean, have you for example gone out, had some takeaway food? Have you been around anyone else, um with diarrhea, for example?"
+    },
+    {
+      "id": 67,
+      "start": 327.33,
+      "end": 350.46,
+      "speaker": "PATIENT",
+      "text": "Um so I , so my um my brother has had, actually had something like this for um he has it as well for five days, as well. Um and I I've, I'm not, yeah I I can't think of what, what the trigger is for me. I mean, my brother normally can deal, deals with this stuff a lot better than me. But , yeah I, that's why"
+    },
+    {
+      "id": 68,
+      "start": 350.17,
+      "end": 352.04,
+      "speaker": "DOCTOR",
+      "text": "Is your, is your brother now better?"
+    },
+    {
+      "id": 69,
+      "start": 352.5,
+      "end": 353.13,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 70,
+      "start": 354.31,
+      "end": 363.53,
+      "speaker": "PATIENT",
+      "text": "He, so he's been like this for five days. I think he's getting better, but I'm not, I'm not really sure. He said, he said he had, he's had something for a little while as well."
+    },
+    {
+      "id": 71,
+      "start": 363.42,
+      "end": 371.39,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Are you having anything to eat or drink? Have you, I can see you're drinking a coffee, but are you keeping it down? Are you keeping your fluids down?"
+    },
+    {
+      "id": 72,
+      "start": 371.32,
+      "end": 379.61,
+      "speaker": "PATIENT",
+      "text": "Um so it just feels like the, the fluids do go down. But it just feels like it's going straight through."
+    },
+    {
+      "id": 73,
+      "start": 379.61,
+      "end": 381.38,
+      "speaker": "PATIENT",
+      "text": "It just feels like it's going straight through."
+    },
+    {
+      "id": 74,
+      "start": 381.01,
+      "end": 388.76,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Fine. When was the last time you had anything solid to eat? And which , which uh which you kept in?"
+    },
+    {
+      "id": 75,
+      "start": 388.96,
+      "end": 397.08,
+      "speaker": "PATIENT",
+      "text": "Um so, I had some, I mean I had some lunch today. Um"
+    },
+    {
+      "id": 76,
+      "start": 397.54,
+      "end": 400.91,
+      "speaker": "PATIENT",
+      "text": "But again it just it just came, come out pretty loose."
+    },
+    {
+      "id": 77,
+      "start": 400.46,
+      "end": 407.51,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Um and and Dan, moving forwards, are you otherwise fit and well, or do you have any other medical history?"
+    },
+    {
+      "id": 78,
+      "start": 407.9,
+      "end": 416.31,
+      "speaker": "PATIENT",
+      "text": "Um, so I um, yeah I think, I think otherwise I'm fit and well. I um"
+    },
+    {
+      "id": 79,
+      "start": 416.31,
+      "end": 425.78,
+      "speaker": "PATIENT",
+      "text": "Yeah I mean I, I'm an OK weight. And um, I I can't think of any related medical history."
+    },
+    {
+      "id": 80,
+      "start": 425.78,
+      "end": 431.02,
+      "speaker": "PATIENT",
+      "text": "Um, I mean like my, yeah I no I I don't think so."
+    },
+    {
+      "id": 81,
+      "start": 426.66,
+      "end": 427.26,
+      "speaker": "DOCTOR",
+      "text": "Good."
+    },
+    {
+      "id": 82,
+      "start": 430.81,
+      "end": 433.34,
+      "speaker": "DOCTOR",
+      "text": "I'll take it you don't take any regular medications, then."
+    },
+    {
+      "id": 83,
+      "start": 434.64,
+      "end": 436.25,
+      "speaker": "PATIENT",
+      "text": "So I"
+    },
+    {
+      "id": 84,
+      "start": 437.26,
+      "end": 438.19,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 85,
+      "start": 439.79,
+      "end": 450.25,
+      "speaker": "PATIENT",
+      "text": "No I mean I, I've been taking some like Paracetamols and stuff like that lately. But uh, I haven't been, I'm not on any regular medication or anything like that."
+    },
+    {
+      "id": 86,
+      "start": 449.88,
+      "end": 452.7,
+      "speaker": "DOCTOR",
+      "text": "OK. And do you have any allergies to any medications?"
+    },
+    {
+      "id": 87,
+      "start": 453.63,
+      "end": 457.06,
+      "speaker": "PATIENT",
+      "text": "Um, so I don't have any allergies that I know of."
+    },
+    {
+      "id": 88,
+      "start": 456.93,
+      "end": 463.39,
+      "speaker": "DOCTOR",
+      "text": "OK. And what about any family history? Do you have any family history of bowel problems?"
+    },
+    {
+      "id": 89,
+      "start": 462.18,
+      "end": 467.23,
+      "speaker": "PATIENT",
+      "text": "Um bowel, so would, would bowel like, is is the colon like something that"
+    },
+    {
+      "id": 90,
+      "start": 466.55,
+      "end": 471.21,
+      "speaker": "DOCTOR",
+      "text": "Yeah, yeah. So what I mean by bowel is the whole gut. So it could be anything from the mouth anus."
+    },
+    {
+      "id": 91,
+      "start": 469.66,
+      "end": 477.81,
+      "speaker": "PATIENT",
+      "text": "So my, yeah my, my dad actually has um colon cancer at the moment."
+    },
+    {
+      "id": 92,
+      "start": 477.66,
+      "end": 480.52,
+      "speaker": "DOCTOR",
+      "text": "Ohh dear. I'm very sorry to hear that. How is he?"
+    },
+    {
+      "id": 93,
+      "start": 480.88,
+      "end": 501.57,
+      "speaker": "PATIENT",
+      "text": "So um, from what I heard he's kind of, So I don't I don't speak to him that often. So I don't, I don't know the exact details. And I, I don't exactly know the full things of like the steps of cancer, and all that kind of thing. But um, he's sort of in his third stage. Uh, I'm not sure what that means exactly."
+    },
+    {
+      "id": 95,
+      "start": 501.57,
+      "end": 517.45,
+      "speaker": "PATIENT",
+      "text": "Um, and yeah. So yeah it's, it's um, he's, yeah you can, yeah I can see he's kind of weaker, and it's affecting him a lot. And um, that's it's quite, I I guess he's um, had it for a little while now."
+    },
+    {
+      "id": 96,
+      "start": 501.75,
+      "end": 503.26,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK."
+    },
+    {
+      "id": 98,
+      "start": 517.12,
+      "end": 526.76,
+      "speaker": "DOCTOR",
+      "text": "Yeah I'll make a not of that 'cause uh, important to know these kind of details. Um, and socially, tell me more about your home situation. Who's at home with you, Dan?"
+    },
+    {
+      "id": 99,
+      "start": 527.31,
+      "end": 534.49,
+      "speaker": "PATIENT",
+      "text": "Um so, uh not my brother. He doesn't live with me. I'm, I live with my, um sister and my mum."
+    },
+    {
+      "id": 100,
+      "start": 534.51,
+      "end": 538.55,
+      "speaker": "DOCTOR",
+      "text": "OK. And, uh, how are things at home?"
+    },
+    {
+      "id": 101,
+      "start": 539.13,
+      "end": 543.61,
+      "speaker": "PATIENT",
+      "text": "Um, I think, I mean in what sense do you mean that?"
+    },
+    {
+      "id": 102,
+      "start": 540.09,
+      "end": 541.92,
+      "speaker": "DOCTOR",
+      "text": "Don't ."
+    },
+    {
+      "id": 103,
+      "start": 543.28,
+      "end": 548.92,
+      "speaker": "DOCTOR",
+      "text": "in general day-to-day life are you managing OK? Any particular ?"
+    },
+    {
+      "id": 105,
+      "start": 549.27,
+      "end": 550.94,
+      "speaker": "PATIENT",
+      "text": "I mean uh"
+    },
+    {
+      "id": 106,
+      "start": 550.94,
+      "end": 555.59,
+      "speaker": "PATIENT",
+      "text": "I think uh, yeah it's been, it's been tricky. Um"
+    },
+    {
+      "id": 107,
+      "start": 555.59,
+      "end": 568.55,
+      "speaker": "PATIENT",
+      "text": "Going to work with all of this. Um I dislike um, taking time off work. I feel like I I just want to go, um when I can. So I I try and go um"
+    },
+    {
+      "id": 108,
+      "start": 569.17,
+      "end": 574.28,
+      "speaker": "PATIENT",
+      "text": "I think at, at home, uh yeah I just haven't really um"
+    },
+    {
+      "id": 109,
+      "start": 574.28,
+      "end": 588.57,
+      "speaker": "PATIENT",
+      "text": "I I don't normally actually um, eat with my family. I normally am buying stuff and that kind of thing. So, I don't think it's affected them. And I haven't really been, haven't really gone into detail with my sister and my mom about it. Um"
+    },
+    {
+      "id": 110,
+      "start": 588.57,
+      "end": 594.18,
+      "speaker": "PATIENT",
+      "text": "Yeah. I'd, I'd just rather deal with these things. Um so"
+    },
+    {
+      "id": 111,
+      "start": 590.68,
+      "end": 596.19,
+      "speaker": "DOCTOR",
+      "text": "Sure. you mentioned work. You mentioned work. What is it you do for work?"
+    },
+    {
+      "id": 112,
+      "start": 594.18,
+      "end": 597.34,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 113,
+      "start": 597.34,
+      "end": 609.12,
+      "speaker": "PATIENT",
+      "text": "So I work at a, I I work at um an office, um in Central London. Um it's uh, so I work in government."
+    },
+    {
+      "id": 114,
+      "start": 609.55,
+      "end": 619.95,
+      "speaker": "DOCTOR",
+      "text": ", OK. So , OK right. And just a couple last final couple, uh couple questions. Uh, smoking and alcohol, do you do either? Do you smoke, or do you drink much in the way of alcohol?"
+    },
+    {
+      "id": 115,
+      "start": 619.57,
+      "end": 630.06,
+      "speaker": "PATIENT",
+      "text": "Um so I I smoke um, I smoke uh, uh for like socially, but not like regularly. Um"
+    },
+    {
+      "id": 116,
+      "start": 630.06,
+      "end": 637.81,
+      "speaker": "PATIENT",
+      "text": "So normally if if it's a, a Friday or something like that I might, I might have a cigarette or something like that. But um not ."
+    },
+    {
+      "id": 118,
+      "start": 639.03,
+      "end": 639.7,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 119,
+      "start": 639.55,
+      "end": 640.9,
+      "speaker": "DOCTOR",
+      "text": "And alcohol?"
+    },
+    {
+      "id": 120,
+      "start": 641.3,
+      "end": 656.01,
+      "speaker": "PATIENT",
+      "text": "So alcohol, um uh you know I might have a a beer during the weekdays, maybe uh not that many, maybe um . On Fridays I have more um alcohol um"
+    },
+    {
+      "id": 122,
+      "start": 650.18,
+      "end": 651.08,
+      "speaker": "DOCTOR",
+      "text": "But not ."
+    },
+    {
+      "id": 123,
+      "start": 656.01,
+      "end": 659.4,
+      "speaker": "PATIENT",
+      "text": "But yeah uh, I'll have my units um"
+    },
+    {
+      "id": 125,
+      "start": 659.4,
+      "end": 674.32,
+      "speaker": "PATIENT",
+      "text": "Uh, honest, I suppose um, not every week, but maybe I'll once or twice a month, that yeah, I'll go out with my friends and drink a lot so that that's um, yeah um"
+    },
+    {
+      "id": 127,
+      "start": 673.59,
+      "end": 685.61,
+      "speaker": "DOCTOR",
+      "text": "Well thank you for me. That's really helpful to know. So um, Dan, just as a a conclusion, uh um, just to wrap it all up, I think your symptoms are suggestive of something called gastroenteritis."
+    },
+    {
+      "id": 128,
+      "start": 686.25,
+      "end": 686.93,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 129,
+      "start": 686.52,
+      "end": 695.51,
+      "speaker": "DOCTOR",
+      "text": "bit of a basic infection of your tummy. . There's nothing to worry about. Uh um uh uh I suspect this will just settle down in the next few days."
+    },
+    {
+      "id": 130,
+      "start": 690.08,
+      "end": 690.51,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 131,
+      "start": 696.19,
+      "end": 702.95,
+      "speaker": "DOCTOR",
+      "text": "Just like you did for you brother. Drink, make sure you drink plenty of fluids, OK? And you can"
+    },
+    {
+      "id": 132,
+      "start": 698.09,
+      "end": 698.6,
+      "speaker": "PATIENT",
+      "text": "Uh-huh."
+    },
+    {
+      "id": 133,
+      "start": 701.88,
+      "end": 709.66,
+      "speaker": "PATIENT",
+      "text": "Should I just drink like normal water? I just feel like every time I drink it's just coming out. Um"
+    },
+    {
+      "id": 134,
+      "start": 705.4,
+      "end": 706.37,
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "id": 135,
+      "start": 707.69,
+      "end": 722.18,
+      "speaker": "DOCTOR",
+      "text": "fluid is probably best. But I am obviously worried about the fact that you are losing minerals and vitamins. Um so, you can get things like Diarolyte, which is um, a fluid replacement you can get from the pharmacy. It's probably worth uh recommending that."
+    },
+    {
+      "id": 136,
+      "start": 721.18,
+      "end": 724.31,
+      "speaker": "PATIENT",
+      "text": "Do i need like a prescription for that?"
+    },
+    {
+      "id": 137,
+      "start": 723.93,
+      "end": 725.79,
+      "speaker": "DOCTOR",
+      "text": "no, you can just get that over the counter."
+    },
+    {
+      "id": 138,
+      "start": 725.99,
+      "end": 726.56,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 139,
+      "start": 726.54,
+      "end": 736.59,
+      "speaker": "DOCTOR",
+      "text": "Um, you can try just you know regular Paracetamol if you are feeling feverish. But if your symptoms aren't settling down in the next couple of days, so forty eight hours, I want you to give me a call back."
+    },
+    {
+      "id": 141,
+      "start": 736.59,
+      "end": 745.4,
+      "speaker": "DOCTOR",
+      "text": "Because um, you know if you are getting dehydrated then we need to do further investigations, OK? But I think let's, let's see how you are in the next one to two days."
+    },
+    {
+      "id": 142,
+      "start": 746.01,
+      "end": 746.56,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 143,
+      "start": 746.4,
+      "end": 748.53,
+      "speaker": "DOCTOR",
+      "text": "And uh, we'll catch up soon, OK?"
+    },
+    {
+      "id": 144,
+      "start": 748.38,
+      "end": 758.17,
+      "speaker": "PATIENT",
+      "text": "OK. So you're saying that I should, I could, uh I'll try and buy this Dioralyte. What, what should I do in terms of um, food and that kind of thing? Should I just focus on fluids?"
+    },
+    {
+      "id": 145,
+      "start": 756.56,
+      "end": 767.13,
+      "speaker": "DOCTOR",
+      "text": "clear fluids. You can use soft diet, things like soup, mash. And then gradually build up, um as much as your body can tolerate."
+    },
+    {
+      "id": 146,
+      "start": 767.13,
+      "end": 771.46,
+      "speaker": "DOCTOR",
+      "text": "Um, but let's try and keep yourself well-hydrated first, OK?"
+    },
+    {
+      "id": 147,
+      "start": 771.64,
+      "end": 777.26,
+      "speaker": "PATIENT",
+      "text": "OK. Is it OK for me to carry on having like, um Paracetamol and things like that?"
+    },
+    {
+      "id": 148,
+      "start": 776.59,
+      "end": 782.38,
+      "speaker": "DOCTOR",
+      "text": "Absolutely. If you are having, if you've got a bit of tummy pain, if you're feeling feverish, then I think Paracetamol is very sensible."
+    },
+    {
+      "id": 149,
+      "start": 783.36,
+      "end": 783.99,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 150,
+      "start": 784.43,
+      "end": 787.66,
+      "speaker": "DOCTOR",
+      "text": "OK? Try and avoid alcohol if you can."
+    },
+    {
+      "id": 151,
+      "start": 788.23,
+      "end": 790.29,
+      "speaker": "PATIENT",
+      "text": "Uh, OK I'll try. Yeah."
+    },
+    {
+      "id": 152,
+      "start": 790.02,
+      "end": 791.34,
+      "speaker": "DOCTOR",
+      "text": "OK. Alright then."
+    },
+    {
+      "id": 153,
+      "start": 793.14,
+      "end": 793.83,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 154,
+      "start": 793.81,
+      "end": 794.85,
+      "speaker": "DOCTOR",
+      "text": "Thank you for your help."
+    },
+    {
+      "id": 155,
+      "start": 795.09,
+      "end": 798.85,
+      "speaker": "PATIENT",
+      "text": "Alright. Thank you very much. Thanks, thanks for helping me out."
+    },
+    {
+      "id": 156,
+      "start": 796.29,
+      "end": 799.74,
+      "speaker": "DOCTOR",
+      "text": ". Thank you. Bye bye now."
+    },
+    {
+      "id": 157,
+      "start": 800.36,
+      "end": 801.53,
+      "speaker": "PATIENT",
+      "text": "K. Bye."
+    }
+  ]
+}

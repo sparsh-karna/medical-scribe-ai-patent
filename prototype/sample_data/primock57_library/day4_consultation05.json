@@ -1,0 +1,778 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation05",
+  "presenting_complaint": "I've had bad diarrhea for 3 days",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC; diarrhea and central abdominal pain for 3/7. Now unable to go to work due to frequency of bowel movements. No fevers\n\nHPC:\nDiarrhea +++ 5-6 per day (more) only fluid no blood, feels as if there incomplete evacuation.\n\n\u2105 abdominal pain for since presentation, no radiation, mild to moderate tenderness, and cramping, E+D'ing causing nausea. Feeling of \u201cgas\u201d\n\nSome vomiting, now unable to tolerate fluids and solids.  Ate this morning but vomited immediately. Feels and looks dehydrated.\n\nNo problems with breathing, no chest pain, no headache. \n\nDHx : NKDA. \n\nFHx : father has history of stomach Ca.\n\nDDx : gastroenteritis\n\nPlan: fluids, paracetamol, advised if symptoms do not improve to visit the gp surgery. \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 1.0,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 2,
+      "start": 1.55,
+      "end": 2.51,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 3,
+      "start": 2.53,
+      "end": 3.86,
+      "speaker": "PATIENT",
+      "text": "Hi, hi."
+    },
+    {
+      "id": 4,
+      "start": 3.73,
+      "end": 4.92,
+      "speaker": "DOCTOR",
+      "text": "Hi, can you hear me?"
+    },
+    {
+      "id": 5,
+      "start": 5.05,
+      "end": 6.45,
+      "speaker": "PATIENT",
+      "text": ", I can hear you well."
+    },
+    {
+      "id": 6,
+      "start": 6.43,
+      "end": 10.47,
+      "speaker": "DOCTOR",
+      "text": "Hi, my name is Doctor Gohil. I'm one of the doctors that works at Babylon."
+    },
+    {
+      "id": 7,
+      "start": 11.65,
+      "end": 15.63,
+      "speaker": "DOCTOR",
+      "text": "Can I, can I check your name and date of birth, please?"
+    },
+    {
+      "id": 8,
+      "start": 11.84,
+      "end": 13.73,
+      "speaker": "PATIENT",
+      "text": "Uh, hi doctor. My name is."
+    },
+    {
+      "id": 9,
+      "start": 15.59,
+      "end": 26.55,
+      "speaker": "PATIENT",
+      "text": "Yes my, my name is uh, Roberto Mendoza. And, uh, I'm, I was born on the first of January, of um, uh, nineteen ninety two."
+    },
+    {
+      "id": 10,
+      "start": 18.74,
+      "end": 19.61,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 11,
+      "start": 26.35,
+      "end": 31.27,
+      "speaker": "DOCTOR",
+      "text": "OK, and are you in a space that's quiet and you're able to talk?"
+    },
+    {
+      "id": 12,
+      "start": 31.23,
+      "end": 37.94,
+      "speaker": "PATIENT",
+      "text": "Ohh sorry, I um, of nineteen ninety, sorry I'm forty eight. Sorry, I forgot that ."
+    },
+    {
+      "id": 13,
+      "start": 37.64,
+      "end": 40.17,
+      "speaker": "DOCTOR",
+      "text": "So, you're forty eight, and are you able to talk at the moment?"
+    },
+    {
+      "id": 14,
+      "start": 40.28,
+      "end": 41.37,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 15,
+      "start": 41.59,
+      "end": 49.69,
+      "speaker": "DOCTOR",
+      "text": "OK. Tell me, uh, it says here you have a , uh, you're having problems going to the toilet?"
+    },
+    {
+      "id": 16,
+      "start": 50.12,
+      "end": 70.85,
+      "speaker": "PATIENT",
+      "text": "Yes, so I have uh, I have um. I don't know how do you say it properly, in English. Uh, I mean without sounding good, like diarrhoea, for, for, yeah. So, it's lasting for like three days. And, uh, yeah, I, I don't know, uh, I don't know, what could cause it. I, uh, um."
+    },
+    {
+      "id": 17,
+      "start": 58.63,
+      "end": 59.63,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 18,
+      "start": 71.83,
+      "end": 78.45,
+      "speaker": "PATIENT",
+      "text": "Uh, I have a bit of uh, pain, abdominal pain. And I, had a bit of vomiting."
+    },
+    {
+      "id": 19,
+      "start": 79.45,
+      "end": 88.64,
+      "speaker": "PATIENT",
+      "text": "And uh, uh, yeah. So this uh, kind of like uh, what is happening to me."
+    },
+    {
+      "id": 20,
+      "start": 88.67,
+      "end": 92.73,
+      "speaker": "DOCTOR",
+      "text": "OK. Tell me how you were three days ago, before this started."
+    },
+    {
+      "id": 21,
+      "start": 93.25,
+      "end": 94.93,
+      "speaker": "DOCTOR",
+      "text": "Did you have any medical problems?"
+    },
+    {
+      "id": 22,
+      "start": 95.49,
+      "end": 105.79,
+      "speaker": "PATIENT",
+      "text": "Uh, so I have, I have, I have a, asthma, and I take some uh, some uh, um, inhaler."
+    },
+    {
+      "id": 23,
+      "start": 105.76,
+      "end": 106.8,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 24,
+      "start": 105.79,
+      "end": 122.49,
+      "speaker": "PATIENT",
+      "text": "I don't know, uh, I take an inhaler, um. and um. uh, I have an allergy. I have N, N, NK, NKDA allergy. So, I don't know if it's because, uh, I don't know. Could be the inhaler, or, yeah."
+    },
+    {
+      "id": 25,
+      "start": 116.55,
+      "end": 117.55,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 26,
+      "start": 120.43,
+      "end": 121.43,
+      "speaker": "DOCTOR",
+      "text": "That's ."
+    },
+    {
+      "id": 27,
+      "start": 122.89,
+      "end": 125.54,
+      "speaker": "DOCTOR",
+      "text": "And apart from asthma, do you have anything else?"
+    },
+    {
+      "id": 28,
+      "start": 126.74,
+      "end": 139.12,
+      "speaker": "PATIENT",
+      "text": "Uh, I don't maybe it's work, because you know it's, this thing here in the stomach stuff. I, I always have in the back of my head and my father. Because he died about um, ten years ago of bowel cancer."
+    },
+    {
+      "id": 29,
+      "start": 133.97,
+      "end": 134.72,
+      "speaker": "DOCTOR",
+      "text": "Yep."
+    },
+    {
+      "id": 30,
+      "start": 138.96,
+      "end": 140.03,
+      "speaker": "DOCTOR",
+      "text": "OK?"
+    },
+    {
+      "id": 31,
+      "start": 140.61,
+      "end": 143.34,
+      "speaker": "PATIENT",
+      "text": "So, yeah, this is kind of uh."
+    },
+    {
+      "id": 32,
+      "start": 144.4,
+      "end": 147.21,
+      "speaker": "PATIENT",
+      "text": "Uh, my, my worries. I, I don't know ."
+    },
+    {
+      "id": 33,
+      "start": 147.53,
+      "end": 155.44,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've, you've had the diarrhoea for three days, and now you're having pain and vomiting."
+    },
+    {
+      "id": 35,
+      "start": 153.3,
+      "end": 154.3,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 36,
+      "start": 155.97,
+      "end": 158.62,
+      "speaker": "PATIENT",
+      "text": "Yes, yes, ."
+    },
+    {
+      "id": 37,
+      "start": 157.97,
+      "end": 161.78,
+      "speaker": "DOCTOR",
+      "text": "Was the diarrhoea been getting better or worse?"
+    },
+    {
+      "id": 38,
+      "start": 161.98,
+      "end": 177.51,
+      "speaker": "PATIENT",
+      "text": "Uh, uh, I , I think it, it's not getting better or worse. It's kind of like uh, uh, like, middle, like normal, like uh, it, it, it hasn't gone away, it hasn't worsened."
+    },
+    {
+      "id": 39,
+      "start": 173.5,
+      "end": 174.43,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 40,
+      "start": 177.34,
+      "end": 180.15,
+      "speaker": "DOCTOR",
+      "text": "OK. And how often do you go to the toilet?"
+    },
+    {
+      "id": 41,
+      "start": 181.1,
+      "end": 193.67,
+      "speaker": "PATIENT",
+      "text": "I go, I need to go, I, I can't go to work because I need to go like every. I don't is this feeling like I go to the toilet, and then when I finish, I need to, I feel I need to go again."
+    },
+    {
+      "id": 42,
+      "start": 192.66,
+      "end": 193.81,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 43,
+      "start": 193.67,
+      "end": 199.79,
+      "speaker": "PATIENT",
+      "text": "And, and uh, and, yeah. So, I need to be like close to the toilet uh, all the time."
+    },
+    {
+      "id": 44,
+      "start": 198.7,
+      "end": 200.74,
+      "speaker": "DOCTOR",
+      "text": "That must be, that must be hard."
+    },
+    {
+      "id": 45,
+      "start": 201.26,
+      "end": 203.29,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, it's."
+    },
+    {
+      "id": 46,
+      "start": 202.48,
+      "end": 205.11,
+      "speaker": "DOCTOR",
+      "text": "Have you had to drink more water than normal?"
+    },
+    {
+      "id": 47,
+      "start": 205.61,
+      "end": 214.98,
+      "speaker": "PATIENT",
+      "text": "I don't know, maybe I'm not drinking enough water, yeah. I drink uh, I think I, yeah I don't know. I, I think I don't drink enough water."
+    },
+    {
+      "id": 48,
+      "start": 215.22,
+      "end": 218.2,
+      "speaker": "DOCTOR",
+      "text": "An important question, have you noticed any blood?"
+    },
+    {
+      "id": 49,
+      "start": 218.99,
+      "end": 222.34,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I haven't noticed any, any blood."
+    },
+    {
+      "id": 50,
+      "start": 222.33,
+      "end": 229.08,
+      "speaker": "DOCTOR",
+      "text": "And you mentioned tummy pain, can you tell me more about your tummy pain, like where it is, and if it goes anywhere?"
+    },
+    {
+      "id": 51,
+      "start": 228.08,
+      "end": 247.17,
+      "speaker": "PATIENT",
+      "text": "So, , the pain is mainly uh, focus in, in the centre area of the abdomen, like under the belly, under the belly button. And, uh, yeah, and sometimes I can hear my stomach, uh, like, it comes, uh, yeah."
+    },
+    {
+      "id": 53,
+      "start": 239.62,
+      "end": 240.42,
+      "speaker": "DOCTOR",
+      "text": "Yep."
+    },
+    {
+      "id": 54,
+      "start": 245.53,
+      "end": 248.39,
+      "speaker": "DOCTOR",
+      "text": "OK. You've been able to eat and drink?"
+    },
+    {
+      "id": 55,
+      "start": 248.47,
+      "end": 261.56,
+      "speaker": "PATIENT",
+      "text": "Uh, yes, but, yes but I, I go to the toilet also often. So I, I, I, yeah I try not to eat a lot because I, yeah I just, going to the toilet every, ten minute."
+    },
+    {
+      "id": 56,
+      "start": 261.27,
+      "end": 266.39,
+      "speaker": "DOCTOR",
+      "text": "Hmm. And you said the tummy pain's in the middle of your tummy. Does it go anywhere else?"
+    },
+    {
+      "id": 57,
+      "start": 266.39,
+      "end": 275.05,
+      "speaker": "PATIENT",
+      "text": "No, no, just there, and it, it seems to be alleviate a bit, toilet, and maybe it's like trapped gas. So, I don't know what it is, but."
+    },
+    {
+      "id": 58,
+      "start": 276.33,
+      "end": 279.67,
+      "speaker": "DOCTOR",
+      "text": "OK. And when was the last time you vomited?"
+    },
+    {
+      "id": 59,
+      "start": 281.19,
+      "end": 290.69,
+      "speaker": "PATIENT",
+      "text": "I think it was this morning. This morning, I, but the, the thing is like, because I'm not eating anything now. So, I, I haven't vomited again."
+    },
+    {
+      "id": 60,
+      "start": 290.79,
+      "end": 292.56,
+      "speaker": "DOCTOR",
+      "text": "Did you have any breakfast?"
+    },
+    {
+      "id": 61,
+      "start": 291.69,
+      "end": 292.76,
+      "speaker": "PATIENT",
+      "text": "Right, I don't know."
+    },
+    {
+      "id": 62,
+      "start": 294.2,
+      "end": 300.1,
+      "speaker": "PATIENT",
+      "text": "I didn't. Uh, no sorry, yes I did actually, I did. Pardon, I had some fruit, I had some fruit."
+    },
+    {
+      "id": 64,
+      "start": 299.92,
+      "end": 302.97,
+      "speaker": "DOCTOR",
+      "text": "OK. And , and you vomited that up, afterwards?"
+    },
+    {
+      "id": 65,
+      "start": 303.51,
+      "end": 318.09,
+      "speaker": "PATIENT",
+      "text": "And afterwards, I didn't have anything, then I got a bit of nausea, and I vomited, and then, uh, yeah and that was it, and that was it. And I have any today, and so now I'm, uh, I think I'm OK, but uh, yeah, and I don't, yeah."
+    },
+    {
+      "id": 66,
+      "start": 318.07,
+      "end": 320.43,
+      "speaker": "DOCTOR",
+      "text": "Did you notice any blood when you vomit?"
+    },
+    {
+      "id": 67,
+      "start": 321.73,
+      "end": 338.21,
+      "speaker": "PATIENT",
+      "text": "Hmm. I think I do, I think I do, but is uh, uh, no, no actually I can't say sorry, I'm sorry. I, I, I don't think there is blood because uh, yeah it was, it was the strawberries that I was having for breakfast. So, so, yeah, it wasn't blood."
+    },
+    {
+      "id": 69,
+      "start": 337.97,
+      "end": 347.06,
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, did you eat anything that you think might of been bad, or anything that could have caused the tummy pain?"
+    },
+    {
+      "id": 70,
+      "start": 339.7,
+      "end": 340.7,
+      "speaker": "PATIENT",
+      "text": "Yeah, ."
+    },
+    {
+      "id": 71,
+      "start": 347.07,
+      "end": 364.76,
+      "speaker": "PATIENT",
+      "text": "Uh, I, I don't know. To be honest, sometimes I have, when I get a bit of anxiety, I, I use my inhaler. And, but my inhaler kind of um, run out the one. Because you know, I'm a foreigner, so I have uh, this brand, but I bought a new one here."
+    },
+    {
+      "id": 72,
+      "start": 355.45,
+      "end": 356.6,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 73,
+      "start": 363.89,
+      "end": 365.26,
+      "speaker": "DOCTOR",
+      "text": ". OK."
+    },
+    {
+      "id": 74,
+      "start": 364.76,
+      "end": 370.91,
+      "speaker": "PATIENT",
+      "text": "And, uh, I don't know maybe this new one has cause it, this, this problem. I don't know."
+    },
+    {
+      "id": 75,
+      "start": 368.74,
+      "end": 369.93,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 76,
+      "start": 371.42,
+      "end": 390.15,
+      "speaker": "DOCTOR",
+      "text": "OK. It's very unlikely for an inhaler to cause tummy pain, like this. Normally, it's when you eat, um, bad food or food that has gone off, and you normally get symptoms like you have suggested. But just to double-check, have you noticed any problems with your breathing?"
+    },
+    {
+      "id": 77,
+      "start": 376.26,
+      "end": 377.26,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 78,
+      "start": 381.12,
+      "end": 382.12,
+      "speaker": "PATIENT",
+      "text": "Uh-huh."
+    },
+    {
+      "id": 79,
+      "start": 390.92,
+      "end": 405.48,
+      "speaker": "PATIENT",
+      "text": "Um, uh, I, I always have problems with my breathing, because of the asthma like, . When I, , I need to use my inhaler a little bit, but apart of the normal, I haven't, I haven't."
+    },
+    {
+      "id": 80,
+      "start": 396.87,
+      "end": 397.87,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 81,
+      "start": 405.15,
+      "end": 409.96,
+      "speaker": "DOCTOR",
+      "text": "OK. And how about chest, have you noticed any chest pain?"
+    },
+    {
+      "id": 82,
+      "start": 408.7,
+      "end": 413.01,
+      "speaker": "PATIENT",
+      "text": ", no, I haven't , I haven't noticed any chest pain."
+    },
+    {
+      "id": 83,
+      "start": 412.89,
+      "end": 418.22,
+      "speaker": "DOCTOR",
+      "text": "OK. And how about, um, walking and talking, are those all both OK?"
+    },
+    {
+      "id": 84,
+      "start": 418.56,
+      "end": 433.26,
+      "speaker": "PATIENT",
+      "text": "Uh, walking and talking, uh, yes, yes. Uh, I, I, but uh, but yeah I don't walk very far because uh, I, yeah I need to, I need to go to the toilet now and then. So, I'm spending some time at home."
+    },
+    {
+      "id": 85,
+      "start": 431.96,
+      "end": 436.41,
+      "speaker": "DOCTOR",
+      "text": "Yep. And when you press on your tummy, does it cause any pain?"
+    },
+    {
+      "id": 86,
+      "start": 436.92,
+      "end": 438.74,
+      "speaker": "PATIENT",
+      "text": "Ohh, it does a little bit."
+    },
+    {
+      "id": 87,
+      "start": 438.7,
+      "end": 439.69,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 88,
+      "start": 444.53,
+      "end": 447.01,
+      "speaker": "DOCTOR",
+      "text": "Sorry, I was just writing some things down."
+    },
+    {
+      "id": 89,
+      "start": 447.81,
+      "end": 448.81,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 90,
+      "start": 449.59,
+      "end": 461.34,
+      "speaker": "DOCTOR",
+      "text": "So, what it sounds like to me is that you might have eaten something bad, and it's causing your tummy pain. And it's , this is normally called gastroenteritis, so, an infection of the tummy."
+    },
+    {
+      "id": 91,
+      "start": 456.06,
+      "end": 457.13,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 92,
+      "start": 461.58,
+      "end": 463.07,
+      "speaker": "PATIENT",
+      "text": "Ohh, OK."
+    },
+    {
+      "id": 93,
+      "start": 462.67,
+      "end": 482.43,
+      "speaker": "DOCTOR",
+      "text": "Normally, when patients have this do some things. Number one is to drink lots of water and fluids, because you're losing lots at the moment. Number two is to make sure and look out for any fevers, so, if you start getting a temperature then you need ."
+    },
+    {
+      "id": 95,
+      "start": 480.57,
+      "end": 481.57,
+      "speaker": "PATIENT",
+      "text": "Mmm, OK."
+    },
+    {
+      "id": 96,
+      "start": 483.93,
+      "end": 484.93,
+      "speaker": "PATIENT",
+      "text": "Uh-huh."
+    },
+    {
+      "id": 97,
+      "start": 483.97,
+      "end": 489.13,
+      "speaker": "DOCTOR",
+      "text": "And please stay home for the time being until you get slightly better."
+    },
+    {
+      "id": 98,
+      "start": 490.45,
+      "end": 494.01,
+      "speaker": "PATIENT",
+      "text": "OK. OK, I, yeah."
+    },
+    {
+      "id": 99,
+      "start": 491.56,
+      "end": 493.24,
+      "speaker": "DOCTOR",
+      "text": "And normally,"
+    },
+    {
+      "id": 100,
+      "start": 494.33,
+      "end": 499.01,
+      "speaker": "DOCTOR",
+      "text": "Normally, things like antibiotics don't help, they make the situation worse."
+    },
+    {
+      "id": 101,
+      "start": 500.1,
+      "end": 518.9,
+      "speaker": "PATIENT",
+      "text": "OK. I didn't, yeah, sorry I didn't. No, I was saying I didn't have any, fever recently. I, I was sweating a little bit the last four days, but I, I. Not sure if, if I had bit of fever, but very, little or, or, I'm, I'm but I don't think so, I don't think. I don't know maybe."
+    },
+    {
+      "id": 102,
+      "start": 500.85,
+      "end": 502.16,
+      "speaker": "DOCTOR",
+      "text": "So, that's."
+    },
+    {
+      "id": 103,
+      "start": 503.02,
+      "end": 504.16,
+      "speaker": "DOCTOR",
+      "text": "Go ahead."
+    },
+    {
+      "id": 104,
+      "start": 519.58,
+      "end": 532.06,
+      "speaker": "DOCTOR",
+      "text": "So, I think that's what we should do for the time being, if you feel you're getting much worse, than I would suggest you go and see your GP in real, in real life, in person, so they can loot at your belly."
+    },
+    {
+      "id": 106,
+      "start": 530.07,
+      "end": 531.07,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 107,
+      "start": 532.23,
+      "end": 541.37,
+      "speaker": "PATIENT",
+      "text": "OK, I will, yeah I will book then, book , I will wait a couple of days to see, or one more day, and then I will book, and then, yeah."
+    },
+    {
+      "id": 108,
+      "start": 539.42,
+      "end": 543.83,
+      "speaker": "DOCTOR",
+      "text": "Great! Cool! Do you have any more questions for me?"
+    },
+    {
+      "id": 109,
+      "start": 543.72,
+      "end": 556.27,
+      "speaker": "PATIENT",
+      "text": "Uh, , no, that's uh, that's it. I was maybe just concerned about my father's uh, medical history, that would uh, I could be at some kind of risk."
+    },
+    {
+      "id": 110,
+      "start": 553.84,
+      "end": 554.84,
+      "speaker": "DOCTOR",
+      "text": "Yes."
+    },
+    {
+      "id": 111,
+      "start": 556.2,
+      "end": 571.33,
+      "speaker": "DOCTOR",
+      "text": "So, the, the things that you've told me are most suggestive of an infection of your tummy and less likely to be something your father had, but if your things don't get worse, then that's something that we can look up from the GP."
+    },
+    {
+      "id": 112,
+      "start": 566.18,
+      "end": 567.18,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 113,
+      "start": 571.98,
+      "end": 581.41,
+      "speaker": "PATIENT",
+      "text": "OK, OK. Yeah, that sounds good, that sounds good. OK. Thank you very much doctor, for your time. Bye bye."
+    },
+    {
+      "id": 114,
+      "start": 572.9,
+      "end": 574.32,
+      "speaker": "DOCTOR",
+      "text": "Does that sound OK?"
+    },
+    {
+      "id": 115,
+      "start": 576.58,
+      "end": 577.86,
+      "speaker": "DOCTOR",
+      "text": "Thank you ."
+    },
+    {
+      "id": 116,
+      "start": 579.73,
+      "end": 581.07,
+      "speaker": "DOCTOR",
+      "text": "Bye bye."
+    }
+  ]
+}

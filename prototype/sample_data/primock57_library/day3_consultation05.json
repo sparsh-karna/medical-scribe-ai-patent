@@ -1,0 +1,589 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation05",
+  "presenting_complaint": "I've been feeling dizzy",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History : having dizziness for the past few hours \nYou had sometime similar a month ago but only lasted 10 minutes \nYou feel as though you are in a boat \nThere is no recent viral illness \nThere is a buzzing noise in your ears \nThere is no hearing problems \nNo ear discharge or ear pain \nYou feel nauseous but not been sick \nThere is no weakness of the arms and legs \nPast medical history #\nYou have premature ovarian failure and take HRT\nThere is no allergies \nPlan we will prescribe some stemitil for symptom relief . Most likely disgnosis is labrynthitis\nIf you will need to book a pace to face appointment to have your ears checked . If you develop any weakness of arms and legs, vomiting . Please go to A & E\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.28,
+      "end": 2.12,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 2,
+      "start": 1.99,
+      "end": 6.48,
+      "speaker": "DOCTOR",
+      "text": "Hello. Hi, I'm Doctor Jacob and welcome to Babylon. How are you doing?"
+    },
+    {
+      "id": 3,
+      "start": 6.83,
+      "end": 11.8,
+      "speaker": "PATIENT",
+      "text": "I'm OK, thank you. Um, not feeling that great actually."
+    },
+    {
+      "id": 4,
+      "start": 6.95,
+      "end": 10.49,
+      "speaker": "DOCTOR",
+      "text": "Good."
+    },
+    {
+      "id": 5,
+      "start": 11.52,
+      "end": 24.57,
+      "speaker": "DOCTOR",
+      "text": "Alright. I can't see your face properly , just, yeah that's it. That's good. Thank you. So, I'm sorry to hear that. But just before we start, is it alright if you could confirm your name for me please?"
+    },
+    {
+      "id": 7,
+      "start": 25.13,
+      "end": 28.14,
+      "speaker": "PATIENT",
+      "text": "I'm Mary Jane Grey, um."
+    },
+    {
+      "id": 8,
+      "start": 26.81,
+      "end": 29.31,
+      "speaker": "DOCTOR",
+      "text": "Date of birth?"
+    },
+    {
+      "id": 9,
+      "start": 30.25,
+      "end": 35.35,
+      "speaker": "PATIENT",
+      "text": "Date of birth, um nineteen eighty."
+    },
+    {
+      "id": 11,
+      "start": 35.6,
+      "end": 38.48,
+      "speaker": "DOCTOR",
+      "text": "OK. And your address for me please?"
+    },
+    {
+      "id": 12,
+      "start": 39.57,
+      "end": 43.38,
+      "speaker": "PATIENT",
+      "text": "Um, I live on SW four zero NG."
+    },
+    {
+      "id": 14,
+      "start": 43.39,
+      "end": 49.39,
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "id": 15,
+      "start": 49.64,
+      "end": 50.4,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 16,
+      "start": 50.08,
+      "end": 57.1,
+      "speaker": "DOCTOR",
+      "text": "OK. So you've mentioned that you're feeling dizzy. , yes."
+    },
+    {
+      "id": 17,
+      "start": 55.31,
+      "end": 55.95,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 18,
+      "start": 57.2,
+      "end": 65.75,
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm feeling I'm, I'm yeah, I'm feeling very sick. It's probably because i'm feeling dizzy, um the the room is sort of spinning, um."
+    },
+    {
+      "id": 20,
+      "start": 66.26,
+      "end": 72.49,
+      "speaker": "PATIENT",
+      "text": "And I, I can't, I can't walk properly. Uh, well I can walk properly but not straight, um."
+    },
+    {
+      "id": 21,
+      "start": 73.03,
+      "end": 77.2,
+      "speaker": "PATIENT",
+      "text": "and my ears are buzzing a bit. I'm just, they're feeling a bit off."
+    },
+    {
+      "id": 22,
+      "start": 75.4,
+      "end": 76.13,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 23,
+      "start": 77.4,
+      "end": 80.6,
+      "speaker": "DOCTOR",
+      "text": "OK, ear's buzzing. So when did it all start?"
+    },
+    {
+      "id": 24,
+      "start": 81.42,
+      "end": 89.59,
+      "speaker": "PATIENT",
+      "text": "Started probably about two hours ago maybe. but I, I, um, I had a a similar sort of thing about a month ago, um"
+    },
+    {
+      "id": 25,
+      "start": 89.59,
+      "end": 95.41,
+      "speaker": "PATIENT",
+      "text": "But I didn't really think anything of it, 'cause it it settled quite quickly. Um, but this has been going for a bit more now."
+    },
+    {
+      "id": 27,
+      "start": 95.45,
+      "end": 102.24,
+      "speaker": "DOCTOR",
+      "text": "OK. So you said, you mentioned it started a few hours ago. So did it start? What were you doing?"
+    },
+    {
+      "id": 29,
+      "start": 103.14,
+      "end": 108.66,
+      "speaker": "PATIENT",
+      "text": "Um, I was just actually making my husband some breakfast, um."
+    },
+    {
+      "id": 30,
+      "start": 109.22,
+      "end": 115.69,
+      "speaker": "PATIENT",
+      "text": "And I, yeah, I just suddenly felt very fuzzy and dizzy, um, and a bit shaky."
+    },
+    {
+      "id": 31,
+      "start": 115.74,
+      "end": 120.43,
+      "speaker": "DOCTOR",
+      "text": "OK. So you mentioned, like the room spinning around?"
+    },
+    {
+      "id": 33,
+      "start": 120.49,
+      "end": 121.16,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 34,
+      "start": 121.63,
+      "end": 127.47,
+      "speaker": "DOCTOR",
+      "text": "OK. And is, how long does it last for? Or is it there now, continuously now?"
+    },
+    {
+      "id": 35,
+      "start": 127.99,
+      "end": 130.71,
+      "speaker": "PATIENT",
+      "text": "Yeah it's, it's there, the whole time."
+    },
+    {
+      "id": 36,
+      "start": 130.57,
+      "end": 133.92,
+      "speaker": "DOCTOR",
+      "text": "So it's there now for the past two hours you'd say, yeah?"
+    },
+    {
+      "id": 37,
+      "start": 134.62,
+      "end": 135.25,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 38,
+      "start": 135.01,
+      "end": 140.62,
+      "speaker": "DOCTOR",
+      "text": "OK. Did you have any kind of viral illness in the recent past, past couple of weeks?"
+    },
+    {
+      "id": 40,
+      "start": 141.17,
+      "end": 142.12,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 41,
+      "start": 141.93,
+      "end": 143.63,
+      "speaker": "DOCTOR",
+      "text": "No cold, cough, nothing."
+    },
+    {
+      "id": 42,
+      "start": 143.82,
+      "end": 147.67,
+      "speaker": "PATIENT",
+      "text": "No, I've been pretty healthy I think, um, yeah."
+    },
+    {
+      "id": 43,
+      "start": 147.54,
+      "end": 156.73,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. Um, you've mentioned that you have a, some ear buzzing kind of thing. Any kind of ear pain or ear discharge, anything like that?"
+    },
+    {
+      "id": 44,
+      "start": 156.83,
+      "end": 158.22,
+      "speaker": "PATIENT",
+      "text": "No, nothing."
+    },
+    {
+      "id": 45,
+      "start": 158.9,
+      "end": 161.39,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have a temperature at all?"
+    },
+    {
+      "id": 46,
+      "start": 161.93,
+      "end": 164.03,
+      "speaker": "PATIENT",
+      "text": "I don't think so, um."
+    },
+    {
+      "id": 47,
+      "start": 164.27,
+      "end": 171.94,
+      "speaker": "DOCTOR",
+      "text": "OK, right. You also mentioned that you can walk, but you're not walking straight. Why is that? Is it because"
+    },
+    {
+      "id": 48,
+      "start": 172.08,
+      "end": 175.46,
+      "speaker": "PATIENT",
+      "text": "I think just 'cause the room feels like it's moving a bit. Um"
+    },
+    {
+      "id": 49,
+      "start": 175.48,
+      "end": 179.62,
+      "speaker": "DOCTOR",
+      "text": "Feels like to move . That's why you're feeling like you're a bit unsteady, yeah?"
+    },
+    {
+      "id": 50,
+      "start": 176.0,
+      "end": 177.55,
+      "speaker": "PATIENT",
+      "text": "I'll look ."
+    },
+    {
+      "id": 51,
+      "start": 179.39,
+      "end": 187.52,
+      "speaker": "PATIENT",
+      "text": "My, my legs and arms and everything are working fine I just, I don't feel like I'm stable. My, the room is spinning."
+    },
+    {
+      "id": 52,
+      "start": 187.95,
+      "end": 190.83,
+      "speaker": "DOCTOR",
+      "text": "So there's no weakness of your arms and legs. OK."
+    },
+    {
+      "id": 53,
+      "start": 191.0,
+      "end": 191.61,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 54,
+      "start": 191.43,
+      "end": 201.61,
+      "speaker": "DOCTOR",
+      "text": "K. Right. Um, so you mentioned you had something like this a month ago. So how, how, how long did that episode last for?"
+    },
+    {
+      "id": 55,
+      "start": 202.65,
+      "end": 205.01,
+      "speaker": "PATIENT",
+      "text": "Probably only about five, ten minutes."
+    },
+    {
+      "id": 56,
+      "start": 205.01,
+      "end": 212.44,
+      "speaker": "DOCTOR",
+      "text": "OK, right. And do you have any problems hearing at the moment? Like, is it muffled or something?"
+    },
+    {
+      "id": 57,
+      "start": 210.41,
+      "end": 211.13,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 58,
+      "start": 212.71,
+      "end": 216.68,
+      "speaker": "PATIENT",
+      "text": "It's just a bit of a buzzy noise in my ears, but otherwise I can hear everything."
+    },
+    {
+      "id": 59,
+      "start": 216.57,
+      "end": 219.21,
+      "speaker": "DOCTOR",
+      "text": "OK. Righty-ho."
+    },
+    {
+      "id": 60,
+      "start": 219.79,
+      "end": 223.06,
+      "speaker": "DOCTOR",
+      "text": "OK. So, have you been physically sick?"
+    },
+    {
+      "id": 61,
+      "start": 223.38,
+      "end": 225.51,
+      "speaker": "PATIENT",
+      "text": "No, but now I'm feeling very sick."
+    },
+    {
+      "id": 62,
+      "start": 225.52,
+      "end": 226.9,
+      "speaker": "DOCTOR",
+      "text": "Nausea, OK."
+    },
+    {
+      "id": 63,
+      "start": 228.51,
+      "end": 239.03,
+      "speaker": "DOCTOR",
+      "text": "Righty-ho. And, I don't have much information of your past medical history. So is there any medical conditions you'd like to tell me, surgical, medical conditions?"
+    },
+    {
+      "id": 64,
+      "start": 239.13,
+      "end": 244.71,
+      "speaker": "PATIENT",
+      "text": "Um, I've had premature ovarian failure, um, and I've taken HRT."
+    },
+    {
+      "id": 65,
+      "start": 244.64,
+      "end": 251.77,
+      "speaker": "DOCTOR",
+      "text": "OK charting premature hearing failure. OK, and um any other medications at all?"
+    },
+    {
+      "id": 66,
+      "start": 252.09,
+      "end": 252.8,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 67,
+      "start": 253.49,
+      "end": 255.72,
+      "speaker": "DOCTOR",
+      "text": "OK, do you have any allergies at all?"
+    },
+    {
+      "id": 68,
+      "start": 256.17,
+      "end": 256.92,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 71,
+      "start": 257.26,
+      "end": 272.18,
+      "speaker": "DOCTOR",
+      "text": "OK. Right. OK so , talking to you today, um, in the , the most common um, you know, diagnosis we would you're suffering from at the moment is something called labyrinthitis. Yeah?"
+    },
+    {
+      "id": 72,
+      "start": 272.18,
+      "end": 283.15,
+      "speaker": "DOCTOR",
+      "text": "OK, that's when your middle ear...there is something um, some inflammation going on there, and there is some imbalances in the crystals there in your middle ear."
+    },
+    {
+      "id": 73,
+      "start": 283.15,
+      "end": 297.04,
+      "speaker": "DOCTOR",
+      "text": "OK, so what the most important treatment is actually giving you some kind of middle ear stability so that you won't feel as if you're going around in a boat, kind of feeling."
+    },
+    {
+      "id": 74,
+      "start": 297.04,
+      "end": 305.57,
+      "speaker": "DOCTOR",
+      "text": "OK? So that's what we need to . Because to actually make you function a bit more, we'll start you on certain medications."
+    },
+    {
+      "id": 75,
+      "start": 305.57,
+      "end": 321.0,
+      "speaker": "DOCTOR",
+      "text": "I would still like you to be seen by one of our doctors to take a look inside your ears to just make sure. So this is like just symptomatic relief like you have a fever we just give paracetamol. So just to, you know, make you able to come and see one of the doctors and things like that."
+    },
+    {
+      "id": 76,
+      "start": 321.0,
+      "end": 328.95,
+      "speaker": "DOCTOR",
+      "text": "while you're with the doctors, we'd like to do your blood pressure, just examine your, you know, you know, how your walking and everything is."
+    },
+    {
+      "id": 77,
+      "start": 329.42,
+      "end": 340.29,
+      "speaker": "DOCTOR",
+      "text": "OK, while we're waiting, while you're waiting on seeing the doctor if you double up any weakness of your legs or arms or, or, you know, a sudden headache."
+    },
+    {
+      "id": 78,
+      "start": 329.69,
+      "end": 330.35,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 79,
+      "start": 340.29,
+      "end": 348.23,
+      "speaker": "DOCTOR",
+      "text": "Any of those symptoms, or you start being violently sick with it, then you know, you would need to take your to A and E."
+    },
+    {
+      "id": 80,
+      "start": 348.55,
+      "end": 349.19,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 81,
+      "start": 349.43,
+      "end": 355.52,
+      "speaker": "DOCTOR",
+      "text": "But if not, wait for the appointment for the doctor to examine you um and we'll take it from there."
+    },
+    {
+      "id": 82,
+      "start": 355.52,
+      "end": 363.91,
+      "speaker": "DOCTOR",
+      "text": "So i'll, i'll send the a prescription at cross pharmacy looks like it's the Lloyd pharmacy on our system. Is that correct?"
+    },
+    {
+      "id": 83,
+      "start": 363.94,
+      "end": 364.48,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 84,
+      "start": 364.35,
+      "end": 374.97,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So we'll send you across that prescription. Um, it's called , yeah? It's one tablet three times a day. So I'll give you about ten days worth."
+    },
+    {
+      "id": 85,
+      "start": 374.97,
+      "end": 380.37,
+      "speaker": "DOCTOR",
+      "text": "In the interim, obviously in the next few days, you'll get to see one of my doctors and we'll have to just take it from there."
+    },
+    {
+      "id": 86,
+      "start": 380.78,
+      "end": 382.44,
+      "speaker": "PATIENT",
+      "text": "OK, thank you so much."
+    },
+    {
+      "id": 87,
+      "start": 381.32,
+      "end": 383.69,
+      "speaker": "DOCTOR",
+      "text": "Any questions at all?"
+    },
+    {
+      "id": 88,
+      "start": 384.01,
+      "end": 389.76,
+      "speaker": "PATIENT",
+      "text": "Um, can you take, do you need to take those tablets with food? Or can you just take them any time?"
+    },
+    {
+      "id": 89,
+      "start": 389.92,
+      "end": 399.88,
+      "speaker": "DOCTOR",
+      "text": "It doesn't really matter, you can take it, because sometimes, you know, you get the symptoms as soon as you wake up, so probably you'll feel a bit sick to eat anything so might as well just take the tablets."
+    },
+    {
+      "id": 91,
+      "start": 399.88,
+      "end": 402.96,
+      "speaker": "PATIENT",
+      "text": "OK, that's great. Thank you so much, that's so helpful."
+    },
+    {
+      "id": 92,
+      "start": 403.14,
+      "end": 406.46,
+      "speaker": "DOCTOR",
+      "text": "Just make sure you call support to book that appointment, OK?"
+    },
+    {
+      "id": 93,
+      "start": 406.46,
+      "end": 408.18,
+      "speaker": "PATIENT",
+      "text": "I will, thank you very much."
+    },
+    {
+      "id": 94,
+      "start": 407.07,
+      "end": 409.29,
+      "speaker": "DOCTOR",
+      "text": "Bye bye now. Bye"
+    }
+  ]
+}

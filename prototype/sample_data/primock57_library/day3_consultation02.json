@@ -1,0 +1,554 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation02",
+  "presenting_complaint": "feeling hot and having severe headache",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "You are having a headache for the past 4 days \nYou have been taking paracetamol and ibuprofen but no relief \nYou have just returned from Thailand a week ago and a friend of your is also unwell \nYou have had mosquito bites \nYou have a rash all over your body but this disappears when a glass is placed ( blanching)\nThere is no pain while you move your neck \nThere is no pain while looking at the light \nThere is no weakness of the muscles \nThere is no pins and needles \nYou do not have vomiting \nThere is no no cough, cold or ear pain\nThere is no bleeding spots over the skin \nYou have some generalized muscle aches \nPast medical history None\nNo allergies \nPlan : you have been advised to book an urgent appointment to see a doctor in the next few hours\nIf this is not possible you will need to go to A & E . WE will need to r/o more serious conditions like malaria, Dengue and meningitis \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 4.44,
+      "speaker": "DOCTOR",
+      "text": "Hello, hi, I'm Doctor Jacob and welcome to Babylon."
+    },
+    {
+      "id": 2,
+      "start": 4.6,
+      "end": 6.16,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 3,
+      "start": 5.39,
+      "end": 10.96,
+      "speaker": "DOCTOR",
+      "text": "Hi. So, just before we start is it alright if you could confirm your name for me please?"
+    },
+    {
+      "id": 4,
+      "start": 11.53,
+      "end": 13.84,
+      "speaker": "PATIENT",
+      "text": "Yep, uh, John Doe."
+    },
+    {
+      "id": 5,
+      "start": 14.14,
+      "end": 18.67,
+      "speaker": "DOCTOR",
+      "text": "OK and your date of birth?"
+    },
+    {
+      "id": 6,
+      "start": 16.4,
+      "end": 23.33,
+      "speaker": "PATIENT",
+      "text": "Uhh, twenty-one twelve and nineteen uh eighty-six."
+    },
+    {
+      "id": 7,
+      "start": 23.32,
+      "end": 25.28,
+      "speaker": "DOCTOR",
+      "text": "And, your address for me, please?"
+    },
+    {
+      "id": 8,
+      "start": 25.52,
+      "end": 32.96,
+      "speaker": "PATIENT",
+      "text": "Is, uh, number one London Street. Um, NW three six PQ."
+    },
+    {
+      "id": 10,
+      "start": 32.72,
+      "end": 38.85,
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm that you're in a secure location and we can have a confidential conversation?"
+    },
+    {
+      "id": 11,
+      "start": 38.83,
+      "end": 40.22,
+      "speaker": "PATIENT",
+      "text": "We are, yes."
+    },
+    {
+      "id": 12,
+      "start": 39.95,
+      "end": 45.25,
+      "speaker": "DOCTOR",
+      "text": "OK. So I understand you're having a a headache is that correct?"
+    },
+    {
+      "id": 13,
+      "start": 44.84,
+      "end": 59.24,
+      "speaker": "PATIENT",
+      "text": "Uh yeah, iIve had a, um a sort of a, a, a very sort of bad, severe headache, the past four days. Um, and um I've been sort of feeling a bit hot as well. Um, I've got, got a bit of a temperature, I think."
+    },
+    {
+      "id": 15,
+      "start": 59.24,
+      "end": 63.18,
+      "speaker": "PATIENT",
+      "text": "I haven't measured it but um, think I've, yeah, I think I've got a fever."
+    },
+    {
+      "id": 16,
+      "start": 63.07,
+      "end": 69.64,
+      "speaker": "DOCTOR",
+      "text": "OK. Right. And um, so what started first, was it the headache or the fever?"
+    },
+    {
+      "id": 17,
+      "start": 69.71,
+      "end": 78.21,
+      "speaker": "PATIENT",
+      "text": "Um, so um, headache started uh, first. Um, and then sort of yeah, fever sort of came along a bit afterwards."
+    },
+    {
+      "id": 18,
+      "start": 77.9,
+      "end": 83.0,
+      "speaker": "DOCTOR",
+      "text": "OK, afterwards, right. And what have you taken so far for your headache?"
+    },
+    {
+      "id": 19,
+      "start": 83.19,
+      "end": 88.87,
+      "speaker": "PATIENT",
+      "text": "Um, so I've had some Paracetamol and some Ibuprofen, but it's not really helping at the moment."
+    },
+    {
+      "id": 20,
+      "start": 88.96,
+      "end": 97.04,
+      "speaker": "DOCTOR",
+      "text": "OK. so just a few more questions, with regards to your headache So do you find it difficult to look at the light?"
+    },
+    {
+      "id": 21,
+      "start": 92.59,
+      "end": 93.29,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 22,
+      "start": 97.27,
+      "end": 103.5,
+      "speaker": "PATIENT",
+      "text": "Um no, like um it, it's fine, light doesn't seem to bother me too much."
+    },
+    {
+      "id": 23,
+      "start": 103.36,
+      "end": 110.81,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and is it any pain when you try to move your neck from side to side, look up and down, is there any pain?"
+    },
+    {
+      "id": 24,
+      "start": 110.84,
+      "end": 118.87,
+      "speaker": "PATIENT",
+      "text": "And I've got some general aching muscles. Um, not necessarily sort of in my neck. It's kind of a bit all over, really."
+    },
+    {
+      "id": 25,
+      "start": 118.62,
+      "end": 124.52,
+      "speaker": "DOCTOR",
+      "text": "OK, all over. Right, and have you been sick with this headache?"
+    },
+    {
+      "id": 26,
+      "start": 124.58,
+      "end": 126.51,
+      "speaker": "PATIENT",
+      "text": "No, no I haven't, I haven't been sick."
+    },
+    {
+      "id": 27,
+      "start": 126.75,
+      "end": 129.84,
+      "speaker": "DOCTOR",
+      "text": "OK, and do you have a cough?"
+    },
+    {
+      "id": 28,
+      "start": 130.17,
+      "end": 131.65,
+      "speaker": "PATIENT",
+      "text": "Uh no, no cough."
+    },
+    {
+      "id": 29,
+      "start": 132.16,
+      "end": 134.65,
+      "speaker": "DOCTOR",
+      "text": "OK, so there's no cough or cold, yeah?"
+    },
+    {
+      "id": 30,
+      "start": 134.78,
+      "end": 136.16,
+      "speaker": "PATIENT",
+      "text": "Uh, no. No."
+    },
+    {
+      "id": 31,
+      "start": 135.91,
+      "end": 140.16,
+      "speaker": "DOCTOR",
+      "text": "OK, and you your ears are OK? There's no earaches?"
+    },
+    {
+      "id": 32,
+      "start": 140.63,
+      "end": 144.37,
+      "speaker": "PATIENT",
+      "text": "Um, no it's, it seems to be OK. It, it's fine."
+    },
+    {
+      "id": 33,
+      "start": 144.36,
+      "end": 153.29,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. And with this headache have you experienced any pins and needles in your face, arms and legs?"
+    },
+    {
+      "id": 34,
+      "start": 153.59,
+      "end": 155.07,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 35,
+      "start": 154.61,
+      "end": 158.41,
+      "speaker": "DOCTOR",
+      "text": "No pins and needles. Any muscle weaknesses at all?"
+    },
+    {
+      "id": 36,
+      "start": 158.59,
+      "end": 162.45,
+      "speaker": "PATIENT",
+      "text": "Um just, I, I suppose general aching, body aching."
+    },
+    {
+      "id": 37,
+      "start": 161.96,
+      "end": 167.74,
+      "speaker": "DOCTOR",
+      "text": "Not, not any weakness but where you couldn't, you know, hold a cup or anything like that, that's what I mean."
+    },
+    {
+      "id": 38,
+      "start": 167.61,
+      "end": 173.48,
+      "speaker": "PATIENT",
+      "text": "Uh, no. I'm, I'm sort of, yeah, seem to be sort of fine with that sort of stuff but, yeah."
+    },
+    {
+      "id": 39,
+      "start": 170.81,
+      "end": 171.81,
+      "speaker": "DOCTOR",
+      "text": "Ohh"
+    },
+    {
+      "id": 40,
+      "start": 173.16,
+      "end": 184.64,
+      "speaker": "DOCTOR",
+      "text": "Okay, and um just a few more questions to you, because I don't have any of your background history. Um, do you suffer from any medical conditions?"
+    },
+    {
+      "id": 41,
+      "start": 184.45,
+      "end": 188.05,
+      "speaker": "PATIENT",
+      "text": "Uh no, um general medical history is fine."
+    },
+    {
+      "id": 42,
+      "start": 187.51,
+      "end": 193.02,
+      "speaker": "DOCTOR",
+      "text": "Fine. And no surgical history then and no medical surgical complaints, yeah?"
+    },
+    {
+      "id": 43,
+      "start": 192.87,
+      "end": 201.79,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Um, I, I suppose uh I have been away to um, uh, Thailand. Um, uh week or so ago. Um"
+    },
+    {
+      "id": 45,
+      "start": 201.79,
+      "end": 214.61,
+      "speaker": "PATIENT",
+      "text": "had some, like, usual mosquito bites from sort of traveling around and a friend of mine has also been a bit unwell, but um, uh, yeah, that 's the only sort of, like, history per se."
+    },
+    {
+      "id": 46,
+      "start": 214.64,
+      "end": 220.84,
+      "speaker": "DOCTOR",
+      "text": "Right, and um, do you have any kind of shivering at all? Do you shivering with the fever?"
+    },
+    {
+      "id": 47,
+      "start": 220.76,
+      "end": 230.75,
+      "speaker": "PATIENT",
+      "text": "Um, I um, uh, I I do feel cold quite a lot. Uh, you know it's, um, I no sort of shivering, but definitely like a bit cold."
+    },
+    {
+      "id": 48,
+      "start": 229.89,
+      "end": 243.26,
+      "speaker": "DOCTOR",
+      "text": "cold, yeah? OK, right. And are you using you mentioned about the paracetamol and now, but are you on any regular, any medication, anything that you're using at all?"
+    },
+    {
+      "id": 49,
+      "start": 231.67,
+      "end": 232.37,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 50,
+      "start": 243.32,
+      "end": 244.47,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 51,
+      "start": 244.45,
+      "end": 248.81,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, any allergies at all?"
+    },
+    {
+      "id": 52,
+      "start": 248.93,
+      "end": 250.6,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Um"
+    },
+    {
+      "id": 53,
+      "start": 251.02,
+      "end": 252.57,
+      "speaker": "DOCTOR",
+      "text": "Alright."
+    },
+    {
+      "id": 54,
+      "start": 254.0,
+      "end": 263.74,
+      "speaker": "DOCTOR",
+      "text": "OK and... OK, so uh I, I believe that it is quite important for us to actually examine you, yeah?"
+    },
+    {
+      "id": 55,
+      "start": 263.74,
+      "end": 289.56,
+      "speaker": "DOCTOR",
+      "text": "Um, it it's not possible for us to do that online. I think you would need to come into one of our hubs to have a proper examination, and I, I think you would need one quite urgently, OK? So the thing that's running in the back of my mind are um, kind of a viral illnesses that can one can get with um, sort of mosquito bites or foreign travel."
+    },
+    {
+      "id": 56,
+      "start": 264.0,
+      "end": 264.68,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 57,
+      "start": 289.56,
+      "end": 302.92,
+      "speaker": "DOCTOR",
+      "text": "Like , um the other common thing around Thailand, it will be like some dengue. But that would have, like you would have some, uh, blood spots or bleeding or something, which you don't have at the moment, do you?"
+    },
+    {
+      "id": 58,
+      "start": 289.68,
+      "end": 290.41,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 59,
+      "start": 303.01,
+      "end": 310.81,
+      "speaker": "PATIENT",
+      "text": "Uh no. I mean I've got a bit of a rash, but nothing like, uh no, no, no, no bleeding."
+    },
+    {
+      "id": 60,
+      "start": 310.41,
+      "end": 313.19,
+      "speaker": "DOCTOR",
+      "text": "OK. So where is the rash?"
+    },
+    {
+      "id": 61,
+      "start": 313.37,
+      "end": 322.63,
+      "speaker": "PATIENT",
+      "text": "Um, it's uh, the rash is kind of all over my body. Like it's not, it's not, it's not really localised."
+    },
+    {
+      "id": 62,
+      "start": 320.1,
+      "end": 324.71,
+      "speaker": "DOCTOR",
+      "text": "How would you describe, how would you describe the rash?"
+    },
+    {
+      "id": 63,
+      "start": 324.62,
+      "end": 328.51,
+      "speaker": "PATIENT",
+      "text": "Um uh sort of red and itchy."
+    },
+    {
+      "id": 64,
+      "start": 329.44,
+      "end": 337.74,
+      "speaker": "DOCTOR",
+      "text": "Red and itchy. OK. So if you were to put a glass on top of the rash, does that rash go away?"
+    },
+    {
+      "id": 65,
+      "start": 330.97,
+      "end": 331.65,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 66,
+      "start": 337.79,
+      "end": 339.25,
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "id": 67,
+      "start": 338.94,
+      "end": 340.68,
+      "speaker": "DOCTOR",
+      "text": "It goes away. OK."
+    },
+    {
+      "id": 68,
+      "start": 342.48,
+      "end": 362.89,
+      "speaker": "DOCTOR",
+      "text": "OK. So what we need to do, need to urgently examine you. And that's sometime today. OK? And um, after our examination there is a high possibility that sometimes we might need to send you to hospital. But I'm not sure as yet. So I'd like you to be seen in one of our hubs as soon as possible?"
+    },
+    {
+      "id": 69,
+      "start": 347.5,
+      "end": 349.48,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 70,
+      "start": 362.85,
+      "end": 363.76,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 71,
+      "start": 362.89,
+      "end": 382.3,
+      "speaker": "DOCTOR",
+      "text": "So um, I'll recommend that you would need to be urgently seen by the doctor, preferably in the next few hours time. OK? And um, in any case if that's not available I'd like you to take yourself to . Alright? Any questions at all?"
+    },
+    {
+      "id": 72,
+      "start": 372.35,
+      "end": 373.2,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 73,
+      "start": 379.16,
+      "end": 379.99,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 74,
+      "start": 382.4,
+      "end": 385.06,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Sounds serious."
+    },
+    {
+      "id": 75,
+      "start": 385.93,
+      "end": 394.2,
+      "speaker": "DOCTOR",
+      "text": ", you know obviously when I've spoken to you, you, you didn't tick the box for many theories, but you're in the middle somewhere. Let's put it that way."
+    },
+    {
+      "id": 76,
+      "start": 394.09,
+      "end": 394.93,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 77,
+      "start": 394.2,
+      "end": 408.75,
+      "speaker": "DOCTOR",
+      "text": "Um you know things like we have to rule out is Meningitis and all, but Ben, you just have a general muscle ache. You didn't say that you had things like, you had problems looking at the light or something Those are things when you think of Meningitis"
+    },
+    {
+      "id": 78,
+      "start": 408.75,
+      "end": 436.1,
+      "speaker": "DOCTOR",
+      "text": "But and then, it's the uh, in meningitis you get a non-blanching rash. While in any kind of virus the rash usually goes away. Saying that, we don't know whether these are the beginning stage. So that's why I'd rather, but I would rather you see a GP as soon as possible, if uh, we've got a slot available. But if not, I think you need to be seen, and maybe have some blood tests and examinations. OK?"
+    },
+    {
+      "id": 79,
+      "start": 435.92,
+      "end": 438.23,
+      "speaker": "PATIENT",
+      "text": "OK, cool. Thank you very much."
+    },
+    {
+      "id": 80,
+      "start": 437.93,
+      "end": 441.58,
+      "speaker": "DOCTOR",
+      "text": "All right, you take care, Ben. Bye now. Cheers. Bye."
+    },
+    {
+      "id": 81,
+      "start": 439.63,
+      "end": 441.29,
+      "speaker": "PATIENT",
+      "text": "Bye."
+    }
+  ]
+}

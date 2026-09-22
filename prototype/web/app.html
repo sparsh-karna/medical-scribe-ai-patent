@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My patients — Clinical Documentation Gate</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a href="/" class="nav-brand"><span class="mark" aria-hidden="true"></span>Clinical Documentation Gate</a>
+    <div class="topbar-right">
+      <span id="doctor-name" class="muted"></span>
+      <button id="logout-btn" class="btn btn-ghost btn-sm">Sign out</button>
+    </div>
+  </nav>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <h2>Patients</h2>
+        <button id="new-patient-btn" class="btn btn-primary btn-sm">New patient</button>
+      </div>
+      <form id="new-patient-form" class="inline-form" hidden>
+        <input type="text" id="new-patient-name" placeholder="Patient name" required>
+        <div class="inline-form-actions">
+          <button type="submit" class="btn btn-primary btn-sm">Add</button>
+          <button type="button" id="cancel-patient-btn" class="btn btn-secondary btn-sm">Cancel</button>
+        </div>
+      </form>
+      <div id="patient-list" class="patient-list"></div>
+    </aside>
+
+    <main class="main">
+      <div id="no-patient" class="empty-panel">
+        <h3>Select a patient</h3>
+        <p class="muted">Choose a patient on the left, or add a new one, to see or start a case.</p>
+      </div>
+
+      <div id="patient-panel" hidden>
+        <div class="panel-head">
+          <h2 id="patient-name"></h2>
+          <button id="new-case-btn" class="btn btn-primary btn-sm">New case</button>
+        </div>
+
+        <div id="new-case-panel" class="card new-case-panel" hidden>
+          <div class="tabs">
+            <button class="tab active" data-source="library">From real consultation library</button>
+            <button class="tab" data-source="paste">Paste transcript</button>
+            <button class="tab" data-source="upload">Upload file</button>
+          </div>
+
+          <div id="source-library" class="source-body">
+            <label>Search 57 real primary-care consultations
+              <input type="text" id="library-search" placeholder="e.g. cough, headache, abdominal pain">
+            </label>
+            <div id="library-results" class="library-results"></div>
+          </div>
+
+          <div id="source-paste" class="source-body" hidden>
+            <label>Case title
+              <input type="text" id="paste-title" placeholder="e.g. Follow-up visit, 22 Sep">
+            </label>
+            <label>Transcript
+              <textarea id="paste-text" rows="8" placeholder="Doctor: What brings you in today?&#10;Patient: I've had a cough for three days."></textarea>
+            </label>
+            <button id="paste-submit" class="btn btn-primary btn-sm">Run pipeline</button>
+          </div>
+
+          <div id="source-upload" class="source-body" hidden>
+            <label>Case title
+              <input type="text" id="upload-title" placeholder="e.g. Initial consult">
+            </label>
+            <label>Transcript file (.json in our schema, or .txt with "Doctor:" / "Patient:" lines)
+              <input type="file" id="upload-file" accept=".json,.txt">
+            </label>
+            <button id="upload-submit" class="btn btn-primary btn-sm">Run pipeline</button>
+          </div>
+          <p class="error" id="new-case-error" hidden></p>
+        </div>
+
+        <div id="case-list" class="case-list"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

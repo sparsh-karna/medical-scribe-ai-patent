@@ -1,0 +1,897 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation11",
+  "presenting_complaint": "I have a pouring diarrhea",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: R knee pain\n\nHPC: 2/52 R knee pain. Training for marathon. Currently up to 7-8 miles few times a week. Gym few x week. Had to stop running at 20 min point due to pain this week. \nPain in front of knee and right side. No specific area tenderness. Has noticed puffiness of knee after exercise, used ice and this settled completely. No giving way/locking. No problems going up/downstairs or on normal walking. \nFROM. \nGenerally feels pain is getting worse. \nHas had previous ice hockey injury and bruising afterwards.\nNo other jt pains, no general unwell/fever.\nHas had tingling R side forefoot which settled down. Slight ankle swelling, indentation socks. No change in temp/colour.\nNo problems walking hard floors/pain in sole.\n\nPMH:  LASIK, ? kidney stones.\n\nDHx: Vit D, melatonin, ibuprofen. Xanax sometimes . \n\nSH: Has occ joint. \n\nPlan: Advised replace ibuprofen with naproxen which I will prescribe. Continue using ice as much as possible and reduce exercise. Do not continue to run with pain. No hx GI sx/asthma. Advise I will refer for physio for assessment and ongoing Rx. If persistent swelling/heat/redness/locking to see Dr asap.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.95,
+      "end": 1.66,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 2,
+      "start": 1.52,
+      "end": 3.65,
+      "speaker": "DOCTOR",
+      "text": "Hi there. It's Doctor Smith from Babylon."
+    },
+    {
+      "id": 3,
+      "start": 4.2,
+      "end": 9.03,
+      "speaker": "DOCTOR",
+      "text": "Hi Doctor Smith. Hi, can you confirm your name, date of birth, and your home address please?"
+    },
+    {
+      "id": 4,
+      "start": 4.24,
+      "end": 5.09,
+      "speaker": "PATIENT",
+      "text": "Hi Doctor Smith."
+    },
+    {
+      "id": 5,
+      "start": 9.49,
+      "end": 15.08,
+      "speaker": "PATIENT",
+      "text": "Yes. My name is Mary Jo. Date of birth is January first, nineteen eighty."
+    },
+    {
+      "id": 7,
+      "start": 15.08,
+      "end": 19.33,
+      "speaker": "PATIENT",
+      "text": "And my address is uh, sixty Sloane Avenue, London."
+    },
+    {
+      "id": 8,
+      "start": 19.29,
+      "end": 23.12,
+      "speaker": "DOCTOR",
+      "text": "OK, I, are you in a private place where you can have a consultation today?"
+    },
+    {
+      "id": 9,
+      "start": 22.81,
+      "end": 23.96,
+      "speaker": "PATIENT",
+      "text": "Absolutely."
+    },
+    {
+      "id": 10,
+      "start": 23.83,
+      "end": 25.2,
+      "speaker": "DOCTOR",
+      "text": "What can I do for you?"
+    },
+    {
+      "id": 11,
+      "start": 26.24,
+      "end": 36.32,
+      "speaker": "PATIENT",
+      "text": "So, a couple of things. I, I, think I may have, overdone my workouts, and now my knees are hurting, and they're clicking a lot, and it's starting to worry me."
+    },
+    {
+      "id": 12,
+      "start": 36.32,
+      "end": 42.57,
+      "speaker": "PATIENT",
+      "text": "Um, I can't run very far, um, any more without just feeling, pain in my knees."
+    },
+    {
+      "id": 13,
+      "start": 42.57,
+      "end": 47.94,
+      "speaker": "PATIENT",
+      "text": "And then, sometimes I also get this weird tingling in my toes. Um."
+    },
+    {
+      "id": 14,
+      "start": 47.94,
+      "end": 55.06,
+      "speaker": "PATIENT",
+      "text": "So yeah, that's, that's it. I'm just concerned and I figured you know I'd call and, see if you can, help me figure out what's going on."
+    },
+    {
+      "id": 15,
+      "start": 55.35,
+      "end": 57.85,
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. So when do you think it started?"
+    },
+    {
+      "id": 16,
+      "start": 58.77,
+      "end": 61.35,
+      "speaker": "PATIENT",
+      "text": "So probably, it's been about two weeks."
+    },
+    {
+      "id": 17,
+      "start": 61.47,
+      "end": 66.45,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and, any joint problems before that?"
+    },
+    {
+      "id": 18,
+      "start": 67.68,
+      "end": 77.86,
+      "speaker": "PATIENT",
+      "text": "You know not, not really. I mean I play a lot of sports. Um, and I had a , like I play some ice hockey, and I had this injury a few months ago."
+    },
+    {
+      "id": 19,
+      "start": 77.86,
+      "end": 83.81,
+      "speaker": "PATIENT",
+      "text": "You know I just like, fell on the ice and, and, you know had a, huge bruise but, I think that's about it."
+    },
+    {
+      "id": 20,
+      "start": 84.13,
+      "end": 91.25,
+      "speaker": "DOCTOR",
+      "text": "OK, So, um, at the moment, just tell me about the exercise that you're doing, normally."
+    },
+    {
+      "id": 21,
+      "start": 91.5,
+      "end": 101.25,
+      "speaker": "PATIENT",
+      "text": "So I'm training, well, I'm currently training for a marathon, um, that's gonna happen in, June. And so, I'm trying to run like."
+    },
+    {
+      "id": 22,
+      "start": 102.36,
+      "end": 110.39,
+      "speaker": "PATIENT",
+      "text": "I mean right now, I'm actually not even doing such long runs, maybe like seven or eight miles. And so, I started about uh, maybe a month ago."
+    },
+    {
+      "id": 24,
+      "start": 110.39,
+      "end": 116.46,
+      "speaker": "PATIENT",
+      "text": "Uh, I've done like, you know, four or five miles, and I've just done like a couple of seven, mile runs."
+    },
+    {
+      "id": 25,
+      "start": 116.46,
+      "end": 122.8,
+      "speaker": "PATIENT",
+      "text": "And then uh, uh, and then you know I go to the gym like few times a week and, kinda do my, usual routine."
+    },
+    {
+      "id": 27,
+      "start": 122.8,
+      "end": 129.38,
+      "speaker": "PATIENT",
+      "text": "Um, but, yeah, I think the only thing that's really different has, have been, the runs, the longer runs."
+    },
+    {
+      "id": 28,
+      "start": 129.52,
+      "end": 135.3,
+      "speaker": "DOCTOR",
+      "text": "And, have you had, any times when the knee feels like it's giving way underneath you?"
+    },
+    {
+      "id": 29,
+      "start": 137.37,
+      "end": 141.99,
+      "speaker": "PATIENT",
+      "text": "Um, well, I, what do you mean by that? I'm not sure what, what that means."
+    },
+    {
+      "id": 30,
+      "start": 140.97,
+      "end": 148.81,
+      "speaker": "DOCTOR",
+      "text": "So, it means if you're, if you're there and uh, you just feel it sort of jolt, like give way, feel unstable underneath you."
+    },
+    {
+      "id": 31,
+      "start": 149.58,
+      "end": 153.75,
+      "speaker": "PATIENT",
+      "text": "Not, not bad, I mean it just kinda starts hurting, you know. Um."
+    },
+    {
+      "id": 32,
+      "start": 152.72,
+      "end": 157.97,
+      "speaker": "DOCTOR",
+      "text": "And does it hurt, uh, how far into the run does it generally hurt?"
+    },
+    {
+      "id": 33,
+      "start": 159.36,
+      "end": 171.17,
+      "speaker": "PATIENT",
+      "text": "You know I would say probably starts off like after, uh, maybe, twenty minutes or so. Which is, probably I don't know like somewhere around mile, three maybe, two and a half or three miles."
+    },
+    {
+      "id": 34,
+      "start": 171.15,
+      "end": 174.72,
+      "speaker": "DOCTOR",
+      "text": "OK. Ooh you're fast. Um."
+    },
+    {
+      "id": 35,
+      "start": 174.04,
+      "end": 178.32,
+      "speaker": "PATIENT",
+      "text": "switching my kilometres and miles, I'm not sure, all right."
+    },
+    {
+      "id": 36,
+      "start": 176.07,
+      "end": 183.25,
+      "speaker": "DOCTOR",
+      "text": "Um. And, um, do you have to stop running, or can you run through the pain?"
+    },
+    {
+      "id": 37,
+      "start": 184.75,
+      "end": 197.2,
+      "speaker": "PATIENT",
+      "text": "Yeah, that is a good question. So, um, you know the last few times, the last time I actually stopped, I mean I ran a little bit longer, but then I stopped, because it was um, I, I feel like it's getting worse."
+    },
+    {
+      "id": 38,
+      "start": 197.01,
+      "end": 197.83,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 39,
+      "start": 197.2,
+      "end": 209.96,
+      "speaker": "PATIENT",
+      "text": "Um, and, when I start doing my abs, that's, you know when I do my abs. It's kind of requiring me to move my you know, um, to kind of go from the flex position on my knees, and straighten my legs, then I feel all this clicking."
+    },
+    {
+      "id": 40,
+      "start": 209.84,
+      "end": 210.72,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 41,
+      "start": 209.96,
+      "end": 215.02,
+      "speaker": "PATIENT",
+      "text": "And, I think that's also freaked me out, and uh, I just figured you know, something's wrong here."
+    },
+    {
+      "id": 42,
+      "start": 212.9,
+      "end": 217.05,
+      "speaker": "DOCTOR",
+      "text": "Right. And, you said before, it's both knees."
+    },
+    {
+      "id": 43,
+      "start": 217.9,
+      "end": 222.02,
+      "speaker": "PATIENT",
+      "text": "So it's more, um, it's actually my right knee that hurts."
+    },
+    {
+      "id": 45,
+      "start": 223.48,
+      "end": 225.47,
+      "speaker": "DOCTOR",
+      "text": "And, any problems with your left one?"
+    },
+    {
+      "id": 46,
+      "start": 226.75,
+      "end": 227.36,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 47,
+      "start": 227.57,
+      "end": 233.8,
+      "speaker": "DOCTOR",
+      "text": "OK, and, can you just describe in the knee, or show me whereabouts the pain, is happening mainly?"
+    },
+    {
+      "id": 48,
+      "start": 234.26,
+      "end": 244.41,
+      "speaker": "PATIENT",
+      "text": "So, ah, you know I, I feel it, it's kind of weird, I feel it in the middle, but I almost feel like maybe it kind of uh, um, moves to the right, to the right of my knee a little bit."
+    },
+    {
+      "id": 49,
+      "start": 244.43,
+      "end": 249.36,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you noticed any tenderness when you press over any areas in the knee?"
+    },
+    {
+      "id": 50,
+      "start": 249.67,
+      "end": 258.97,
+      "speaker": "PATIENT",
+      "text": "So, yes, well it's, I have, probably some fluid. I googled it, and you know it says that sometimes fluid accumulates uh, I."
+    },
+    {
+      "id": 51,
+      "start": 257.37,
+      "end": 260.09,
+      "speaker": "DOCTOR",
+      "text": "OK. , does it look swollen to you?"
+    },
+    {
+      "id": 52,
+      "start": 260.5,
+      "end": 261.05,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 53,
+      "start": 260.88,
+      "end": 262.54,
+      "speaker": "DOCTOR",
+      "text": "Does the knee look swollen?"
+    },
+    {
+      "id": 54,
+      "start": 262.55,
+      "end": 270.3,
+      "speaker": "PATIENT",
+      "text": "Um, well it did, like, the first time I ran, it was a little bit swollen, but then I just put some like ice on it, and it went away."
+    },
+    {
+      "id": 56,
+      "start": 270.3,
+      "end": 275.98,
+      "speaker": "PATIENT",
+      "text": "Um, but, right now, right now it's not swollen, and right now it doesn't hurt, you know."
+    },
+    {
+      "id": 57,
+      "start": 275.98,
+      "end": 287.12,
+      "speaker": "PATIENT",
+      "text": "Um, but, it just kind of comes on when uh, um, or you know right now when I flex and extend my leg, it, there's no clicking but, I'll notice it in the gym and then, you know, when I run it'll start hurting."
+    },
+    {
+      "id": 58,
+      "start": 287.52,
+      "end": 295.4,
+      "speaker": "DOCTOR",
+      "text": "OK, and, if you're sitting, still for a while, do you have any problems when you stand up, any locking up of the knee?"
+    },
+    {
+      "id": 59,
+      "start": 296.11,
+      "end": 296.56,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 60,
+      "start": 296.54,
+      "end": 299.87,
+      "speaker": "DOCTOR",
+      "text": "Can't straighten it. Any problems going up and down stairs?"
+    },
+    {
+      "id": 61,
+      "start": 300.69,
+      "end": 301.18,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 62,
+      "start": 302.26,
+      "end": 304.54,
+      "speaker": "DOCTOR",
+      "text": "Any problems just walking normally?"
+    },
+    {
+      "id": 63,
+      "start": 304.8,
+      "end": 306.63,
+      "speaker": "PATIENT",
+      "text": "No, none, I don't."
+    },
+    {
+      "id": 64,
+      "start": 306.72,
+      "end": 311.44,
+      "speaker": "DOCTOR",
+      "text": "And intervals of range of movement. Are you able to fully straighten the leg?"
+    },
+    {
+      "id": 65,
+      "start": 312.51,
+      "end": 313.21,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 66,
+      "start": 313.25,
+      "end": 315.39,
+      "speaker": "DOCTOR",
+      "text": "And what about fully flex it?"
+    },
+    {
+      "id": 67,
+      "start": 316.31,
+      "end": 316.94,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 68,
+      "start": 317.07,
+      "end": 320.84,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you taking any medication for the knee?"
+    },
+    {
+      "id": 69,
+      "start": 322.11,
+      "end": 337.67,
+      "speaker": "PATIENT",
+      "text": "Well, um, since you're asking. Um, yes I , I take Ibuprofen, um, and I'll just kinda, use it sometime like uh, um, like sometimes I have some joint issues, but you know, that kind of, is not very frequent. So I'll take Ibuprofen for that."
+    },
+    {
+      "id": 70,
+      "start": 337.67,
+      "end": 343.67,
+      "speaker": "PATIENT",
+      "text": "But you know it's nothing like major maybe, like, four hundred milligrams max, something like that."
+    },
+    {
+      "id": 71,
+      "start": 343.67,
+      "end": 347.53,
+      "speaker": "PATIENT",
+      "text": "I also sometimes will um, you know, smoke a joint."
+    },
+    {
+      "id": 72,
+      "start": 347.53,
+      "end": 352.67,
+      "speaker": "PATIENT",
+      "text": "Um, and, yeah, other than that, that's it."
+    },
+    {
+      "id": 73,
+      "start": 352.71,
+      "end": 362.4,
+      "speaker": "DOCTOR",
+      "text": "OK, and any other joint problems, that you're getting? Any back pains? Small swelling of your, hands, feet, elbows, wrists? Any pain?"
+    },
+    {
+      "id": 74,
+      "start": 356.69,
+      "end": 357.1,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 75,
+      "start": 362.69,
+      "end": 372.59,
+      "speaker": "PATIENT",
+      "text": "Uh, well I have sometimes, you know how sometimes like if you stand for a long time, your feet will kinda, or your legs will swell up. Like I noticed it because of my socks, I'll just kind of, notice this indentation."
+    },
+    {
+      "id": 76,
+      "start": 370.77,
+      "end": 371.43,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 77,
+      "start": 372.59,
+      "end": 380.1,
+      "speaker": "PATIENT",
+      "text": "And then, another weird thing. I've felt this just once, but there was this tingling in my toes, like uh, um, after the run."
+    },
+    {
+      "id": 78,
+      "start": 380.1,
+      "end": 385.12,
+      "speaker": "PATIENT",
+      "text": "There was tingling in my toes like on my, you know my right toes, um, so."
+    },
+    {
+      "id": 79,
+      "start": 385.05,
+      "end": 386.81,
+      "speaker": "DOCTOR",
+      "text": "On your right side."
+    },
+    {
+      "id": 80,
+      "start": 386.78,
+      "end": 387.37,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 81,
+      "start": 387.65,
+      "end": 391.96,
+      "speaker": "DOCTOR",
+      "text": "Any change in colour, or temperature of your lower legs?"
+    },
+    {
+      "id": 82,
+      "start": 392.34,
+      "end": 392.79,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 83,
+      "start": 392.92,
+      "end": 398.21,
+      "speaker": "DOCTOR",
+      "text": "Any swelling which stays if you push in, and then you release it, that it stays there?"
+    },
+    {
+      "id": 84,
+      "start": 398.99,
+      "end": 416.4,
+      "speaker": "PATIENT",
+      "text": "Well I don't know if I really try that, but I, I will tell you that, what I noticed is like if I, you know when my socks come off, I kind of notice that indentation a little bit, I mean it's not like major, right but, I. Uh, I mean do you mean I just need to like press and see what happens, if it like kind of stays or, ."
+    },
+    {
+      "id": 85,
+      "start": 415.43,
+      "end": 419.43,
+      "speaker": "DOCTOR",
+      "text": "Yeah, any, or any pain in the back of the calf or anything like that?"
+    },
+    {
+      "id": 86,
+      "start": 418.96,
+      "end": 420.97,
+      "speaker": "PATIENT",
+      "text": "No, no, nothing like that, no."
+    },
+    {
+      "id": 87,
+      "start": 420.65,
+      "end": 429.26,
+      "speaker": "DOCTOR",
+      "text": "Um, and, with your foot, has that gone back to normal now? Do you feel any altered senstation, tingling numbness, anything like that?"
+    },
+    {
+      "id": 88,
+      "start": 429.4,
+      "end": 435.44,
+      "speaker": "PATIENT",
+      "text": "No it was just, it was that time, uh, but it was just really weird, because it kind of went on for a while."
+    },
+    {
+      "id": 89,
+      "start": 435.73,
+      "end": 444.73,
+      "speaker": "DOCTOR",
+      "text": "OK.And any pain in the joints of your foot or , on the underside in the arch? Any problems walking round on hard floors?"
+    },
+    {
+      "id": 90,
+      "start": 441.82,
+      "end": 442.24,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 91,
+      "start": 445.27,
+      "end": 445.74,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 92,
+      "start": 446.16,
+      "end": 449.39,
+      "speaker": "DOCTOR",
+      "text": "OK, have you had, any other medical problems before?"
+    },
+    {
+      "id": 93,
+      "start": 450.75,
+      "end": 453.11,
+      "speaker": "PATIENT",
+      "text": "Uh, well, I had uh."
+    },
+    {
+      "id": 94,
+      "start": 455.05,
+      "end": 465.02,
+      "speaker": "PATIENT",
+      "text": "You know what just, kind of your garden variety stuff, right, colds and, uh. I mean I, I do have, I'm far-sighted, and so I had uh, I had Lasik surgery."
+    },
+    {
+      "id": 95,
+      "start": 465.02,
+      "end": 470.98,
+      "speaker": "PATIENT",
+      "text": "And then, once I had this really bad UTI, they thought it was kidney stones, and so they had me actually in ER."
+    },
+    {
+      "id": 96,
+      "start": 470.98,
+      "end": 476.29,
+      "speaker": "PATIENT",
+      "text": "And if my GP didn't call them, tell them, that you know, they don't need to give me Morphine."
+    },
+    {
+      "id": 97,
+      "start": 476.29,
+      "end": 484.35,
+      "speaker": "PATIENT",
+      "text": "Um, that was kind of an awful experience but, uh, other than that, you know, I'm, I'm, I'm pretty good."
+    },
+    {
+      "id": 99,
+      "start": 484.54,
+      "end": 488.07,
+      "speaker": "DOCTOR",
+      "text": "OK, and, do you take any other medications, apart from the ones you told me about?"
+    },
+    {
+      "id": 100,
+      "start": 488.56,
+      "end": 490.95,
+      "speaker": "PATIENT",
+      "text": "Well, I'll take uh, I take vitamin D."
+    },
+    {
+      "id": 101,
+      "start": 490.95,
+      "end": 502.41,
+      "speaker": "PATIENT",
+      "text": "Uh, I take melatonin. Sometimes, you know, just for cramps, I'll take, like, uh, um, ibuprofen, or actually , uh, I'll take, what am I taking? Aleve. Whatever Aleve is."
+    },
+    {
+      "id": 102,
+      "start": 502.41,
+      "end": 507.66,
+      "speaker": "PATIENT",
+      "text": "Think that's maybe um, Acetaminophen, or, I can't remember what class of drugs."
+    },
+    {
+      "id": 103,
+      "start": 507.66,
+      "end": 512.96,
+      "speaker": "PATIENT",
+      "text": "You know occasionally, if I'm really having hard times, like I'll, I'll sleeping, I'll take Xanax."
+    },
+    {
+      "id": 104,
+      "start": 512.96,
+      "end": 516.94,
+      "speaker": "PATIENT",
+      "text": "Um, but, I prefer Melatonin, it's just sometimes Melatonin doesn't work."
+    },
+    {
+      "id": 105,
+      "start": 517.91,
+      "end": 523.8,
+      "speaker": "DOCTOR",
+      "text": "OK. And, any problems with your stomach, or asthma, indigestion, acid reflux?"
+    },
+    {
+      "id": 106,
+      "start": 522.65,
+      "end": 524.78,
+      "speaker": "PATIENT",
+      "text": "No, no, no problems."
+    },
+    {
+      "id": 107,
+      "start": 525.22,
+      "end": 535.56,
+      "speaker": "DOCTOR",
+      "text": ". And, what I would suggest is, definitely carrying on with the ice therapy that you've been using. So, as much as you can, 'cause that really does make a difference to injuries."
+    },
+    {
+      "id": 108,
+      "start": 535.56,
+      "end": 542.55,
+      "speaker": "DOCTOR",
+      "text": "Brings the healing blood into the area, and it gives it the best chance of, getting better. So, as much as you can, use the ice."
+    },
+    {
+      "id": 109,
+      "start": 535.85,
+      "end": 536.34,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 110,
+      "start": 542.55,
+      "end": 545.81,
+      "speaker": "DOCTOR",
+      "text": "Um, obviously you're trying to stick to a marathon programme, but."
+    },
+    {
+      "id": 111,
+      "start": 545.81,
+      "end": 554.97,
+      "speaker": "DOCTOR",
+      "text": "Um, I would, try and ease up on the running, if you can. And if it, if it's painful enough that you're, having to stop running, then it's not a good idea, to do that."
+    },
+    {
+      "id": 112,
+      "start": 554.97,
+      "end": 567.33,
+      "speaker": "DOCTOR",
+      "text": "Um. It's fine to take the Ibuprofen. Um, I can prescribe you a slightly stronger, anti-inflammatory that you can take regularly instead of the Ibuprofen, but not with the Ibuprofen."
+    },
+    {
+      "id": 113,
+      "start": 555.38,
+      "end": 555.87,
+      "speaker": "PATIENT",
+      "text": "Hmm."
+    },
+    {
+      "id": 114,
+      "start": 567.33,
+      "end": 573.06,
+      "speaker": "DOCTOR",
+      "text": "But make sure that with food. Ultimately we probably need to, examine the knee."
+    },
+    {
+      "id": 115,
+      "start": 567.87,
+      "end": 568.48,
+      "speaker": "PATIENT",
+      "text": "I see."
+    },
+    {
+      "id": 116,
+      "start": 573.06,
+      "end": 584.71,
+      "speaker": "DOCTOR",
+      "text": "Um, so, the best thing I would, suggest, getting a appointment with the physiotherapist first, who can do like a long, assessment, and examination of the knee."
+    },
+    {
+      "id": 117,
+      "start": 584.71,
+      "end": 593.94,
+      "speaker": "DOCTOR",
+      "text": "And then we can make an assessment as to whether we need to do any, um, imagery to , have a look inside the knee, and see if there's any problem with the, cartilage."
+    },
+    {
+      "id": 118,
+      "start": 584.97,
+      "end": 585.56,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 119,
+      "start": 594.9,
+      "end": 607.88,
+      "speaker": "PATIENT",
+      "text": "Well, you know I read, I read some stuff online that, that maybe like my ligaments there's, I think it's like ACL or, or something like that right, and so if that. I mean I'm kind of like freaked out that that may break."
+    },
+    {
+      "id": 120,
+      "start": 607.88,
+      "end": 610.14,
+      "speaker": "PATIENT",
+      "text": "So do you think it's that, or?"
+    },
+    {
+      "id": 121,
+      "start": 610.05,
+      "end": 624.23,
+      "speaker": "DOCTOR",
+      "text": "Um, it's, it's not really possible to, diagnose that over the , over the video. So we definitely would need to, see you. And, the, a physio is the best point of call, because they'll probably be the most likely initial treatment."
+    },
+    {
+      "id": 122,
+      "start": 616.6,
+      "end": 616.95,
+      "speaker": "PATIENT",
+      "text": "Right."
+    },
+    {
+      "id": 123,
+      "start": 624.23,
+      "end": 629.88,
+      "speaker": "DOCTOR",
+      "text": "But certainly if the appointment time's too long to wait, then we can see, we can see you in our clinic as well."
+    },
+    {
+      "id": 124,
+      "start": 624.58,
+      "end": 625.08,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 125,
+      "start": 628.71,
+      "end": 629.22,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 126,
+      "start": 630.35,
+      "end": 632.9,
+      "speaker": "PATIENT",
+      "text": "Can you, so are you going to send referral for that?"
+    },
+    {
+      "id": 127,
+      "start": 632.8,
+      "end": 646.62,
+      "speaker": "DOCTOR",
+      "text": "Yep, we can, we can do a referral before that. If in the meantime you develop like persistant swelling, heat, redness, um, of the knee, or high temperature, feel unwell, or it completely locks up and you can't bend and stretch it."
+    },
+    {
+      "id": 128,
+      "start": 634.05,
+      "end": 635.13,
+      "speaker": "PATIENT",
+      "text": "OK. Great."
+    },
+    {
+      "id": 129,
+      "start": 646.62,
+      "end": 653.5,
+      "speaker": "DOCTOR",
+      "text": "Then, you'd need to see a doctor urgently, so call us back in that, case. ."
+    },
+    {
+      "id": 130,
+      "start": 646.69,
+      "end": 647.22,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 131,
+      "start": 651.91,
+      "end": 658.65,
+      "speaker": "PATIENT",
+      "text": "That sounds good. Thank you yeah. , sure I mean, give me the, stronger medicine, I'll give that a try."
+    },
+    {
+      "id": 132,
+      "start": 658.48,
+      "end": 663.96,
+      "speaker": "DOCTOR",
+      "text": "OK. I'll send it through to your pharmacy for you. OK? Thank you, bye."
+    },
+    {
+      "id": 133,
+      "start": 660.95,
+      "end": 665.7,
+      "speaker": "PATIENT",
+      "text": "OK. Sweet. Thanks so much. OK. Bye, bye."
+    }
+  ]
+}

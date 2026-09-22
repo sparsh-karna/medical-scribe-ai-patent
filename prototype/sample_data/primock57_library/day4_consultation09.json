@@ -1,0 +1,876 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation09",
+  "presenting_complaint": "I have pain in my jaw",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Confirmed name\nDOB\n\nTight chest. \n3 hours\nSlight SOB\nSlight wheezy. \nSlight cough. \nSlight cold last week. Still symotoms of cold and cough has stayed. \nNon productive. \nCough - worse at night. \n\n-\tWhen young - asthma exacerbation aged 16yrs. \n\nPMHx - Asthma. \nHayfever \nDust allergy. \n\nMedications \nVentolin - \nClenil modulate - \n\nNKDA\n\nFhx - Mother - Excema. \nFather Asthma\n\nICE - Inhalers \n\nImp- Asthma exacerbation. \n\nPlan \nFurther salbutamol, Clinil \nWith spacer. \nRead label - S/e warned. \n\nPred - 40mg 5 days. \nS/e warned mood changes, hyperglycemia, nausea, \n\nSafety netted - If worsening SOB or concerns seek further medical attention. \nConfirmed name \nDOB\n\nTight chest. \n3 hours\nSlight SOB\nSlight wheezy. \nSlight cough. \nSlight cold last week. Still symotoms of cold and cough has stayed. \nNon productive. \nCough - worse at night. \n\n-\tWhen young - asthma exacerbation aged 16yrs. \n\nPMHx - Asthma. \nHayfever \nDust allergy. \n\nMedications \nVentolin - \nClenil modulate - \n\nNKDA\n\nFhx - Mother - Excema. \nFather Asthma\n\nICE - Inhalers \n\nImp- Asthma exacerbation. \n\nPlan \nFurther salbutamol, Clinil \nWith spacer. \nRead label - S/e warned. \n\nPred - 40mg 5 days. \nS/e warned mood changes, hyperglycemia, nausea, \n\nSafety netted - If worsening SOB or concerns seek further medical attention. \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 0.54,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 2,
+      "start": 1.1,
+      "end": 9.96,
+      "speaker": "DOCTOR",
+      "text": "Ohh hello. Hi, how you doing? Uh, my name's Joe. I'm one of the doctors here at Babylon. Can I just confirm your name please?"
+    },
+    {
+      "id": 3,
+      "start": 2.64,
+      "end": 3.32,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 4,
+      "start": 9.96,
+      "end": 12.97,
+      "speaker": "DOCTOR",
+      "text": "Yes. Brian ."
+    },
+    {
+      "id": 5,
+      "start": 10.22,
+      "end": 12.64,
+      "speaker": "PATIENT",
+      "text": "Yeah, sure. My name's Daniel ."
+    },
+    {
+      "id": 6,
+      "start": 12.97,
+      "end": 17.3,
+      "speaker": "DOCTOR",
+      "text": "Hi Daniel. And your date of birth? ."
+    },
+    {
+      "id": 7,
+      "start": 15.81,
+      "end": 16.77,
+      "speaker": "PATIENT",
+      "text": "Yeah. May ."
+    },
+    {
+      "id": 8,
+      "start": 17.43,
+      "end": 18.68,
+      "speaker": "PATIENT",
+      "text": "Nineteen ninety two."
+    },
+    {
+      "id": 9,
+      "start": 18.71,
+      "end": 25.31,
+      "speaker": "DOCTOR",
+      "text": "Ninety two. OK, Daniel. And uh, are you in a, a comfortable and confidential place to talk?"
+    },
+    {
+      "id": 10,
+      "start": 25.7,
+      "end": 26.67,
+      "speaker": "PATIENT",
+      "text": "Yeah. Totally."
+    },
+    {
+      "id": 11,
+      "start": 26.52,
+      "end": 29.41,
+      "speaker": "DOCTOR",
+      "text": ", happy to go ahead. Great. How can I help?"
+    },
+    {
+      "id": 12,
+      "start": 30.12,
+      "end": 33.83,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I just, my chest has been feeling really tight."
+    },
+    {
+      "id": 13,
+      "start": 35.1,
+      "end": 38.23,
+      "speaker": "DOCTOR",
+      "text": "OK. And how long has this been going on for Daniel?"
+    },
+    {
+      "id": 14,
+      "start": 38.62,
+      "end": 39.71,
+      "speaker": "PATIENT",
+      "text": "Uh, for about."
+    },
+    {
+      "id": 15,
+      "start": 40.45,
+      "end": 41.58,
+      "speaker": "PATIENT",
+      "text": "Three hours now."
+    },
+    {
+      "id": 16,
+      "start": 42.84,
+      "end": 52.0,
+      "speaker": "DOCTOR",
+      "text": "OK. And, so, tight chest, three hours. Um, and, so you're born in ninety two, so that makes you twenty six?"
+    },
+    {
+      "id": 17,
+      "start": 52.0,
+      "end": 59.08,
+      "speaker": "DOCTOR",
+      "text": "Um, and, you are, uh. Any shortness of breath at all, with that?"
+    },
+    {
+      "id": 18,
+      "start": 52.64,
+      "end": 53.59,
+      "speaker": "PATIENT",
+      "text": "Twenty six, yeah."
+    },
+    {
+      "id": 19,
+      "start": 60.7,
+      "end": 66.07,
+      "speaker": "PATIENT",
+      "text": "Yeah, like a little bit, um. Yeah, a little bit short of breath, not too bad."
+    },
+    {
+      "id": 20,
+      "start": 66.41,
+      "end": 68.63,
+      "speaker": "DOCTOR",
+      "text": "Uh, any cough? Wheeze?"
+    },
+    {
+      "id": 21,
+      "start": 69.76,
+      "end": 74.54,
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm feeling a bit wheezy, as well. Kind of cough , coughing, yeah."
+    },
+    {
+      "id": 22,
+      "start": 74.47,
+      "end": 79.46,
+      "speaker": "DOCTOR",
+      "text": "Slight cough, yeah. , sore throat? Runny nose? Sore ears?"
+    },
+    {
+      "id": 23,
+      "start": 76.28,
+      "end": 76.77,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 24,
+      "start": 79.54,
+      "end": 87.17,
+      "speaker": "PATIENT",
+      "text": "You know I had a cold last week, and, it's not as bad as it was, but yeah, I had a sore throat, I had a runny nose. Uh, just feeling under the weather."
+    },
+    {
+      "id": 25,
+      "start": 87.19,
+      "end": 90.94,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm. Are you feeling better now, other than the tight chest?"
+    },
+    {
+      "id": 26,
+      "start": 91.02,
+      "end": 96.4,
+      "speaker": "PATIENT",
+      "text": "I mean I feel worse, but the runny nose isn't as bad any more. ."
+    },
+    {
+      "id": 27,
+      "start": 95.59,
+      "end": 102.83,
+      "speaker": "DOCTOR",
+      "text": "Right. OK, OK, but you now, now you've got this, this um. So you've still got, still got uh, symptoms of a cold, essentially?"
+    },
+    {
+      "id": 28,
+      "start": 102.86,
+      "end": 104.72,
+      "speaker": "PATIENT",
+      "text": "Yeah, but the cough's kind of stuck around."
+    },
+    {
+      "id": 29,
+      "start": 105.11,
+      "end": 107.45,
+      "speaker": "DOCTOR",
+      "text": "Uh, ooh, yeah, OK."
+    },
+    {
+      "id": 30,
+      "start": 110.05,
+      "end": 111.63,
+      "speaker": "DOCTOR",
+      "text": "And are you coughing up anything?"
+    },
+    {
+      "id": 31,
+      "start": 112.24,
+      "end": 113.07,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 32,
+      "start": 114.97,
+      "end": 119.43,
+      "speaker": "DOCTOR",
+      "text": "And, um, do you have any other medical problems, like asthma?"
+    },
+    {
+      "id": 33,
+      "start": 119.85,
+      "end": 123.46,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, I have asthma, I've had it for a while now, um."
+    },
+    {
+      "id": 34,
+      "start": 123.92,
+      "end": 129.91,
+      "speaker": "PATIENT",
+      "text": "And then I have like, a hayfever, you know, and some allergies just to dust, stuff like that."
+    },
+    {
+      "id": 35,
+      "start": 128.53,
+      "end": 130.77,
+      "speaker": "DOCTOR",
+      "text": ", OK."
+    },
+    {
+      "id": 36,
+      "start": 132.26,
+      "end": 135.89,
+      "speaker": "DOCTOR",
+      "text": "You have any, inhalers? Or any, any medications?"
+    },
+    {
+      "id": 37,
+      "start": 136.82,
+      "end": 143.05,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, so, uh, you know the um, uh, Ventolin. It's called uh, Salbutamol."
+    },
+    {
+      "id": 38,
+      "start": 143.35,
+      "end": 144.32,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 39,
+      "start": 144.39,
+      "end": 148.87,
+      "speaker": "PATIENT",
+      "text": "I got that one, and then I have a steroid, a Clenil, Clenil inhaler."
+    },
+    {
+      "id": 40,
+      "start": 149.03,
+      "end": 151.66,
+      "speaker": "DOCTOR",
+      "text": "Clenil, Clenil Modulite, yeah, OK."
+    },
+    {
+      "id": 41,
+      "start": 151.05,
+      "end": 152.24,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 42,
+      "start": 152.5,
+      "end": 159.73,
+      "speaker": "DOCTOR",
+      "text": "And um, uh, have you been using Clenil and the Ventolin? And how often have you been using them?"
+    },
+    {
+      "id": 43,
+      "start": 159.68,
+      "end": 169.37,
+      "speaker": "PATIENT",
+      "text": "Um, well to be honest, I was away at uni last week, and I forgot to bring it with me, so I haven't really in the past week. Uh."
+    },
+    {
+      "id": 44,
+      "start": 168.2,
+      "end": 169.8,
+      "speaker": "DOCTOR",
+      "text": "Both of them?"
+    },
+    {
+      "id": 45,
+      "start": 170.97,
+      "end": 175.06,
+      "speaker": "PATIENT",
+      "text": "Because , because um, sorry, they ran out and I, I forgot to, go and grab the next one."
+    },
+    {
+      "id": 46,
+      "start": 174.79,
+      "end": 176.2,
+      "speaker": "DOCTOR",
+      "text": "Yeah, sure."
+    },
+    {
+      "id": 47,
+      "start": 175.76,
+      "end": 177.74,
+      "speaker": "PATIENT",
+      "text": "About a week ago. Yeah."
+    },
+    {
+      "id": 48,
+      "start": 177.09,
+      "end": 183.02,
+      "speaker": "DOCTOR",
+      "text": "OK. All right, all right. So, so, so you've, you haven't got any Clenil, or any Ventolin at the moment?"
+    },
+    {
+      "id": 49,
+      "start": 183.38,
+      "end": 185.51,
+      "speaker": "PATIENT",
+      "text": "Not with me right now, no, I ran out."
+    },
+    {
+      "id": 50,
+      "start": 185.53,
+      "end": 191.96,
+      "speaker": "DOCTOR",
+      "text": "OK. All right. Um, and , any drug allergies, that you know of?"
+    },
+    {
+      "id": 51,
+      "start": 192.22,
+      "end": 198.73,
+      "speaker": "PATIENT",
+      "text": "No, no, not allergic to anything. Just like, just the, dust and stuff, but nothing, no drugs."
+    },
+    {
+      "id": 52,
+      "start": 198.78,
+      "end": 205.16,
+      "speaker": "DOCTOR",
+      "text": "OK, great. Now, uh, do you, anyone in your family have any medical problems, that you know of?"
+    },
+    {
+      "id": 53,
+      "start": 205.2,
+      "end": 212.7,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, my mum has eczema, and my dad has asthma. , ohh, when I was young, I also had eczema."
+    },
+    {
+      "id": 54,
+      "start": 212.7,
+      "end": 216.23,
+      "speaker": "PATIENT",
+      "text": "And I had a milk protein allergy, when I was young too."
+    },
+    {
+      "id": 55,
+      "start": 216.35,
+      "end": 221.08,
+      "speaker": "DOCTOR",
+      "text": "Hmm. OK. Um."
+    },
+    {
+      "id": 56,
+      "start": 222.38,
+      "end": 232.47,
+      "speaker": "DOCTOR",
+      "text": "Right. So, just uh, , do you have any other, sort of concerns? Or ideas about what might be going on? Or, um, hopes for this consultation?"
+    },
+    {
+      "id": 57,
+      "start": 232.06,
+      "end": 232.87,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 58,
+      "start": 234.22,
+      "end": 241.23,
+      "speaker": "PATIENT",
+      "text": "Not really, like I feel like asthma's probably a part of it, and, probably getting my, inhalers would be helpful"
+    },
+    {
+      "id": 59,
+      "start": 242.12,
+      "end": 250.75,
+      "speaker": "PATIENT",
+      "text": "Um. It's just kinda scary, 'cause I haven't had, a time like this where I've been so, tight, uh, in a long time."
+    },
+    {
+      "id": 60,
+      "start": 251.22,
+      "end": 254.25,
+      "speaker": "DOCTOR",
+      "text": "Yeah, absolutely, I can, I can imagine."
+    },
+    {
+      "id": 61,
+      "start": 254.25,
+      "end": 267.64,
+      "speaker": "DOCTOR",
+      "text": "Um, well, it certainly sounds like uh, you've, you've had this cold, so you've got wheezy with a cough. Um, and it's non-productive cough, and you're short of breath. Uh, is the cough worse at night-time?"
+    },
+    {
+      "id": 62,
+      "start": 268.82,
+      "end": 274.36,
+      "speaker": "PATIENT",
+      "text": "I mean, it gets a little bit worse at night but, basically, just pretty consistent, and it hasn't gone away."
+    },
+    {
+      "id": 63,
+      "start": 273.07,
+      "end": 273.89,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 64,
+      "start": 275.23,
+      "end": 282.18,
+      "speaker": "DOCTOR",
+      "text": "OK. And you've got this tight, tight chest. But you, you wouldn't say you've got chest pains? It's more of a tight chest, is it?"
+    },
+    {
+      "id": 65,
+      "start": 281.88,
+      "end": 284.8,
+      "speaker": "PATIENT",
+      "text": "No, not really pain, it's more like, tight."
+    },
+    {
+      "id": 66,
+      "start": 285.76,
+      "end": 289.07,
+      "speaker": "PATIENT",
+      "text": "It just feels like sometimes, I can't get a full breath in, you know."
+    },
+    {
+      "id": 67,
+      "start": 289.1,
+      "end": 302.07,
+      "speaker": "DOCTOR",
+      "text": "Yeah, sure. Um, OK. Well, I, I would quite like to, uh, certainly get you some, uh, Ventolin, Clenil Modulite. Have you had asthma exacerbations in the past?"
+    },
+    {
+      "id": 68,
+      "start": 302.44,
+      "end": 313.76,
+      "speaker": "PATIENT",
+      "text": "Not in a long time. When I was young, a little bit, more like, back in high school. Um, but, I've been pretty good at taking my , my inhalers, so, not, not so much any more."
+    },
+    {
+      "id": 69,
+      "start": 308.62,
+      "end": 309.29,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 70,
+      "start": 313.66,
+      "end": 319.45,
+      "speaker": "DOCTOR",
+      "text": "Have you ever been to hospital, uh, as an inpatient? As in, you know, stayed in there overnight, for asthma?"
+    },
+    {
+      "id": 71,
+      "start": 319.64,
+      "end": 322.98,
+      "speaker": "PATIENT",
+      "text": "Yeah, when I was in high school, I had to have a tube put down my throat."
+    },
+    {
+      "id": 72,
+      "start": 323.13,
+      "end": 334.85,
+      "speaker": "DOCTOR",
+      "text": "Ohh, OK. So you, so, so you, uh, you , you went to hospital, and had a, a, . So you stayed in hospital for a few days did you, with an asthma exacerbation?"
+    },
+    {
+      "id": 73,
+      "start": 334.81,
+      "end": 335.86,
+      "speaker": "PATIENT",
+      "text": "Yeah I did, yeah."
+    },
+    {
+      "id": 74,
+      "start": 335.77,
+      "end": 341.53,
+      "speaker": "DOCTOR",
+      "text": "OK, but currently you're just on Ventolin and Clenil? And you haven't got any of those steroids, uh, those inhalers at the moment?"
+    },
+    {
+      "id": 75,
+      "start": 341.88,
+      "end": 345.81,
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm doing pretty good, I'm doing pretty good, just on the Clenil, and the Salbutamol."
+    },
+    {
+      "id": 76,
+      "start": 345.68,
+      "end": 350.9,
+      "speaker": "DOCTOR",
+      "text": "OK. When, sorry, how old were you when you had that severe asthma exacerbation?"
+    },
+    {
+      "id": 77,
+      "start": 351.1,
+      "end": 353.77,
+      "speaker": "PATIENT",
+      "text": "Uh, I think I was like seventeen."
+    },
+    {
+      "id": 78,
+      "start": 354.88,
+      "end": 355.99,
+      "speaker": "PATIENT",
+      "text": "Sixteen maybe."
+    },
+    {
+      "id": 79,
+      "start": 356.38,
+      "end": 360.34,
+      "speaker": "DOCTOR",
+      "text": "Sure. OK. Um."
+    },
+    {
+      "id": 80,
+      "start": 363.2,
+      "end": 369.84,
+      "speaker": "DOCTOR",
+      "text": "Just to quantify how short of breath you are, um, I don't suppose you've got a peak flow with you? No, you won't have will you."
+    },
+    {
+      "id": 81,
+      "start": 369.46,
+      "end": 370.63,
+      "speaker": "PATIENT",
+      "text": "No, no."
+    },
+    {
+      "id": 82,
+      "start": 369.84,
+      "end": 381.42,
+      "speaker": "DOCTOR",
+      "text": "Um, are you able to, uh, like walk up, flights of stairs OK? Walk on the flat OK, without getting to short of breath? Or um, are you short of breath at rest?"
+    },
+    {
+      "id": 83,
+      "start": 381.96,
+      "end": 386.48,
+      "speaker": "PATIENT",
+      "text": "Uh, I'm definitely not short of breath at rest, like, except for that feeling I was describing."
+    },
+    {
+      "id": 84,
+      "start": 386.48,
+      "end": 392.46,
+      "speaker": "PATIENT",
+      "text": "It does when I'm walking up stairs, I do feel like, I have a little bit, more short of breath than I would normally be."
+    },
+    {
+      "id": 85,
+      "start": 392.56,
+      "end": 396.78,
+      "speaker": "DOCTOR",
+      "text": "Sure. Yeah. OK, but you're not short of breath at rest at the moment?"
+    },
+    {
+      "id": 86,
+      "start": 396.57,
+      "end": 397.92,
+      "speaker": "PATIENT",
+      "text": "No, no, no I'm not."
+    },
+    {
+      "id": 87,
+      "start": 397.84,
+      "end": 410.4,
+      "speaker": "DOCTOR",
+      "text": "OK, fine. So, what, what I think, um, and just to, just to go over, . Is there anything you had hoped about getting other than the uh, a, prescription for your inhalers? Was there anything else you'd hoped about getting from this?"
+    },
+    {
+      "id": 88,
+      "start": 409.95,
+      "end": 417.38,
+      "speaker": "PATIENT",
+      "text": "Well I just wanna know that I'm OK, to just like keep. I just don't wanna have to get, um, that, that intubation again."
+    },
+    {
+      "id": 89,
+      "start": 417.39,
+      "end": 430.63,
+      "speaker": "DOCTOR",
+      "text": "Sure, yeah, no, absolutely. Well, I'm really glad you have talked to me today. I think what we can do is, is give you a prescription for, uh, some more of the inhalers. We can get that to you, within the hour, I would hope."
+    },
+    {
+      "id": 90,
+      "start": 418.42,
+      "end": 420.69,
+      "speaker": "PATIENT",
+      "text": "Uh, ."
+    },
+    {
+      "id": 91,
+      "start": 430.63,
+      "end": 443.47,
+      "speaker": "DOCTOR",
+      "text": "Um, and, uh, I think, what, the other thing I'd like to do is just give you a, dose of steroids. So this is, these are tablets which, um, you can take for five days. Uh, two tablets in the morning."
+    },
+    {
+      "id": 92,
+      "start": 443.47,
+      "end": 449.14,
+      "speaker": "DOCTOR",
+      "text": "And, uh, that should just dampen down your asthmatic response, OK."
+    },
+    {
+      "id": 93,
+      "start": 448.93,
+      "end": 449.54,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 94,
+      "start": 449.14,
+      "end": 459.67,
+      "speaker": "DOCTOR",
+      "text": "Um, now there are some side effects to the steroids. Which I should really tell you about, but please read the label, that's associated with. Don't be too worried about the side effects."
+    },
+    {
+      "id": 95,
+      "start": 459.67,
+      "end": 468.5,
+      "speaker": "DOCTOR",
+      "text": "They're , most, you know , most of the time the steroids are, very well tolerated. And, uh, you . Have you had them in the past, do you know of?"
+    },
+    {
+      "id": 96,
+      "start": 468.97,
+      "end": 472.24,
+      "speaker": "PATIENT",
+      "text": "Sorry, sorry, you were cutting in and out a little bit there. What were you saying?"
+    },
+    {
+      "id": 97,
+      "start": 471.28,
+      "end": 474.05,
+      "speaker": "DOCTOR",
+      "text": ". Have you had steroids in the past?"
+    },
+    {
+      "id": 98,
+      "start": 474.71,
+      "end": 479.09,
+      "speaker": "PATIENT",
+      "text": "Um, I can't remember, probably. I think so."
+    },
+    {
+      "id": 99,
+      "start": 477.6,
+      "end": 486.39,
+      "speaker": "DOCTOR",
+      "text": "Probably, yeah I would too. So, um, they, they can come, they can make you, your mood change, can be slightly low or too, slightly high."
+    },
+    {
+      "id": 100,
+      "start": 486.39,
+      "end": 500.63,
+      "speaker": "DOCTOR",
+      "text": "Can give you, a high blood sugar, um, and, uh, their. Uh, , they can also cause rash, nausea, um, headaches, but, mostly is well-tolerated, and it should help your asthma an awful lot."
+    },
+    {
+      "id": 101,
+      "start": 500.63,
+      "end": 523.51,
+      "speaker": "DOCTOR",
+      "text": "Um, uh, what I'd like to do is, is send you these, the, some prescriptions for your, uh, inhalers, , ongoing. So you, um, you can, once you get better from this asthma attack, you can, you can, use the Clenil Modulite in the morning, with Ventolin as a PRN. , so, a Ventolin when you need to, um, when you're getting wheezy."
+    },
+    {
+      "id": 102,
+      "start": 500.94,
+      "end": 501.61,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 103,
+      "start": 522.57,
+      "end": 523.24,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 104,
+      "start": 523.51,
+      "end": 529.03,
+      "speaker": "DOCTOR",
+      "text": "If you should start to use the Ventolin more than, uh, every three hours."
+    },
+    {
+      "id": 105,
+      "start": 529.03,
+      "end": 538.3,
+      "speaker": "DOCTOR",
+      "text": "Uh, at, at anytime, it's a good idea to seek medical attention. So, um, see a doctor, um, in some capacity."
+    },
+    {
+      "id": 106,
+      "start": 536.51,
+      "end": 537.01,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 107,
+      "start": 538.3,
+      "end": 549.57,
+      "speaker": "DOCTOR",
+      "text": "Uh, and, the other thing I'd like to send you is a spacer, which would allow the medication to actually, go into your lungs better. Have you, do you know what a spacer is? Have you used one before?"
+    },
+    {
+      "id": 108,
+      "start": 549.85,
+      "end": 555.53,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, I, somebody told me how to use one a while ago. I don't, I don't really use it, to be honest, but."
+    },
+    {
+      "id": 109,
+      "start": 555.76,
+      "end": 557.03,
+      "speaker": "DOCTOR",
+      "text": "Have you got one?"
+    },
+    {
+      "id": 110,
+      "start": 558.31,
+      "end": 560.18,
+      "speaker": "PATIENT",
+      "text": "I think I do, I have one somewhere."
+    },
+    {
+      "id": 111,
+      "start": 560.18,
+      "end": 574.61,
+      "speaker": "DOCTOR",
+      "text": "OK. All right. Well, um, I'll send you another one, and it has some instructions about how to use it, but essentially, uh, couple of puffs to prime it, inside, breathing in and out, um, uh, for five or , five or ten breaths."
+    },
+    {
+      "id": 112,
+      "start": 575.59,
+      "end": 576.25,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 113,
+      "start": 576.24,
+      "end": 578.69,
+      "speaker": "DOCTOR",
+      "text": "Uh, yeah. So."
+    },
+    {
+      "id": 114,
+      "start": 580.08,
+      "end": 584.86,
+      "speaker": "DOCTOR",
+      "text": "Uh, was there anything else that was on your mind? Or you're concerned about at this stage?"
+    },
+    {
+      "id": 115,
+      "start": 584.83,
+      "end": 586.6,
+      "speaker": "PATIENT",
+      "text": ", I think you got me covered."
+    },
+    {
+      "id": 116,
+      "start": 587.02,
+      "end": 604.14,
+      "speaker": "DOCTOR",
+      "text": "OK, and, and uh, I might give you some time off work as well. You can self-certify first seven days, but uh, I think I would advise you just to, rest a little bit until you're feeling a bit better, if you're OK with that. All right?"
+    },
+    {
+      "id": 117,
+      "start": 601.6,
+      "end": 604.12,
+      "speaker": "PATIENT",
+      "text": "OK, ."
+    },
+    {
+      "id": 118,
+      "start": 605.51,
+      "end": 607.56,
+      "speaker": "PATIENT",
+      "text": "All righty. Well, thank you very much."
+    },
+    {
+      "id": 119,
+      "start": 606.21,
+      "end": 618.5,
+      "speaker": "DOCTOR",
+      "text": "OK. No worries. Any deterioration in your symptoms, like worsening shortness of breath. Um, or just generally concerning symptoms, uh, pain in your chest tightness, uh, feeling light-headed."
+    },
+    {
+      "id": 120,
+      "start": 618.5,
+      "end": 622.57,
+      "speaker": "DOCTOR",
+      "text": "Uh, then, seek further medical attention anytime please. OK?"
+    },
+    {
+      "id": 121,
+      "start": 622.84,
+      "end": 623.92,
+      "speaker": "PATIENT",
+      "text": "All right, sounds good."
+    },
+    {
+      "id": 122,
+      "start": 624.32,
+      "end": 625.86,
+      "speaker": "DOCTOR",
+      "text": "OK. Thank you."
+    },
+    {
+      "id": 123,
+      "start": 625.79,
+      "end": 626.98,
+      "speaker": "PATIENT",
+      "text": "OK, thank you. Bye bye."
+    },
+    {
+      "id": 124,
+      "start": 627.19,
+      "end": 627.76,
+      "speaker": "DOCTOR",
+      "text": "Bye bye."
+    }
+  ]
+}

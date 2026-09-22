@@ -1,0 +1,12 @@
+{
+  "visit_id": "DEMO-GATE-001",
+  "note": "Synthetic demo transcript, constructed specifically to trigger the clinical-plausibility gate (penicillin allergy + amoxicillin prescription, antibiotic prescribed against a documented viral diagnosis). Not real patient data.",
+  "segments": [
+    {"id": 1, "start": 0.0, "end": 4.0, "speaker": "DOCTOR", "text": "What brings you in today?"},
+    {"id": 2, "start": 4.0, "end": 10.0, "speaker": "PATIENT", "text": "I've had a sore throat and a cough for about three days, and I'm here for that."},
+    {"id": 3, "start": 10.0, "end": 14.0, "speaker": "DOCTOR", "text": "Any allergies to medications?"},
+    {"id": 4, "start": 14.0, "end": 18.0, "speaker": "PATIENT", "text": "I'm allergic to penicillin, it gives me a rash."},
+    {"id": 5, "start": 18.0, "end": 25.0, "speaker": "DOCTOR", "text": "Based on your symptoms this looks like a viral upper respiratory infection."},
+    {"id": 6, "start": 25.0, "end": 32.0, "speaker": "DOCTOR", "text": "I'll start you on amoxicillin 500mg three times a day and we'll follow up in a week."}
+  ]
+}

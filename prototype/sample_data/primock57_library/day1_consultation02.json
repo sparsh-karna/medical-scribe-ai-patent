@@ -1,0 +1,862 @@
+{
+  "visit_id": "PRIMOCK57-day1_consultation02",
+  "presenting_complaint": "I have sore, red skin",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "4/7 hx of dry itchy skin, mainly on chest and back. Skin is also sore and cracked. No bleeding or discharge. No spread elsewhere. Not aware of any triggers. Used steroid cream OTC last night with minimal effect. Pt has also tried antihistamines. \nSystemically well otherwise - no fevers, no vomiting, no SOB/cough. No bowel sx. \n\nPMH: Eczema, Asthma \nDHx: Nil regular\nNKDA\nSH: lives with flatmates, works as a pharmaceutical manager. Non-smoker, social EtOH. \nICE: pt thinks might be related to eczema. No concerns\n\nImp: flare up of eczema\n\nPlan:\n1.\tSteroid cream - Betnovate BD\n2.\tEmollients - cetraben - use up to QDS\n3.\tTrial antihistamines\n4.\tKeep trigger diary \n5.\tReview in 10-14d if symptoms no better, or earlier if any concerns/worsening sx\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.64,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 2,
+      "start": 3.45,
+      "end": 5.42,
+      "speaker": "PATIENT",
+      "text": "Hello. Can you hear me well?"
+    },
+    {
+      "id": 3,
+      "start": 4.37,
+      "end": 12.33,
+      "speaker": "DOCTOR",
+      "text": "Uh uh yes. I think. It's a bit better. It's a bit, it's a bit, it's not very clear. But let's continue anyway."
+    },
+    {
+      "id": 4,
+      "start": 12.67,
+      "end": 13.68,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 5,
+      "start": 12.91,
+      "end": 15.62,
+      "speaker": "DOCTOR",
+      "text": "Uh, OK. Let's start again. So how can I help you sir?"
+    },
+    {
+      "id": 6,
+      "start": 16.58,
+      "end": 27.96,
+      "speaker": "PATIENT",
+      "text": "Yes. So, it's been a few days now. I have like a sore, and a red skin. It's kind of, it's really itchy, and it's like super annoying. So I'd like to find something quick to solve it."
+    },
+    {
+      "id": 7,
+      "start": 24.96,
+      "end": 25.57,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 8,
+      "start": 27.81,
+      "end": 31.99,
+      "speaker": "DOCTOR",
+      "text": "No, no problem. I'm happy to help. Um whereabouts in your skin is it affected?"
+    },
+    {
+      "id": 9,
+      "start": 32.44,
+      "end": 41.53,
+      "speaker": "PATIENT",
+      "text": "Uh, mostly like my chest, my, my hands, my arms. Like, like really, it's it's super annoying. Like it's itching a lot, like all the time. And"
+    },
+    {
+      "id": 10,
+      "start": 41.53,
+      "end": 61.34,
+      "speaker": "PATIENT",
+      "text": "I can't even sleep at night. I really need something quickly to, to solve it. Because even at work I, I can, when I'm in a meeting and I have to, like uh think about my work, I can't focus, I can't actually focus on my work. It's really annoying because I can't actually think about, uh, what I have to say. I'm always like, uh, disturbed by this disease."
+    },
+    {
+      "id": 11,
+      "start": 53.29,
+      "end": 53.81,
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "id": 13,
+      "start": 60.96,
+      "end": 69.75,
+      "speaker": "DOCTOR",
+      "text": "No no, OK. I'm certain this is obviously affecting you. And uh we'll try our very best to get get this sorted out for you. Um, have you had anything like this before in the past?"
+    },
+    {
+      "id": 14,
+      "start": 70.98,
+      "end": 75.8,
+      "speaker": "PATIENT",
+      "text": "Um so yes. Uh earlier I was like prescribed for my eczema."
+    },
+    {
+      "id": 15,
+      "start": 75.65,
+      "end": 76.27,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 16,
+      "start": 75.8,
+      "end": 86.43,
+      "speaker": "PATIENT",
+      "text": "And they gave me like some cream, and something to, uh when I like shower, when I was in the shower, had to put something. But um"
+    },
+    {
+      "id": 17,
+      "start": 84.47,
+      "end": 85.12,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 18,
+      "start": 86.65,
+      "end": 87.55,
+      "speaker": "DOCTOR",
+      "text": "Did it help?"
+    },
+    {
+      "id": 19,
+      "start": 88.86,
+      "end": 97.24,
+      "speaker": "PATIENT",
+      "text": "Um I mean, at that time yes. That's, those symptoms, like these symptoms appear like, when the symptoms appeared again, I tried those and it didn't work."
+    },
+    {
+      "id": 20,
+      "start": 97.24,
+      "end": 107.41,
+      "speaker": "PATIENT",
+      "text": "I've tried a few things. Like I bought a, a steroid cream at the pharmacy last night. But it apparently didn't help, because it's still itching a lot today. Uh, yeah."
+    },
+    {
+      "id": 21,
+      "start": 104.07,
+      "end": 104.73,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 22,
+      "start": 105.58,
+      "end": 106.24,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 23,
+      "start": 107.12,
+      "end": 109.01,
+      "speaker": "DOCTOR",
+      "text": "Do you remember the name of the cream you bought?"
+    },
+    {
+      "id": 24,
+      "start": 109.74,
+      "end": 111.28,
+      "speaker": "PATIENT",
+      "text": "A steroid cream."
+    },
+    {
+      "id": 25,
+      "start": 111.1,
+      "end": 118.74,
+      "speaker": "DOCTOR",
+      "text": "OK, steroid, OK. um would you say these symptoms are very similar to your eczema symptoms, or different?"
+    },
+    {
+      "id": 26,
+      "start": 119.47,
+      "end": 120.74,
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "id": 27,
+      "start": 121.31,
+      "end": 130.13,
+      "speaker": "PATIENT",
+      "text": "it's much more like itchy. And my eczema was more like only in the arm. But now it's also on the chest. And in the on the, on the hands as well."
+    },
+    {
+      "id": 28,
+      "start": 129.89,
+      "end": 130.6,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 29,
+      "start": 130.13,
+      "end": 134.87,
+      "speaker": "PATIENT",
+      "text": "Like pretty, yeah when, like I like, for instance hiking, during the weekend. And"
+    },
+    {
+      "id": 31,
+      "start": 134.87,
+      "end": 151.13,
+      "speaker": "PATIENT",
+      "text": "I am, I can't really do it anymore, because it's like very like I wanted to do that last weekend. And because super painful, and I I have to take like showers every day to be able to, cannot uh ease this itching part, which is very very annoying."
+    },
+    {
+      "id": 32,
+      "start": 143.15,
+      "end": 143.69,
+      "speaker": "DOCTOR",
+      "text": "Yes."
+    },
+    {
+      "id": 33,
+      "start": 149.95,
+      "end": 156.42,
+      "speaker": "DOCTOR",
+      "text": "No. Well OK. That's so you mentioned the itchiness. Um you also mentioned it's been quite sore."
+    },
+    {
+      "id": 34,
+      "start": 154.13,
+      "end": 154.79,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 35,
+      "start": 156.42,
+      "end": 162.41,
+      "speaker": "DOCTOR",
+      "text": "Um have you, have you noticed any uh bleeding or discharge from your skins?"
+    },
+    {
+      "id": 36,
+      "start": 156.88,
+      "end": 157.99,
+      "speaker": "PATIENT",
+      "text": ". OK."
+    },
+    {
+      "id": 37,
+      "start": 163.16,
+      "end": 171.6,
+      "speaker": "PATIENT",
+      "text": "No. Um so my skin is a bit cracked in some parts, like kind of cracked, if you see what I mean. But uh, yeah."
+    },
+    {
+      "id": 38,
+      "start": 169.89,
+      "end": 170.51,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 39,
+      "start": 171.67,
+      "end": 176.15,
+      "speaker": "DOCTOR",
+      "text": "You've not, haven't uh seen any other uh pus or blood, coming out of your skin."
+    },
+    {
+      "id": 40,
+      "start": 176.81,
+      "end": 177.81,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 41,
+      "start": 177.51,
+      "end": 180.22,
+      "speaker": "DOCTOR",
+      "text": "No. And you mentioned it all started three days ago."
+    },
+    {
+      "id": 42,
+      "start": 180.91,
+      "end": 188.03,
+      "speaker": "DOCTOR",
+      "text": "Are you, four days ago. Are you aware of any triggers, or anything that you may have done, that may have caused your symptoms to start?"
+    },
+    {
+      "id": 43,
+      "start": 180.96,
+      "end": 181.93,
+      "speaker": "PATIENT",
+      "text": "Four days ago."
+    },
+    {
+      "id": 44,
+      "start": 188.03,
+      "end": 194.39,
+      "speaker": "DOCTOR",
+      "text": "So for example, have you changed your uh shower gel, any clothing?"
+    },
+    {
+      "id": 45,
+      "start": 194.39,
+      "end": 196.17,
+      "speaker": "DOCTOR",
+      "text": "Have you been around anyone else?"
+    },
+    {
+      "id": 46,
+      "start": 195.42,
+      "end": 215.17,
+      "speaker": "PATIENT",
+      "text": "No I . It's actually like, it's really annoying, because I'm thinking about, maybe I should change something. Because I I haven't, and I don't understand I cannot, um afraid of asking people around me because it's cannot you know um, I don't feel really comfortable asking about these questions. It's kind of intimate that. So I your help now."
+    },
+    {
+      "id": 47,
+      "start": 213.14,
+      "end": 213.85,
+      "speaker": "DOCTOR",
+      "text": "Mm."
+    },
+    {
+      "id": 48,
+      "start": 215.15,
+      "end": 218.04,
+      "speaker": "DOCTOR",
+      "text": "Mm. No no, OK. That's OK. Um"
+    },
+    {
+      "id": 49,
+      "start": 218.04,
+      "end": 228.11,
+      "speaker": "DOCTOR",
+      "text": "Fine, so just to resummarize. For the last four days, you've had very itchy skin, very sore skin all over your body, mainly your chest. And did you also mention your arms and legs as well?"
+    },
+    {
+      "id": 50,
+      "start": 225.91,
+      "end": 226.61,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 51,
+      "start": 229.6,
+      "end": 235.57,
+      "speaker": "PATIENT",
+      "text": "Uh, no. Just the chest, hands and like, like inside the elbows. Yeah."
+    },
+    {
+      "id": 53,
+      "start": 234.49,
+      "end": 236.63,
+      "speaker": "DOCTOR",
+      "text": "OK. anything on your face at all?"
+    },
+    {
+      "id": 54,
+      "start": 238.06,
+      "end": 238.98,
+      "speaker": "PATIENT",
+      "text": "Am I what?"
+    },
+    {
+      "id": 55,
+      "start": 238.72,
+      "end": 239.86,
+      "speaker": "DOCTOR",
+      "text": "On your face?"
+    },
+    {
+      "id": 56,
+      "start": 240.69,
+      "end": 241.88,
+      "speaker": "PATIENT",
+      "text": "On my face? No."
+    },
+    {
+      "id": 57,
+      "start": 241.64,
+      "end": 247.38,
+      "speaker": "DOCTOR",
+      "text": "No, OK. And apart from this, any other symptoms have you noticed? For example, have you noticed any temperature or fevers?"
+    },
+    {
+      "id": 58,
+      "start": 248.82,
+      "end": 251.8,
+      "speaker": "PATIENT",
+      "text": "No. just very itchy. Nothing else."
+    },
+    {
+      "id": 59,
+      "start": 250.42,
+      "end": 254.59,
+      "speaker": "DOCTOR",
+      "text": "Itchy. OK. So your, your bowels are working OK?"
+    },
+    {
+      "id": 60,
+      "start": 254.59,
+      "end": 259.05,
+      "speaker": "DOCTOR",
+      "text": "Your chest is OK? No cough, no breathing difficulties?"
+    },
+    {
+      "id": 61,
+      "start": 260.0,
+      "end": 260.64,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 62,
+      "start": 261.14,
+      "end": 262.85,
+      "speaker": "DOCTOR",
+      "text": "You're passing urine OK."
+    },
+    {
+      "id": 63,
+      "start": 264.4,
+      "end": 265.58,
+      "speaker": "PATIENT",
+      "text": "I I think so."
+    },
+    {
+      "id": 64,
+      "start": 265.52,
+      "end": 267.92,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Um"
+    },
+    {
+      "id": 65,
+      "start": 269.1,
+      "end": 273.73,
+      "speaker": "DOCTOR",
+      "text": "It's always good to know. So, I mean, do you have any ideas as to what could be causing your symptoms?"
+    },
+    {
+      "id": 66,
+      "start": 275.18,
+      "end": 276.03,
+      "speaker": "PATIENT",
+      "text": "Any what?"
+    },
+    {
+      "id": 67,
+      "start": 275.93,
+      "end": 278.94,
+      "speaker": "DOCTOR",
+      "text": "Any ideas, as to what could be causing your symptoms?"
+    },
+    {
+      "id": 68,
+      "start": 279.41,
+      "end": 289.99,
+      "speaker": "PATIENT",
+      "text": "Um so I had eczema before. So maybe it's disease, but it seems like more uh, like uh my eczema was only on the arms. So, I'm I'm not sure. I I really have no idea."
+    },
+    {
+      "id": 70,
+      "start": 289.79,
+      "end": 294.97,
+      "speaker": "DOCTOR",
+      "text": "OK. That's OK. So um, normally at this stage I like to examine you. Um"
+    },
+    {
+      "id": 71,
+      "start": 294.97,
+      "end": 304.17,
+      "speaker": "DOCTOR",
+      "text": "To see the rash itself, to see exactly what type of rash it is. But from what you've told me, you mentioned it's, you've got some dry skin and some, uh cracked skin as well."
+    },
+    {
+      "id": 72,
+      "start": 304.17,
+      "end": 308.11,
+      "speaker": "DOCTOR",
+      "text": "Uh and has been very itchy. And so would your um"
+    },
+    {
+      "id": 73,
+      "start": 304.7,
+      "end": 305.22,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 74,
+      "start": 308.93,
+      "end": 312.46,
+      "speaker": "DOCTOR",
+      "text": "Uh your your background of eczema. Um"
+    },
+    {
+      "id": 75,
+      "start": 312.46,
+      "end": 312.83,
+      "speaker": "DOCTOR",
+      "text": "So"
+    },
+    {
+      "id": 76,
+      "start": 312.83,
+      "end": 320.0,
+      "speaker": "DOCTOR",
+      "text": "Sorry to say, there's a couple of questions I wanted to ask you, which I completely forgot, my apologies. Um, apart from the eczema, do you have any other medical problems I should be aware of?"
+    },
+    {
+      "id": 77,
+      "start": 320.49,
+      "end": 325.13,
+      "speaker": "PATIENT",
+      "text": "Uh, no. I just had asthma in the past. But not anymore."
+    },
+    {
+      "id": 78,
+      "start": 324.2,
+      "end": 328.72,
+      "speaker": "DOCTOR",
+      "text": "OK. Not anymore, OK. And do you take any regular medications at the moment?"
+    },
+    {
+      "id": 79,
+      "start": 329.51,
+      "end": 331.07,
+      "speaker": "PATIENT",
+      "text": "Uh no."
+    },
+    {
+      "id": 80,
+      "start": 331.04,
+      "end": 333.44,
+      "speaker": "DOCTOR",
+      "text": "No, OK. Do you have any allergies to anything?"
+    },
+    {
+      "id": 81,
+      "start": 332.99,
+      "end": 335.62,
+      "speaker": "PATIENT",
+      "text": "I like some , sorry? Yeah?"
+    },
+    {
+      "id": 82,
+      "start": 336.45,
+      "end": 339.77,
+      "speaker": "DOCTOR",
+      "text": "sorry I said do you have any allergies to anything?"
+    },
+    {
+      "id": 84,
+      "start": 346.87,
+      "end": 347.54,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 85,
+      "start": 347.58,
+      "end": 349.05,
+      "speaker": "PATIENT",
+      "text": "Hello? Yes."
+    },
+    {
+      "id": 86,
+      "start": 348.54,
+      "end": 352.93,
+      "speaker": "DOCTOR",
+      "text": "can you hear me? That's alright I think it . Uh do you have any allergies at all?"
+    },
+    {
+      "id": 87,
+      "start": 353.05,
+      "end": 354.84,
+      "speaker": "PATIENT",
+      "text": "Ohh, allergies. Uh, no."
+    },
+    {
+      "id": 88,
+      "start": 354.97,
+      "end": 361.65,
+      "speaker": "DOCTOR",
+      "text": "No, OK. Um and tell me about your um uh your situation at home. Who do you live with?"
+    },
+    {
+      "id": 89,
+      "start": 362.91,
+      "end": 374.16,
+      "speaker": "PATIENT",
+      "text": "Uh so, I live with a few flatmates. I'm a, so you know I'm thirty one. Uh I, yeah I'm I have a full time job. And so I'm living with a few people to save money."
+    },
+    {
+      "id": 90,
+      "start": 375.14,
+      "end": 376.88,
+      "speaker": "DOCTOR",
+      "text": "OK. And what do you do for work?"
+    },
+    {
+      "id": 91,
+      "start": 377.65,
+      "end": 381.27,
+      "speaker": "PATIENT",
+      "text": "Uh I work uh at a pharmaceutical company."
+    },
+    {
+      "id": 92,
+      "start": 381.27,
+      "end": 392.77,
+      "speaker": "PATIENT",
+      "text": "So it's been a, it's been a few years now. Uh it's uh, it's kind of interesting. We're working I'm a, like a kind of project manager. Uh I mean, do you want to, to know more about it?"
+    },
+    {
+      "id": 93,
+      "start": 392.7,
+      "end": 401.82,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh no no no that's , that's absolutely fine. Um just a couple of questions I want to ask you, which can sometimes affect your symptoms, is, do you smoke at all?"
+    },
+    {
+      "id": 94,
+      "start": 402.88,
+      "end": 403.6,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 95,
+      "start": 403.49,
+      "end": 406.07,
+      "speaker": "DOCTOR",
+      "text": "No. And do you drink much in the way of alcohol?"
+    },
+    {
+      "id": 97,
+      "start": 407.07,
+      "end": 420.26,
+      "speaker": "PATIENT",
+      "text": "Uh you know, once in a while I can, I like hanging out with people once in a while. So yeah I'd say a few, a few beers per week. Something like this. Nothing, nothing crazy. I used to drink a lot more when I was younger. But it's been, it's been a while."
+    },
+    {
+      "id": 98,
+      "start": 418.5,
+      "end": 427.42,
+      "speaker": "DOCTOR",
+      "text": "OK. OK. OK I've got to say, at this stage I've got to say this sound quality is not uh great. But I will continue because we've come this far. Um"
+    },
+    {
+      "id": 99,
+      "start": 427.42,
+      "end": 433.87,
+      "speaker": "DOCTOR",
+      "text": "So um, based on everything you mentioned Sarah , I do wonder whether this is a flare-up of your eczema. Um"
+    },
+    {
+      "id": 101,
+      "start": 433.87,
+      "end": 439.52,
+      "speaker": "DOCTOR",
+      "text": "The reason being that you said it was quite itchy. Um it's mainly affecting your chest and your back."
+    },
+    {
+      "id": 102,
+      "start": 439.52,
+      "end": 451.09,
+      "speaker": "DOCTOR",
+      "text": "Um and uh, having looked at your skin, uh the the the rash does appear quite familiar. Um you mentioned using steroid creams, yesterday."
+    },
+    {
+      "id": 104,
+      "start": 451.09,
+      "end": 458.99,
+      "speaker": "DOCTOR",
+      "text": "Um from the pharmacy. I wonder whether giving you a stronger prescription of a of a steroid may be beneficial."
+    },
+    {
+      "id": 105,
+      "start": 458.99,
+      "end": 465.97,
+      "speaker": "DOCTOR",
+      "text": "Uh, which I'm happy to prescribe to you today. As well as, I'm going to give you something, some emollients, which helps to moisturize the skin."
+    },
+    {
+      "id": 106,
+      "start": 459.09,
+      "end": 459.94,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 107,
+      "start": 462.07,
+      "end": 462.85,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 108,
+      "start": 465.97,
+      "end": 473.21,
+      "speaker": "DOCTOR",
+      "text": "Um which use in the bath and shower. And it's definitely worth um using that for the first seven to ten days."
+    },
+    {
+      "id": 109,
+      "start": 466.2,
+      "end": 467.2,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 110,
+      "start": 473.21,
+      "end": 476.8,
+      "speaker": "DOCTOR",
+      "text": "Uh before we make the decision on whether it's working or not."
+    },
+    {
+      "id": 111,
+      "start": 473.48,
+      "end": 474.25,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 112,
+      "start": 476.8,
+      "end": 483.23,
+      "speaker": "DOCTOR",
+      "text": "Um it's also worth um using antihistamines, which you can sometimes buy over counter."
+    },
+    {
+      "id": 113,
+      "start": 483.23,
+      "end": 489.39,
+      "speaker": "DOCTOR",
+      "text": "Things like Loratadine or Piriton, which can help the itchiness of your skin."
+    },
+    {
+      "id": 114,
+      "start": 487.85,
+      "end": 488.85,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 115,
+      "start": 489.39,
+      "end": 499.47,
+      "speaker": "DOCTOR",
+      "text": "And uh, um it's also worth keeping a diary of any triggers which are affecting your symptoms, anything you wear or anything you use, in terms of shower gels or soap."
+    },
+    {
+      "id": 116,
+      "start": 499.47,
+      "end": 503.8,
+      "speaker": "DOCTOR",
+      "text": "Because if that's causing your symptoms, then we need to have a discussion about an eczema CU."
+    },
+    {
+      "id": 117,
+      "start": 504.01,
+      "end": 509.35,
+      "speaker": "PATIENT",
+      "text": "OK. Yes, I have tried antihistamines, uh lately, but it didn't really help."
+    },
+    {
+      "id": 118,
+      "start": 510.42,
+      "end": 512.04,
+      "speaker": "DOCTOR",
+      "text": "Ohh, could you say that again, sorry?"
+    },
+    {
+      "id": 119,
+      "start": 512.32,
+      "end": 516.75,
+      "speaker": "PATIENT",
+      "text": "I have tried uh antihistamines, but uh but it didn't really help."
+    },
+    {
+      "id": 120,
+      "start": 514.24,
+      "end": 514.88,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 121,
+      "start": 516.67,
+      "end": 523.29,
+      "speaker": "DOCTOR",
+      "text": "OK. So it's something for you to think about. you can get different types of antihistamines. I can give you something a little bit stronger today as well."
+    },
+    {
+      "id": 122,
+      "start": 523.29,
+      "end": 529.62,
+      "speaker": "DOCTOR",
+      "text": "Um, something like Fexofenadine, which I can give to you today. It's definitely worth trying, and it's not going to do you any harm."
+    },
+    {
+      "id": 123,
+      "start": 523.77,
+      "end": 524.36,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 124,
+      "start": 529.62,
+      "end": 535.03,
+      "speaker": "DOCTOR",
+      "text": "Um but I think using the steroids and the emollients, um on a regular basis"
+    },
+    {
+      "id": 125,
+      "start": 535.03,
+      "end": 542.9,
+      "speaker": "DOCTOR",
+      "text": "Uh over the next week to ten days, should hopefully control your symptoms. But do come back and see me next week, if things don't get better."
+    },
+    {
+      "id": 126,
+      "start": 543.59,
+      "end": 544.71,
+      "speaker": "PATIENT",
+      "text": "That sounds good."
+    },
+    {
+      "id": 127,
+      "start": 544.7,
+      "end": 547.26,
+      "speaker": "DOCTOR",
+      "text": "OK? Um do you have any questions for me?"
+    },
+    {
+      "id": 128,
+      "start": 547.84,
+      "end": 555.81,
+      "speaker": "PATIENT",
+      "text": "Uh, no that's it. Thank you very much. Bye. Thank you as well. Bye."
+    },
+    {
+      "id": 129,
+      "start": 549.5,
+      "end": 551.23,
+      "speaker": "DOCTOR",
+      "text": "OK. Well I wish you all the best."
+    },
+    {
+      "id": 130,
+      "start": 552.66,
+      "end": 553.76,
+      "speaker": "DOCTOR",
+      "text": "Thank you. Have a good day."
+    }
+  ]
+}

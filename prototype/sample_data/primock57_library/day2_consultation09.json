@@ -1,0 +1,666 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation09",
+  "presenting_complaint": "I can't move my left arm",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Hx:  Difficulty moving left arm, occurred upon waking this morning\nFeels no pain, but still can't move it\nNo previous similar episodes\nSlept as per normal last night\nNo discolouration in hand, arm doesn't feel cold\nSymptoms limited to left arm, not in left leg\nTingling present on left side of face over the same period (1 hour)\nPatient has not noticed any facial asymmetry\nDifficulty swallowing water- dribbled water\nSpeech seems \u2018harder' or \u2018slow'\nNo-one at home with patient\nPmhx: T2dm, HTN\nDH: metformin, losartan, amlodipine\nAllergic to penicillin\nFH: father hs \u2018heart disease'\nSH: lives alone, ex smoker, mild- moderate alcohol intake.\nImp: ? CVA\nLAS called- blue light, pt to keep front door open, will stay on line till LAS arrives and hand over.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.57,
+      "end": 5.91,
+      "speaker": "DOCTOR",
+      "text": "Hi there, good morning. Or good afternoon, sorry. Hi."
+    },
+    {
+      "id": 2,
+      "start": 4.27,
+      "end": 7.95,
+      "speaker": "PATIENT",
+      "text": "Hello there. Uh, good afternoon. This is Jack."
+    },
+    {
+      "id": 3,
+      "start": 6.83,
+      "end": 7.44,
+      "speaker": "DOCTOR",
+      "text": "Good afternoon."
+    },
+    {
+      "id": 4,
+      "start": 8.38,
+      "end": 11.62,
+      "speaker": "DOCTOR",
+      "text": "Hi. This, this is Doctor Deen Mirza from GP at Hand."
+    },
+    {
+      "id": 5,
+      "start": 12.25,
+      "end": 13.25,
+      "speaker": "PATIENT",
+      "text": "I do."
+    },
+    {
+      "id": 6,
+      "start": 13.08,
+      "end": 17.48,
+      "speaker": "DOCTOR",
+      "text": "All right. So before we start your appointment, could I please confirm your full name and date of birth?"
+    },
+    {
+      "id": 7,
+      "start": 18.17,
+      "end": 21.93,
+      "speaker": "PATIENT",
+      "text": "Yes, uh, my name is Jack Armani."
+    },
+    {
+      "id": 8,
+      "start": 22.94,
+      "end": 24.02,
+      "speaker": "DOCTOR",
+      "text": "That's great, thank you."
+    },
+    {
+      "id": 9,
+      "start": 23.38,
+      "end": 26.34,
+      "speaker": "PATIENT",
+      "text": "And my date of birth is"
+    },
+    {
+      "id": 10,
+      "start": 27.46,
+      "end": 30.0,
+      "speaker": "PATIENT",
+      "text": "twelve August nineteen fifty eight."
+    },
+    {
+      "id": 11,
+      "start": 30.6,
+      "end": 35.42,
+      "speaker": "DOCTOR",
+      "text": "That's great, thank you for that. Um, are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "id": 12,
+      "start": 35.4,
+      "end": 36.33,
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "id": 13,
+      "start": 36.42,
+      "end": 38.85,
+      "speaker": "DOCTOR",
+      "text": "OK. So, how can I help you today?"
+    },
+    {
+      "id": 14,
+      "start": 39.37,
+      "end": 46.83,
+      "speaker": "PATIENT",
+      "text": "I am. So, I woke up, um, this morning, and, um."
+    },
+    {
+      "id": 16,
+      "start": 51.98,
+      "end": 52.77,
+      "speaker": "PATIENT",
+      "text": "Hello?"
+    },
+    {
+      "id": 17,
+      "start": 52.46,
+      "end": 55.03,
+      "speaker": "DOCTOR",
+      "text": "Yeah I'm still here, you'll tell . Yeah."
+    },
+    {
+      "id": 18,
+      "start": 53.56,
+      "end": 62.97,
+      "speaker": "PATIENT",
+      "text": "Uh so I'm a bit worried 'cause I woke up this morning, about an hour ago, and I couldn't move my left arm any more."
+    },
+    {
+      "id": 20,
+      "start": 64.85,
+      "end": 67.74,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and how's your arm right now?"
+    },
+    {
+      "id": 21,
+      "start": 67.84,
+      "end": 69.44,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 22,
+      "start": 70.83,
+      "end": 76.38,
+      "speaker": "PATIENT",
+      "text": "Well like, I feel no pain but just, uh, can't move it."
+    },
+    {
+      "id": 23,
+      "start": 76.53,
+      "end": 80.97,
+      "speaker": "DOCTOR",
+      "text": "That you still can't move. And, and what time did you wake up? You said it was an hour, you're sure about that?"
+    },
+    {
+      "id": 24,
+      "start": 82.11,
+      "end": 82.93,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 25,
+      "start": 84.15,
+      "end": 85.76,
+      "speaker": "DOCTOR",
+      "text": "OK, um."
+    },
+    {
+      "id": 26,
+      "start": 86.55,
+      "end": 89.4,
+      "speaker": "DOCTOR",
+      "text": "Now, can I just double check? Has this ever happened before?"
+    },
+    {
+      "id": 27,
+      "start": 89.72,
+      "end": 93.94,
+      "speaker": "PATIENT",
+      "text": "No. No, uh, it's really the first time."
+    },
+    {
+      "id": 28,
+      "start": 94.4,
+      "end": 100.93,
+      "speaker": "DOCTOR",
+      "text": "OK. And, did you sleep, anything, in an awkward position, or in a different bed, or anything like that last night?"
+    },
+    {
+      "id": 29,
+      "start": 101.13,
+      "end": 104.28,
+      "speaker": "PATIENT",
+      "text": "Uh no, uhf, everything as usual."
+    },
+    {
+      "id": 30,
+      "start": 105.2,
+      "end": 110.04,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and um, is there any discoloration in your hand?"
+    },
+    {
+      "id": 31,
+      "start": 110.5,
+      "end": 111.73,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 32,
+      "start": 112.74,
+      "end": 115.68,
+      "speaker": "DOCTOR",
+      "text": "K, um, does your hand feel cold?"
+    },
+    {
+      "id": 33,
+      "start": 116.77,
+      "end": 125.49,
+      "speaker": "PATIENT",
+      "text": "Mmm, no, really the, mmm, the arm feels fine, apart from me not being able to move it."
+    },
+    {
+      "id": 34,
+      "start": 125.74,
+      "end": 131.19,
+      "speaker": "DOCTOR",
+      "text": "OK. And it's to your on your left side. Have you had any symptoms in your left leg at all?"
+    },
+    {
+      "id": 35,
+      "start": 132.0,
+      "end": 138.39,
+      "speaker": "PATIENT",
+      "text": "No, but um, I feel a bit of tingling on the left side of my face."
+    },
+    {
+      "id": 36,
+      "start": 140.15,
+      "end": 145.16,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, and how long has that tingling been there for?"
+    },
+    {
+      "id": 37,
+      "start": 145.34,
+      "end": 155.25,
+      "speaker": "PATIENT",
+      "text": "Uh, since I woke up. Um, since I started to feel the , since, since the the arm really it stopped moving, so an hour ago."
+    },
+    {
+      "id": 38,
+      "start": 156.13,
+      "end": 157.73,
+      "speaker": "DOCTOR",
+      "text": "OK, um."
+    },
+    {
+      "id": 39,
+      "start": 158.73,
+      "end": 170.76,
+      "speaker": "DOCTOR",
+      "text": "Now, um, I can't see you. It's, it's telephone appointment. Have you noticed any kind of, um, asymmetry in your face, or did your face expression look different on one side compared to the other, or anything different at all?"
+    },
+    {
+      "id": 40,
+      "start": 171.85,
+      "end": 173.4,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 41,
+      "start": 175.06,
+      "end": 178.49,
+      "speaker": "PATIENT",
+      "text": "Mmm, no, not really, it's just."
+    },
+    {
+      "id": 42,
+      "start": 180.35,
+      "end": 193.22,
+      "speaker": "PATIENT",
+      "text": "Uh, having like a bit of issues like, uh, I was trying to drink earlier and I'd be bold a bit and and the tingling on, on the left side."
+    },
+    {
+      "id": 43,
+      "start": 194.08,
+      "end": 198.47,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, you have some difficulties swallowing, is that right?"
+    },
+    {
+      "id": 44,
+      "start": 199.74,
+      "end": 202.78,
+      "speaker": "PATIENT",
+      "text": "Um, yeah."
+    },
+    {
+      "id": 45,
+      "start": 202.98,
+      "end": 208.19,
+      "speaker": "DOCTOR",
+      "text": "OK. Any problems with your speech? Is your, is your, is your speech different to how it, um, sounds normally?"
+    },
+    {
+      "id": 46,
+      "start": 208.73,
+      "end": 219.47,
+      "speaker": "PATIENT",
+      "text": "Um, yeah it feels a, a bit harder . It's more complicated maybr, maybe um, be more slow. I need to think more about it."
+    },
+    {
+      "id": 47,
+      "start": 219.8,
+      "end": 223.69,
+      "speaker": "DOCTOR",
+      "text": "OK. Is there anyone at home with you?"
+    },
+    {
+      "id": 48,
+      "start": 223.09,
+      "end": 223.97,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 49,
+      "start": 225.62,
+      "end": 227.33,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 50,
+      "start": 226.53,
+      "end": 228.99,
+      "speaker": "PATIENT",
+      "text": "Is this something I should be worried about?"
+    },
+    {
+      "id": 51,
+      "start": 229.82,
+      "end": 237.39,
+      "speaker": "DOCTOR",
+      "text": "Um, well, um, I'm I'm concerned that some of the symptoms you've got may be, um, symptoms of a stroke."
+    },
+    {
+      "id": 52,
+      "start": 237.78,
+      "end": 239.58,
+      "speaker": "PATIENT",
+      "text": "Hmm, wow."
+    },
+    {
+      "id": 53,
+      "start": 238.5,
+      "end": 245.62,
+      "speaker": "DOCTOR",
+      "text": "OK? So, um, that's something that can be dealt with, but it needs to be dealt with as an emergency in a hospital."
+    },
+    {
+      "id": 54,
+      "start": 246.19,
+      "end": 251.26,
+      "speaker": "PATIENT",
+      "text": "Would, should I call , would you be able to call the ambulance for me?"
+    },
+    {
+      "id": 55,
+      "start": 250.66,
+      "end": 267.72,
+      "speaker": "DOCTOR",
+      "text": "Yeah I'm, I'm happy to do that. Um, what we need to do is to make sure that they've got access to you when you come. So, um, maybe you could, uh, leave the front door, um, unlocked, sit in the hallway. But I'm gonna arrange one of my colleagues next to me to, um, call an ambulance to your home address now."
+    },
+    {
+      "id": 56,
+      "start": 257.17,
+      "end": 257.84,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 57,
+      "start": 267.71,
+      "end": 269.77,
+      "speaker": "PATIENT",
+      "text": "OK. OK. Thank you."
+    },
+    {
+      "id": 58,
+      "start": 268.92,
+      "end": 276.0,
+      "speaker": "DOCTOR",
+      "text": "So that's being done right now, as we speak. Uh, while we're waiting for that, I'm just gonna ask you a few more questions. Is that OK?"
+    },
+    {
+      "id": 59,
+      "start": 276.08,
+      "end": 276.86,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 60,
+      "start": 277.0,
+      "end": 279.43,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have any other illnesses at all?"
+    },
+    {
+      "id": 61,
+      "start": 280.39,
+      "end": 281.84,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 62,
+      "start": 282.88,
+      "end": 287.86,
+      "speaker": "PATIENT",
+      "text": "I have, uh, type two diabetes and, uh, high blood pressure."
+    },
+    {
+      "id": 63,
+      "start": 288.62,
+      "end": 292.48,
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, are you on any medication for that?"
+    },
+    {
+      "id": 64,
+      "start": 293.35,
+      "end": 300.71,
+      "speaker": "PATIENT",
+      "text": "Um, I'm taking Metformin losartan and Amlodipine."
+    },
+    {
+      "id": 65,
+      "start": 301.26,
+      "end": 306.12,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have any, um, uh, allergies to any medication?"
+    },
+    {
+      "id": 66,
+      "start": 306.5,
+      "end": 310.44,
+      "speaker": "PATIENT",
+      "text": "Um, only penicillin, I believe."
+    },
+    {
+      "id": 67,
+      "start": 310.86,
+      "end": 311.73,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 68,
+      "start": 313.54,
+      "end": 315.8,
+      "speaker": "DOCTOR",
+      "text": "Um, are there any illnesses in your family at all?"
+    },
+    {
+      "id": 69,
+      "start": 316.75,
+      "end": 320.43,
+      "speaker": "PATIENT",
+      "text": "Uh, my dad has got, um, heart disease."
+    },
+    {
+      "id": 70,
+      "start": 321.43,
+      "end": 324.24,
+      "speaker": "PATIENT",
+      "text": "But, uh, but don't, I don't know more detail."
+    },
+    {
+      "id": 71,
+      "start": 324.89,
+      "end": 326.75,
+      "speaker": "DOCTOR",
+      "text": "OK, anyone else?"
+    },
+    {
+      "id": 72,
+      "start": 327.5,
+      "end": 328.35,
+      "speaker": "PATIENT",
+      "text": "Not really."
+    },
+    {
+      "id": 73,
+      "start": 328.52,
+      "end": 331.73,
+      "speaker": "DOCTOR",
+      "text": "And um, are you normally living alone?"
+    },
+    {
+      "id": 74,
+      "start": 332.56,
+      "end": 333.56,
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "id": 75,
+      "start": 334.21,
+      "end": 336.04,
+      "speaker": "DOCTOR",
+      "text": "K. Do you smoke at all?"
+    },
+    {
+      "id": 76,
+      "start": 336.59,
+      "end": 337.83,
+      "speaker": "PATIENT",
+      "text": "Uh, I used to."
+    },
+    {
+      "id": 77,
+      "start": 339.15,
+      "end": 341.21,
+      "speaker": "DOCTOR",
+      "text": "OK. How much alcohol do you drink?"
+    },
+    {
+      "id": 78,
+      "start": 343.26,
+      "end": 351.29,
+      "speaker": "PATIENT",
+      "text": "Uh, I will have a few drinks over the weekend. Um, maybe a, a couple more during the week."
+    },
+    {
+      "id": 79,
+      "start": 352.07,
+      "end": 354.46,
+      "speaker": "DOCTOR",
+      "text": "So, what, what drinks are we talking about?"
+    },
+    {
+      "id": 80,
+      "start": 355.29,
+      "end": 358.53,
+      "speaker": "PATIENT",
+      "text": "Uh, uh, beers, uh, like pints."
+    },
+    {
+      "id": 81,
+      "start": 355.3,
+      "end": 355.9,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 82,
+      "start": 359.48,
+      "end": 360.28,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 83,
+      "start": 361.68,
+      "end": 363.03,
+      "speaker": "DOCTOR",
+      "text": "All right, um."
+    },
+    {
+      "id": 84,
+      "start": 364.37,
+      "end": 367.29,
+      "speaker": "DOCTOR",
+      "text": "How are you feeling now? Have you got the symptoms right now still, that, um"
+    },
+    {
+      "id": 85,
+      "start": 367.64,
+      "end": 375.5,
+      "speaker": "PATIENT",
+      "text": "Yes, yes. The the arm still can't move and I think the speech is getting a bit harder."
+    },
+    {
+      "id": 86,
+      "start": 375.42,
+      "end": 394.29,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. So, the ambulance is on it's way, all right? Um, and what they're going to do is, they'll probably take you down to, um, the local hospital, A and E. And then, they'll they will ring through for the, um, the stroke doctor to assess you, to see whether they can give you any kind of, um"
+    },
+    {
+      "id": 87,
+      "start": 394.29,
+      "end": 404.23,
+      "speaker": "DOCTOR",
+      "text": "Treatment for that OK? So no worry. They're they're on their way, um, and what I'm gonna do is, I'm gonna stay on the line until they reach there. Just to make sure that you're OK."
+    },
+    {
+      "id": 88,
+      "start": 395.71,
+      "end": 396.46,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 89,
+      "start": 404.5,
+      "end": 406.93,
+      "speaker": "PATIENT",
+      "text": "OK. Is there anything I should be doing now?"
+    },
+    {
+      "id": 90,
+      "start": 407.33,
+      "end": 419.38,
+      "speaker": "DOCTOR",
+      "text": "Um, not at the moment, no, not at the moment, Just, uh, make sure the the front door's open. Sit in the hallway, by the front door so that they've got access if needs be, if for any reason you can't open the front door. OK, um."
+    },
+    {
+      "id": 91,
+      "start": 418.44,
+      "end": 419.18,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 92,
+      "start": 419.38,
+      "end": 423.85,
+      "speaker": "DOCTOR",
+      "text": "All right, then so I'll be staying on the line and we'll and we'll wait until the ambulance comes."
+    },
+    {
+      "id": 93,
+      "start": 424.44,
+      "end": 426.28,
+      "speaker": "PATIENT",
+      "text": "OK, I'm gonna go to the door."
+    },
+    {
+      "id": 94,
+      "start": 426.33,
+      "end": 428.44,
+      "speaker": "DOCTOR",
+      "text": "OK then, all right. Thank you."
+    },
+    {
+      "id": 95,
+      "start": 428.76,
+      "end": 429.52,
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "id": 96,
+      "start": 429.44,
+      "end": 430.18,
+      "speaker": "DOCTOR",
+      "text": "K, bye bye."
+    }
+  ]
+}

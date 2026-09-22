@@ -1,0 +1,897 @@
+{
+  "visit_id": "PRIMOCK57-day5_consultation10",
+  "presenting_complaint": "I have a blinding headache",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC : Headache\n\nHPC: 3/7 hx headache. Starts on waking up. Over right eye. Seeing lights in front of eyes. Can be worse when stands up not when bends over/cough/sneeze. Vision not disturbed. No nausea/vomiting. No altered taste/smell. Worse in the light. No rash. No fever. No coryzal symptoms. Not woken up in the night. No tingling/numbness/weakness. \nWell before this episode. Has been lacking in energy but no wt loss. \nSeverity 5-8/10. Taking ibuprofen, eases slightly but not resolving. \n\nHas had some generalised headaches before but not bad and associated symptoms/altered vision.\nPMH: Nil\nDH: Mercilon. BP last checked 1 yr ago was normal.\n\nFMHx: Mum has migraine.\n\nSH: Non smoker. No illicit drugs, 3 beers/week. Works from home.\n\nImp: Likely migraine but as ongoing and persistent needs neurological examination to exclude other pathology. Advised regular paracetamol and naproxen with food (will prescribe). If gets worse in meantime contact us straightaway or go to A&E is severe/unrelenting.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.14,
+      "end": 3.36,
+      "speaker": "DOCTOR",
+      "text": "Hi there. It's Doctor Smith from Babylon."
+    },
+    {
+      "id": 2,
+      "start": 5.05,
+      "end": 8.14,
+      "speaker": "DOCTOR",
+      "text": "Can you confirm your name, date of birth, and your home address, please?"
+    },
+    {
+      "id": 3,
+      "start": 8.38,
+      "end": 11.5,
+      "speaker": "PATIENT",
+      "text": "Um, it's ."
+    },
+    {
+      "id": 5,
+      "start": 16.63,
+      "end": 23.43,
+      "speaker": "DOCTOR",
+      "text": ". Um, I can't hear you at the moment actually. Could you turn it up, the, volume up?"
+    },
+    {
+      "id": 6,
+      "start": 24.35,
+      "end": 26.04,
+      "speaker": "PATIENT",
+      "text": "Uh, can you hear me better now?"
+    },
+    {
+      "id": 7,
+      "start": 24.55,
+      "end": 28.14,
+      "speaker": "DOCTOR",
+      "text": ". Yeah, that's better. Thank you."
+    },
+    {
+      "id": 8,
+      "start": 27.48,
+      "end": 29.73,
+      "speaker": "PATIENT",
+      "text": "Um, OK. Sorry about that."
+    },
+    {
+      "id": 9,
+      "start": 29.53,
+      "end": 32.49,
+      "speaker": "DOCTOR",
+      "text": "Are you in a private place you can have a consultation?"
+    },
+    {
+      "id": 10,
+      "start": 32.52,
+      "end": 33.66,
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "id": 11,
+      "start": 33.72,
+      "end": 35.57,
+      "speaker": "DOCTOR",
+      "text": "What can I do for you today?"
+    },
+    {
+      "id": 12,
+      "start": 35.96,
+      "end": 48.07,
+      "speaker": "PATIENT",
+      "text": "Um, I've been having this, blinding headache for a few days. Um, and it's like, really bothering me and , I find it very hard to focus or, like I can't even go to work."
+    },
+    {
+      "id": 13,
+      "start": 48.48,
+      "end": 51.74,
+      "speaker": "DOCTOR",
+      "text": "OK, and any headaches in the past before this?"
+    },
+    {
+      "id": 14,
+      "start": 52.19,
+      "end": 64.6,
+      "speaker": "PATIENT",
+      "text": "Not really just they're, on and off. Um, I recently had a, a one for like two days, um, but it just went away with Ibuprofen, so nothing like, more, longer than two days before."
+    },
+    {
+      "id": 15,
+      "start": 64.42,
+      "end": 66.2,
+      "speaker": "DOCTOR",
+      "text": "So, how did this start?"
+    },
+    {
+      "id": 16,
+      "start": 66.8,
+      "end": 74.38,
+      "speaker": "PATIENT",
+      "text": "Um, it just started all of a sudden. I woke up one morning with a headache, and that was three days ago, and I just keep having it."
+    },
+    {
+      "id": 17,
+      "start": 74.38,
+      "end": 81.08,
+      "speaker": "PATIENT",
+      "text": "Doesn't really go away with Ibuprofen either, I try that, but it just. It gets a little bit better but like, doesn't go away."
+    },
+    {
+      "id": 18,
+      "start": 80.98,
+      "end": 83.71,
+      "speaker": "DOCTOR",
+      "text": "OK, and whereabouts in your head is the pain?"
+    },
+    {
+      "id": 19,
+      "start": 84.08,
+      "end": 90.32,
+      "speaker": "PATIENT",
+      "text": "Um, it's kind of all over but, I feel like over my right eye, it's um bit, stronger."
+    },
+    {
+      "id": 20,
+      "start": 90.68,
+      "end": 96.25,
+      "speaker": "DOCTOR",
+      "text": "OK. Any problems with your vision? Or, any problems tolerating the light?"
+    },
+    {
+      "id": 21,
+      "start": 97.13,
+      "end": 104.18,
+      "speaker": "PATIENT",
+      "text": "Um, lights definitely make me more sensitive. Like, um, I don't really, like strong lights."
+    },
+    {
+      "id": 22,
+      "start": 104.18,
+      "end": 113.22,
+      "speaker": "PATIENT",
+      "text": "Um, and um, yeah, vision I think, I get this, shooting light sometimes."
+    },
+    {
+      "id": 23,
+      "start": 113.84,
+      "end": 118.94,
+      "speaker": "PATIENT",
+      "text": "Um, not sure how to explain it. Just a bit of um, weird kind of vision."
+    },
+    {
+      "id": 24,
+      "start": 120.11,
+      "end": 125.2,
+      "speaker": "DOCTOR",
+      "text": "OK, and um, any, any nausea or vomiting?"
+    },
+    {
+      "id": 25,
+      "start": 125.28,
+      "end": 129.18,
+      "speaker": "PATIENT",
+      "text": "Uh, no, feeling a bit sick, but no vomiting."
+    },
+    {
+      "id": 26,
+      "start": 129.41,
+      "end": 132.72,
+      "speaker": "DOCTOR",
+      "text": "Any tingling? Or numbness? Or weakness anywhere?"
+    },
+    {
+      "id": 27,
+      "start": 133.41,
+      "end": 134.74,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 28,
+      "start": 135.18,
+      "end": 138.62,
+      "speaker": "DOCTOR",
+      "text": "Any change in your smell or taste?"
+    },
+    {
+      "id": 29,
+      "start": 139.86,
+      "end": 141.06,
+      "speaker": "PATIENT",
+      "text": "No, none at all."
+    },
+    {
+      "id": 30,
+      "start": 141.85,
+      "end": 146.39,
+      "speaker": "DOCTOR",
+      "text": "Um, and, in the past, when you've had headaches, what have they been like?"
+    },
+    {
+      "id": 31,
+      "start": 147.55,
+      "end": 155.65,
+      "speaker": "PATIENT",
+      "text": "Um, I was sick but I had no more headache, it's just um, a bit of a pressure, in between my eyes, um."
+    },
+    {
+      "id": 32,
+      "start": 156.4,
+      "end": 157.94,
+      "speaker": "PATIENT",
+      "text": "But nothing major."
+    },
+    {
+      "id": 33,
+      "start": 158.35,
+      "end": 163.48,
+      "speaker": "DOCTOR",
+      "text": "OK, and, with, with this, has it been there all the time? Or is it coming and going?"
+    },
+    {
+      "id": 34,
+      "start": 163.92,
+      "end": 174.85,
+      "speaker": "PATIENT",
+      "text": "Kinda all the time. Um, so when I take Ibuprofen it gets a bit better, so it's a bit, like less um, it, it bothered me less, but then I still have it, it's still there."
+    },
+    {
+      "id": 35,
+      "start": 175.38,
+      "end": 184.01,
+      "speaker": "DOCTOR",
+      "text": "Um, and what would you say, the severity is? If, if ten is the worst pain you've ever had, and zero is nothing, what would you say the pain is like?"
+    },
+    {
+      "id": 36,
+      "start": 184.3,
+      "end": 189.8,
+      "speaker": "PATIENT",
+      "text": "I guess it's mostly, eight, and then it kinda comes down to maybe a five."
+    },
+    {
+      "id": 37,
+      "start": 190.98,
+      "end": 194.23,
+      "speaker": "DOCTOR",
+      "text": "OK, and what about at night-time, are you able to fall asleep?"
+    },
+    {
+      "id": 38,
+      "start": 194.53,
+      "end": 197.2,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I'm, sleeping well."
+    },
+    {
+      "id": 39,
+      "start": 197.13,
+      "end": 199.38,
+      "speaker": "DOCTOR",
+      "text": "Is it waking you up in the night-time?"
+    },
+    {
+      "id": 40,
+      "start": 199.18,
+      "end": 202.37,
+      "speaker": "PATIENT",
+      "text": "No, no, no. But I can wake up with it in the morning."
+    },
+    {
+      "id": 41,
+      "start": 202.58,
+      "end": 207.81,
+      "speaker": "DOCTOR",
+      "text": "OK. Any worse when you change position, or bend over, or cough, or anything like that?"
+    },
+    {
+      "id": 42,
+      "start": 207.78,
+      "end": 208.9,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 43,
+      "start": 209.67,
+      "end": 221.52,
+      "speaker": "PATIENT",
+      "text": "Sometimes when I stand up, quickly I get a bit of a, stabbing pain. Um, or if I throw my head like, it I kind of feel like something is moving inside."
+    },
+    {
+      "id": 44,
+      "start": 221.27,
+      "end": 225.5,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you had any, uh, eye checks recently?"
+    },
+    {
+      "id": 45,
+      "start": 225.84,
+      "end": 230.4,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, actually had one recently and, nothing changed my vision."
+    },
+    {
+      "id": 46,
+      "start": 230.34,
+      "end": 238.91,
+      "speaker": "DOCTOR",
+      "text": "OK. And have you had any cold symptoms, sore throat, sore ears, or pain over the sinuses? Any cough or flem?"
+    },
+    {
+      "id": 47,
+      "start": 236.85,
+      "end": 238.5,
+      "speaker": "PATIENT",
+      "text": "No, no."
+    },
+    {
+      "id": 49,
+      "start": 239.47,
+      "end": 243.91,
+      "speaker": "DOCTOR",
+      "text": "No. Any, any nose bleeds, or coughing up any blood or anything?"
+    },
+    {
+      "id": 50,
+      "start": 244.41,
+      "end": 245.15,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 51,
+      "start": 245.48,
+      "end": 255.58,
+      "speaker": "DOCTOR",
+      "text": "And just recently, have you been well, or have you had any general problems? Any change in your weight? Or, tiredness, lack of energy, anything like that?"
+    },
+    {
+      "id": 52,
+      "start": 255.86,
+      "end": 268.14,
+      "speaker": "PATIENT",
+      "text": "Um, no change of weight, maybe um, lack of energy but it might be because, I'm just having these headaches. so I'm find it quite difficult to go through my daily activities , you know when you have this constant headache."
+    },
+    {
+      "id": 54,
+      "start": 267.56,
+      "end": 269.62,
+      "speaker": "DOCTOR",
+      "text": "Have you been at work recently?"
+    },
+    {
+      "id": 55,
+      "start": 269.97,
+      "end": 276.4,
+      "speaker": "PATIENT",
+      "text": "Um, I work from home but, couldn't really manage to, do it all the time. So sometimes I just took a day off."
+    },
+    {
+      "id": 56,
+      "start": 277.19,
+      "end": 282.45,
+      "speaker": "DOCTOR",
+      "text": "So, you've been, you've had a headache for three days. , how many days have you missed off work?"
+    },
+    {
+      "id": 57,
+      "start": 282.91,
+      "end": 298.97,
+      "speaker": "PATIENT",
+      "text": "Um, so I worked from home all these three days and, um. First day I worked from home and then, um, the second I just took the whole day off. And, today I just tried to work from home the first half of the day but, I, I just stopped in the morning 'cause, I couldn't focus."
+    },
+    {
+      "id": 58,
+      "start": 298.92,
+      "end": 303.81,
+      "speaker": "DOCTOR",
+      "text": "OK. And, any other, medical problems in the past?"
+    },
+    {
+      "id": 59,
+      "start": 304.81,
+      "end": 315.79,
+      "speaker": "PATIENT",
+      "text": "Um, I think I only had a, a pain, um, when I was younger but, no causes found and that went away, but that's, the only thing I know of."
+    },
+    {
+      "id": 61,
+      "start": 315.87,
+      "end": 318.43,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you been abroad recently at all?"
+    },
+    {
+      "id": 62,
+      "start": 318.85,
+      "end": 319.55,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 63,
+      "start": 319.61,
+      "end": 321.48,
+      "speaker": "DOCTOR",
+      "text": "Do you take any medications?"
+    },
+    {
+      "id": 64,
+      "start": 321.76,
+      "end": 323.27,
+      "speaker": "PATIENT",
+      "text": "Um, just the pill."
+    },
+    {
+      "id": 65,
+      "start": 323.71,
+      "end": 324.86,
+      "speaker": "DOCTOR",
+      "text": "Which one?"
+    },
+    {
+      "id": 66,
+      "start": 325.48,
+      "end": 326.86,
+      "speaker": "PATIENT",
+      "text": "Um, ."
+    },
+    {
+      "id": 67,
+      "start": 327.2,
+      "end": 328.86,
+      "speaker": "DOCTOR",
+      "text": "And when did you start that?"
+    },
+    {
+      "id": 68,
+      "start": 329.33,
+      "end": 331.17,
+      "speaker": "PATIENT",
+      "text": "Um, about a year ago."
+    },
+    {
+      "id": 69,
+      "start": 331.18,
+      "end": 333.07,
+      "speaker": "DOCTOR",
+      "text": "Any side effects with that?"
+    },
+    {
+      "id": 70,
+      "start": 333.79,
+      "end": 336.46,
+      "speaker": "PATIENT",
+      "text": "Uh, no I don't think so."
+    },
+    {
+      "id": 71,
+      "start": 336.35,
+      "end": 342.23,
+      "speaker": "DOCTOR",
+      "text": "Have you noticed any, any um, increased frequency of headaches since you started that?"
+    },
+    {
+      "id": 72,
+      "start": 343.09,
+      "end": 352.29,
+      "speaker": "PATIENT",
+      "text": "Um, no, , these headaches just very recently, but nothing um, but nothing really changes."
+    },
+    {
+      "id": 74,
+      "start": 352.66,
+      "end": 366.26,
+      "speaker": "DOCTOR",
+      "text": "OK. And when you'd , when you've had, when you described your headaches in the past, you said they were just general. Did you have any visual symptoms? Flashing lights? Nausea, vomiting with them?"
+    },
+    {
+      "id": 75,
+      "start": 361.74,
+      "end": 362.65,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 76,
+      "start": 363.75,
+      "end": 364.79,
+      "speaker": "PATIENT",
+      "text": "No, no."
+    },
+    {
+      "id": 77,
+      "start": 366.54,
+      "end": 368.17,
+      "speaker": "PATIENT",
+      "text": "No nothing, none of those."
+    },
+    {
+      "id": 78,
+      "start": 367.4,
+      "end": 370.55,
+      "speaker": "DOCTOR",
+      "text": "Have you had your blood pressure checked recently with your pill?"
+    },
+    {
+      "id": 79,
+      "start": 370.79,
+      "end": 375.97,
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I had it checked in the pharmacy when I got the pill, and they say it was normal."
+    },
+    {
+      "id": 80,
+      "start": 375.86,
+      "end": 377.04,
+      "speaker": "DOCTOR",
+      "text": "And when was that?"
+    },
+    {
+      "id": 81,
+      "start": 377.2,
+      "end": 378.35,
+      "speaker": "PATIENT",
+      "text": "Uh, a year ago."
+    },
+    {
+      "id": 82,
+      "start": 378.71,
+      "end": 382.78,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and any allergies to anything?"
+    },
+    {
+      "id": 83,
+      "start": 382.89,
+      "end": 383.6,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 84,
+      "start": 384.23,
+      "end": 386.19,
+      "speaker": "DOCTOR",
+      "text": "And who do you live with at home?"
+    },
+    {
+      "id": 85,
+      "start": 386.45,
+      "end": 387.25,
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "id": 86,
+      "start": 387.11,
+      "end": 388.67,
+      "speaker": "DOCTOR",
+      "text": "Who do you live with at home?"
+    },
+    {
+      "id": 87,
+      "start": 388.59,
+      "end": 390.09,
+      "speaker": "PATIENT",
+      "text": "Uh, just by myself."
+    },
+    {
+      "id": 88,
+      "start": 390.26,
+      "end": 392.56,
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke?"
+    },
+    {
+      "id": 89,
+      "start": 392.74,
+      "end": 393.49,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 90,
+      "start": 393.85,
+      "end": 395.96,
+      "speaker": "DOCTOR",
+      "text": "Do you drink any alcohol regularly?"
+    },
+    {
+      "id": 91,
+      "start": 395.88,
+      "end": 396.49,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 92,
+      "start": 396.87,
+      "end": 398.98,
+      "speaker": "DOCTOR",
+      "text": "How much in a normal week do you think?"
+    },
+    {
+      "id": 93,
+      "start": 399.29,
+      "end": 403.71,
+      "speaker": "PATIENT",
+      "text": "Um, probably like, three , once a week."
+    },
+    {
+      "id": 94,
+      "start": 401.97,
+      "end": 407.76,
+      "speaker": "DOCTOR",
+      "text": ". OK. And do you take any other drugs at all?"
+    },
+    {
+      "id": 95,
+      "start": 408.19,
+      "end": 415.37,
+      "speaker": "PATIENT",
+      "text": "Um, no apart from the Ibuprofen that I take, sometimes when, the headache gets really bad, nothing else."
+    },
+    {
+      "id": 96,
+      "start": 414.58,
+      "end": 415.31,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 97,
+      "start": 416.12,
+      "end": 425.78,
+      "speaker": "DOCTOR",
+      "text": "Um. So, uh, I mean it's obviously the first time you've had such a bad headache. And you said you'd had some altered light in front of your eyes as well?"
+    },
+    {
+      "id": 98,
+      "start": 425.91,
+      "end": 426.72,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 99,
+      "start": 426.56,
+      "end": 429.71,
+      "speaker": "DOCTOR",
+      "text": "But you haven't had a high temperature. Have you checked your temperature?"
+    },
+    {
+      "id": 100,
+      "start": 430.37,
+      "end": 435.25,
+      "speaker": "PATIENT",
+      "text": "Uh, no I didn't, I don't really feel, feverish or anything."
+    },
+    {
+      "id": 101,
+      "start": 435.43,
+      "end": 441.33,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, I mean it, it, it could possibly be a migraine type headache."
+    },
+    {
+      "id": 102,
+      "start": 441.33,
+      "end": 448.66,
+      "speaker": "DOCTOR",
+      "text": "But, the fact it's still ongoing for three days, we probably should, book you into an appointment to get an examination."
+    },
+    {
+      "id": 104,
+      "start": 448.66,
+      "end": 457.04,
+      "speaker": "DOCTOR",
+      "text": "Um, obviously , if it settles, in the meantime then, we can cancel that. But we should do a neurological examination, look at the back of your eyes as well."
+    },
+    {
+      "id": 105,
+      "start": 457.19,
+      "end": 458.06,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 106,
+      "start": 458.44,
+      "end": 470.43,
+      "speaker": "DOCTOR",
+      "text": "Um, in terms of medication, I can prescribe you something, similar to Ibuprofen, but a bit stronger which you can take instead of Ibuprofen. And you can also take Paracetamol at the same time."
+    },
+    {
+      "id": 108,
+      "start": 470.63,
+      "end": 471.51,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 471.86,
+      "end": 477.85,
+      "speaker": "DOCTOR",
+      "text": "So if you're happy to book a, , appointment with us, with the support line, for us to do a full examination."
+    },
+    {
+      "id": 110,
+      "start": 478.62,
+      "end": 483.71,
+      "speaker": "DOCTOR",
+      "text": "And start, the medication which I prescribe to you, take it with food."
+    },
+    {
+      "id": 111,
+      "start": 484.23,
+      "end": 490.5,
+      "speaker": "DOCTOR",
+      "text": "If, if you're, you said that when you go to bed your headache's, OK, and not waking you up in the night-time."
+    },
+    {
+      "id": 112,
+      "start": 490.15,
+      "end": 499.29,
+      "speaker": "PATIENT",
+      "text": "Yeah it's not, um but, you mentioned migraine and that um, reminded that, my mum, suffers from, like she has migraines, um."
+    },
+    {
+      "id": 113,
+      "start": 498.24,
+      "end": 501.7,
+      "speaker": "DOCTOR",
+      "text": "OK. Any other family history of medical problems?"
+    },
+    {
+      "id": 114,
+      "start": 501.63,
+      "end": 509.16,
+      "speaker": "PATIENT",
+      "text": "Um, no I think that's it, but I know that my mum like, she has quite bad migraines, she's like, has the vomiting and everything, ."
+    },
+    {
+      "id": 115,
+      "start": 509.68,
+      "end": 523.51,
+      "speaker": "DOCTOR",
+      "text": "OK that's fine. Um, I mean if, if in the meantime before your appointment your, headache is getting unbearable, getting worse or changing. Then , um, if it's that bad, then you should go to A and E and have an examination."
+    },
+    {
+      "id": 116,
+      "start": 523.51,
+      "end": 526.43,
+      "speaker": "DOCTOR",
+      "text": "Um, , you can call us for further advice on that."
+    },
+    {
+      "id": 117,
+      "start": 523.65,
+      "end": 524.41,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 118,
+      "start": 526.64,
+      "end": 528.06,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm, OK."
+    },
+    {
+      "id": 119,
+      "start": 528.01,
+      "end": 532.89,
+      "speaker": "DOCTOR",
+      "text": "And when, when you have a, an examination with us, we'll check your blood pressure as well."
+    },
+    {
+      "id": 120,
+      "start": 532.89,
+      "end": 545.06,
+      "speaker": "DOCTOR",
+      "text": "Just to, make sure your pill's still appropriate for you, because sometimes if we, if we do think it's a migraine, then you would have to change your pill. If you've had these flashing lights, and things like that."
+    },
+    {
+      "id": 122,
+      "start": 536.82,
+      "end": 537.81,
+      "speaker": "PATIENT",
+      "text": "OK, ."
+    },
+    {
+      "id": 123,
+      "start": 545.18,
+      "end": 548.27,
+      "speaker": "PATIENT",
+      "text": "Is there anything in the pill that can cause it? Or is it?"
+    },
+    {
+      "id": 124,
+      "start": 548.27,
+      "end": 560.71,
+      "speaker": "DOCTOR",
+      "text": "Well , some , so that pill if you were having , regular migraines with um, flashing lights, or , other symptoms. It wouldn't be suitable to stay on that pill, particularly, we'd have to change it to something else."
+    },
+    {
+      "id": 125,
+      "start": 561.05,
+      "end": 561.83,
+      "speaker": "PATIENT",
+      "text": "All right."
+    },
+    {
+      "id": 126,
+      "start": 562.21,
+      "end": 564.56,
+      "speaker": "DOCTOR",
+      "text": "But you can carry on with that for the moment."
+    },
+    {
+      "id": 127,
+      "start": 564.75,
+      "end": 565.54,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 128,
+      "start": 566.3,
+      "end": 568.08,
+      "speaker": "DOCTOR",
+      "text": "Have you got any other questions?"
+    },
+    {
+      "id": 129,
+      "start": 568.0,
+      "end": 576.51,
+      "speaker": "PATIENT",
+      "text": "Um, so will you like, um, send me a referral to a specialist, or do I have to to confirm?"
+    },
+    {
+      "id": 130,
+      "start": 573.72,
+      "end": 574.48,
+      "speaker": "DOCTOR",
+      "text": "Uh."
+    },
+    {
+      "id": 131,
+      "start": 575.64,
+      "end": 580.23,
+      "speaker": "DOCTOR",
+      "text": "Yeah, if you book an appointment with the support team, then we can do a full examination then."
+    },
+    {
+      "id": 132,
+      "start": 580.28,
+      "end": 582.17,
+      "speaker": "PATIENT",
+      "text": "OK. Perfect."
+    },
+    {
+      "id": 133,
+      "start": 582.31,
+      "end": 584.01,
+      "speaker": "DOCTOR",
+      "text": "All right then. Take care."
+    },
+    {
+      "id": 134,
+      "start": 583.98,
+      "end": 585.15,
+      "speaker": "PATIENT",
+      "text": "Thank you very much."
+    },
+    {
+      "id": 135,
+      "start": 584.96,
+      "end": 585.71,
+      "speaker": "DOCTOR",
+      "text": "Bye."
+    }
+  ]
+}

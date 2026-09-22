@@ -1,0 +1,967 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation05",
+  "presenting_complaint": "My asthma is not responding to my inhalers",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "(the above consultation reason doesn't correlate with the patient's presentation)\nHx: episodes of unilateral right hand numbness/ pins and needles, with some right leg weakness and noticeable gait disturbances, ongoing for 1.5 months\noccurring with increasing frequency- initially once a week, now more often, occurring daily\n symptoms not present now\nno dysphagia, no dysphasia\nno Pmhx of CVA/TIA\nFather had CVA- appears to have had carotid endarterectomy\nNon smoker, normal blood tests for diabetes/ cholesterol when checked a few years ago\nPMHx and FH: otherwise nil of note\nDH PT IS TAKING Aspirin daily on his own accord due to his FH\nSH: pt is a medical doctor, plastic surgeon, lives with wife\nImp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)\nPlan: needs to be seen urgently in TIA clinic- will fax referral now. Pt to contact them via PALS/ clinic no to ensure f/u\nIf any prolonged symptoms occur- to attend A/E\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.0,
+      "end": 5.55,
+      "speaker": "DOCTOR",
+      "text": "Hi there. Good morning. I'm Doctor from GP at Hand. Nice to see you."
+    },
+    {
+      "id": 2,
+      "start": 5.59,
+      "end": 7.08,
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "id": 3,
+      "start": 6.84,
+      "end": 11.57,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, before we start your appointment. Could I confirm your full name and date of birth please?"
+    },
+    {
+      "id": 4,
+      "start": 11.43,
+      "end": 15.27,
+      "speaker": "PATIENT",
+      "text": "Yeah, it's John Smith, and I am thirty two years old."
+    },
+    {
+      "id": 5,
+      "start": 15.95,
+      "end": 17.88,
+      "speaker": "DOCTOR",
+      "text": "Sorry, I didn't catch your date of birth."
+    },
+    {
+      "id": 6,
+      "start": 18.31,
+      "end": 19.58,
+      "speaker": "PATIENT",
+      "text": "I'm thirty two years old."
+    },
+    {
+      "id": 7,
+      "start": 19.49,
+      "end": 24.95,
+      "speaker": "DOCTOR",
+      "text": "Thirty two years old, OK. Could you tell me the first line of your address, and your postcode please?"
+    },
+    {
+      "id": 8,
+      "start": 25.11,
+      "end": 29.09,
+      "speaker": "PATIENT",
+      "text": "It's four Park Avenue, and it's AB one CB two."
+    },
+    {
+      "id": 9,
+      "start": 29.16,
+      "end": 33.79,
+      "speaker": "DOCTOR",
+      "text": "That's great, thank you so much for that. Are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "id": 10,
+      "start": 33.89,
+      "end": 34.41,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 11,
+      "start": 34.52,
+      "end": 38.87,
+      "speaker": "DOCTOR",
+      "text": "OK. So how can I help you today? You've been having some problems with your asthma. Is that right?"
+    },
+    {
+      "id": 12,
+      "start": 39.91,
+      "end": 41.42,
+      "speaker": "PATIENT",
+      "text": "Sorry, say that ."
+    },
+    {
+      "id": 13,
+      "start": 40.84,
+      "end": 42.82,
+      "speaker": "DOCTOR",
+      "text": "How can I help you today?"
+    },
+    {
+      "id": 14,
+      "start": 43.23,
+      "end": 48.97,
+      "speaker": "PATIENT",
+      "text": "So, um, I've been experiencing very weird symptoms, over the past month or so."
+    },
+    {
+      "id": 15,
+      "start": 48.97,
+      "end": 56.01,
+      "speaker": "PATIENT",
+      "text": "And I don't know what's causing them. I have googled it and, um, nothing's coming up, so I thought I'd come and speak to you about it."
+    },
+    {
+      "id": 16,
+      "start": 49.12,
+      "end": 49.87,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 17,
+      "start": 56.51,
+      "end": 59.59,
+      "speaker": "DOCTOR",
+      "text": "OK. So, tell me a bit more about these weird symptoms you've been having."
+    },
+    {
+      "id": 18,
+      "start": 61.26,
+      "end": 67.22,
+      "speaker": "PATIENT",
+      "text": "So, it started with, feeling very tired, but for a couple of days, and then I get back to normal."
+    },
+    {
+      "id": 20,
+      "start": 67.96,
+      "end": 75.62,
+      "speaker": "PATIENT",
+      "text": "And then I started losing feeling, in my hands and arms. I get a weird sensation like, uh, I guess, pins and needles."
+    },
+    {
+      "id": 21,
+      "start": 76.68,
+      "end": 83.97,
+      "speaker": "DOCTOR",
+      "text": "Right again, the connection's not so great. You've been getting pins and needles in the hand. Is that right?"
+    },
+    {
+      "id": 22,
+      "start": 77.16,
+      "end": 78.28,
+      "speaker": "PATIENT",
+      "text": "And."
+    },
+    {
+      "id": 23,
+      "start": 84.37,
+      "end": 85.19,
+      "speaker": "PATIENT",
+      "text": "Yeah, that's correct."
+    },
+    {
+      "id": 24,
+      "start": 85.69,
+      "end": 87.46,
+      "speaker": "DOCTOR",
+      "text": "OK. Is that the right or left hand?"
+    },
+    {
+      "id": 25,
+      "start": 87.41,
+      "end": 88.73,
+      "speaker": "PATIENT",
+      "text": "My right hand."
+    },
+    {
+      "id": 26,
+      "start": 89.09,
+      "end": 90.46,
+      "speaker": "DOCTOR",
+      "text": "Is it always the right?"
+    },
+    {
+      "id": 27,
+      "start": 89.87,
+      "end": 91.45,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 28,
+      "start": 92.45,
+      "end": 98.36,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, we've lost video now, maybe is there a, a, a button you can press?"
+    },
+    {
+      "id": 29,
+      "start": 100.8,
+      "end": 101.71,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 30,
+      "start": 102.48,
+      "end": 105.64,
+      "speaker": "DOCTOR",
+      "text": "Are you happy for us to carry on without the video? I can't see you at the moment."
+    },
+    {
+      "id": 31,
+      "start": 105.46,
+      "end": 106.57,
+      "speaker": "PATIENT",
+      "text": "Yes, that's fine."
+    },
+    {
+      "id": 32,
+      "start": 106.96,
+      "end": 116.97,
+      "speaker": "DOCTOR",
+      "text": "All right. Um, so, you've been having these pins and needles, and episodes of numbness, in the right hand. Is it just the hand, or does it go up the arm as well?"
+    },
+    {
+      "id": 33,
+      "start": 117.59,
+      "end": 126.9,
+      "speaker": "PATIENT",
+      "text": "Uh, the pins and needles are in the hand, but I feel like my arm is getting weaker, but it only lasts few days and then goes back to normal. So, it's very weird."
+    },
+    {
+      "id": 34,
+      "start": 127.69,
+      "end": 131.23,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, is there any involvement of your leg at all?"
+    },
+    {
+      "id": 35,
+      "start": 131.86,
+      "end": 136.59,
+      "speaker": "PATIENT",
+      "text": "Uh, my, colleague said, I'm walking slightly differently to normal."
+    },
+    {
+      "id": 36,
+      "start": 137.07,
+      "end": 139.86,
+      "speaker": "PATIENT",
+      "text": "And again, it's only for three days, or three or four days."
+    },
+    {
+      "id": 37,
+      "start": 140.97,
+      "end": 144.58,
+      "speaker": "DOCTOR",
+      "text": "OK. You, you said you've been having weird symptoms for about a month."
+    },
+    {
+      "id": 38,
+      "start": 145.29,
+      "end": 145.85,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 39,
+      "start": 146.08,
+      "end": 149.3,
+      "speaker": "DOCTOR",
+      "text": ", so, what has been happening from the beginning of the month? What else has been happening?"
+    },
+    {
+      "id": 40,
+      "start": 150.51,
+      "end": 153.35,
+      "speaker": "PATIENT",
+      "text": "Um, I generally feel tired, and weak."
+    },
+    {
+      "id": 41,
+      "start": 154.1,
+      "end": 158.01,
+      "speaker": "PATIENT",
+      "text": "And, sometimes I feel nauseous, and I don't feel like I want to do anything."
+    },
+    {
+      "id": 42,
+      "start": 159.67,
+      "end": 161.27,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 43,
+      "start": 161.94,
+      "end": 163.93,
+      "speaker": "DOCTOR",
+      "text": "Um, and, um."
+    },
+    {
+      "id": 44,
+      "start": 165.86,
+      "end": 169.42,
+      "speaker": "DOCTOR",
+      "text": "You know, , your colleague said you've, you've not been walking normally."
+    },
+    {
+      "id": 45,
+      "start": 169.63,
+      "end": 170.25,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 46,
+      "start": 170.36,
+      "end": 175.69,
+      "speaker": "DOCTOR",
+      "text": "Do you feel anything different, on either side, in terms of your legs? Can , have you noticed anything different?"
+    },
+    {
+      "id": 47,
+      "start": 176.47,
+      "end": 181.35,
+      "speaker": "PATIENT",
+      "text": "Yeah, so, at the same time I get my arm symptoms, my leg feels weaker."
+    },
+    {
+      "id": 48,
+      "start": 182.7,
+      "end": 183.88,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 49,
+      "start": 184.45,
+      "end": 185.08,
+      "speaker": "DOCTOR",
+      "text": "And."
+    },
+    {
+      "id": 50,
+      "start": 186.05,
+      "end": 190.93,
+      "speaker": "DOCTOR",
+      "text": "You know you, the abnormal gait. Has that been present, outside of these episodes?"
+    },
+    {
+      "id": 51,
+      "start": 191.84,
+      "end": 195.67,
+      "speaker": "PATIENT",
+      "text": "No, it has not. So normally, I'm, fit and well actually."
+    },
+    {
+      "id": 52,
+      "start": 193.49,
+      "end": 194.16,
+      "speaker": "DOCTOR",
+      "text": "Right, ."
+    },
+    {
+      "id": 53,
+      "start": 196.07,
+      "end": 202.84,
+      "speaker": "DOCTOR",
+      "text": "All right, OK. Um, and, these, these episodes. How often have they been happening?"
+    },
+    {
+      "id": 54,
+      "start": 204.18,
+      "end": 214.82,
+      "speaker": "PATIENT",
+      "text": "They have been getting more regular. So at the start, it would be maybe once a week, uh, to every once , once a month, but now it's getting uh, uh, a couple of times a day."
+    },
+    {
+      "id": 55,
+      "start": 216.09,
+      "end": 222.22,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And, how long have these episodes been going on for? When, when did it all start? Was it a month ago?"
+    },
+    {
+      "id": 56,
+      "start": 220.67,
+      "end": 223.7,
+      "speaker": "PATIENT",
+      "text": ", probably a month and a half, maybe two months."
+    },
+    {
+      "id": 57,
+      "start": 223.98,
+      "end": 224.92,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 58,
+      "start": 225.48,
+      "end": 236.32,
+      "speaker": "DOCTOR",
+      "text": "OK. And, along with these symptoms, of the weakness and numbness. Do you have any other symptoms at the same time? Like swallowing, or difficulty speaking, or vision problems?"
+    },
+    {
+      "id": 59,
+      "start": 236.73,
+      "end": 241.18,
+      "speaker": "PATIENT",
+      "text": "So, recently I've noticed, I can't hold my cup of coffee."
+    },
+    {
+      "id": 60,
+      "start": 242.18,
+      "end": 246.41,
+      "speaker": "PATIENT",
+      "text": "And when I, do drink coffee, it's slightly harder to drink."
+    },
+    {
+      "id": 61,
+      "start": 246.9,
+      "end": 249.44,
+      "speaker": "PATIENT",
+      "text": "And that's only been in the last couple of days, I guess."
+    },
+    {
+      "id": 62,
+      "start": 250.85,
+      "end": 254.57,
+      "speaker": "DOCTOR",
+      "text": "Right. Is that during these episodes, or outside of these episodes?"
+    },
+    {
+      "id": 63,
+      "start": 254.6,
+      "end": 256.15,
+      "speaker": "PATIENT",
+      "text": "Only during the episodes."
+    },
+    {
+      "id": 64,
+      "start": 256.39,
+      "end": 256.98,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 65,
+      "start": 257.64,
+      "end": 260.02,
+      "speaker": "DOCTOR",
+      "text": "Do you have any difficulty swallowing at all?"
+    },
+    {
+      "id": 66,
+      "start": 260.08,
+      "end": 261.3,
+      "speaker": "PATIENT",
+      "text": "Not currently, no."
+    },
+    {
+      "id": 67,
+      "start": 261.34,
+      "end": 263.78,
+      "speaker": "DOCTOR",
+      "text": ". During the episodes, do you have any difficulty swallowing?"
+    },
+    {
+      "id": 68,
+      "start": 264.1,
+      "end": 266.66,
+      "speaker": "PATIENT",
+      "text": "I, I, I feel like there's something in my throat."
+    },
+    {
+      "id": 69,
+      "start": 267.52,
+      "end": 272.98,
+      "speaker": "DOCTOR",
+      "text": "OK. What about, um, difficulty speaking during these episodes? Any, any issues with that at all?"
+    },
+    {
+      "id": 70,
+      "start": 273.3,
+      "end": 274.67,
+      "speaker": "PATIENT",
+      "text": "No, I can speak fine."
+    },
+    {
+      "id": 71,
+      "start": 275.3,
+      "end": 278.34,
+      "speaker": "DOCTOR",
+      "text": "OK. And any visual problems during these episodes?"
+    },
+    {
+      "id": 72,
+      "start": 278.64,
+      "end": 280.75,
+      "speaker": "PATIENT",
+      "text": "I, I don't think so, but I wear glasses."
+    },
+    {
+      "id": 73,
+      "start": 281.08,
+      "end": 288.89,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Now um, can I just ask? , has, uh, is there any history of stroke, or mini-strokes in your family?"
+    },
+    {
+      "id": 74,
+      "start": 289.96,
+      "end": 299.26,
+      "speaker": "PATIENT",
+      "text": "Uh, yes. My, father has had a, operation to the side of his neck, to reduce the risk of stroke."
+    },
+    {
+      "id": 75,
+      "start": 299.79,
+      "end": 300.85,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 76,
+      "start": 301.58,
+      "end": 310.14,
+      "speaker": "DOCTOR",
+      "text": "Um, and, uh, how about yourself? Have you had any history of, mini-strokes or anything like that, along those lines? I know you're quite young."
+    },
+    {
+      "id": 77,
+      "start": 310.54,
+      "end": 317.62,
+      "speaker": "PATIENT",
+      "text": "No, so after my, dad had his operation, I was required to be checked, and my cholesterol , was fine."
+    },
+    {
+      "id": 78,
+      "start": 318.85,
+      "end": 324.64,
+      "speaker": "DOCTOR",
+      "text": "Good, excellent. So you had a, a blood test done. And did they check for diabetes as well?"
+    },
+    {
+      "id": 79,
+      "start": 322.87,
+      "end": 323.47,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 80,
+      "start": 324.96,
+      "end": 332.05,
+      "speaker": "PATIENT",
+      "text": "They checked my diabetes, my blood pressure and my, cholesterol, and the doctor said it was all OK."
+    },
+    {
+      "id": 81,
+      "start": 331.9,
+      "end": 335.72,
+      "speaker": "DOCTOR",
+      "text": "Fantastic, OK. Now, do you have any other illnesses at all?"
+    },
+    {
+      "id": 82,
+      "start": 335.83,
+      "end": 336.49,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 83,
+      "start": 336.7,
+      "end": 338.36,
+      "speaker": "DOCTOR",
+      "text": "No. Are you on any medication?"
+    },
+    {
+      "id": 84,
+      "start": 339.05,
+      "end": 344.43,
+      "speaker": "PATIENT",
+      "text": "I take an aspirin, seventy five milligrams, once a day, but that's, because of something I read on the internet."
+    },
+    {
+      "id": 85,
+      "start": 345.82,
+      "end": 348.51,
+      "speaker": "DOCTOR",
+      "text": "OK. So, so, why is that? Why do you take that?"
+    },
+    {
+      "id": 86,
+      "start": 349.07,
+      "end": 352.85,
+      "speaker": "PATIENT",
+      "text": "I think it's, meant to reduce your risk of stroke and heart attack."
+    },
+    {
+      "id": 87,
+      "start": 354.05,
+      "end": 357.95,
+      "speaker": "DOCTOR",
+      "text": "OK. Do, have you ever told a doctor before, your GP, that you're on Aspirin?"
+    },
+    {
+      "id": 88,
+      "start": 358.3,
+      "end": 363.56,
+      "speaker": "PATIENT",
+      "text": "Yes I took, I started to , taking it after my, father had his operation, but that wasn't the doctor telling me."
+    },
+    {
+      "id": 89,
+      "start": 364.24,
+      "end": 372.27,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and, has any GP ever spoken to you about, the risks of Aspirin, and whether you should be on it? Or have you not , told the , the GP in the past?"
+    },
+    {
+      "id": 90,
+      "start": 372.27,
+      "end": 373.45,
+      "speaker": "PATIENT",
+      "text": "No, I haven't."
+    },
+    {
+      "id": 91,
+      "start": 373.57,
+      "end": 385.1,
+      "speaker": "DOCTOR",
+      "text": "You haven't, OK. Um, all right. Um. Now, um, in terms of your uh, your kind of social situation. Um, are you working at the moment?"
+    },
+    {
+      "id": 92,
+      "start": 385.38,
+      "end": 386.38,
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "id": 93,
+      "start": 386.53,
+      "end": 387.69,
+      "speaker": "DOCTOR",
+      "text": ", what do you work as?"
+    },
+    {
+      "id": 94,
+      "start": 388.18,
+      "end": 389.8,
+      "speaker": "PATIENT",
+      "text": "Uh, I'm, uh, I'm actually a doctor."
+    },
+    {
+      "id": 95,
+      "start": 390.19,
+      "end": 392.02,
+      "speaker": "DOCTOR",
+      "text": "You're a , a, a medical doctor?"
+    },
+    {
+      "id": 96,
+      "start": 391.86,
+      "end": 392.66,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 97,
+      "start": 392.93,
+      "end": 395.35,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, which, specialty are you in?"
+    },
+    {
+      "id": 98,
+      "start": 396.36,
+      "end": 398.47,
+      "speaker": "PATIENT",
+      "text": "I work in, uh, plastic surgery."
+    },
+    {
+      "id": 99,
+      "start": 398.72,
+      "end": 404.98,
+      "speaker": "DOCTOR",
+      "text": "Plastic surgery, OK, great. And, um, do you, have any, um, allergies to any medication at all?"
+    },
+    {
+      "id": 100,
+      "start": 405.97,
+      "end": 408.13,
+      "speaker": "PATIENT",
+      "text": "I'm allergic to penicillin only."
+    },
+    {
+      "id": 101,
+      "start": 408.37,
+      "end": 412.67,
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, are you, um, living alone?"
+    },
+    {
+      "id": 102,
+      "start": 413.1,
+      "end": 414.36,
+      "speaker": "PATIENT",
+      "text": "No, I live with my wife."
+    },
+    {
+      "id": 103,
+      "start": 414.69,
+      "end": 419.8,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, fantastic. Uh , do you smoke at all?"
+    },
+    {
+      "id": 104,
+      "start": 420.56,
+      "end": 421.42,
+      "speaker": "PATIENT",
+      "text": "No, I don't."
+    },
+    {
+      "id": 105,
+      "start": 422.14,
+      "end": 430.55,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, that's fine. Now, obviously you're a, you're a medic yourself. Did you have any thoughts as to what might be going on?"
+    },
+    {
+      "id": 106,
+      "start": 431.64,
+      "end": 434.22,
+      "speaker": "PATIENT",
+      "text": "Uh, I've actually, got no idea."
+    },
+    {
+      "id": 107,
+      "start": 434.73,
+      "end": 446.77,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, well the, the way you're describing these episodes. They make me concerned about, mini-strokes or TIAs, , transient ischemic attacks. Um."
+    },
+    {
+      "id": 108,
+      "start": 446.33,
+      "end": 446.84,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 446.77,
+      "end": 452.66,
+      "speaker": "DOCTOR",
+      "text": "And so, that's something quite urgent. And given that you've got a family history of um, stroke."
+    },
+    {
+      "id": 110,
+      "start": 452.66,
+      "end": 463.72,
+      "speaker": "DOCTOR",
+      "text": "Um, even though you're quite young, I think um, it's something that we need to exclude. So, what I'm probably going to do, uh, in fact what I am going to do, is I'm going to, refer you to a stroke, a TIA clinic."
+    },
+    {
+      "id": 111,
+      "start": 464.4,
+      "end": 468.23,
+      "speaker": "DOCTOR",
+      "text": "Um, now just to double-check. Do you have the symptoms right now?"
+    },
+    {
+      "id": 112,
+      "start": 468.61,
+      "end": 470.31,
+      "speaker": "PATIENT",
+      "text": "No, I'm perfectly fine at the moment."
+    },
+    {
+      "id": 113,
+      "start": 470.28,
+      "end": 475.74,
+      "speaker": "DOCTOR",
+      "text": "OK. So, so, what I'm gonna do, is I'm uh, I'm gonna refer you to a, a mini-stroke clinic, or a TIA clinic."
+    },
+    {
+      "id": 114,
+      "start": 475.74,
+      "end": 483.76,
+      "speaker": "DOCTOR",
+      "text": "Um, I send that referral off now, and then you can attend them, they, they'll usually, call you in within the next one to two days, OK."
+    },
+    {
+      "id": 115,
+      "start": 483.76,
+      "end": 493.47,
+      "speaker": "DOCTOR",
+      "text": "Because it's something relatively urgent. Now, today it's Wednesday, so we've got a few days , before the weekend. So, um, uh, basically the deadline should be, Thursday, Friday."
+    },
+    {
+      "id": 116,
+      "start": 493.47,
+      "end": 496.93,
+      "speaker": "DOCTOR",
+      "text": "We're expecting you to be seen by the time, that's the kind of turnaround we're, we're looking at."
+    },
+    {
+      "id": 117,
+      "start": 496.93,
+      "end": 511.78,
+      "speaker": "DOCTOR",
+      "text": "And in that clinic, they'll be doing a number of things. Um, they'll be checking, they'll be doing a ultrasound of the, carotid arteries, like your, your father had. Um, and, they'll be doing a, maybe a, they might do a scan of your brain as well, to check if there's any signs of a bleed there."
+    },
+    {
+      "id": 118,
+      "start": 511.78,
+      "end": 522.91,
+      "speaker": "DOCTOR",
+      "text": "But, um, they'll be doing a range of tests in a short time frame, in order to exclude whether, you have um, any illness. OK, whether you have got any kind of stroke or, mini-stroke."
+    },
+    {
+      "id": 119,
+      "start": 519.55,
+      "end": 520.33,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 120,
+      "start": 522.91,
+      "end": 530.3,
+      "speaker": "DOCTOR",
+      "text": "Now, if your symptoms return and they persist, they're prolonged. Then um, you may need to attend A and E."
+    },
+    {
+      "id": 121,
+      "start": 530.3,
+      "end": 536.99,
+      "speaker": "DOCTOR",
+      "text": "OK, because um, our presumptive, working diagnosis is, mini-stroke or TIA, OK."
+    },
+    {
+      "id": 122,
+      "start": 536.99,
+      "end": 551.19,
+      "speaker": "DOCTOR",
+      "text": "And if, a mini-stroke is prolonged then uh, then we end up thinking that this might be a stroke and in that case, that becomes even more of an emergency. So, we're not talking about waiting one or two days, we want you to go to hospital in that instance, as soon as possible, OK."
+    },
+    {
+      "id": 123,
+      "start": 550.95,
+      "end": 551.44,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 124,
+      "start": 551.19,
+      "end": 560.53,
+      "speaker": "DOCTOR",
+      "text": "Now if , things happen again, feel free to contact us, we can assess you over the phone, we can give you direction and guidance over the phone. That's, that's, that's not a problem, you know, you, you've got easy access to us."
+    },
+    {
+      "id": 125,
+      "start": 560.53,
+      "end": 568.15,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, this is the plan going forward. Um, I'm going to, um, do that referral."
+    },
+    {
+      "id": 126,
+      "start": 568.15,
+      "end": 571.25,
+      "speaker": "DOCTOR",
+      "text": "You should hear back from the hospital, relatively soon."
+    },
+    {
+      "id": 127,
+      "start": 571.25,
+      "end": 578.47,
+      "speaker": "DOCTOR",
+      "text": "The hospital, you can actually ring them, on um, uh, the PALS number, and then there's also the TIA clinic number."
+    },
+    {
+      "id": 128,
+      "start": 578.47,
+      "end": 584.87,
+      "speaker": "DOCTOR",
+      "text": "I'm going to leave that number in the notes for this consultation, OK. So you'll have all the information you need, to chase this appointment."
+    },
+    {
+      "id": 129,
+      "start": 578.7,
+      "end": 579.27,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 130,
+      "start": 584.87,
+      "end": 589.14,
+      "speaker": "DOCTOR",
+      "text": "And um, if you want, you can ring them, either today or tomorrow morning."
+    },
+    {
+      "id": 131,
+      "start": 589.14,
+      "end": 598.49,
+      "speaker": "DOCTOR",
+      "text": ", today in the afternoon, wait uh, one or two hours. Or tomorrow morning just to find out when they got time to slot you in. And, just to make sure they've got you in the system, that they've got in the books, and they're going to be calling you in, OK."
+    },
+    {
+      "id": 133,
+      "start": 598.49,
+      "end": 606.88,
+      "speaker": "DOCTOR",
+      "text": ", this isn't, a, an immediate emergency that you need to rush down to A and E. But it's something quite urgent we need to, deal with in a short space of time, OK."
+    },
+    {
+      "id": 134,
+      "start": 606.88,
+      "end": 617.38,
+      "speaker": "DOCTOR",
+      "text": "So if there's, if there's any delay that, transpires for example, you can't make the appointment or, you know, they, you don't get called. , you, you get, get in contact back, back with us, OK."
+    },
+    {
+      "id": 136,
+      "start": 618.32,
+      "end": 620.46,
+      "speaker": "DOCTOR",
+      "text": "All right. Did you have any questions at all?"
+    },
+    {
+      "id": 137,
+      "start": 620.85,
+      "end": 622.7,
+      "speaker": "PATIENT",
+      "text": "No, I think that covers, most of it."
+    },
+    {
+      "id": 138,
+      "start": 623.06,
+      "end": 631.67,
+      "speaker": "DOCTOR",
+      "text": "OK, great. So just bear with me a few minutes, and then I'll send that uh, all through and then you should, um, you should be able to help, you should have the information at your hands to, in order to take things further, OK."
+    },
+    {
+      "id": 139,
+      "start": 631.83,
+      "end": 632.73,
+      "speaker": "PATIENT",
+      "text": ", thank you."
+    },
+    {
+      "id": 140,
+      "start": 632.76,
+      "end": 634.51,
+      "speaker": "DOCTOR",
+      "text": "All the best. Take care now. Bye bye."
+    }
+  ]
+}

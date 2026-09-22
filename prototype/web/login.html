@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in — Clinical Documentation Gate</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="auth.css">
+</head>
+<body>
+  <a href="/" class="back-link">&larr; Clinical Documentation Gate</a>
+
+  <main class="auth-wrap">
+    <div class="auth-card card">
+      <div class="tabs">
+        <button class="tab" id="tab-login">Sign in</button>
+        <button class="tab" id="tab-signup">Create account</button>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <label>Email
+          <input type="email" id="login-email" required autocomplete="email" placeholder="you@clinic.org">
+        </label>
+        <label>Password
+          <input type="password" id="login-password" required autocomplete="current-password">
+        </label>
+        <p class="error" id="login-error" hidden></p>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+
+      <form id="signup-form" class="auth-form" hidden>
+        <label>Full name
+          <input type="text" id="signup-name" required autocomplete="name" placeholder="Dr. Asha Rao">
+        </label>
+        <label>Email
+          <input type="email" id="signup-email" required autocomplete="email" placeholder="you@clinic.org">
+        </label>
+        <label>Password
+          <input type="password" id="signup-password" required autocomplete="new-password" minlength="6">
+        </label>
+        <p class="error" id="signup-error" hidden></p>
+        <button type="submit" class="btn btn-primary">Create account</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,519 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation08",
+  "presenting_complaint": "I have a cough and a cold",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History : \nCough and cold for 5 days \nCough is dry, no sputum , no blood\nNo wheeze \nNo breathlessness \nUsed paracetamol \nDiabetic and high blood pressure since 5-6 years\nMedication: metformin, lisinopril\nSugar levels and BP normal today \nDiagnosis: Upper respiratory tract infection\nPlan : . advised to use night and day nurse. If there is breathlessness, wheezying or cough more than 3 weeks to call back\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.37,
+      "end": 3.17,
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "id": 2,
+      "start": 3.43,
+      "end": 4.41,
+      "speaker": "PATIENT",
+      "text": "Hi there!"
+    },
+    {
+      "id": 3,
+      "start": 4.15,
+      "end": 8.8,
+      "speaker": "DOCTOR",
+      "text": "Hi, hi, I'm doctor Jacob and welcome to Babylon. Hello."
+    },
+    {
+      "id": 4,
+      "start": 8.84,
+      "end": 10.39,
+      "speaker": "PATIENT",
+      "text": "I, uh"
+    },
+    {
+      "id": 5,
+      "start": 9.37,
+      "end": 15.28,
+      "speaker": "DOCTOR",
+      "text": "Hi. So just before we start, is it alright if you could confirm your full name for me please?"
+    },
+    {
+      "id": 6,
+      "start": 15.66,
+      "end": 19.34,
+      "speaker": "PATIENT",
+      "text": "Uh, , that's, uh, John Jones."
+    },
+    {
+      "id": 8,
+      "start": 19.19,
+      "end": 21.01,
+      "speaker": "DOCTOR",
+      "text": "And your date of birth."
+    },
+    {
+      "id": 9,
+      "start": 21.77,
+      "end": 28.26,
+      "speaker": "PATIENT",
+      "text": "Uh, that's, uh, the, twenty ninth of September, nineteen eighty."
+    },
+    {
+      "id": 10,
+      "start": 28.5,
+      "end": 31.64,
+      "speaker": "DOCTOR",
+      "text": "K. And your email address for me please?"
+    },
+    {
+      "id": 11,
+      "start": 32.11,
+      "end": 36.9,
+      "speaker": "PATIENT",
+      "text": "Uh, that's, uh, John Jones, at, John Jones dot net."
+    },
+    {
+      "id": 12,
+      "start": 37.07,
+      "end": 43.07,
+      "speaker": "DOCTOR",
+      "text": "OK. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "id": 13,
+      "start": 43.25,
+      "end": 44.55,
+      "speaker": "PATIENT",
+      "text": "Yep. That's absolutely fine."
+    },
+    {
+      "id": 14,
+      "start": 44.52,
+      "end": 49.93,
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've mentioned on our notes that you're having a bit of a cough and a cold. Is that correct?"
+    },
+    {
+      "id": 15,
+      "start": 50.49,
+      "end": 61.61,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, it's just it's been going on for, like a few days now. Um, sort of like, coughing, and like, general runny nose, and stuff, and, like"
+    },
+    {
+      "id": 16,
+      "start": 60.35,
+      "end": 64.41,
+      "speaker": "DOCTOR",
+      "text": "is it two to three days, or longer?"
+    },
+    {
+      "id": 17,
+      "start": 64.56,
+      "end": 74.67,
+      "speaker": "PATIENT",
+      "text": "Little bit, uh about like five days around that, uh, yeah it started like, what day is it today? Uh, yeah the week, it started with the start of the weekend, so."
+    },
+    {
+      "id": 18,
+      "start": 67.17,
+      "end": 67.79,
+      "speaker": "DOCTOR",
+      "text": "Fine."
+    },
+    {
+      "id": 19,
+      "start": 73.77,
+      "end": 77.01,
+      "speaker": "DOCTOR",
+      "text": "OK. So, so it started off with a cold, did it?"
+    },
+    {
+      "id": 20,
+      "start": 77.62,
+      "end": 90.44,
+      "speaker": "PATIENT",
+      "text": "Yeah just like coughing, and like running nose, and like kind of muscles aching and stuff, like occasional feeling like headache, cold, chills, and things like that."
+    },
+    {
+      "id": 22,
+      "start": 88.79,
+      "end": 89.46,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 23,
+      "start": 89.96,
+      "end": 91.55,
+      "speaker": "DOCTOR",
+      "text": "Important cold, yeah?"
+    },
+    {
+      "id": 24,
+      "start": 92.02,
+      "end": 96.16,
+      "speaker": "DOCTOR",
+      "text": "And, so about your cough, are you bringing up any phlegm at all?"
+    },
+    {
+      "id": 25,
+      "start": 92.29,
+      "end": 93.12,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 26,
+      "start": 96.92,
+      "end": 102.95,
+      "speaker": "PATIENT",
+      "text": "No, no, it's like a, it's like a dry cough Sort of like like, almost hacking, hacking kind of like ."
+    },
+    {
+      "id": 27,
+      "start": 100.94,
+      "end": 101.56,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 28,
+      "start": 102.14,
+      "end": 104.13,
+      "speaker": "DOCTOR",
+      "text": "You're not bringing up any blood, are you?"
+    },
+    {
+      "id": 30,
+      "start": 105.23,
+      "end": 108.79,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you feeling short of breath at all?"
+    },
+    {
+      "id": 31,
+      "start": 109.78,
+      "end": 113.38,
+      "speaker": "PATIENT",
+      "text": "No, no, no shortness , like yeah, I'm breathing fine."
+    },
+    {
+      "id": 32,
+      "start": 113.18,
+      "end": 116.72,
+      "speaker": "DOCTOR",
+      "text": "Yeah. So you're not wheezy or rattly noises in your chest."
+    },
+    {
+      "id": 33,
+      "start": 117.1,
+      "end": 117.98,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 34,
+      "start": 118.0,
+      "end": 123.63,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, right. So what have you taken so far?"
+    },
+    {
+      "id": 35,
+      "start": 124.52,
+      "end": 135.04,
+      "speaker": "PATIENT",
+      "text": "Uh, so, uh, just like pain killers and such. I mean that I, I, um, in addition to like my normal medication and such. Um, but like"
+    },
+    {
+      "id": 36,
+      "start": 133.87,
+      "end": 141.82,
+      "speaker": "DOCTOR",
+      "text": "Well you mentioned, uh, you've come to your normal medications but you've mentioned you've taken some painkillers like, would you tell me the names please?"
+    },
+    {
+      "id": 37,
+      "start": 141.6,
+      "end": 143.07,
+      "speaker": "PATIENT",
+      "text": "I'll just like pass it along."
+    },
+    {
+      "id": 38,
+      "start": 143.11,
+      "end": 146.09,
+      "speaker": "DOCTOR",
+      "text": "Paracetamol, OK. Any Ibuprofen at all?"
+    },
+    {
+      "id": 39,
+      "start": 146.23,
+      "end": 147.03,
+      "speaker": "PATIENT",
+      "text": "No"
+    },
+    {
+      "id": 40,
+      "start": 146.78,
+      "end": 161.22,
+      "speaker": "DOCTOR",
+      "text": "No, OK. And also um you mentioned some regular medication. Unfortunately I don't have your medical, complete medical history. So if you could tell me what your medications are, and what you use them for?"
+    },
+    {
+      "id": 41,
+      "start": 161.61,
+      "end": 172.1,
+      "speaker": "PATIENT",
+      "text": "Yeah, so I take, um, uh, what's it called, it's like metformin. I'm a diabetic, so. And, um, I also, like have, uh, lisinopril ."
+    },
+    {
+      "id": 42,
+      "start": 171.93,
+      "end": 173.81,
+      "speaker": "DOCTOR",
+      "text": "Lisonopril, OK."
+    },
+    {
+      "id": 43,
+      "start": 173.36,
+      "end": 175.92,
+      "speaker": "PATIENT",
+      "text": "Yeah, but the like slight blood pressure."
+    },
+    {
+      "id": 44,
+      "start": 175.78,
+      "end": 180.22,
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. And, how long have you been a diabetic for?"
+    },
+    {
+      "id": 45,
+      "start": 180.69,
+      "end": 185.44,
+      "speaker": "PATIENT",
+      "text": "Um, like a, a few years, maybe five or six years."
+    },
+    {
+      "id": 46,
+      "start": 185.2,
+      "end": 187.37,
+      "speaker": "DOCTOR",
+      "text": "Five six years, OK."
+    },
+    {
+      "id": 47,
+      "start": 187.78,
+      "end": 191.44,
+      "speaker": "DOCTOR",
+      "text": "OK. Do you monitor your blood sugars at home?"
+    },
+    {
+      "id": 48,
+      "start": 192.38,
+      "end": 193.18,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 49,
+      "start": 193.04,
+      "end": 195.8,
+      "speaker": "DOCTOR",
+      "text": "OK. And how have they been doing at the moment?"
+    },
+    {
+      "id": 50,
+      "start": 196.18,
+      "end": 200.29,
+      "speaker": "PATIENT",
+      "text": "Uh, no issues nothing like out of the ordinary there."
+    },
+    {
+      "id": 51,
+      "start": 199.82,
+      "end": 209.26,
+      "speaker": "DOCTOR",
+      "text": "OK. So there's no problems with your blood pressure control at the moment, even though you're not, OK so that's fine. That's absolutely fine. And when was the last time you took your blood pressure?"
+    },
+    {
+      "id": 52,
+      "start": 210.4,
+      "end": 213.0,
+      "speaker": "PATIENT",
+      "text": "Uh, I've been this morning."
+    },
+    {
+      "id": 53,
+      "start": 212.7,
+      "end": 215.82,
+      "speaker": "DOCTOR",
+      "text": "This morning. And what was it? What was the readings like?"
+    },
+    {
+      "id": 54,
+      "start": 215.73,
+      "end": 219.85,
+      "speaker": "PATIENT",
+      "text": "I can't remember off the top of my head, but it was within the normal range."
+    },
+    {
+      "id": 55,
+      "start": 219.16,
+      "end": 227.84,
+      "speaker": "DOCTOR",
+      "text": "Cool, 'cause there's nothing alarming yeah? No more. OK. That's fine. OK. So that seems all right."
+    },
+    {
+      "id": 56,
+      "start": 227.84,
+      "end": 234.17,
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, can I, hypothetically, look into your mouth here?"
+    },
+    {
+      "id": 57,
+      "start": 234.42,
+      "end": 235.11,
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "id": 58,
+      "start": 234.99,
+      "end": 235.74,
+      "speaker": "DOCTOR",
+      "text": "Yeah?"
+    },
+    {
+      "id": 59,
+      "start": 236.74,
+      "end": 241.76,
+      "speaker": "DOCTOR",
+      "text": "Yeah, so, uh, looking into your mouth"
+    },
+    {
+      "id": 61,
+      "start": 241.76,
+      "end": 252.7,
+      "speaker": "DOCTOR",
+      "text": "Um, you know, there's just a bit mild redness at the back of your throat. Um, there's no enlarged tonsils. Can you feel any glands around your neck, at all?"
+    },
+    {
+      "id": 62,
+      "start": 253.05,
+      "end": 254.98,
+      "speaker": "DOCTOR",
+      "text": "No. No."
+    },
+    {
+      "id": 63,
+      "start": 253.19,
+      "end": 256.07,
+      "speaker": "PATIENT",
+      "text": "No, I haven't had anything like that."
+    },
+    {
+      "id": 64,
+      "start": 256.15,
+      "end": 265.12,
+      "speaker": "DOCTOR",
+      "text": "OK. So, it looks like, it's just a viral infection. Um, because it's just a cold and a cough. There's nothing there."
+    },
+    {
+      "id": 65,
+      "start": 265.12,
+      "end": 272.82,
+      "speaker": "DOCTOR",
+      "text": "And generally if you have things like a chest infection, you would have a bit like a wheeze or shortness of breath."
+    },
+    {
+      "id": 66,
+      "start": 272.82,
+      "end": 292.56,
+      "speaker": "DOCTOR",
+      "text": "So, um, things that we would recommend is you can use the, you know, Night Nurse, Day Nurse. It's still OK with your medications, yeah. So I'm, I'm sure that you are a bit wary to use them. But it's still OK with your current medication. You can still use that. Might be able to make you feel a bit more better quickly."
+    },
+    {
+      "id": 67,
+      "start": 283.31,
+      "end": 283.96,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 68,
+      "start": 292.56,
+      "end": 300.93,
+      "speaker": "DOCTOR",
+      "text": "If there's any change, like you're feeling short of breath or be your symptoms are lasting more than three weeks or something"
+    },
+    {
+      "id": 69,
+      "start": 300.93,
+      "end": 313.7,
+      "speaker": "DOCTOR",
+      "text": "Or you're becoming poorly, uh, things like that, then you need to get in touch with us, then probably we might need to examine you and especially your chest. But I don't think so, that's necessary at this point in time"
+    },
+    {
+      "id": 70,
+      "start": 314.22,
+      "end": 315.89,
+      "speaker": "PATIENT",
+      "text": "OK, that sounds good."
+    },
+    {
+      "id": 71,
+      "start": 315.48,
+      "end": 317.73,
+      "speaker": "DOCTOR",
+      "text": "OK. Any questions at all ?"
+    },
+    {
+      "id": 72,
+      "start": 318.04,
+      "end": 322.53,
+      "speaker": "PATIENT",
+      "text": "Uh, no, I I think that's been very helpful thank you."
+    },
+    {
+      "id": 73,
+      "start": 322.19,
+      "end": 335.69,
+      "speaker": "DOCTOR",
+      "text": "OK. So just to round up, just use the night, Night Nurse, Day Nurse, if any change in your symptoms, like shortness of breath, wheezy, or symptoms are lasting more than three weeks, then get in touch with us."
+    },
+    {
+      "id": 74,
+      "start": 335.27,
+      "end": 338.29,
+      "speaker": "PATIENT",
+      "text": "OK, so I don't need any prescription, or anything like that."
+    },
+    {
+      "id": 75,
+      "start": 337.2,
+      "end": 344.46,
+      "speaker": "DOCTOR",
+      "text": "No, no you don't need anything at the moment. OK. Take care, then. Bye. Bye bye."
+    },
+    {
+      "id": 76,
+      "start": 339.81,
+      "end": 340.62,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 77,
+      "start": 341.93,
+      "end": 343.45,
+      "speaker": "PATIENT",
+      "text": "Thank you very much, bye!"
+    }
+  ]
+}

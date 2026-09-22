@@ -1,0 +1,351 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation06",
+  "presenting_complaint": "I'm having difficulty breathing",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "History : breathing difficulty for past 20 minutes after being bitten by wasp \nThere is some blotching rash seen \ntingling feeling around your lips \nno closing of the throat feeling \nno previous similar history \nPast medical history:\nEczema \nAllergic to penicillin\nPlan : advised to start on antihistamines straight away. It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction \n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.42,
+      "end": 5.06,
+      "speaker": "DOCTOR",
+      "text": "Hello, hi, I'm Doctor Jacob and welcome to Babylon."
+    },
+    {
+      "id": 2,
+      "start": 5.59,
+      "end": 6.81,
+      "speaker": "PATIENT",
+      "text": "I have been"
+    },
+    {
+      "id": 3,
+      "start": 7.16,
+      "end": 8.07,
+      "speaker": "DOCTOR",
+      "text": "You're right."
+    },
+    {
+      "id": 4,
+      "start": 8.63,
+      "end": 15.83,
+      "speaker": "DOCTOR",
+      "text": "So just before we start, is it alright if you could confirm your name for me, please?"
+    },
+    {
+      "id": 5,
+      "start": 8.99,
+      "end": 10.87,
+      "speaker": "PATIENT",
+      "text": "Uh, not really."
+    },
+    {
+      "id": 6,
+      "start": 17.37,
+      "end": 19.96,
+      "speaker": "PATIENT",
+      "text": "My name is Jonathan Irving."
+    },
+    {
+      "id": 7,
+      "start": 20.29,
+      "end": 21.85,
+      "speaker": "DOCTOR",
+      "text": "And your date of birth?"
+    },
+    {
+      "id": 8,
+      "start": 22.47,
+      "end": 25.9,
+      "speaker": "PATIENT",
+      "text": "Uh, six, twelve, uh, eighty."
+    },
+    {
+      "id": 9,
+      "start": 26.23,
+      "end": 28.76,
+      "speaker": "DOCTOR",
+      "text": "And your address for me, please."
+    },
+    {
+      "id": 10,
+      "start": 30.25,
+      "end": 36.09,
+      "speaker": "PATIENT",
+      "text": "Uh, sixty two Lewin Road Streatham SW sixteen six JT."
+    },
+    {
+      "id": 11,
+      "start": 36.19,
+      "end": 41.89,
+      "speaker": "DOCTOR",
+      "text": "correct, and just to confirm that you're in a secure location and we can have a confidential conversation."
+    },
+    {
+      "id": 12,
+      "start": 41.99,
+      "end": 42.97,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 13,
+      "start": 42.47,
+      "end": 49.49,
+      "speaker": "DOCTOR",
+      "text": "Yeah. You've mentioned you had some breathing difficulties in the, the notes. How can I help you?"
+    },
+    {
+      "id": 14,
+      "start": 49.71,
+      "end": 57.03,
+      "speaker": "PATIENT",
+      "text": "Yes, about fifteen minutes ago, I was gardening and, um, I was stung by wasp. Um, ran inside."
+    },
+    {
+      "id": 15,
+      "start": 57.01,
+      "end": 57.58,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 16,
+      "start": 57.03,
+      "end": 62.47,
+      "speaker": "PATIENT",
+      "text": "And now I'm, um, just starting to notice a few things. Yeah, I'm having quite shallow breath."
+    },
+    {
+      "id": 17,
+      "start": 64.11,
+      "end": 66.71,
+      "speaker": "DOCTOR",
+      "text": "You're having difficulties breathing since then, yeah?"
+    },
+    {
+      "id": 19,
+      "start": 67.94,
+      "end": 73.81,
+      "speaker": "DOCTOR",
+      "text": "OK. So, is there any swelling of your lips, you feel your throat is closing up?"
+    },
+    {
+      "id": 20,
+      "start": 74.08,
+      "end": 78.05,
+      "speaker": "PATIENT",
+      "text": "Not throat, but I can , yeah, I can I can definitely feel something in the lips, yeah."
+    },
+    {
+      "id": 21,
+      "start": 78.25,
+      "end": 80.19,
+      "speaker": "DOCTOR",
+      "text": "Right, like a tingling kind of feeling?"
+    },
+    {
+      "id": 22,
+      "start": 80.33,
+      "end": 81.45,
+      "speaker": "PATIENT",
+      "text": "Yes, yeah."
+    },
+    {
+      "id": 23,
+      "start": 81.41,
+      "end": 83.2,
+      "speaker": "DOCTOR",
+      "text": "OK, but no swelling, yeah?"
+    },
+    {
+      "id": 24,
+      "start": 83.18,
+      "end": 87.76,
+      "speaker": "PATIENT",
+      "text": "Alright. I mean, you know, to be honest, I'm just doing this to establish whether I should go to the hospital."
+    },
+    {
+      "id": 25,
+      "start": 88.25,
+      "end": 91.9,
+      "speaker": "DOCTOR",
+      "text": "OK. Right, OK. Have you had anything like this before?"
+    },
+    {
+      "id": 26,
+      "start": 92.73,
+      "end": 93.58,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 27,
+      "start": 93.47,
+      "end": 99.48,
+      "speaker": "DOCTOR",
+      "text": "No. OK. So, um, do you feel wheezy in your chest, or just tightness?"
+    },
+    {
+      "id": 28,
+      "start": 99.99,
+      "end": 105.83,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. Um, a bit of tightness. Yeah, a bit of tightness, yeah."
+    },
+    {
+      "id": 29,
+      "start": 106.02,
+      "end": 115.84,
+      "speaker": "DOCTOR",
+      "text": "Bit of tightness, OK, OK. So, I, unfortunately, I don't have much of your past medical history. Do you have any significant past medical or surgical history you'd like to share?"
+    },
+    {
+      "id": 30,
+      "start": 116.18,
+      "end": 122.32,
+      "speaker": "PATIENT",
+      "text": "Uh, no, not really. Uh, a bit of eczema and I'm allergic to penicillin."
+    },
+    {
+      "id": 31,
+      "start": 122.57,
+      "end": 126.79,
+      "speaker": "DOCTOR",
+      "text": "OK. Are you on any regular medication at all?"
+    },
+    {
+      "id": 33,
+      "start": 128.21,
+      "end": 128.87,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 34,
+      "start": 129.7,
+      "end": 130.77,
+      "speaker": "DOCTOR",
+      "text": "Righty-ho."
+    },
+    {
+      "id": 35,
+      "start": 132.09,
+      "end": 135.27,
+      "speaker": "DOCTOR",
+      "text": "Are you having any rash on your body at the moment?"
+    },
+    {
+      "id": 36,
+      "start": 135.61,
+      "end": 139.11,
+      "speaker": "PATIENT",
+      "text": "Yes there's a bit of blotching ."
+    },
+    {
+      "id": 37,
+      "start": 137.38,
+      "end": 142.09,
+      "speaker": "DOCTOR",
+      "text": "OK. Well, have you taken anything at all for the blotching?"
+    },
+    {
+      "id": 38,
+      "start": 142.78,
+      "end": 144.65,
+      "speaker": "PATIENT",
+      "text": "I wouldn't even know what to take then."
+    },
+    {
+      "id": 39,
+      "start": 144.36,
+      "end": 157.54,
+      "speaker": "DOCTOR",
+      "text": "OK so you've, OK. That's fine. So from what you're saying, you do need to have medical attention straight away. OK? Um, do you have any antihistamines in your house at all?"
+    },
+    {
+      "id": 40,
+      "start": 158.69,
+      "end": 165.07,
+      "speaker": "PATIENT",
+      "text": "Um, yes, I've used them for flying. I have aerosinusitis, so yes, I do"
+    },
+    {
+      "id": 41,
+      "start": 164.5,
+      "end": 173.79,
+      "speaker": "DOCTOR",
+      "text": "So, why, why, and I'm, because your your breathing problem can get worse very quickly, I would like you to call. Is there someone else at home with you?"
+    },
+    {
+      "id": 42,
+      "start": 174.51,
+      "end": 177.07,
+      "speaker": "PATIENT",
+      "text": "Yes, my wife can take me to the emergency room, yeah."
+    },
+    {
+      "id": 43,
+      "start": 176.89,
+      "end": 191.24,
+      "speaker": "DOCTOR",
+      "text": "Uh, no, I wouldn't want your wife to take you, I would like, I'd like her to call the ambulance because that might take a bit longer, and, you know, we need to deal with it quickly. So, what we are worried about is, you know, in case you develop an anaphylactic reaction."
+    },
+    {
+      "id": 45,
+      "start": 191.4,
+      "end": 193.71,
+      "speaker": "PATIENT",
+      "text": "OK. She's listening. I'll get her to call now, yeah"
+    },
+    {
+      "id": 46,
+      "start": 193.45,
+      "end": 202.59,
+      "speaker": "DOCTOR",
+      "text": "Yeah so, I'll ask her to give you the, um, antihistamine, in the meantime while the ambulance is coming. And take yourself to hospital."
+    },
+    {
+      "id": 47,
+      "start": 202.59,
+      "end": 211.81,
+      "speaker": "DOCTOR",
+      "text": "Um, it might just be an articularly reaction, but because you're complaining of breathing difficulties, it is quite important that you go to hospital straight away."
+    },
+    {
+      "id": 48,
+      "start": 211.81,
+      "end": 217.11,
+      "speaker": "DOCTOR",
+      "text": "But I'd like you to call the ambulance because, you know, so that you will be sorted out quickly."
+    },
+    {
+      "id": 49,
+      "start": 211.97,
+      "end": 212.79,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 50,
+      "start": 217.58,
+      "end": 221.09,
+      "speaker": "PATIENT",
+      "text": "Yeah. Alright, thank you. She's on it now. Yeah, she's on the phone."
+    },
+    {
+      "id": 52,
+      "start": 221.23,
+      "end": 223.44,
+      "speaker": "DOCTOR",
+      "text": "OK. Alright then, you take care."
+    },
+    {
+      "id": 53,
+      "start": 223.53,
+      "end": 225.51,
+      "speaker": "PATIENT",
+      "text": "Alright, thank you for the advice ."
+    }
+  ]
+}

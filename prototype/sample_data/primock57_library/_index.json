@@ -1,0 +1,344 @@
+[
+  {
+    "filename": "day1_consultation01.json",
+    "visit_id": "PRIMOCK57-day1_consultation01",
+    "presenting_complaint": "I've been having really bad diarrhea for the last 3 days",
+    "segment_count": 102
+  },
+  {
+    "filename": "day1_consultation02.json",
+    "visit_id": "PRIMOCK57-day1_consultation02",
+    "presenting_complaint": "I have sore, red skin",
+    "segment_count": 122
+  },
+  {
+    "filename": "day1_consultation03.json",
+    "visit_id": "PRIMOCK57-day1_consultation03",
+    "presenting_complaint": "I have terrible headache",
+    "segment_count": 136
+  },
+  {
+    "filename": "day1_consultation04.json",
+    "visit_id": "PRIMOCK57-day1_consultation04",
+    "presenting_complaint": "I don't feel well, I have a cough and runny nose",
+    "segment_count": 124
+  },
+  {
+    "filename": "day1_consultation05.json",
+    "visit_id": "PRIMOCK57-day1_consultation05",
+    "presenting_complaint": "Lower abdominal pain",
+    "segment_count": 111
+  },
+  {
+    "filename": "day1_consultation06.json",
+    "visit_id": "PRIMOCK57-day1_consultation06",
+    "presenting_complaint": "hard to breathe",
+    "segment_count": 157
+  },
+  {
+    "filename": "day1_consultation07.json",
+    "visit_id": "PRIMOCK57-day1_consultation07",
+    "presenting_complaint": "I have a cough and cold",
+    "segment_count": 165
+  },
+  {
+    "filename": "day1_consultation08.json",
+    "visit_id": "PRIMOCK57-day1_consultation08",
+    "presenting_complaint": "I have dry, itchy skin",
+    "segment_count": 116
+  },
+  {
+    "filename": "day1_consultation09.json",
+    "visit_id": "PRIMOCK57-day1_consultation09",
+    "presenting_complaint": "It hurts when I pee",
+    "segment_count": 106
+  },
+  {
+    "filename": "day1_consultation10.json",
+    "visit_id": "PRIMOCK57-day1_consultation10",
+    "presenting_complaint": "It hurts when I pee",
+    "segment_count": 123
+  },
+  {
+    "filename": "day1_consultation11.json",
+    "visit_id": "PRIMOCK57-day1_consultation11",
+    "presenting_complaint": "pouring diarrhoea from my bottom",
+    "segment_count": 147
+  },
+  {
+    "filename": "day1_consultation12.json",
+    "visit_id": "PRIMOCK57-day1_consultation12",
+    "presenting_complaint": "I've been having really bad diarrhoea for the last 3 days",
+    "segment_count": 99
+  },
+  {
+    "filename": "day1_consultation13.json",
+    "visit_id": "PRIMOCK57-day1_consultation13",
+    "presenting_complaint": "I've had a blinding headache for a few days",
+    "segment_count": 119
+  },
+  {
+    "filename": "day1_consultation14.json",
+    "visit_id": "PRIMOCK57-day1_consultation14",
+    "presenting_complaint": "I have a cough and cold",
+    "segment_count": 119
+  },
+  {
+    "filename": "day1_consultation15.json",
+    "visit_id": "PRIMOCK57-day1_consultation15",
+    "presenting_complaint": "I have sore, cracked skin on my hands",
+    "segment_count": 120
+  },
+  {
+    "filename": "day2_consultation01.json",
+    "visit_id": "PRIMOCK57-day2_consultation01",
+    "presenting_complaint": "I don't hear as well as I used to",
+    "segment_count": 72
+  },
+  {
+    "filename": "day2_consultation02.json",
+    "visit_id": "PRIMOCK57-day2_consultation02",
+    "presenting_complaint": "I have a strange swelling on my elbow",
+    "segment_count": 106
+  },
+  {
+    "filename": "day2_consultation03.json",
+    "visit_id": "PRIMOCK57-day2_consultation03",
+    "presenting_complaint": "I can't hear very well and my face is a bit numb",
+    "segment_count": 99
+  },
+  {
+    "filename": "day2_consultation04.json",
+    "visit_id": "PRIMOCK57-day2_consultation04",
+    "presenting_complaint": "I feel breathless",
+    "segment_count": 135
+  },
+  {
+    "filename": "day2_consultation05.json",
+    "visit_id": "PRIMOCK57-day2_consultation05",
+    "presenting_complaint": "My asthma is not responding to my inhalers",
+    "segment_count": 137
+  },
+  {
+    "filename": "day2_consultation06.json",
+    "visit_id": "PRIMOCK57-day2_consultation06",
+    "presenting_complaint": "I\u2019m having difficulty breathing",
+    "segment_count": 128
+  },
+  {
+    "filename": "day2_consultation07.json",
+    "visit_id": "PRIMOCK57-day2_consultation07",
+    "presenting_complaint": "I'm having chest discomfort",
+    "segment_count": 120
+  },
+  {
+    "filename": "day2_consultation08.json",
+    "visit_id": "PRIMOCK57-day2_consultation08",
+    "presenting_complaint": "I've been feeling very hot and sweaty for the past week",
+    "segment_count": 129
+  },
+  {
+    "filename": "day2_consultation09.json",
+    "visit_id": "PRIMOCK57-day2_consultation09",
+    "presenting_complaint": "I can't move my left arm",
+    "segment_count": 94
+  },
+  {
+    "filename": "day2_consultation10.json",
+    "visit_id": "PRIMOCK57-day2_consultation10",
+    "presenting_complaint": "I've got a really bad headache",
+    "segment_count": 127
+  },
+  {
+    "filename": "day3_consultation01.json",
+    "visit_id": "PRIMOCK57-day3_consultation01",
+    "presenting_complaint": "lips swelling after eating a sandwich",
+    "segment_count": 94
+  },
+  {
+    "filename": "day3_consultation02.json",
+    "visit_id": "PRIMOCK57-day3_consultation02",
+    "presenting_complaint": "feeling hot and having severe headache",
+    "segment_count": 78
+  },
+  {
+    "filename": "day3_consultation03.json",
+    "visit_id": "PRIMOCK57-day3_consultation03",
+    "presenting_complaint": "I don't have much appetite or energy lately",
+    "segment_count": 145
+  },
+  {
+    "filename": "day3_consultation04.json",
+    "visit_id": "PRIMOCK57-day3_consultation04",
+    "presenting_complaint": "my chest feels very tight",
+    "segment_count": 97
+  },
+  {
+    "filename": "day3_consultation05.json",
+    "visit_id": "PRIMOCK57-day3_consultation05",
+    "presenting_complaint": "I've been feeling dizzy",
+    "segment_count": 83
+  },
+  {
+    "filename": "day3_consultation06.json",
+    "visit_id": "PRIMOCK57-day3_consultation06",
+    "presenting_complaint": "I'm having difficulty breathing",
+    "segment_count": 49
+  },
+  {
+    "filename": "day3_consultation07.json",
+    "visit_id": "PRIMOCK57-day3_consultation07",
+    "presenting_complaint": "I have sore red skin",
+    "segment_count": 102
+  },
+  {
+    "filename": "day3_consultation08.json",
+    "visit_id": "PRIMOCK57-day3_consultation08",
+    "presenting_complaint": "I have a cough and a cold",
+    "segment_count": 73
+  },
+  {
+    "filename": "day3_consultation09.json",
+    "visit_id": "PRIMOCK57-day3_consultation09",
+    "presenting_complaint": "I have pain in my jaw",
+    "segment_count": 126
+  },
+  {
+    "filename": "day3_consultation10.json",
+    "visit_id": "PRIMOCK57-day3_consultation10",
+    "presenting_complaint": "I have really bad diarrhea",
+    "segment_count": 111
+  },
+  {
+    "filename": "day4_consultation01.json",
+    "visit_id": "PRIMOCK57-day4_consultation01",
+    "presenting_complaint": "I'm having chest discomfort",
+    "segment_count": 131
+  },
+  {
+    "filename": "day4_consultation02.json",
+    "visit_id": "PRIMOCK57-day4_consultation02",
+    "presenting_complaint": "I'm feeling hot and have severe headaches",
+    "segment_count": 157
+  },
+  {
+    "filename": "day4_consultation03.json",
+    "visit_id": "PRIMOCK57-day4_consultation03",
+    "presenting_complaint": "I'm feeling short of breath",
+    "segment_count": 117
+  },
+  {
+    "filename": "day4_consultation04.json",
+    "visit_id": "PRIMOCK57-day4_consultation04",
+    "presenting_complaint": "I'm wheezy",
+    "segment_count": 102
+  },
+  {
+    "filename": "day4_consultation05.json",
+    "visit_id": "PRIMOCK57-day4_consultation05",
+    "presenting_complaint": "I've had bad diarrhea for 3 days",
+    "segment_count": 110
+  },
+  {
+    "filename": "day4_consultation06.json",
+    "visit_id": "PRIMOCK57-day4_consultation06",
+    "presenting_complaint": "my chest hurts and it's been hard to breathe",
+    "segment_count": 132
+  },
+  {
+    "filename": "day4_consultation07.json",
+    "visit_id": "PRIMOCK57-day4_consultation07",
+    "presenting_complaint": "I have a cold",
+    "segment_count": 118
+  },
+  {
+    "filename": "day4_consultation08.json",
+    "visit_id": "PRIMOCK57-day4_consultation08",
+    "presenting_complaint": "lately, I haven't had much appetite or energy",
+    "segment_count": 162
+  },
+  {
+    "filename": "day4_consultation09.json",
+    "visit_id": "PRIMOCK57-day4_consultation09",
+    "presenting_complaint": "I have pain in my jaw",
+    "segment_count": 124
+  },
+  {
+    "filename": "day4_consultation10.json",
+    "visit_id": "PRIMOCK57-day4_consultation10",
+    "presenting_complaint": "I have really bad diarrhea",
+    "segment_count": 145
+  },
+  {
+    "filename": "day5_consultation01.json",
+    "visit_id": "PRIMOCK57-day5_consultation01",
+    "presenting_complaint": "I have a headache",
+    "segment_count": 106
+  },
+  {
+    "filename": "day5_consultation02.json",
+    "visit_id": "PRIMOCK57-day5_consultation02",
+    "presenting_complaint": "It hurts when I pee",
+    "segment_count": 128
+  },
+  {
+    "filename": "day5_consultation03.json",
+    "visit_id": "PRIMOCK57-day5_consultation03",
+    "presenting_complaint": "I'm feeling very anxious",
+    "segment_count": 121
+  },
+  {
+    "filename": "day5_consultation04.json",
+    "visit_id": "PRIMOCK57-day5_consultation04",
+    "presenting_complaint": "Lower stomach pain",
+    "segment_count": 134
+  },
+  {
+    "filename": "day5_consultation05.json",
+    "visit_id": "PRIMOCK57-day5_consultation05",
+    "presenting_complaint": "My tummy hurts",
+    "segment_count": 109
+  },
+  {
+    "filename": "day5_consultation06.json",
+    "visit_id": "PRIMOCK57-day5_consultation06",
+    "presenting_complaint": "Diarrhoea",
+    "segment_count": 134
+  },
+  {
+    "filename": "day5_consultation07.json",
+    "visit_id": "PRIMOCK57-day5_consultation07",
+    "presenting_complaint": "Cough and a cold",
+    "segment_count": 117
+  },
+  {
+    "filename": "day5_consultation08.json",
+    "visit_id": "PRIMOCK57-day5_consultation08",
+    "presenting_complaint": "I'm wheezy",
+    "segment_count": 140
+  },
+  {
+    "filename": "day5_consultation09.json",
+    "visit_id": "PRIMOCK57-day5_consultation09",
+    "presenting_complaint": "Tired all the time",
+    "segment_count": 116
+  },
+  {
+    "filename": "day5_consultation10.json",
+    "visit_id": "PRIMOCK57-day5_consultation10",
+    "presenting_complaint": "I have a blinding headache",
+    "segment_count": 127
+  },
+  {
+    "filename": "day5_consultation11.json",
+    "visit_id": "PRIMOCK57-day5_consultation11",
+    "presenting_complaint": "I have a pouring diarrhea",
+    "segment_count": 127
+  },
+  {
+    "filename": "day5_consultation12.json",
+    "visit_id": "PRIMOCK57-day5_consultation12",
+    "presenting_complaint": "Headache",
+    "segment_count": 99
+  }
+]

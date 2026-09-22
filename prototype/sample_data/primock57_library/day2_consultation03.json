@@ -1,0 +1,701 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation03",
+  "presenting_complaint": "I can't hear very well and my face is a bit numb",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Hx: 1 week history of left side difficulty hearing and facial numbness\nNo dysphagia, dysarthria, no unilateral weakness/numbness in the rest of the body, no visual disturbances \nNo ear pain, ear discharge, fever, itchiness or cotton bud use.\nSlight tinnitus at times in this period- not continuous\nNumbness and difficulty hearing present now \nPmhx: labyrinthitis, heart burn, nasal polyps\nDH: Rennies PRN OTC, nasal spray PRN (pt not sure of name)\nAllergies: latex allergy\nNo FH of note\nEx: no facial asymmetry, looks well, normal facial expressions and movements\nImp: ? Bell's Palsy- need to rule out any other focal neurology\nPlan: for face to face review today for neurological examination and ear examination\nPt to ring support line for GP F2f slot\nPt understands and is happy with plan\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.62,
+      "end": 1.49,
+      "speaker": "PATIENT",
+      "text": "Hello?"
+    },
+    {
+      "id": 2,
+      "start": 1.44,
+      "end": 2.97,
+      "speaker": "DOCTOR",
+      "text": "Hi there. Good morning!"
+    },
+    {
+      "id": 3,
+      "start": 3.13,
+      "end": 9.51,
+      "speaker": "PATIENT",
+      "text": "Hi. . Nice to meet you. Hello."
+    },
+    {
+      "id": 4,
+      "start": 3.62,
+      "end": 7.76,
+      "speaker": "DOCTOR",
+      "text": "Hello. I, I'm Doctor . Nice to see you."
+    },
+    {
+      "id": 5,
+      "start": 9.1,
+      "end": 14.68,
+      "speaker": "DOCTOR",
+      "text": "Hi. Um, so, before we start your appointment, could I confirm your full name and date of birth, if that's OK?"
+    },
+    {
+      "id": 6,
+      "start": 14.79,
+      "end": 22.58,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. Uh, Mary Richards. Uh, and my, I'm forty years old. So."
+    },
+    {
+      "id": 7,
+      "start": 23.19,
+      "end": 26.75,
+      "speaker": "DOCTOR",
+      "text": "You're OK, fine. So, you're you're forty years old, you said, yeah?"
+    },
+    {
+      "id": 9,
+      "start": 27.34,
+      "end": 30.99,
+      "speaker": "DOCTOR",
+      "text": "Perfect, OK. Um, are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "id": 10,
+      "start": 31.04,
+      "end": 31.87,
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "id": 11,
+      "start": 31.66,
+      "end": 35.02,
+      "speaker": "DOCTOR",
+      "text": "OK, great. Um, so how can I help you today?"
+    },
+    {
+      "id": 12,
+      "start": 35.32,
+      "end": 44.72,
+      "speaker": "PATIENT",
+      "text": "Um, so, just been having some, um, problems with my hearing, I can't really hear very well, and my , noticed that my face has been feeling a bit numb recently."
+    },
+    {
+      "id": 13,
+      "start": 44.91,
+      "end": 48.86,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. OK. And how long has this been going on for?"
+    },
+    {
+      "id": 14,
+      "start": 49.14,
+      "end": 54.81,
+      "speaker": "PATIENT",
+      "text": "Um, it's been, it's been a few weeks now. Um, been about three weeks or something."
+    },
+    {
+      "id": 15,
+      "start": 54.91,
+      "end": 59.01,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And, is this just on one side, or both sides?"
+    },
+    {
+      "id": 16,
+      "start": 59.52,
+      "end": 64.13,
+      "speaker": "PATIENT",
+      "text": "Just one side, just on my left side, I've noticed that the hearing's kind of gone down a bit."
+    },
+    {
+      "id": 17,
+      "start": 64.59,
+      "end": 72.38,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And your face feeling numb, where exactly is that? Which part of your face? Can you, can you show me with your finger?"
+    },
+    {
+      "id": 19,
+      "start": 72.32,
+      "end": 81.59,
+      "speaker": "PATIENT",
+      "text": "Yeah, so again it's the left side, it's kind of like around my left ear, and kind of, along here. So like, my jawline's just all feeling a bit numb round here."
+    },
+    {
+      "id": 20,
+      "start": 81.2,
+      "end": 88.56,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. OK. Um, has anything else happened, um, in this time? Any other symptoms you have at all?"
+    },
+    {
+      "id": 21,
+      "start": 88.94,
+      "end": 92.51,
+      "speaker": "PATIENT",
+      "text": "Not that I, not that I've noticed, ."
+    },
+    {
+      "id": 24,
+      "start": 93.56,
+      "end": 97.62,
+      "speaker": "PATIENT",
+      "text": "I think, occasionally noticed a, ringing in my ear. Um."
+    },
+    {
+      "id": 25,
+      "start": 96.94,
+      "end": 99.11,
+      "speaker": "DOCTOR",
+      "text": "Some, some ringing in your ear. OK."
+    },
+    {
+      "id": 26,
+      "start": 98.92,
+      "end": 100.75,
+      "speaker": "PATIENT",
+      "text": ", yeah it's ."
+    },
+    {
+      "id": 27,
+      "start": 101.26,
+      "end": 109.56,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Um, and um, have you had any weakness or numbness, down the, in the rest of the body at all?"
+    },
+    {
+      "id": 28,
+      "start": 109.52,
+      "end": 111.51,
+      "speaker": "PATIENT",
+      "text": "No, no, no, no, nothing like that."
+    },
+    {
+      "id": 29,
+      "start": 111.45,
+      "end": 114.0,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you had any difficulty swallowing?"
+    },
+    {
+      "id": 30,
+      "start": 114.41,
+      "end": 115.13,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 31,
+      "start": 115.68,
+      "end": 117.66,
+      "speaker": "DOCTOR",
+      "text": "And, have you had any difficulty speaking?"
+    },
+    {
+      "id": 32,
+      "start": 118.19,
+      "end": 119.03,
+      "speaker": "PATIENT",
+      "text": "No, no."
+    },
+    {
+      "id": 33,
+      "start": 119.21,
+      "end": 121.78,
+      "speaker": "DOCTOR",
+      "text": "Have you noticed any problems with your vision, at all?"
+    },
+    {
+      "id": 34,
+      "start": 122.37,
+      "end": 123.65,
+      "speaker": "PATIENT",
+      "text": "No, that's all good."
+    },
+    {
+      "id": 35,
+      "start": 123.65,
+      "end": 127.04,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and do you have the numbness present right now?"
+    },
+    {
+      "id": 36,
+      "start": 127.77,
+      "end": 137.23,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. It kind of, kind of, there quite often, so, all the time. So yeah, right now it feels very, doesn't feel like when I touch this side of my face."
+    },
+    {
+      "id": 37,
+      "start": 136.9,
+      "end": 146.64,
+      "speaker": "DOCTOR",
+      "text": "Sure. Sure, OK. Alright, um, just going back to the kind of feeling in, in the ear, um, do you have any discharge coming from that ear at all?"
+    },
+    {
+      "id": 38,
+      "start": 146.93,
+      "end": 149.07,
+      "speaker": "PATIENT",
+      "text": "No, nothing, nothing coming out."
+    },
+    {
+      "id": 39,
+      "start": 147.9,
+      "end": 151.29,
+      "speaker": "DOCTOR",
+      "text": "K. Any pain in the ear, or from the ear?"
+    },
+    {
+      "id": 40,
+      "start": 151.92,
+      "end": 154.61,
+      "speaker": "PATIENT",
+      "text": "Uh, no, don't think so."
+    },
+    {
+      "id": 41,
+      "start": 154.55,
+      "end": 158.65,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And um, have you had any fever at all?"
+    },
+    {
+      "id": 42,
+      "start": 159.14,
+      "end": 160.45,
+      "speaker": "PATIENT",
+      "text": "No, nothing like that."
+    },
+    {
+      "id": 43,
+      "start": 160.89,
+      "end": 164.26,
+      "speaker": "DOCTOR",
+      "text": "And, do you, um, have any itchiness in the ear?"
+    },
+    {
+      "id": 46,
+      "start": 166.88,
+      "end": 169.91,
+      "speaker": "DOCTOR",
+      "text": "Do you use cotton buds to kind of clean your ears out?"
+    },
+    {
+      "id": 47,
+      "start": 170.57,
+      "end": 173.8,
+      "speaker": "PATIENT",
+      "text": "Pardon? Ohh, no, no, no, don't use cottons buds, like that."
+    },
+    {
+      "id": 48,
+      "start": 172.05,
+      "end": 180.99,
+      "speaker": "DOCTOR",
+      "text": "No. Alright. OK. Alright. Um, need to, need to ask a few other general questions. Um, do you have any other illnesses at all?"
+    },
+    {
+      "id": 49,
+      "start": 181.88,
+      "end": 190.69,
+      "speaker": "PATIENT",
+      "text": "Um, I've, well I've got kind of, been told I have polyps in my nose in the past and, occasionally get them kind of ."
+    },
+    {
+      "id": 50,
+      "start": 190.69,
+      "end": 199.13,
+      "speaker": "PATIENT",
+      "text": "Um, that, that's all fine and, you know I take a Rennie's if I need to, and if my nose polyps are playing up I've got a spray. Um."
+    },
+    {
+      "id": 52,
+      "start": 199.13,
+      "end": 208.19,
+      "speaker": "PATIENT",
+      "text": "Other than that I think they said, ages ago, I had something called, can't quite remember but, labyrinthitis, something like that, but again, nothing, nothing ongoing."
+    },
+    {
+      "id": 54,
+      "start": 207.08,
+      "end": 212.32,
+      "speaker": "DOCTOR",
+      "text": "Sure. Sure, OK. So, are you on any regular medication? You mentioned the spray for your nose."
+    },
+    {
+      "id": 55,
+      "start": 211.87,
+      "end": 220.56,
+      "speaker": "PATIENT",
+      "text": "Yeah, so, no, uh, I only take the, spray for my nose when I need it for, and um, sometimes take like Rennies, but I just get that from the chemist."
+    },
+    {
+      "id": 56,
+      "start": 220.26,
+      "end": 223.91,
+      "speaker": "DOCTOR",
+      "text": "Sure. and, and the spray for your nose, where do you get that from? Is that from a doctor?"
+    },
+    {
+      "id": 57,
+      "start": 224.09,
+      "end": 226.43,
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, they gave me a prescription ages ago."
+    },
+    {
+      "id": 58,
+      "start": 226.36,
+      "end": 229.2,
+      "speaker": "DOCTOR",
+      "text": "Yeah. Do you remember the name of the spray, at all?"
+    },
+    {
+      "id": 59,
+      "start": 229.3,
+      "end": 231.19,
+      "speaker": "PATIENT",
+      "text": "Unfortunately I don't, sorry."
+    },
+    {
+      "id": 60,
+      "start": 230.3,
+      "end": 233.98,
+      "speaker": "DOCTOR",
+      "text": "that's alright. That's alright. Uh, and you're not on any other medication at all?"
+    },
+    {
+      "id": 61,
+      "start": 233.9,
+      "end": 234.66,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 62,
+      "start": 234.7,
+      "end": 237.88,
+      "speaker": "DOCTOR",
+      "text": "No, OK. Do you have any , any allergies to any medication?"
+    },
+    {
+      "id": 63,
+      "start": 238.17,
+      "end": 239.87,
+      "speaker": "PATIENT",
+      "text": "Uh, no just Latex."
+    },
+    {
+      "id": 64,
+      "start": 240.07,
+      "end": 248.04,
+      "speaker": "DOCTOR",
+      "text": "Latex, OK. Alright, that's good to know. Um, and um, in terms of your family, are there any kind of illnesses within your family at all?"
+    },
+    {
+      "id": 65,
+      "start": 248.3,
+      "end": 254.91,
+      "speaker": "PATIENT",
+      "text": "My brother had, Neurofibromatosis, I think it is. Um, other than that everyone else is OK."
+    },
+    {
+      "id": 66,
+      "start": 252.07,
+      "end": 253.17,
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "id": 67,
+      "start": 254.99,
+      "end": 261.93,
+      "speaker": "DOCTOR",
+      "text": "OK, good. That's good. Um, and in, in terms of your own kind of background now, are you, are you working at the moment?"
+    },
+    {
+      "id": 68,
+      "start": 262.19,
+      "end": 274.75,
+      "speaker": "PATIENT",
+      "text": "Yeah, so I'm a, I'm a jockey, um, but, because of all the kind of, these symptoms I've been getting, especially sometimes when I get a ringing, I can feel a bit dizzy. Ohh, I've just had to do far less training."
+    },
+    {
+      "id": 69,
+      "start": 274.75,
+      "end": 280.36,
+      "speaker": "PATIENT",
+      "text": "So, kind of beginning to, yeah, impacting work, um, a little bit now."
+    },
+    {
+      "id": 70,
+      "start": 281.04,
+      "end": 290.84,
+      "speaker": "DOCTOR",
+      "text": "OK. So you have to excuse my ignorance, you mean, jockey like with horses? Is that what you're talking about? Yeah. Alright, OK. Fine. Um, great. Um, uh, and, uh, do you live alone?"
+    },
+    {
+      "id": 71,
+      "start": 284.72,
+      "end": 286.2,
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "id": 72,
+      "start": 291.58,
+      "end": 294.83,
+      "speaker": "PATIENT",
+      "text": "Um, I, uh, live with my partner."
+    },
+    {
+      "id": 73,
+      "start": 294.73,
+      "end": 298.23,
+      "speaker": "DOCTOR",
+      "text": "Uh, OK. Right, um, do you have any pets at all at home?"
+    },
+    {
+      "id": 74,
+      "start": 298.2,
+      "end": 299.59,
+      "speaker": "PATIENT",
+      "text": "No, no pets."
+    },
+    {
+      "id": 75,
+      "start": 299.61,
+      "end": 306.46,
+      "speaker": "DOCTOR",
+      "text": "OK, fine. OK so, alright. Um, Is there anything else that you wanted to tell me about what's been going on, recently?"
+    },
+    {
+      "id": 76,
+      "start": 306.96,
+      "end": 321.96,
+      "speaker": "PATIENT",
+      "text": "Uh, no, just like, like I said, like the ringing um, occasionally and, when I get that I can sometimes feel a bit dizzy but, the main thing is really the, lack of hearing, and the numbness that's got me like, yeah, no idea what's going on there."
+    },
+    {
+      "id": 78,
+      "start": 321.96,
+      "end": 324.09,
+      "speaker": "DOCTOR",
+      "text": "OK, fine. Alright. Um,"
+    },
+    {
+      "id": 79,
+      "start": 325.44,
+      "end": 328.26,
+      "speaker": "DOCTOR",
+      "text": "So, , what I think , go on."
+    },
+    {
+      "id": 80,
+      "start": 326.67,
+      "end": 333.96,
+      "speaker": "PATIENT",
+      "text": "I mean, there was just like, there was one thing I think just, 'cause I can panic and you can look online, get a bit, frantic."
+    },
+    {
+      "id": 82,
+      "start": 333.96,
+      "end": 341.14,
+      "speaker": "PATIENT",
+      "text": ", I guess what I'm trying to think is, you know, is there something particularly serious that, you know, will need to be sorted and."
+    },
+    {
+      "id": 83,
+      "start": 341.14,
+      "end": 350.96,
+      "speaker": "PATIENT",
+      "text": "Obviously, really, anything can just make you really frantic . Hopefully nothing , so serious I will die from it, I don't know I just, I think got myself in a pickle."
+    },
+    {
+      "id": 85,
+      "start": 348.78,
+      "end": 357.29,
+      "speaker": "DOCTOR",
+      "text": "OK. so um, uh, obviously we're limited in terms of assessment via the video, uh, portal."
+    },
+    {
+      "id": 86,
+      "start": 357.19,
+      "end": 358.01,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 87,
+      "start": 357.29,
+      "end": 367.75,
+      "speaker": "DOCTOR",
+      "text": "um, from what you've told me, this doesn't seem to be you know, anything um, that you're gonna die from. However, I would like you to be assessed in a clinic today."
+    },
+    {
+      "id": 88,
+      "start": 363.3,
+      "end": 364.23,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 89,
+      "start": 367.75,
+      "end": 377.36,
+      "speaker": "DOCTOR",
+      "text": "OK? I ,would like you to come to one of my clinics. I would like a GP to assess you. what you're, what you're describing might be something called Bell's Palsy. OK? Um,"
+    },
+    {
+      "id": 90,
+      "start": 372.27,
+      "end": 372.7,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 91,
+      "start": 375.9,
+      "end": 376.72,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 92,
+      "start": 378.22,
+      "end": 387.88,
+      "speaker": "DOCTOR",
+      "text": "We can go into that, explaining what that is, if um, if that's confirmed on, on physical examination. But um, that's not usually a life-threatening problem."
+    },
+    {
+      "id": 93,
+      "start": 384.03,
+      "end": 385.03,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 94,
+      "start": 387.88,
+      "end": 402.14,
+      "speaker": "DOCTOR",
+      "text": "But, um, part of the reason why I'd like you to come in, it's just that we can do a, a what we call a, a neurological examination just to make sure there's nothing else going on, and confirm that might be the diagnosis. Have a look, have a look inside the ear, see if there's any, , anything to see within the ear."
+    },
+    {
+      "id": 95,
+      "start": 388.07,
+      "end": 388.83,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 97,
+      "start": 402.14,
+      "end": 411.31,
+      "speaker": "DOCTOR",
+      "text": "So, um, um, so, in answer to your question. No, I don't think that you need to worry about that, I , think you know , preliminarily I can, I can reassure you."
+    },
+    {
+      "id": 98,
+      "start": 402.23,
+      "end": 402.91,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 99,
+      "start": 411.31,
+      "end": 423.83,
+      "speaker": "DOCTOR",
+      "text": "However, , in order to definitively reassure you, I, I think you need a physical examination today, OK. , so what I wanna do, is I'm gonna send a message to our admin team, I'll ask them, to book you in for a face-to-face appointment in one of our clinics."
+    },
+    {
+      "id": 100,
+      "start": 411.42,
+      "end": 412.19,
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 101,
+      "start": 416.77,
+      "end": 417.77,
+      "speaker": "PATIENT",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "id": 102,
+      "start": 423.56,
+      "end": 424.56,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 103,
+      "start": 423.83,
+      "end": 434.69,
+      "speaker": "DOCTOR",
+      "text": "Um, within Central London. OK, and then you can ring the , the support team number, I'll leave that number in your notes. And you can ring them after five minutes, and then they'll slot you in to a place that's convenient for you, OK."
+    },
+    {
+      "id": 104,
+      "start": 429.29,
+      "end": 430.38,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 105,
+      "start": 431.53,
+      "end": 432.08,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 106,
+      "start": 434.3,
+      "end": 435.7,
+      "speaker": "PATIENT",
+      "text": ", that's fine."
+    },
+    {
+      "id": 107,
+      "start": 435.69,
+      "end": 442.44,
+      "speaker": "DOCTOR",
+      "text": "All right. So, someone will see you, and hopefully you will be able to reassure further but, please make sure the appointment gets done today."
+    },
+    {
+      "id": 108,
+      "start": 442.52,
+      "end": 445.14,
+      "speaker": "PATIENT",
+      "text": "OK, yep, I will do, that's fine. Thank you very much."
+    },
+    {
+      "id": 109,
+      "start": 444.98,
+      "end": 447.25,
+      "speaker": "DOCTOR",
+      "text": "All right then. OK. Nice to see you. Take care."
+    },
+    {
+      "id": 110,
+      "start": 447.41,
+      "end": 448.41,
+      "speaker": "PATIENT",
+      "text": "Bye bye."
+    },
+    {
+      "id": 111,
+      "start": 448.1,
+      "end": 448.82,
+      "speaker": "DOCTOR",
+      "text": "Bye."
+    }
+  ]
+}

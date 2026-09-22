@@ -1,0 +1,911 @@
+{
+  "visit_id": "PRIMOCK57-day2_consultation08",
+  "presenting_complaint": "I've been feeling very hot and sweaty for the past week",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Hx of fever for a week with associated sweatiness, body/muscle aches, nausea, fatigue, night sweats, hot/cold episodes\nDrinking less cf normal\n Taking ibuprofen and paracetamol otc- not helping, helps with temp slightly\nNo cough, sore throat, runny nose, ear pain.\nNo diarrhea, no neck stiffness, no headache (no more than usual- normal headache on top of head through looking at screen). No rash, no joint swelling (ongoing back pain), no dysuria or frequency.\nRecent foreign travel- returned from Vietnam, took malaria prevention daily- cant remember medication, present there for a few weeks, rural and urban tourism, trekking and cycling.\nPmhx: nil of note, back pain- under physiotherapy, working diagnosis ? muscular/ posture\nFh: father has MI at age 68\nDH: on cerazette\nNil allergies, hayfever\nSH: works as a nurse, UTD with hep B etc, non smoker, moderate alcohol intake, moderate physical exercise\nImp: PUO, need to exclude malaria\nPlan: for f2f appointment with GP today\nThereafter, for blood tests including crp, esr, thick and thin blood films (possibly routine, possibly via a/e- depending on second GP's assessment)\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.46,
+      "end": 3.92,
+      "speaker": "DOCTOR",
+      "text": "Hi, good morning!"
+    },
+    {
+      "id": 2,
+      "start": 4.27,
+      "end": 5.28,
+      "speaker": "PATIENT",
+      "text": "Hello there!"
+    },
+    {
+      "id": 3,
+      "start": 5.16,
+      "end": 8.32,
+      "speaker": "DOCTOR",
+      "text": "Hi there, this is uh this is Doctor Dean from ."
+    },
+    {
+      "id": 4,
+      "start": 8.9,
+      "end": 12.41,
+      "speaker": "PATIENT",
+      "text": "Hello there? Um, I'm wondering if you can help me today."
+    },
+    {
+      "id": 6,
+      "start": 12.51,
+      "end": 19.09,
+      "speaker": "DOCTOR",
+      "text": "OK, sure, I'll try. Before we start, could I please confirm your full name and date of birth?"
+    },
+    {
+      "id": 7,
+      "start": 19.63,
+      "end": 26.5,
+      "speaker": "PATIENT",
+      "text": "Yes, it's Sarah Smith, and it's the second of November, um, nineteen ninety two."
+    },
+    {
+      "id": 8,
+      "start": 26.66,
+      "end": 30.64,
+      "speaker": "DOCTOR",
+      "text": "That's great! Thank you, sir. So are you in a private place where you are OK to speak at the moment?"
+    },
+    {
+      "id": 9,
+      "start": 30.82,
+      "end": 32.5,
+      "speaker": "PATIENT",
+      "text": "I am indeed, yes."
+    },
+    {
+      "id": 10,
+      "start": 32.21,
+      "end": 34.32,
+      "speaker": "DOCTOR",
+      "text": "OK, so tell me what's been going on."
+    },
+    {
+      "id": 11,
+      "start": 34.91,
+      "end": 49.04,
+      "speaker": "PATIENT",
+      "text": "OK. I, I've really not been feeling so well at all recently. I, I've been struggling with fever for the past week. Yeah, I would say it's about seven days ago. I'm just, I'm really hot and sweaty all the time, and just generally not feeling good."
+    },
+    {
+      "id": 12,
+      "start": 49.49,
+      "end": 56.0,
+      "speaker": "DOCTOR",
+      "text": "OK, alright, sorry to hear that. Now, um, uh, along with this fever and this any other symptoms at all?"
+    },
+    {
+      "id": 13,
+      "start": 56.78,
+      "end": 71.34,
+      "speaker": "PATIENT",
+      "text": "Um, I'd say that I'm aching all over really, my muscles are really aching. I'm feeling quite nauseous, uh, so I've not been able to eat very much, and I have been drinking but it's been quite a small amount."
+    },
+    {
+      "id": 14,
+      "start": 71.76,
+      "end": 79.9,
+      "speaker": "PATIENT",
+      "text": "Um, and, yeah, just generally quite tired and unwell. I'm sweating during the the the night, I'm quite cold."
+    },
+    {
+      "id": 16,
+      "start": 80.3,
+      "end": 88.62,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, and um, so you're having periods of when you're feeling hot, and also periods when you're feeling cold as well."
+    },
+    {
+      "id": 17,
+      "start": 88.9,
+      "end": 92.64,
+      "speaker": "PATIENT",
+      "text": "Yes, yes, quite interchangeable, not really a pattern to it."
+    },
+    {
+      "id": 18,
+      "start": 92.88,
+      "end": 96.03,
+      "speaker": "DOCTOR",
+      "text": "OK, uh, and have you been taking your medication?"
+    },
+    {
+      "id": 19,
+      "start": 96.82,
+      "end": 107.29,
+      "speaker": "PATIENT",
+      "text": "Uh, I've been trying to, like, take ibuprofen and paracetamol just to from over the counter, but it's not really helping, just been taking the recommended dose every day of those."
+    },
+    {
+      "id": 20,
+      "start": 107.61,
+      "end": 111.34,
+      "speaker": "DOCTOR",
+      "text": "Sure, and when you say it's not helping, is it bringing the temperature down at all?"
+    },
+    {
+      "id": 21,
+      "start": 111.86,
+      "end": 117.97,
+      "speaker": "PATIENT",
+      "text": "Perhaps slightly, yes, but I'm still experiencing these symptoms, so, it does take the edge off a bit."
+    },
+    {
+      "id": 22,
+      "start": 118.08,
+      "end": 124.72,
+      "speaker": "DOCTOR",
+      "text": "OK, alright. And can I just double check have you gotten any cough or cold or sore throat or anything like that?"
+    },
+    {
+      "id": 23,
+      "start": 124.77,
+      "end": 129.36,
+      "speaker": "PATIENT",
+      "text": "Mmm, not those sort of symptoms, really. Um"
+    },
+    {
+      "id": 24,
+      "start": 128.46,
+      "end": 132.04,
+      "speaker": "DOCTOR",
+      "text": "But which are you getting, other than the ones you've already mentioned to me?"
+    },
+    {
+      "id": 25,
+      "start": 132.82,
+      "end": 136.57,
+      "speaker": "PATIENT",
+      "text": "Um, so, I have a habit"
+    },
+    {
+      "id": 26,
+      "start": 137.69,
+      "end": 147.19,
+      "speaker": "PATIENT",
+      "text": "that it's mainly just the sweating, really, and the and the nausea, uh, that's overtaking all all day and, uh, the aching muscles all over."
+    },
+    {
+      "id": 27,
+      "start": 147.05,
+      "end": 149.66,
+      "speaker": "DOCTOR",
+      "text": "Sure. Have you have you had any ear pain ?"
+    },
+    {
+      "id": 28,
+      "start": 150.4,
+      "end": 155.29,
+      "speaker": "PATIENT",
+      "text": "Mmm, no, my ears are fine, actually. I haven't had any problems with my ears."
+    },
+    {
+      "id": 29,
+      "start": 155.4,
+      "end": 164.0,
+      "speaker": "DOCTOR",
+      "text": "OK, um, just, I just need to check for any other causes of infection in the body. So I'm gonna go through some, um, kind of systemic questions. Have you had any diarrhoea?"
+    },
+    {
+      "id": 30,
+      "start": 164.91,
+      "end": 170.52,
+      "speaker": "PATIENT",
+      "text": "And not, not really no, not that I can find."
+    },
+    {
+      "id": 31,
+      "start": 170.48,
+      "end": 173.06,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you got any neck stiffness at all?"
+    },
+    {
+      "id": 32,
+      "start": 173.99,
+      "end": 179.09,
+      "speaker": "PATIENT",
+      "text": "Um, no. My neck's, my neck's been fine."
+    },
+    {
+      "id": 33,
+      "start": 176.93,
+      "end": 177.74,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 34,
+      "start": 179.49,
+      "end": 181.68,
+      "speaker": "DOCTOR",
+      "text": "Alright. Um, do you have any headache?"
+    },
+    {
+      "id": 35,
+      "start": 184.2,
+      "end": 194.33,
+      "speaker": "PATIENT",
+      "text": "Not more than usual, no. Just like the, general headaches but not, just from staring at the screen. No migraines, or anything."
+    },
+    {
+      "id": 36,
+      "start": 187.6,
+      "end": 188.28,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 37,
+      "start": 194.17,
+      "end": 198.24,
+      "speaker": "DOCTOR",
+      "text": "OK, so, you know your normal headache, where is that, in the back of your head or the front of the head?"
+    },
+    {
+      "id": 38,
+      "start": 199.13,
+      "end": 203.34,
+      "speaker": "PATIENT",
+      "text": "Uum, it's quite centralized over, over the head."
+    },
+    {
+      "id": 39,
+      "start": 204.18,
+      "end": 206.88,
+      "speaker": "DOCTOR",
+      "text": "OK. and how long have you been having that for?"
+    },
+    {
+      "id": 41,
+      "start": 207.7,
+      "end": 220.63,
+      "speaker": "PATIENT",
+      "text": "It's something that I've struggled with through, years really, just related to a screen use, or, uum, like changes in weather patterns. Yeah, high pressure days, sometimes I struggle with migraines, and headaches."
+    },
+    {
+      "id": 43,
+      "start": 220.59,
+      "end": 224.34,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, have you got any rash on your body anywhere at all?"
+    },
+    {
+      "id": 44,
+      "start": 225.23,
+      "end": 228.51,
+      "speaker": "PATIENT",
+      "text": "Uh, I haven't noticed any rashes, no."
+    },
+    {
+      "id": 45,
+      "start": 228.52,
+      "end": 231.56,
+      "speaker": "DOCTOR",
+      "text": "Uh, any joints swollen or tender or sore?"
+    },
+    {
+      "id": 46,
+      "start": 231.97,
+      "end": 240.89,
+      "speaker": "PATIENT",
+      "text": "Mmm, not really. I mean, I, I often have problems with back pain but not really any other joints."
+    },
+    {
+      "id": 47,
+      "start": 240.92,
+      "end": 242.06,
+      "speaker": "DOCTOR",
+      "text": "OK, alright."
+    },
+    {
+      "id": 48,
+      "start": 241.93,
+      "end": 242.98,
+      "speaker": "PATIENT",
+      "text": "Any problems?"
+    },
+    {
+      "id": 49,
+      "start": 243.43,
+      "end": 249.4,
+      "speaker": "DOCTOR",
+      "text": "Alright, and, um, have you got any kind of symptoms down below when you're passing urine?"
+    },
+    {
+      "id": 50,
+      "start": 250.51,
+      "end": 252.55,
+      "speaker": "PATIENT",
+      "text": "Uh, no, there's been no problems there."
+    },
+    {
+      "id": 51,
+      "start": 252.7,
+      "end": 255.31,
+      "speaker": "DOCTOR",
+      "text": "OK. Any painful urination at all?"
+    },
+    {
+      "id": 52,
+      "start": 255.95,
+      "end": 257.77,
+      "speaker": "PATIENT",
+      "text": "Uh, not at all, no."
+    },
+    {
+      "id": 53,
+      "start": 257.71,
+      "end": 260.14,
+      "speaker": "DOCTOR",
+      "text": "Are you passing urine more often than normal?"
+    },
+    {
+      "id": 54,
+      "start": 261.19,
+      "end": 265.64,
+      "speaker": "PATIENT",
+      "text": "Uh, I don't think so, no it's been fairly regular."
+    },
+    {
+      "id": 55,
+      "start": 265.63,
+      "end": 268.35,
+      "speaker": "DOCTOR",
+      "text": "OK. Have you been abroad anywhere recently?"
+    },
+    {
+      "id": 56,
+      "start": 269.26,
+      "end": 270.9,
+      "speaker": "PATIENT",
+      "text": "Yes, I have actually."
+    },
+    {
+      "id": 57,
+      "start": 271.4,
+      "end": 272.3,
+      "speaker": "DOCTOR",
+      "text": "Where have you been?"
+    },
+    {
+      "id": 58,
+      "start": 271.75,
+      "end": 277.02,
+      "speaker": "PATIENT",
+      "text": "I went to Vietnam. Uh, I came back four weeks ago now."
+    },
+    {
+      "id": 59,
+      "start": 278.07,
+      "end": 278.79,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 60,
+      "start": 279.88,
+      "end": 285.54,
+      "speaker": "DOCTOR",
+      "text": "Uh, and, um, uh, did you take malaria preventative medication when you went out there?"
+    },
+    {
+      "id": 61,
+      "start": 286.2,
+      "end": 287.6,
+      "speaker": "PATIENT",
+      "text": "I did, yes."
+    },
+    {
+      "id": 62,
+      "start": 287.66,
+      "end": 288.99,
+      "speaker": "DOCTOR",
+      "text": "Which one did you take?"
+    },
+    {
+      "id": 63,
+      "start": 290.71,
+      "end": 293.55,
+      "speaker": "PATIENT",
+      "text": "Ooo, I can't remember now, off the top of my head."
+    },
+    {
+      "id": 64,
+      "start": 293.26,
+      "end": 295.59,
+      "speaker": "DOCTOR",
+      "text": "Was it a weekly tablet or a daily tablet?"
+    },
+    {
+      "id": 65,
+      "start": 295.88,
+      "end": 297.43,
+      "speaker": "PATIENT",
+      "text": "I think it was daily."
+    },
+    {
+      "id": 66,
+      "start": 298.42,
+      "end": 304.64,
+      "speaker": "DOCTOR",
+      "text": "OK, um, and was it one tablet or was it another one that you would take on top of the first one?"
+    },
+    {
+      "id": 67,
+      "start": 305.95,
+      "end": 309.67,
+      "speaker": "PATIENT",
+      "text": "I think it was, uh another one that I took on top of the first one."
+    },
+    {
+      "id": 68,
+      "start": 309.92,
+      "end": 310.55,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 69,
+      "start": 311.41,
+      "end": 318.64,
+      "speaker": "DOCTOR",
+      "text": "And, and what were you doing out in Vietnam? Was it just seeing the cities or going through villages or hiking? What what kind of activities were you doing?"
+    },
+    {
+      "id": 70,
+      "start": 317.96,
+      "end": 327.27,
+      "speaker": "PATIENT",
+      "text": "It was quite really, 'cause we were there for a few weeks, and we toured to, uh, several different parts of the country, and uh, the countryside and some cities as well."
+    },
+    {
+      "id": 71,
+      "start": 327.92,
+      "end": 335.2,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and um, did you do any kind of, were you in rivers or things like that? Were you, you know, how adventurous were you?"
+    },
+    {
+      "id": 72,
+      "start": 336.16,
+      "end": 338.49,
+      "speaker": "PATIENT",
+      "text": "I'm sorry, could you repeat that? I missed that."
+    },
+    {
+      "id": 73,
+      "start": 337.88,
+      "end": 344.05,
+      "speaker": "DOCTOR",
+      "text": "Where you going out into the rivers? Were you going on beaches? I mean how adventurous was your trip?"
+    },
+    {
+      "id": 74,
+      "start": 343.68,
+      "end": 355.23,
+      "speaker": "PATIENT",
+      "text": "Yes, it was quite adventurous. We were sort of trekking and, um, cycling, uh, through the farmland and, um, seeing how people lived in a day-to-day life in, in, in farmland."
+    },
+    {
+      "id": 75,
+      "start": 355.09,
+      "end": 361.81,
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, thank you for sharing that with me. Now, do you have, um, any other illnesses at all, in the past?"
+    },
+    {
+      "id": 76,
+      "start": 362.89,
+      "end": 373.11,
+      "speaker": "PATIENT",
+      "text": "Mmm, as I said I've, I've been struggling with back pain for quite a while, but I haven't really had any, uh, major illnesses in the past, I can think of."
+    },
+    {
+      "id": 77,
+      "start": 373.08,
+      "end": 376.61,
+      "speaker": "DOCTOR",
+      "text": "And that back pain have you, um, have you seen anyone about that?"
+    },
+    {
+      "id": 78,
+      "start": 377.75,
+      "end": 381.39,
+      "speaker": "PATIENT",
+      "text": "Yes, yeah, I'm under a physiotherapist at the moment for that."
+    },
+    {
+      "id": 79,
+      "start": 381.8,
+      "end": 384.7,
+      "speaker": "DOCTOR",
+      "text": "Have they, have they give you any kind of diagnosis at all?"
+    },
+    {
+      "id": 80,
+      "start": 386.33,
+      "end": 399.55,
+      "speaker": "PATIENT",
+      "text": "Um, they've said that it's, u,h related to long periods of time sitting at a desk, and just, uh, bad posture. So mainly the exercises are focused on improving posture and, and to strengthen the muscles in the back."
+    },
+    {
+      "id": 81,
+      "start": 399.91,
+      "end": 403.56,
+      "speaker": "DOCTOR",
+      "text": "Alright um, are there any illnesses in your family at all?"
+    },
+    {
+      "id": 82,
+      "start": 405.05,
+      "end": 411.37,
+      "speaker": "PATIENT",
+      "text": "Hmm, the main one would be, um, heart attack. My, my father passed away of that."
+    },
+    {
+      "id": 83,
+      "start": 412.42,
+      "end": 416.38,
+      "speaker": "DOCTOR",
+      "text": "I'm sorry to hear that. Um, how old was he when that happened?"
+    },
+    {
+      "id": 84,
+      "start": 412.68,
+      "end": 415.27,
+      "speaker": "PATIENT",
+      "text": "in his sixties."
+    },
+    {
+      "id": 85,
+      "start": 417.7,
+      "end": 420.73,
+      "speaker": "PATIENT",
+      "text": "Um, sixty eight, I think. Yeah."
+    },
+    {
+      "id": 86,
+      "start": 421.53,
+      "end": 424.65,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, are you on any medication at all?"
+    },
+    {
+      "id": 87,
+      "start": 426.36,
+      "end": 428.68,
+      "speaker": "PATIENT",
+      "text": "Uh, just Seroxat."
+    },
+    {
+      "id": 88,
+      "start": 429.77,
+      "end": 434.21,
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, do you have any allergies at all? medication?"
+    },
+    {
+      "id": 89,
+      "start": 435.26,
+      "end": 438.32,
+      "speaker": "PATIENT",
+      "text": "No, I've just really pollen allergy. That's all I have."
+    },
+    {
+      "id": 90,
+      "start": 439.31,
+      "end": 440.66,
+      "speaker": "DOCTOR",
+      "text": "OK, so hay fever."
+    },
+    {
+      "id": 91,
+      "start": 441.22,
+      "end": 442.69,
+      "speaker": "PATIENT",
+      "text": "Yes, yeah, just hay fever."
+    },
+    {
+      "id": 92,
+      "start": 443.05,
+      "end": 447.31,
+      "speaker": "DOCTOR",
+      "text": "Alright. Um, are you, um, you're working at the moment?"
+    },
+    {
+      "id": 93,
+      "start": 449.25,
+      "end": 450.96,
+      "speaker": "PATIENT",
+      "text": "Uh, I am, yes."
+    },
+    {
+      "id": 94,
+      "start": 450.61,
+      "end": 451.9,
+      "speaker": "DOCTOR",
+      "text": "What do you work at?"
+    },
+    {
+      "id": 95,
+      "start": 453.21,
+      "end": 455.4,
+      "speaker": "PATIENT",
+      "text": "I work as a nurse."
+    },
+    {
+      "id": 96,
+      "start": 455.98,
+      "end": 462.59,
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, and, um, you're up to date with all the vaccinations, Hepatitis B, and that kind of thing?"
+    },
+    {
+      "id": 97,
+      "start": 462.9,
+      "end": 464.21,
+      "speaker": "PATIENT",
+      "text": "Yes, indeed. Yeah."
+    },
+    {
+      "id": 98,
+      "start": 464.13,
+      "end": 465.13,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 99,
+      "start": 466.29,
+      "end": 473.26,
+      "speaker": "PATIENT",
+      "text": "But I'm, I'm really struggling quite a lot at work at the moment. It's been quite difficult, feeling so, uh, tired all the time."
+    },
+    {
+      "id": 100,
+      "start": 468.91,
+      "end": 470.83,
+      "speaker": "DOCTOR",
+      "text": "So, I can ."
+    },
+    {
+      "id": 101,
+      "start": 473.02,
+      "end": 477.97,
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Um, and, are you a, uh, are you a smoker at all?"
+    },
+    {
+      "id": 102,
+      "start": 478.29,
+      "end": 479.64,
+      "speaker": "PATIENT",
+      "text": "No, I'm not."
+    },
+    {
+      "id": 103,
+      "start": 479.48,
+      "end": 482.4,
+      "speaker": "DOCTOR",
+      "text": "OK, and ohh do you drink much alcohol?"
+    },
+    {
+      "id": 104,
+      "start": 482.76,
+      "end": 487.96,
+      "speaker": "PATIENT",
+      "text": "Mmm, moderate alcohol intake. Yeah, I don't drink too much."
+    },
+    {
+      "id": 105,
+      "start": 486.17,
+      "end": 490.39,
+      "speaker": "DOCTOR",
+      "text": "OK, and how much kind of physical exercise do you do normally?"
+    },
+    {
+      "id": 106,
+      "start": 491.5,
+      "end": 496.55,
+      "speaker": "PATIENT",
+      "text": "I try and do, uh, some moderate physical exercise a few times a week."
+    },
+    {
+      "id": 107,
+      "start": 496.74,
+      "end": 500.48,
+      "speaker": "DOCTOR",
+      "text": "OK, that's good, alright, um, so, um"
+    },
+    {
+      "id": 108,
+      "start": 501.26,
+      "end": 509.72,
+      "speaker": "DOCTOR",
+      "text": "What, uh, I think we're gonna need to do is we're gonna need to bring you into one of our clinics. Examine , and we're gonna need to arrange some blood tests as well."
+    },
+    {
+      "id": 109,
+      "start": 506.15,
+      "end": 507.01,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 110,
+      "start": 509.72,
+      "end": 522.91,
+      "speaker": "DOCTOR",
+      "text": "OK, um, so, what what I want to do is, the first question I have in my mind is that we need to find a reason for why you've got this fever and these symptoms, because there's no apparent reason from what you've told me."
+    },
+    {
+      "id": 111,
+      "start": 510.72,
+      "end": 511.53,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 112,
+      "start": 522.91,
+      "end": 529.67,
+      "speaker": "DOCTOR",
+      "text": "There's no, uh, when someone has got fever and sweats, we want to find out have they got chest infection, have they got a throat infection?"
+    },
+    {
+      "id": 113,
+      "start": 529.67,
+      "end": 536.54,
+      "speaker": "DOCTOR",
+      "text": "Um, and if we can't find a focus of infection, then that's something, that, that's an outstanding question that needs to be answered, OK?"
+    },
+    {
+      "id": 114,
+      "start": 536.54,
+      "end": 541.75,
+      "speaker": "DOCTOR",
+      "text": "Um, the second thing, second factor, is that you've recently come from, uh, Vietnam."
+    },
+    {
+      "id": 115,
+      "start": 536.86,
+      "end": 537.84,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 116,
+      "start": 541.75,
+      "end": 551.57,
+      "speaker": "DOCTOR",
+      "text": "And you've had exposure to rural areas. And we need to think about things like malaria or other exotic infections as well. So, um, you're probably gonna need some blood tests."
+    },
+    {
+      "id": 117,
+      "start": 551.57,
+      "end": 554.02,
+      "speaker": "DOCTOR",
+      "text": "After you've been seen by somebody."
+    },
+    {
+      "id": 118,
+      "start": 554.02,
+      "end": 562.46,
+      "speaker": "DOCTOR",
+      "text": "Um, now, the urgency of those blood tests depends partly on what we find when we examine you, which is why we're going to go, go for the examination first."
+    },
+    {
+      "id": 119,
+      "start": 562.46,
+      "end": 573.13,
+      "speaker": "DOCTOR",
+      "text": "You come into one of our clinics in central London, that's one option, and then the the GP there who examines you can then decide on how urgent the blood tests and things are going to be."
+    },
+    {
+      "id": 120,
+      "start": 562.58,
+      "end": 563.47,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 121,
+      "start": 573.13,
+      "end": 580.62,
+      "speaker": "DOCTOR",
+      "text": "Or, if it's inconvenient for you to come into central London because you you're living further out, you could actually just attend a local A and E."
+    },
+    {
+      "id": 122,
+      "start": 580.62,
+      "end": 588.66,
+      "speaker": "DOCTOR",
+      "text": "I'm going to type up what my thought process is and what kind of test I think you need in the notes for this appointment, so you could show that to them at reception."
+    },
+    {
+      "id": 123,
+      "start": 588.66,
+      "end": 592.38,
+      "speaker": "DOCTOR",
+      "text": "Um, I'll be asking for something called thick and thin blood films, to check for malaria."
+    },
+    {
+      "id": 124,
+      "start": 592.38,
+      "end": 597.9,
+      "speaker": "DOCTOR",
+      "text": "And inflammatory markers and things like those, technical terms, but they'll understand what that, what I'm talking about."
+    },
+    {
+      "id": 125,
+      "start": 597.9,
+      "end": 605.69,
+      "speaker": "DOCTOR",
+      "text": "But, um, I, I don't think you can go into work, uh, until we've sorted this out. And we, we, we need to sort this out sooner rather than later."
+    },
+    {
+      "id": 126,
+      "start": 605.93,
+      "end": 613.7,
+      "speaker": "PATIENT",
+      "text": "OK. That sounds great. Thank you so much for your help. I, I think, yeah, I can come straight into central London today to get that sorted."
+    },
+    {
+      "id": 127,
+      "start": 607.04,
+      "end": 607.75,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 128,
+      "start": 613.29,
+      "end": 618.82,
+      "speaker": "DOCTOR",
+      "text": "OK, fine, so what I'm going to do is I will send a message to one of our admin team members asking them to book you in."
+    },
+    {
+      "id": 129,
+      "start": 618.82,
+      "end": 626.11,
+      "speaker": "DOCTOR",
+      "text": "And if you can ring the number that I leave in your consultation notes, after a few minutes, and then they'll slot you in, and then we can sort things out from there. OK?"
+    },
+    {
+      "id": 130,
+      "start": 626.53,
+      "end": 628.54,
+      "speaker": "PATIENT",
+      "text": "That's brilliant. Thank you very much."
+    },
+    {
+      "id": 131,
+      "start": 628.36,
+      "end": 630.75,
+      "speaker": "DOCTOR",
+      "text": "Alright then, OK. Take care then. All the best."
+    },
+    {
+      "id": 132,
+      "start": 630.79,
+      "end": 631.65,
+      "speaker": "PATIENT",
+      "text": "Goodbye."
+    },
+    {
+      "id": 133,
+      "start": 631.52,
+      "end": 632.07,
+      "speaker": "DOCTOR",
+      "text": "Bye."
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "visit_id": "PRIMOCK57-day4_consultation01",
+  "presenting_complaint": "I'm having chest discomfort",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "PC: acute onset left sided chest discomfort / pressure, feels like someone sitting on his chest 7/10, radiating to the left shoulder and arm.\n1-2 hours in duration, acute onset, 1st presentation started while gardening.\nNo radiation to the head. \n\u2105 nausea no vomiting since presentation\nSOBAR\n\nHPC. longer term hx of reduced ADLs due to SOBOE, walking up hills / stairs with no chest discomfort. \n\nPMHx - high cholesterol and high blood pressure. \n\n\nDHx - allergies aspirin.\n\nSHx - lives with wife at home, able to walk up stairs until previously\n\nDDx - MI, PE, GORD\n\nPlan - called ambulance ?? MI for further investigation and assessment.\n",
+  "segments": [
+    {
+      "id": 2,
+      "start": 4.81,
+      "end": 5.69,
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "id": 3,
+      "start": 5.88,
+      "end": 7.04,
+      "speaker": "PATIENT",
+      "text": "Hello. Can you hear me?"
+    },
+    {
+      "id": 4,
+      "start": 7.3,
+      "end": 8.91,
+      "speaker": "DOCTOR",
+      "text": "Yeah, I can. Can you hear me?"
+    },
+    {
+      "id": 6,
+      "start": 15.22,
+      "end": 17.09,
+      "speaker": "DOCTOR",
+      "text": "Hi, my name is Doctor Gohill."
+    },
+    {
+      "id": 7,
+      "start": 17.84,
+      "end": 21.54,
+      "speaker": "DOCTOR",
+      "text": "I'm one of, Hi, I'm one of the physicians that works at Babylon."
+    },
+    {
+      "id": 9,
+      "start": 22.22,
+      "end": 24.95,
+      "speaker": "DOCTOR",
+      "text": "Are you in a quiet and private space to talk?"
+    },
+    {
+      "id": 10,
+      "start": 25.43,
+      "end": 26.44,
+      "speaker": "PATIENT",
+      "text": "I am, yes."
+    },
+    {
+      "id": 11,
+      "start": 26.69,
+      "end": 29.87,
+      "speaker": "DOCTOR",
+      "text": "Good, and can I confirm your name and date of birth please?"
+    },
+    {
+      "id": 12,
+      "start": 30.16,
+      "end": 37.57,
+      "speaker": "PATIENT",
+      "text": "Uh, it's Joe Bloggs. It's the seventh, of June, nineteen seventy four."
+    },
+    {
+      "id": 13,
+      "start": 38.03,
+      "end": 40.58,
+      "speaker": "DOCTOR",
+      "text": "Seventy four, and how old does that make you?"
+    },
+    {
+      "id": 14,
+      "start": 40.75,
+      "end": 45.13,
+      "speaker": "PATIENT",
+      "text": "Sorry, fifty four . I'm, suppose I'd be fifty three, well, yeah."
+    },
+    {
+      "id": 15,
+      "start": 42.05,
+      "end": 42.86,
+      "speaker": "DOCTOR",
+      "text": "Perfect."
+    },
+    {
+      "id": 16,
+      "start": 45.15,
+      "end": 50.99,
+      "speaker": "DOCTOR",
+      "text": "Great, and it says here, um, it says you're having chest discomfort. Is that correct?"
+    },
+    {
+      "id": 17,
+      "start": 50.26,
+      "end": 55.29,
+      "speaker": "PATIENT",
+      "text": "That, that is correct, yes. I'm experiencing discomfort in my chest."
+    },
+    {
+      "id": 19,
+      "start": 55.22,
+      "end": 60.4,
+      "speaker": "DOCTOR",
+      "text": "OK, can you tell me a little bit more about your chest discomfort? When it started, and how you're feeling at the moment?"
+    },
+    {
+      "id": 20,
+      "start": 61.48,
+      "end": 65.36,
+      "speaker": "PATIENT",
+      "text": "Sure, um, it's been ongoing for, a couple of hours now."
+    },
+    {
+      "id": 21,
+      "start": 65.74,
+      "end": 71.14,
+      "speaker": "PATIENT",
+      "text": "Um, I'd say that it's come on, quite suddenly. I was, digging in the garden."
+    },
+    {
+      "id": 22,
+      "start": 71.67,
+      "end": 76.6,
+      "speaker": "PATIENT",
+      "text": "And it, if I had to describe where it is, it's somewhere in the middle of my chest."
+    },
+    {
+      "id": 23,
+      "start": 76.99,
+      "end": 82.45,
+      "speaker": "PATIENT",
+      "text": "And it's more, it feels like it's pressure, discomfort, than more, than a pain."
+    },
+    {
+      "id": 24,
+      "start": 82.77,
+      "end": 85.91,
+      "speaker": "PATIENT",
+      "text": "Um, if I, had to ."
+    },
+    {
+      "id": 25,
+      "start": 87.65,
+      "end": 94.55,
+      "speaker": "PATIENT",
+      "text": "If I, if I had to describe what discomfort feeling, it's, it's like someone's sitting on my chest. ."
+    },
+    {
+      "id": 26,
+      "start": 93.67,
+      "end": 94.65,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 27,
+      "start": 96.0,
+      "end": 96.77,
+      "speaker": "PATIENT",
+      "text": "And."
+    },
+    {
+      "id": 28,
+      "start": 99.22,
+      "end": 99.68,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 29,
+      "start": 99.55,
+      "end": 104.39,
+      "speaker": "DOCTOR",
+      "text": "Great. So, you've talked about your chest. Are you still in, discomfort at the moment?"
+    },
+    {
+      "id": 30,
+      "start": 104.52,
+      "end": 106.11,
+      "speaker": "PATIENT",
+      "text": "Uh, yes I do smoke, yeah."
+    },
+    {
+      "id": 31,
+      "start": 106.06,
+      "end": 109.76,
+      "speaker": "DOCTOR",
+      "text": "OK, and when it started, how would you rate it out, out of ten?"
+    },
+    {
+      "id": 32,
+      "start": 111.76,
+      "end": 116.33,
+      "speaker": "PATIENT",
+      "text": "Say about, say, seven out of ten."
+    },
+    {
+      "id": 33,
+      "start": 116.11,
+      "end": 117.25,
+      "speaker": "DOCTOR",
+      "text": "OK, ."
+    },
+    {
+      "id": 34,
+      "start": 116.74,
+      "end": 120.53,
+      "speaker": "PATIENT",
+      "text": "Ten being, very sort of, unbearable and severe pain. Seven is."
+    },
+    {
+      "id": 35,
+      "start": 121.37,
+      "end": 124.03,
+      "speaker": "PATIENT",
+      "text": "Quite manageable, well, it's quite ."
+    },
+    {
+      "id": 36,
+      "start": 124.4,
+      "end": 125.95,
+      "speaker": "DOCTOR",
+      "text": "OK, and how about now?"
+    },
+    {
+      "id": 37,
+      "start": 126.5,
+      "end": 127.94,
+      "speaker": "PATIENT",
+      "text": "Um, it's still the same."
+    },
+    {
+      "id": 38,
+      "start": 129.16,
+      "end": 133.69,
+      "speaker": "DOCTOR",
+      "text": "OK, and tell me before this happened, what were you doing?"
+    },
+    {
+      "id": 39,
+      "start": 133.2,
+      "end": 133.63,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 40,
+      "start": 134.83,
+      "end": 138.8,
+      "speaker": "PATIENT",
+      "text": "Um, I was, relaxing."
+    },
+    {
+      "id": 41,
+      "start": 140.2,
+      "end": 143.46,
+      "speaker": "PATIENT",
+      "text": "My wife, and, we're watching Jeremy Kyle."
+    },
+    {
+      "id": 42,
+      "start": 143.53,
+      "end": 144.5,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 43,
+      "start": 144.09,
+      "end": 145.96,
+      "speaker": "PATIENT",
+      "text": "still go out into the garden."
+    },
+    {
+      "id": 44,
+      "start": 146.23,
+      "end": 148.66,
+      "speaker": "DOCTOR",
+      "text": "OK, and how often do you do gardening?"
+    },
+    {
+      "id": 45,
+      "start": 149.24,
+      "end": 152.35,
+      "speaker": "PATIENT",
+      "text": "Um, every other week. So, fortnightly."
+    },
+    {
+      "id": 46,
+      "start": 152.27,
+      "end": 157.26,
+      "speaker": "DOCTOR",
+      "text": "OK, and are you normally fit and well? So, are you normally OK to garden as you would?"
+    },
+    {
+      "id": 47,
+      "start": 157.73,
+      "end": 158.52,
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "id": 48,
+      "start": 159.42,
+      "end": 163.88,
+      "speaker": "DOCTOR",
+      "text": "Great, and apart from this, do you have any other medical problems?"
+    },
+    {
+      "id": 49,
+      "start": 167.2,
+      "end": 173.13,
+      "speaker": "PATIENT",
+      "text": "Um, high cholesterol, and, I've had hypertension, hypertension."
+    },
+    {
+      "id": 50,
+      "start": 173.62,
+      "end": 178.66,
+      "speaker": "DOCTOR",
+      "text": "OK, so that's high blood pressure, and high cholesterol. Do you take any medicines for that?"
+    },
+    {
+      "id": 52,
+      "start": 183.09,
+      "end": 184.8,
+      "speaker": "PATIENT",
+      "text": "No, I don't take any medicine."
+    },
+    {
+      "id": 53,
+      "start": 185.05,
+      "end": 187.13,
+      "speaker": "DOCTOR",
+      "text": "OK, and are you allergic to anything?"
+    },
+    {
+      "id": 54,
+      "start": 187.53,
+      "end": 189.08,
+      "speaker": "PATIENT",
+      "text": "Uh, ."
+    },
+    {
+      "id": 55,
+      "start": 190.62,
+      "end": 201.15,
+      "speaker": "DOCTOR",
+      "text": "OK. So, let me summarise what you've told me already. You were gardening a few hours ago, and you experienced chest discomfort, which was roughly seven out of ten."
+    },
+    {
+      "id": 57,
+      "start": 201.73,
+      "end": 205.75,
+      "speaker": "DOCTOR",
+      "text": "And it feels more like someone's sitting on your chest, as opposed to pain."
+    },
+    {
+      "id": 58,
+      "start": 201.73,
+      "end": 202.18,
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "id": 59,
+      "start": 206.26,
+      "end": 207.78,
+      "speaker": "PATIENT",
+      "text": "Yes, that's great."
+    },
+    {
+      "id": 60,
+      "start": 208.24,
+      "end": 213.47,
+      "speaker": "DOCTOR",
+      "text": "And apart from this, have you noticed anything else unusual, specifically with your breathing?"
+    },
+    {
+      "id": 61,
+      "start": 216.83,
+      "end": 224.57,
+      "speaker": "PATIENT",
+      "text": "Uh, yes I have. Um, I've got shortness of breath. And I feel slightly, light-headed."
+    },
+    {
+      "id": 62,
+      "start": 226.62,
+      "end": 228.77,
+      "speaker": "DOCTOR",
+      "text": "OK, and is that getting worse or better?"
+    },
+    {
+      "id": 63,
+      "start": 231.73,
+      "end": 245.99,
+      "speaker": "PATIENT",
+      "text": "Um, it's remained the same. Although, I would say recently I've noticed, in terms of sort of breathing, I've had, some difficulty climbing the stairs. And, if I have to sort of walk uphill, there's that sort of challenge as well."
+    },
+    {
+      "id": 64,
+      "start": 246.37,
+      "end": 252.13,
+      "speaker": "DOCTOR",
+      "text": "And when you get short of breath, when you're walking up the stairs, have you noticed any pain?"
+    },
+    {
+      "id": 65,
+      "start": 255.18,
+      "end": 262.03,
+      "speaker": "PATIENT",
+      "text": "Um, no pain as such, but there's often calf pain and, leg swellings."
+    },
+    {
+      "id": 66,
+      "start": 262.82,
+      "end": 268.69,
+      "speaker": "DOCTOR",
+      "text": "OK. So, let me confirm. You have the pressure at the moment, and you have shortness of breath, is that correct?"
+    },
+    {
+      "id": 67,
+      "start": 268.68,
+      "end": 269.69,
+      "speaker": "PATIENT",
+      "text": "That is correct, yes."
+    },
+    {
+      "id": 68,
+      "start": 269.28,
+      "end": 276.44,
+      "speaker": "DOCTOR",
+      "text": ". So, given what you've told me about your past medical history. I think it might be worth, you calling an ambulance."
+    },
+    {
+      "id": 69,
+      "start": 276.84,
+      "end": 277.58,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 70,
+      "start": 277.27,
+      "end": 284.1,
+      "speaker": "DOCTOR",
+      "text": "get you to the hospital as soon as possible. Because, my concern is, it might be something to do with your heart."
+    },
+    {
+      "id": 71,
+      "start": 285.07,
+      "end": 291.82,
+      "speaker": "DOCTOR",
+      "text": "So, While to you, I will ring an ambulance. Who, should come to your address."
+    },
+    {
+      "id": 72,
+      "start": 285.3,
+      "end": 286.75,
+      "speaker": "PATIENT",
+      "text": "Ohh, OK."
+    },
+    {
+      "id": 73,
+      "start": 292.12,
+      "end": 292.75,
+      "speaker": "PATIENT",
+      "text": "Ohh right."
+    },
+    {
+      "id": 74,
+      "start": 292.58,
+      "end": 299.98,
+      "speaker": "DOCTOR",
+      "text": "But in the meantime, I think we should stay on the phone. So I can gather some more information, that we can give to the paramedics. Is that OK?"
+    },
+    {
+      "id": 75,
+      "start": 297.21,
+      "end": 297.86,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 76,
+      "start": 300.82,
+      "end": 303.54,
+      "speaker": "PATIENT",
+      "text": "Um, should I, be concerned about anything?"
+    },
+    {
+      "id": 77,
+      "start": 304.07,
+      "end": 314.65,
+      "speaker": "DOCTOR",
+      "text": "It's nothing to worry about at the moment, but, given that you've got high blood pressure and high cholesterol, and you've got some chest pain. I'm always worried about the heart first, before anything else."
+    },
+    {
+      "id": 78,
+      "start": 314.02,
+      "end": 316.3,
+      "speaker": "PATIENT",
+      "text": ", OK, ."
+    },
+    {
+      "id": 79,
+      "start": 315.32,
+      "end": 319.17,
+      "speaker": "DOCTOR",
+      "text": ", and we, and we need to look after your heart before anything else."
+    },
+    {
+      "id": 80,
+      "start": 321.08,
+      "end": 327.33,
+      "speaker": "DOCTOR",
+      "text": "So, apart from this light-headedness, and this chest discomfort, have you noticed anything else unusual?"
+    },
+    {
+      "id": 81,
+      "start": 331.39,
+      "end": 336.88,
+      "speaker": "PATIENT",
+      "text": "Um, nothing, else unusual. Um, I'm not sure if I spoke to you about nausea?"
+    },
+    {
+      "id": 82,
+      "start": 337.29,
+      "end": 340.39,
+      "speaker": "PATIENT",
+      "text": "I've noticed nausea, but no vomiting, yet."
+    },
+    {
+      "id": 83,
+      "start": 340.05,
+      "end": 342.33,
+      "speaker": "DOCTOR",
+      "text": "Did you have anything to eat or drink this morning?"
+    },
+    {
+      "id": 84,
+      "start": 342.44,
+      "end": 343.36,
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "id": 85,
+      "start": 344.68,
+      "end": 347.31,
+      "speaker": "DOCTOR",
+      "text": "And you feel, still feel nauseous at the moment?"
+    },
+    {
+      "id": 86,
+      "start": 347.93,
+      "end": 349.65,
+      "speaker": "PATIENT",
+      "text": "I have, yeah. I am, yeah."
+    },
+    {
+      "id": 87,
+      "start": 350.34,
+      "end": 356.49,
+      "speaker": "DOCTOR",
+      "text": "So, I have a couple of other questions to ask you, and I'm gonna reel them off. So, apologies for not letting you talk very much."
+    },
+    {
+      "id": 88,
+      "start": 354.58,
+      "end": 355.19,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 89,
+      "start": 356.84,
+      "end": 357.8,
+      "speaker": "PATIENT",
+      "text": "No, that's fine."
+    },
+    {
+      "id": 90,
+      "start": 357.51,
+      "end": 360.87,
+      "speaker": "DOCTOR",
+      "text": "Have you noticed this pressure, radiating to your head?"
+    },
+    {
+      "id": 91,
+      "start": 361.71,
+      "end": 363.44,
+      "speaker": "PATIENT",
+      "text": "Uh, not to my head, no."
+    },
+    {
+      "id": 92,
+      "start": 363.43,
+      "end": 365.85,
+      "speaker": "DOCTOR",
+      "text": "And how about to your left, or right arm?"
+    },
+    {
+      "id": 93,
+      "start": 366.63,
+      "end": 371.32,
+      "speaker": "PATIENT",
+      "text": "Uh, yes. There is some pain in my left shoulder and arm."
+    },
+    {
+      "id": 94,
+      "start": 372.02,
+      "end": 375.65,
+      "speaker": "DOCTOR",
+      "text": "And does that pain go anywhere else? To your left arm, or to your back?"
+    },
+    {
+      "id": 95,
+      "start": 376.27,
+      "end": 377.32,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 96,
+      "start": 378.24,
+      "end": 381.77,
+      "speaker": "DOCTOR",
+      "text": "And, have you noticed any problems swallowing, or drinking water?"
+    },
+    {
+      "id": 97,
+      "start": 384.87,
+      "end": 385.73,
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "id": 98,
+      "start": 386.6,
+      "end": 387.29,
+      "speaker": "DOCTOR",
+      "text": "Good."
+    },
+    {
+      "id": 99,
+      "start": 387.92,
+      "end": 390.51,
+      "speaker": "DOCTOR",
+      "text": "And have you noticed any problems going to the loo?"
+    },
+    {
+      "id": 100,
+      "start": 391.19,
+      "end": 392.85,
+      "speaker": "PATIENT",
+      "text": "Uh, no problems going to the loo."
+    },
+    {
+      "id": 101,
+      "start": 394.32,
+      "end": 398.12,
+      "speaker": "DOCTOR",
+      "text": "And you're normally fit and well, apart from the two things you told me about?"
+    },
+    {
+      "id": 102,
+      "start": 398.68,
+      "end": 399.68,
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "id": 103,
+      "start": 400.45,
+      "end": 415.52,
+      "speaker": "PATIENT",
+      "text": "Yes, however, there's some problems just, performing daily activities. Um, like I said, with the difficulties climbing up the stairs and going uphill. Um, I try to limit my daily activity to just moving around the house, nothing too strenuous."
+    },
+    {
+      "id": 105,
+      "start": 417.48,
+      "end": 419.89,
+      "speaker": "DOCTOR",
+      "text": "And, do you live at home with your wife at the moment?"
+    },
+    {
+      "id": 106,
+      "start": 420.02,
+      "end": 421.04,
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "id": 107,
+      "start": 420.6,
+      "end": 429.88,
+      "speaker": "DOCTOR",
+      "text": "OK. I would suggest, if she's there, you let her know that, you'll both be having an adventure to the hospital today. So, she might need to get your things together."
+    },
+    {
+      "id": 108,
+      "start": 428.33,
+      "end": 428.93,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 430.38,
+      "end": 431.48,
+      "speaker": "PATIENT",
+      "text": "Got it, OK."
+    },
+    {
+      "id": 110,
+      "start": 431.71,
+      "end": 439.2,
+      "speaker": "DOCTOR",
+      "text": "The ambulance should be there very soon. In the meantime, I would suggest that you stay calm, and have some water if you need to."
+    },
+    {
+      "id": 111,
+      "start": 434.73,
+      "end": 435.39,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 112,
+      "start": 439.2,
+      "end": 441.71,
+      "speaker": "DOCTOR",
+      "text": "Don't take any of those medications."
+    },
+    {
+      "id": 113,
+      "start": 439.58,
+      "end": 440.13,
+      "speaker": "PATIENT",
+      "text": "Right."
+    },
+    {
+      "id": 114,
+      "start": 442.38,
+      "end": 442.96,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 115,
+      "start": 442.38,
+      "end": 445.71,
+      "speaker": "DOCTOR",
+      "text": "And the paramedics should be with you, very shortly."
+    },
+    {
+      "id": 116,
+      "start": 446.26,
+      "end": 446.94,
+      "speaker": "PATIENT",
+      "text": "All right."
+    },
+    {
+      "id": 117,
+      "start": 446.88,
+      "end": 450.56,
+      "speaker": "DOCTOR",
+      "text": "So, when they do come, there are two things they will be worried about."
+    },
+    {
+      "id": 118,
+      "start": 450.72,
+      "end": 451.32,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 119,
+      "start": 451.07,
+      "end": 456.31,
+      "speaker": "DOCTOR",
+      "text": "The one is your chest, so, your heart. And the second is your breathing, which is your lungs."
+    },
+    {
+      "id": 120,
+      "start": 453.87,
+      "end": 454.38,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 121,
+      "start": 456.55,
+      "end": 457.13,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 122,
+      "start": 456.97,
+      "end": 466.51,
+      "speaker": "DOCTOR",
+      "text": "So, they will give you lots of things to breathe through, and attach things to your arms. Just to check, things like your blood pressure, and your heart rate. So, don't be worried."
+    },
+    {
+      "id": 123,
+      "start": 466.75,
+      "end": 467.24,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 124,
+      "start": 467.13,
+      "end": 472.66,
+      "speaker": "DOCTOR",
+      "text": "And, when you get to the hospital, you'll be seen by a consultant, pretty, pretty much immediately."
+    },
+    {
+      "id": 125,
+      "start": 474.5,
+      "end": 475.64,
+      "speaker": "PATIENT",
+      "text": "Yeah, ."
+    },
+    {
+      "id": 127,
+      "start": 476.77,
+      "end": 478.97,
+      "speaker": "PATIENT",
+      "text": "Reassuring, I'm getting ."
+    },
+    {
+      "id": 128,
+      "start": 479.91,
+      "end": 489.8,
+      "speaker": "DOCTOR",
+      "text": "Sure. So, I will let the paramedics do their job. And when, you're at the hospital, the consultant would normally call me within a couple of minutes, to let me know how everything's going."
+    },
+    {
+      "id": 129,
+      "start": 489.95,
+      "end": 490.81,
+      "speaker": "PATIENT",
+      "text": "Ohh, that's great."
+    },
+    {
+      "id": 130,
+      "start": 491.22,
+      "end": 496.22,
+      "speaker": "DOCTOR",
+      "text": "Great. I'll um, book another appointment, to see you soon. Uh, , once you've had your adventure."
+    },
+    {
+      "id": 131,
+      "start": 494.27,
+      "end": 494.86,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 132,
+      "start": 497.28,
+      "end": 498.89,
+      "speaker": "PATIENT",
+      "text": "That is perfect. Thank you so much."
+    },
+    {
+      "id": 133,
+      "start": 498.57,
+      "end": 500.6,
+      "speaker": "DOCTOR",
+      "text": "No problems. Do you have any questions for me?"
+    },
+    {
+      "id": 134,
+      "start": 500.38,
+      "end": 504.0,
+      "speaker": "PATIENT",
+      "text": "Uh, no questions. I'll just await the ambulance."
+    },
+    {
+      "id": 135,
+      "start": 504.7,
+      "end": 506.14,
+      "speaker": "DOCTOR",
+      "text": "Great, thank you very much."
+    },
+    {
+      "id": 136,
+      "start": 506.24,
+      "end": 507.88,
+      "speaker": "PATIENT",
+      "text": "No problems. I'll speak to you soon."
+    },
+    {
+      "id": 137,
+      "start": 507.14,
+      "end": 508.45,
+      "speaker": "DOCTOR",
+      "text": "Bye bye."
+    },
+    {
+      "id": 138,
+      "start": 508.2,
+      "end": 509.02,
+      "speaker": "PATIENT",
+      "text": "Thank you so much."
+    },
+    {
+      "id": 139,
+      "start": 509.94,
+      "end": 510.44,
+      "speaker": "PATIENT",
+      "text": "Bye."
+    }
+  ]
+}

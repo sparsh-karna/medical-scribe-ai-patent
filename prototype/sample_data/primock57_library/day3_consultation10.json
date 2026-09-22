@@ -1,0 +1,785 @@
+{
+  "visit_id": "PRIMOCK57-day3_consultation10",
+  "presenting_complaint": "I have really bad diarrhea",
+  "note": "Real human ground-truth transcript from PriMock57 (Babylon Health, CC-BY 4.0 license), a mock primary-care consultation performed by clinicians and actors. No real patient data.",
+  "reference_clinical_note": "Diarrhoea for 3 days \nAlso associated abdominal pain \nNo mucous, no blood \nVomiting once \nStill eating and drinking \nDiarrhea like water 4-5 times a day \nNo fever \nLoss od appetite \nDid not eat out \nNo foreign travel \nNo dehydration on examination \nPMH : asthma \nFH: Dad died of bowel cancer 10 years, HTN\nMedication ? Lapriso\nNo allergies \nDiagnosis: Gastroenteritis\nPlan : advised soft diet , drink plenty . Start with crackers, soups and mash . Then can build on with mash and vegetable. Can use yoghurts as probiotics and will help build the gut. If the diarhoea goes on for more than a week or there is blood , we would need a stool sample. \nIf there is diarrhea more than 8 episodes, you may get dehydrated please book an appointment.\n",
+  "segments": [
+    {
+      "id": 1,
+      "start": 2.02,
+      "end": 2.74,
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "id": 2,
+      "start": 2.74,
+      "end": 6.61,
+      "speaker": "DOCTOR",
+      "text": "Hello, hi, I'm Doctor Jacob and welcome to Babylon. Hello."
+    },
+    {
+      "id": 3,
+      "start": 7.3,
+      "end": 8.61,
+      "speaker": "PATIENT",
+      "text": "Nice to meet you."
+    },
+    {
+      "id": 4,
+      "start": 7.96,
+      "end": 14.49,
+      "speaker": "DOCTOR",
+      "text": "Nice to meet you too. So just before we start, is it all right if you could confirm your name for me please?"
+    },
+    {
+      "id": 5,
+      "start": 15.32,
+      "end": 16.81,
+      "speaker": "PATIENT",
+      "text": "Michael John ."
+    },
+    {
+      "id": 6,
+      "start": 16.73,
+      "end": 18.45,
+      "speaker": "DOCTOR",
+      "text": "And your date of birth?"
+    },
+    {
+      "id": 7,
+      "start": 19.4,
+      "end": 22.15,
+      "speaker": "PATIENT",
+      "text": "Oh nine two nine eighty-three."
+    },
+    {
+      "id": 8,
+      "start": 22.17,
+      "end": 25.25,
+      "speaker": "DOCTOR",
+      "text": "OK, and your address for me please."
+    },
+    {
+      "id": 9,
+      "start": 26.16,
+      "end": 31.98,
+      "speaker": "PATIENT",
+      "text": "Two three one, Leonard, London street uh, sorry, London."
+    },
+    {
+      "id": 10,
+      "start": 32.53,
+      "end": 38.88,
+      "speaker": "DOCTOR",
+      "text": "OK and that's correct, and just to confirm that you're in a secure location and we can have a confidential conversation."
+    },
+    {
+      "id": 11,
+      "start": 39.34,
+      "end": 40.05,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 12,
+      "start": 40.12,
+      "end": 48.53,
+      "speaker": "DOCTOR",
+      "text": "OK, uh, you've mentioned on our notes that you're suffering from bad diarrhea. I'm sorry to hear about it. So if you tell me a bit more about it, please."
+    },
+    {
+      "id": 13,
+      "start": 49.2,
+      "end": 64.73,
+      "speaker": "PATIENT",
+      "text": "Uh, it's been happening for about, three days now? Um, yeah it, started off uh, was, I don't know it's just something that I thought would go away pretty quickly."
+    },
+    {
+      "id": 14,
+      "start": 53.62,
+      "end": 54.32,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 16,
+      "start": 64.73,
+      "end": 81.15,
+      "speaker": "PATIENT",
+      "text": "I've had that from time to time after eating certain types of food or going on certain travels, but, uh nothing funky in my diet and no travels recently, um and it just kinda kept up. I'm a bit confused as to what to do ."
+    },
+    {
+      "id": 17,
+      "start": 69.68,
+      "end": 70.12,
+      "speaker": "DOCTOR",
+      "text": "Mmm."
+    },
+    {
+      "id": 18,
+      "start": 76.99,
+      "end": 77.53,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 19,
+      "start": 80.37,
+      "end": 84.72,
+      "speaker": "DOCTOR",
+      "text": "So you haven't had anything from outside? Nothing dodgy anything ? No."
+    },
+    {
+      "id": 20,
+      "start": 85.31,
+      "end": 100.23,
+      "speaker": "PATIENT",
+      "text": "No, no no no, just a little bit, yeah I I don't know I mean it's pretty standard diarrhoea, where it's was like a little bit of abdominal pain. I threw up once, that was a little worrying, uh."
+    },
+    {
+      "id": 22,
+      "start": 96.87,
+      "end": 97.46,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 23,
+      "start": 99.85,
+      "end": 102.49,
+      "speaker": "DOCTOR",
+      "text": "Repeat that please, that wasn't clear. What did you say?"
+    },
+    {
+      "id": 24,
+      "start": 102.98,
+      "end": 106.07,
+      "speaker": "PATIENT",
+      "text": "I threw up once, yeah."
+    },
+    {
+      "id": 25,
+      "start": 104.55,
+      "end": 107.34,
+      "speaker": "DOCTOR",
+      "text": "After that we'd said something."
+    },
+    {
+      "id": 26,
+      "start": 108.15,
+      "end": 111.24,
+      "speaker": "PATIENT",
+      "text": "Uh, nothing else was worrisome."
+    },
+    {
+      "id": 27,
+      "start": 111.1,
+      "end": 116.44,
+      "speaker": "DOCTOR",
+      "text": "OK, right, and with the diarrhea, how many times a day are you going to the toilet?"
+    },
+    {
+      "id": 28,
+      "start": 117.82,
+      "end": 120.73,
+      "speaker": "PATIENT",
+      "text": "Uh, four to five."
+    },
+    {
+      "id": 29,
+      "start": 120.74,
+      "end": 127.98,
+      "speaker": "DOCTOR",
+      "text": "Four to five times, yeah. And is there any? And it's like water? Is it like water or is it just loose?"
+    },
+    {
+      "id": 30,
+      "start": 128.86,
+      "end": 130.81,
+      "speaker": "PATIENT",
+      "text": "Uh, what do you mean?"
+    },
+    {
+      "id": 31,
+      "start": 131.66,
+      "end": 139.41,
+      "speaker": "DOCTOR",
+      "text": "Are you going like water? Or is it just, you know bit, bit of solid stools, bit loose kind of thing?"
+    },
+    {
+      "id": 32,
+      "start": 141.03,
+      "end": 144.81,
+      "speaker": "PATIENT",
+      "text": "It probably depends on the time of day to be honest, ."
+    },
+    {
+      "id": 33,
+      "start": 143.43,
+      "end": 148.24,
+      "speaker": "DOCTOR",
+      "text": "Sure OK. Bit of both and is there any blood or mucus?"
+    },
+    {
+      "id": 34,
+      "start": 149.73,
+      "end": 152.82,
+      "speaker": "PATIENT",
+      "text": "No blood. What do you mean mucus?"
+    },
+    {
+      "id": 35,
+      "start": 152.6,
+      "end": 154.18,
+      "speaker": "DOCTOR",
+      "text": "It's like the snotty stuff."
+    },
+    {
+      "id": 36,
+      "start": 155.49,
+      "end": 156.49,
+      "speaker": "PATIENT",
+      "text": "In the stool?"
+    },
+    {
+      "id": 37,
+      "start": 156.35,
+      "end": 158.51,
+      "speaker": "DOCTOR",
+      "text": "Yeah, it looks like snot ."
+    },
+    {
+      "id": 38,
+      "start": 159.21,
+      "end": 160.02,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 39,
+      "start": 159.81,
+      "end": 163.95,
+      "speaker": "DOCTOR",
+      "text": "No, so no mucus, OK. Any fever at all?"
+    },
+    {
+      "id": 40,
+      "start": 165.41,
+      "end": 169.8,
+      "speaker": "PATIENT",
+      "text": "Uh, maybe a little bit, but."
+    },
+    {
+      "id": 41,
+      "start": 168.99,
+      "end": 169.49,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 42,
+      "start": 170.8,
+      "end": 174.43,
+      "speaker": "PATIENT",
+      "text": "It hasn't been, that in particular hasn't been too worrying."
+    },
+    {
+      "id": 43,
+      "start": 174.8,
+      "end": 178.26,
+      "speaker": "DOCTOR",
+      "text": "Are you still able to eat, and drink?"
+    },
+    {
+      "id": 44,
+      "start": 179.37,
+      "end": 181.27,
+      "speaker": "PATIENT",
+      "text": "Uh, a little bit of."
+    },
+    {
+      "id": 45,
+      "start": 182.41,
+      "end": 192.36,
+      "speaker": "PATIENT",
+      "text": "Appetite loss I guess worse than normal, but also not something I've, like I, if that was alone I wouldn't have, reached out."
+    },
+    {
+      "id": 46,
+      "start": 185.26,
+      "end": 185.9,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 47,
+      "start": 191.39,
+      "end": 196.1,
+      "speaker": "DOCTOR",
+      "text": "Sure. So but you're you're still able to drink quite a bit yeah? You're drinking plenty."
+    },
+    {
+      "id": 48,
+      "start": 196.89,
+      "end": 197.89,
+      "speaker": "PATIENT",
+      "text": "Yeah yeah yeah."
+    },
+    {
+      "id": 49,
+      "start": 198.22,
+      "end": 200.36,
+      "speaker": "DOCTOR",
+      "text": "OK. Excellent."
+    },
+    {
+      "id": 50,
+      "start": 200.03,
+      "end": 201.39,
+      "speaker": "PATIENT",
+      "text": "Mostly it's been dry and red."
+    },
+    {
+      "id": 51,
+      "start": 202.12,
+      "end": 207.33,
+      "speaker": "DOCTOR",
+      "text": "OK, and, um, what have you take, have you taken anything so far for the diarrhea?"
+    },
+    {
+      "id": 52,
+      "start": 208.66,
+      "end": 209.64,
+      "speaker": "PATIENT",
+      "text": "Nothing yet."
+    },
+    {
+      "id": 53,
+      "start": 209.57,
+      "end": 212.7,
+      "speaker": "DOCTOR",
+      "text": "Nothing yet, OK. Anything for the abdominal pain?"
+    },
+    {
+      "id": 54,
+      "start": 214.41,
+      "end": 216.0,
+      "speaker": "PATIENT",
+      "text": "Uh, nothing yet."
+    },
+    {
+      "id": 55,
+      "start": 216.07,
+      "end": 224.43,
+      "speaker": "DOCTOR",
+      "text": "OK. Right, and any unfortunately we don't have any of your past medical history, is there anything you'd like to say?"
+    },
+    {
+      "id": 56,
+      "start": 225.52,
+      "end": 227.04,
+      "speaker": "PATIENT",
+      "text": "Uh, I."
+    },
+    {
+      "id": 57,
+      "start": 229.17,
+      "end": 230.76,
+      "speaker": "PATIENT",
+      "text": "Probably I I had asthma."
+    },
+    {
+      "id": 58,
+      "start": 231.67,
+      "end": 232.1,
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "id": 59,
+      "start": 231.76,
+      "end": 234.79,
+      "speaker": "PATIENT",
+      "text": "Um or, or I don't know I guess I still have it."
+    },
+    {
+      "id": 60,
+      "start": 235.02,
+      "end": 239.38,
+      "speaker": "DOCTOR",
+      "text": "OK and uh, are you, any, uh, anything else other than asthma?"
+    },
+    {
+      "id": 61,
+      "start": 240.29,
+      "end": 244.29,
+      "speaker": "PATIENT",
+      "text": "Uh, my dad had hypertension."
+    },
+    {
+      "id": 62,
+      "start": 244.56,
+      "end": 245.3,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 63,
+      "start": 245.62,
+      "end": 251.62,
+      "speaker": "PATIENT",
+      "text": "Has hypertension. Had hypertension. Yeah he died of bowel cancer ten years ago."
+    },
+    {
+      "id": 64,
+      "start": 246.84,
+      "end": 247.77,
+      "speaker": "DOCTOR",
+      "text": "Yeah ."
+    },
+    {
+      "id": 65,
+      "start": 251.43,
+      "end": 257.49,
+      "speaker": "DOCTOR",
+      "text": "Ohh dear, OK. Bowel cancer. Ten years ago. And how old was he when he died?"
+    },
+    {
+      "id": 66,
+      "start": 258.21,
+      "end": 259.72,
+      "speaker": "PATIENT",
+      "text": "Uh, sixty-two."
+    },
+    {
+      "id": 67,
+      "start": 260.42,
+      "end": 266.56,
+      "speaker": "DOCTOR",
+      "text": "K, and um, you mentioned you had asthma, are you using any inhalers at all?"
+    },
+    {
+      "id": 68,
+      "start": 267.23,
+      "end": 268.04,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 69,
+      "start": 268.43,
+      "end": 269.38,
+      "speaker": "DOCTOR",
+      "text": "Which ones?"
+    },
+    {
+      "id": 70,
+      "start": 270.24,
+      "end": 271.11,
+      "speaker": "PATIENT",
+      "text": "Lexapro."
+    },
+    {
+      "id": 71,
+      "start": 272.01,
+      "end": 272.59,
+      "speaker": "DOCTOR",
+      "text": "Sorry?"
+    },
+    {
+      "id": 72,
+      "start": 273.21,
+      "end": 274.21,
+      "speaker": "PATIENT",
+      "text": "Lexapro."
+    },
+    {
+      "id": 73,
+      "start": 275.33,
+      "end": 276.95,
+      "speaker": "DOCTOR",
+      "text": "Laxepro."
+    },
+    {
+      "id": 74,
+      "start": 277.85,
+      "end": 278.53,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 75,
+      "start": 279.85,
+      "end": 284.87,
+      "speaker": "DOCTOR",
+      "text": "OK, not heard of it may. Is it like Salbutamol? Is it like a blue colour?"
+    },
+    {
+      "id": 76,
+      "start": 285.94,
+      "end": 286.76,
+      "speaker": "PATIENT",
+      "text": "Yellow."
+    },
+    {
+      "id": 77,
+      "start": 287.41,
+      "end": 292.1,
+      "speaker": "DOCTOR",
+      "text": "Yellow, OK. I'll have to check that one, not sure. Laxepro."
+    },
+    {
+      "id": 78,
+      "start": 293.76,
+      "end": 298.73,
+      "speaker": "DOCTOR",
+      "text": "OK. Um, that's fine. Any other medication that you're using?"
+    },
+    {
+      "id": 79,
+      "start": 299.36,
+      "end": 301.2,
+      "speaker": "DOCTOR",
+      "text": "Over the counter, anything at all?"
+    },
+    {
+      "id": 80,
+      "start": 302.28,
+      "end": 308.51,
+      "speaker": "DOCTOR",
+      "text": "OK. Right. Any allergies?"
+    },
+    {
+      "id": 81,
+      "start": 302.31,
+      "end": 302.95,
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "id": 82,
+      "start": 309.75,
+      "end": 312.86,
+      "speaker": "PATIENT",
+      "text": "Nothing, yeah, nothing."
+    },
+    {
+      "id": 83,
+      "start": 312.68,
+      "end": 335.29,
+      "speaker": "DOCTOR",
+      "text": "No allergies at all, righty . Fine so, obviously, you know you just have diarrhea it's about four to five times a day. Um, you're still drinking plenty and you look like you're not dehydrated which is a good sign, OK? Um, when we start worrying about diarrhea is if you're going more than eight times a day."
+    },
+    {
+      "id": 84,
+      "start": 335.29,
+      "end": 345.41,
+      "speaker": "DOCTOR",
+      "text": "That means probably you are, you know, whatever you're eating is going straight through, OK? You still need to drink plenty of water because you're losing a lot of fluids."
+    },
+    {
+      "id": 85,
+      "start": 345.76,
+      "end": 346.51,
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "id": 86,
+      "start": 346.2,
+      "end": 360.8,
+      "speaker": "DOCTOR",
+      "text": "OK, when you go to the toilet. Um, things that one would advise is a soft diet. So avoid dairy, fish, meat, eggs, while you're having the diarrhea. Go, sorry?"
+    },
+    {
+      "id": 87,
+      "start": 357.43,
+      "end": 359.98,
+      "speaker": "PATIENT",
+      "text": "Soft ."
+    },
+    {
+      "id": 88,
+      "start": 361.1,
+      "end": 366.37,
+      "speaker": "PATIENT",
+      "text": "What is a soft diet? What does that ? Like, outside of, not those things, what do you mean by soft?"
+    },
+    {
+      "id": 89,
+      "start": 366.3,
+      "end": 392.34,
+      "speaker": "DOCTOR",
+      "text": "OK, so that will be like crackers, toast, jam, those kind of things that's easily digested. Like what we are good give babies yeah. When they start eating you give, simple food for babies. You don't give eggs or meat the first time they start feeding. So that's the kind of soft diet we're talking about, yeah? Once you are able to, you know keep most of it in, you can start off with some just boiled vegetables and mash."
+    },
+    {
+      "id": 90,
+      "start": 393.08,
+      "end": 406.13,
+      "speaker": "DOCTOR",
+      "text": "Once you're OK with that for about forty-eight hours then you can start having meat. So just don't have meat once you feel like you're slightly better, because you might go back to square one again, all right?"
+    },
+    {
+      "id": 92,
+      "start": 405.58,
+      "end": 409.23,
+      "speaker": "PATIENT",
+      "text": "What do you mean OK with that diet, like once?"
+    },
+    {
+      "id": 93,
+      "start": 409.11,
+      "end": 418.43,
+      "speaker": "DOCTOR",
+      "text": "Forty-eight hours you're not having any diarrhea, you're fine then you can go and start having meat, egg, fish and all. So that ."
+    },
+    {
+      "id": 94,
+      "start": 416.08,
+      "end": 427.19,
+      "speaker": "PATIENT",
+      "text": "OK, if if the diarrhoea is getting better but isn't getting, or do you want it to go away completely at that point, or if it's like trending upwards?"
+    },
+    {
+      "id": 95,
+      "start": 426.9,
+      "end": 447.33,
+      "speaker": "DOCTOR",
+      "text": "No, no, no preferably just don't because, what why do we say this? It's because it takes much more time for meat to get digested. So because your gut flora, you know, the, the, the bacteria in your gut is not you know as it should be, it takes a bit more effort for one to digest these food."
+    },
+    {
+      "id": 96,
+      "start": 447.33,
+      "end": 453.91,
+      "speaker": "DOCTOR",
+      "text": "While it doesn't take that much of an effort to, you know digest mash and vegetables. Does that make sense?"
+    },
+    {
+      "id": 97,
+      "start": 454.25,
+      "end": 455.22,
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "id": 98,
+      "start": 455.19,
+      "end": 471.04,
+      "speaker": "DOCTOR",
+      "text": "Yeah? So, um, at the same time you could have some, although you can't milk is not a good idea, yoghurts are a good idea because they are probiotics, it help to build up the normal, um gut, gut bacteria back."
+    },
+    {
+      "id": 99,
+      "start": 472.04,
+      "end": 472.57,
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "id": 100,
+      "start": 472.21,
+      "end": 472.9,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 101,
+      "start": 473.12,
+      "end": 491.33,
+      "speaker": "DOCTOR",
+      "text": "So those kinda, now, things to look out for, if your diarrhoea doesn't go away in a week's time, or if you're passing blood, we need a stool sample, because that means you you may have , um, some particular bugs that might need treatment with antibiotics."
+    },
+    {
+      "id": 102,
+      "start": 492.38,
+      "end": 493.28,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 103,
+      "start": 493.2,
+      "end": 512.03,
+      "speaker": "DOCTOR",
+      "text": "OK. If you're again, as I've mentioned previously if you're going about six to eight times a day, that means there's a high chance that, uh, you are, having dehydration and you might need to go into hospital at that point in time. If that happens you get in touch with us again, all right?"
+    },
+    {
+      "id": 104,
+      "start": 514.5,
+      "end": 515.29,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 105,
+      "start": 515.34,
+      "end": 517.53,
+      "speaker": "DOCTOR",
+      "text": "Any questions? You look a bit confused."
+    },
+    {
+      "id": 106,
+      "start": 519.14,
+      "end": 520.25,
+      "speaker": "PATIENT",
+      "text": "No, that's it."
+    },
+    {
+      "id": 107,
+      "start": 520.34,
+      "end": 533.25,
+      "speaker": "DOCTOR",
+      "text": "Yeah? OK and also you could get something called Dioralyte over the counter. So, it helps to uh, replenish your, the salts that you've been, that's lost through going to the toilet."
+    },
+    {
+      "id": 108,
+      "start": 534.21,
+      "end": 535.01,
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "id": 109,
+      "start": 535.07,
+      "end": 551.75,
+      "speaker": "DOCTOR",
+      "text": "OK? If you're a bit confused you know you can actually, uh, all this is all recorded in your app. So you can go back. I'll put that all in detail so if, you know I know sometimes it's a bit difficult to process everything, you can go back and read, read the notes."
+    },
+    {
+      "id": 110,
+      "start": 552.81,
+      "end": 555.25,
+      "speaker": "PATIENT",
+      "text": "Perfect, that's great."
+    },
+    {
+      "id": 111,
+      "start": 552.93,
+      "end": 554.3,
+      "speaker": "DOCTOR",
+      "text": "Is that OK?"
+    },
+    {
+      "id": 112,
+      "start": 555.19,
+      "end": 557.31,
+      "speaker": "DOCTOR",
+      "text": "All right then, you take care."
+    },
+    {
+      "id": 113,
+      "start": 557.93,
+      "end": 558.66,
+      "speaker": "PATIENT",
+      "text": "Bye."
+    },
+    {
+      "id": 114,
+      "start": 558.52,
+      "end": 559.46,
+      "speaker": "DOCTOR",
+      "text": "Bye now, bye bye."
+    }
+  ]
+}

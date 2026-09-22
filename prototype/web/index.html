@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clinical Documentation Gate</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-brand"><span class="mark" aria-hidden="true"></span>Clinical Documentation Gate</div>
+    <div class="nav-links">
+      <a href="login.html" class="btn btn-ghost btn-sm">Sign in</a>
+      <a href="login.html?mode=signup" class="btn btn-primary btn-sm">Get started</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-copy">
+      <h1>Block AI mistakes before they reach the chart.</h1>
+      <p class="hero-sub">Every AI-drafted note is checked against the encounter, and blocked from the chart until a clinician signs off.</p>
+      <div class="hero-cta">
+        <a href="login.html?mode=signup" class="btn btn-primary">Get started</a>
+        <a href="#how" class="btn btn-secondary">See how it works</a>
+      </div>
+    </div>
+    <div class="hero-visual card" aria-hidden="true">
+      <div class="preview-label">Example: drafted note, live</div>
+      <div class="preview-card verified">
+        <div class="preview-text">Metformin 500&nbsp;mg twice a day for diabetes.</div>
+        <div class="preview-meta"><span class="badge badge-verified">Verified</span> confidence 0.94</div>
+      </div>
+      <div class="preview-card pending">
+        <div class="preview-text">Amoxicillin 500&nbsp;mg three times a day.</div>
+        <div class="preview-meta"><span class="badge badge-pending">Needs review</span> conflicts with documented penicillin allergy</div>
+      </div>
+      <div class="preview-card rejected">
+        <div class="preview-text">Patient reports severe chest pain radiating to the left arm.</div>
+        <div class="preview-meta"><span class="badge badge-rejected">Rejected</span> no matching statement in transcript</div>
+      </div>
+    </div>
+  </header>
+
+  <section id="how" class="section">
+    <div class="section-intro">
+      <h2>Three checks, not one.</h2>
+      <p>Ambient AI scribes already link a note back to the transcript. That alone does not stop an error from entering the record. This system adds enforcement on top of the link.</p>
+    </div>
+    <div class="signal-list">
+      <div class="signal-row">
+        <div class="signal-index">01</div>
+        <div>
+          <h3>Dual-signal grounding</h3>
+          <p>Every drafted statement is scored against the acoustic confidence of the recognizer and the semantic overlap with the exact transcript segment it claims to come from. Either signal failing blocks the statement outright.</p>
+        </div>
+      </div>
+      <div class="signal-row">
+        <div class="signal-index">02</div>
+        <div>
+          <h3>Adaptive calibration</h3>
+          <p>When a clinician resolves a blocked statement, the threshold for that field shifts toward their judgment, field by field. The safety floors underneath never move.</p>
+        </div>
+      </div>
+      <div class="signal-row">
+        <div class="signal-index">03</div>
+        <div>
+          <h3>Clinical-plausibility check</h3>
+          <p>A drafted medication is cross-checked against the patient's own documented allergies and against basic antibiotic-stewardship rules before it can auto-populate the chart.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section band">
+    <div class="band-content">
+      <h2>Validated on real consultations, not invented examples.</h2>
+      <p>Every result shown after sign-in runs on PriMock57, 57 recorded primary-care consultations performed by clinicians for research use (Babylon Health, CC-BY 4.0). You can also paste or upload your own transcript.</p>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <h2>Try it on a real consultation.</h2>
+    <p>Sign in, pick a patient, and run the gate against an actual transcript in under a minute.</p>
+    <a href="login.html?mode=signup" class="btn btn-primary">Get started</a>
+  </section>
+
+  <footer class="footer">
+    <span>Clinical Documentation Gate</span>
+    <span class="muted">Student project prototype. Not a certified medical device.</span>
+  </footer>
+</body>
+</html>
