@@ -1,0 +1,6 @@
+# Core pipeline (extractor rule-based mode, grounding, calibration, audit,
+# clinical-plausibility gate) has zero dependencies -- pure standard library.
+#
+# Optional, only needed for specific embodiments:
+faster-whisper>=1.0.0   # audio-input embodiment (main.py run --audio ...)
+anthropic>=0.30.0       # LLM-backed extractor embodiment (main.py run --llm ...)

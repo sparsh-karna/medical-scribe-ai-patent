@@ -1,0 +1,17 @@
+{
+  "visit_id": "SYNTH-0001",
+  "note": "Fully synthetic demo data. No real patient information.",
+  "segments": [
+    {"id": 1, "start": 0.0, "end": 4.5, "speaker": "DOCTOR", "text": "Good morning, what brings you in today?"},
+    {"id": 2, "start": 4.5, "end": 11.2, "speaker": "PATIENT", "text": "I've had a dry cough and a mild fever for about three days now, and I'm here for that."},
+    {"id": 3, "start": 11.2, "end": 15.0, "speaker": "DOCTOR", "text": "Okay. Any shortness of breath or chest pain?"},
+    {"id": 4, "start": 15.0, "end": 19.8, "speaker": "PATIENT", "text": "No chest pain, but I do feel a little short of breath when I climb stairs."},
+    {"id": 5, "start": 19.8, "end": 25.0, "speaker": "DOCTOR", "text": "Got it. Are you currently taking any medications?"},
+    {"id": 6, "start": 25.0, "end": 31.4, "speaker": "PATIENT", "text": "Yes, I'm taking metformin 500 mg twice a day for my diabetes, and I take ibuprofen sometimes for headaches."},
+    {"id": 7, "start": 31.4, "end": 34.0, "speaker": "DOCTOR", "text": "Any allergies to medications?"},
+    {"id": 8, "start": 34.0, "end": 37.6, "speaker": "PATIENT", "text": "I'm allergic to penicillin, it gives me a rash."},
+    {"id": 9, "start": 37.6, "end": 42.0, "speaker": "DOCTOR", "text": "Noted. Let's check your vitals. Your blood pressure is 128 over 82, and your temperature is 100.4 Fahrenheit."},
+    {"id": 10, "start": 42.0, "end": 50.0, "speaker": "DOCTOR", "text": "Based on your symptoms, this looks like a mild upper respiratory infection, likely viral."},
+    {"id": 11, "start": 50.0, "end": 58.0, "speaker": "DOCTOR", "text": "I'll start you on supportive care, plenty of fluids and rest, and we'll follow up in one week if symptoms don't improve."}
+  ]
+}
