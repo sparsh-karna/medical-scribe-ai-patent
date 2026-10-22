@@ -333,7 +333,7 @@ def get_job(job_id: str, doctor=Depends(get_current_doctor)):
     with JOBS_LOCK:
         job = JOBS.get(job_id)
         if job is None or job["doctor_id"] != doctor["id"]:
-            raise HTTPException(404, "Job not found.")
+            raise HTTPException(404, "This pipeline run is no longer tracked (the server was probably restarted). Start the case again.")
         return {k: v for k, v in job.items() if k != "doctor_id"}
 
 

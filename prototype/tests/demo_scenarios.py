@@ -59,9 +59,16 @@ def main():
     print(f"  #6 PATIENT: {seg[6]['text']}")
 
     q6 = "I've just had some diarrhea for the last three days"
+    q41 = "I vomited at the start of the symptoms, but now I've stopped vomiting."
     scenarios = [
-        ("1. Faithful paraphrase (should auto-insert)", "VERIFIED",
+        ("1. Faithful paraphrase of clearly recognised speech (should auto-insert)", "VERIFIED",
+         fact("history_of_present_illness", "Vomited at symptom onset; vomiting has now stopped.",
+              [{"segment_id": 41, "quote": q41}])),
+        ("1b. Correct but uncertain key word: 'diarrhea' heard at 0.13 (weakest-word rule -> review)", "NEEDS_REVIEW",
          fact("chief_complaint", "Diarrhoea for three days.", [{"segment_id": 6, "quote": q6}])),
+        ("1c. Real ASR error: 'stool' heard as 'stalk' at 0.28 (weakest-word rule -> review)", "NEEDS_REVIEW",
+         fact("history_of_present_illness", "No blood in the stool; stools are watery and loose.",
+              [{"segment_id": 14, "quote": "no blood, yeah, just watery and loose stalk."}])),
         ("2. Hallucinated detail: wrong duration (contradiction -> blocked)", "REJECTED",
          fact("chief_complaint", "Diarrhoea for three weeks.", [{"segment_id": 6, "quote": q6}])),
         ("3. Unsupported claim attached to a real citation (blocked)", "REJECTED",
@@ -86,7 +93,8 @@ def main():
             failures.append(f"{title}: expected {expected}, got {r.status}")
 
     # --- adaptive calibration: clinician rejects the borderline fact ---
-    borderline_fact, borderline = scenarios[4][2], results[4]
+    k = next(i for i, (t, _, _) in enumerate(scenarios) if t.startswith("5."))
+    borderline_fact, borderline = scenarios[k][2], results[k]
     case = {"segments": segments, "facts": [{
         "fact_id": "F001", "field": borderline_fact.field, "value": borderline_fact.value,
         "cited_segment_ids": borderline_fact.cited_segment_ids, "status": borderline.status,

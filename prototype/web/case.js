@@ -122,6 +122,10 @@ function signalsHTML(fact) {
       : `<span class="sig" title="Mean ASR word confidence over the quoted evidence">acoustic <b>${fmt(fact.acoustic_score)}</b></span>`);
   }
   if (fact.combined_confidence) parts.push(`<span class="sig">combined <b>${fmt(fact.combined_confidence)}</b></span>`);
+  const weakest = fact.weakest_content_word;
+  if (weakest && weakest.prob < 0.35) {
+    parts.push(`<span class="sig sig-bad" title="Least confidently recognised content word in the quoted evidence">weakest word <b>"${escapeHTML(weakest.word)}" ${fmt(weakest.prob)}</b></span>`);
+  }
   return parts.join("");
 }
 

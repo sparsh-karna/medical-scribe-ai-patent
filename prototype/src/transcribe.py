@@ -4,7 +4,7 @@ audio never has to leave the device.
 
 The ASR model is used as-is (not fine-tuned). Around it sits a light
 domain-adaptation layer (src/medical_terms.py): decoding is biased toward
-medical vocabulary via Whisper's initial prompt, and low-confidence words
+medical vocabulary via faster-whisper hotwords (every window), and low-confidence words
 that are near-misses of known medical terms are corrected (the original
 ASR word is kept alongside for the audit trail).
 
@@ -27,7 +27,7 @@ import os
 import threading
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
-from .medical_terms import build_initial_prompt, correct_word
+from .medical_terms import build_vocabulary_prompt, correct_word
 
 PAUSE_SPLIT_SECONDS = 0.8   # a silence this long inside a Whisper segment starts a new utterance
 UNATTRIBUTED = "UNATTRIBUTED"
@@ -87,7 +87,7 @@ def transcribe_channel(path: str, speaker: str, source: str, progress: ProgressF
         word_timestamps=True,
         vad_filter=True,                    # skip the silence while the other party speaks
         condition_on_previous_text=False,   # avoids Whisper's repetition loops on long audio
-        initial_prompt=build_initial_prompt(),
+        hotwords=build_vocabulary_prompt(),  # applied to every window, unlike initial_prompt
         language="en" if english_only else None,
     )
     segments: List[Dict[str, Any]] = []
@@ -135,5 +135,6 @@ def transcribe_consultation(channels: List[Tuple[str, str, str]], progress: Prog
         "duration": max((m["duration"] for m in channel_meta), default=0.0),
         "segments": len(all_segments),
         "medical_term_corrections": corrected,
+        "vocabulary_biasing": "hotwords",
     }
     return all_segments, meta

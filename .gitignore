@@ -24,3 +24,12 @@ prototype/.env
 # PriMock57 audio (large; fetch with prototype/scripts/download_primock57_audio.py)
 prototype/sample_data/primock57_audio/
 prototype/api/calibration/
+
+# Evaluation artefacts (bulky); results.jsonl and summary files are kept
+prototype/eval_results/asr/
+prototype/eval_results/runs/
+prototype/eval_results/noise/*.wav
+prototype/eval_results/noise/runs/
+
+# Office lock files
+~$*

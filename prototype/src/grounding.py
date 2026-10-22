@@ -47,6 +47,16 @@ QUOTE_MATCH_MIN = 90.0          # minimum fuzzy alignment score (0-100) for a qu
 SEMANTIC_WEIGHT = 0.6
 ACOUSTIC_WEIGHT = 0.4
 LOW_CONFIDENCE_WORD = 0.5       # words below this are reported as weak
+# An average can hide one badly recognised word ("no blood in the stalk" averaged 0.84).
+# If the weakest *content* word of the quoted span is below this, the fact cannot be
+# auto-inserted (it goes to review, it is not rejected: a weak word is not proof of error).
+WEAKEST_CONTENT_WORD_FLOOR = 0.35
+FUNCTION_WORDS = {
+    "a", "an", "the", "and", "or", "but", "so", "if", "of", "to", "in", "on", "at", "for", "with", "by", "from",
+    "is", "are", "was", "were", "be", "been", "am", "it", "its", "this", "that", "i", "you", "he", "she", "we",
+    "they", "me", "my", "your", "our", "um", "uh", "erm", "hmm", "mm", "oh", "ok", "okay", "yeah", "yes", "well",
+    "just", "like", "do", "does", "did", "have", "has", "had", "would", "could", "can", "will", "as", "then",
+}
 
 
 @dataclass
@@ -59,6 +69,7 @@ class GroundingResult:
     nli: Dict[str, float] = field(default_factory=dict)
     evidence_checks: List[Dict[str, Any]] = field(default_factory=list)
     weak_words: List[Dict[str, Any]] = field(default_factory=list)
+    weakest_content_word: Optional[Dict[str, Any]] = None
 
 
 def _speaker_label(speaker: str) -> str:
@@ -112,15 +123,21 @@ class GroundingEngine:
 
     def _acoustic(self, cited_ids: List[int], span_words: List[Dict[str, Any]]):
         """Mean word probability over the quoted span; whole cited segments as fallback.
-        Returns (score or None, weak words)."""
+        Returns (score or None, weak words, weakest content word or None)."""
         words = span_words
         if not words:
             words = [w for i in cited_ids for w in (self._segments_by_id[i].get("words") or [])]
         if not words:
-            return None, []
+            return None, [], None
         score = round(sum(w["prob"] for w in words) / len(words), 3)
         weak = [{"word": w["text"].strip(), "prob": w["prob"]} for w in words if w["prob"] < LOW_CONFIDENCE_WORD]
-        return score, weak
+        content = [w for w in words if re.sub(r"[^a-z']", "", w["text"].lower()) not in FUNCTION_WORDS
+                   and re.search(r"[a-z0-9]", w["text"].lower())]
+        weakest = None
+        if content:
+            w = min(content, key=lambda w: w["prob"])
+            weakest = {"word": w["text"].strip(), "prob": w["prob"]}
+        return score, weak, weakest
 
     def evaluate_many(self, facts: List[Any]) -> List[GroundingResult]:
         """Gate a batch of facts (each with .field, .value, .cited_segment_ids, .evidence).
@@ -156,10 +173,10 @@ class GroundingEngine:
 
     def _decide(self, fact, cited, checks, span_words, probs) -> GroundingResult:
         semantic = round(probs["entailment"], 3)
-        acoustic, weak = self._acoustic(cited, span_words)
+        acoustic, weak, weakest = self._acoustic(cited, span_words)
 
         def result(combined, status, reason):
-            return GroundingResult(semantic, acoustic, combined, status, reason, probs, checks, weak)
+            return GroundingResult(semantic, acoustic, combined, status, reason, probs, checks, weak, weakest)
 
         if probs["contradiction"] >= CONTRADICTION_CEILING:
             return result(0.0, "REJECTED",
@@ -181,6 +198,11 @@ class GroundingEngine:
         else:
             combined = round(SEMANTIC_WEIGHT * semantic + ACOUSTIC_WEIGHT * acoustic, 3)
             basis = f"entailment {semantic:.2f}, acoustic {acoustic:.2f}"
+        if combined >= threshold and weakest is not None and weakest["prob"] < WEAKEST_CONTENT_WORD_FLOOR:
+            return result(combined, "NEEDS_REVIEW",
+                          f"Combined confidence {combined:.2f} clears threshold {threshold:.2f}, but quoted word "
+                          f"'{weakest['word']}' was recognised with probability {weakest['prob']:.2f} (below "
+                          f"{WEAKEST_CONTENT_WORD_FLOOR}); check the audio before inserting.")
         if combined >= threshold:
             return result(combined, "VERIFIED",
                           f"Cleared threshold {threshold:.2f} for '{fact.field}' ({basis}); auto-inserted.")

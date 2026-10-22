@@ -14,3 +14,6 @@ anthropic>=0.30.0       # Claude
 fastapi>=0.141.0        # older FastAPI crashes on Starlette 1.x
 uvicorn>=0.30.0
 python-multipart>=0.0.9
+
+# Evaluation scripts (eval/)
+scipy>=1.10            # writes noisy audio in eval/noise_stress.py

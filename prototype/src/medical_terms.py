@@ -4,7 +4,9 @@ Lightweight domain-adaptation layer around the off-the-shelf ASR model.
 We do not fine-tune or retrain Whisper -- that is out of scope and not a
 realistic way to beat vendors who have already invested heavily in ASR
 accuracy. Instead we (a) bias decoding toward medical vocabulary via
-Whisper's initial_prompt mechanism, and (b) run a small fuzzy-correction
+faster-whisper's hotwords prompt, which is prepended to every 30-second
+decoding window (Whisper's initial_prompt only conditions the first window
+when condition_on_previous_text is off), and (b) run a small fuzzy-correction
 pass after transcription to fix near-miss spellings of known medical
 terms. Both are proof-of-concept sized: a real deployment would source
 this vocabulary from RxNorm/SNOMED rather than a hardcoded list.
@@ -28,16 +30,19 @@ COMMON_DRUGS = [
 COMMON_SYMPTOMS_ANATOMY = [
     "diarrhea", "diarrhoea", "fever", "cough", "dyspnea", "tachycardia", "abdomen",
     "epigastric", "lethargic", "vomiting", "nausea", "headache",
-    "photophobia", "migraine", "gastroenteritis",
+    "photophobia", "migraine", "gastroenteritis", "stool", "stools", "bowel",
+    "abdominal", "dehydrated", "inhaler", "asthma", "antibiotics", "allergic",
+    "hypertension", "diabetes", "rash", "phlegm", "wheezing",
 ]
 
 MEDICAL_VOCABULARY = COMMON_DRUGS + COMMON_SYMPTOMS_ANATOMY
 
 
-def build_initial_prompt() -> str:
-    """A short prompt string passed to Whisper to bias decoding toward
-    medical vocabulary. This is the standard Whisper technique for
-    domain adaptation without any retraining."""
+def build_vocabulary_prompt() -> str:
+    """Prompt text that biases Whisper's decoder toward medical vocabulary.
+    Passed as faster-whisper `hotwords`, so it conditions every decoding
+    window. The library keeps at most ~223 prompt tokens; this list is
+    well inside that."""
     return "Medical consultation. Terms that may appear: " + ", ".join(MEDICAL_VOCABULARY) + "."
 
 
