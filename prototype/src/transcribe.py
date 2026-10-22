@@ -1,48 +1,139 @@
 """
-Optional audio-to-transcript embodiment using faster-whisper, run locally
-so raw patient audio never has to leave the device (supports the
-on-premise/privacy-preserving embodiment described in the patent doc).
+Audio -> transcript stage, using faster-whisper locally so raw patient
+audio never has to leave the device.
 
-Not required to run the demo: `main.py run --transcript ...` uses a
-pre-built transcript JSON and skips this module entirely. This file is
-provided so the "detailed description" of the audio-input embodiment is
-backed by real, runnable code, not just prose.
+The ASR model is used as-is (not fine-tuned). Around it sits a light
+domain-adaptation layer (src/medical_terms.py): decoding is biased toward
+medical vocabulary via Whisper's initial prompt, and low-confidence words
+that are near-misses of known medical terms are corrected (the original
+ASR word is kept alongside for the audit trail).
+
+Every transcript segment carries its per-word ASR probabilities and
+character offsets, which is what the grounding gate's acoustic signal is
+computed from.
+
+Speaker roles:
+  - separate doctor / patient recordings (one speaker per channel, as in
+    PriMock57): each channel is transcribed on its own and labelled with
+    its role, then the two are merged in time order;
+  - a single mixed recording: segments are transcribed unlabelled and
+    roles are attributed afterwards (src/speakers.py).
+
+Model size: WHISPER_MODEL (default "base.en").
 """
 from __future__ import annotations
 
-import math
-from typing import List, Dict, Any
+import os
+import threading
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
-from .medical_terms import build_initial_prompt, normalize_medical_terms
+from .medical_terms import build_initial_prompt, correct_word
+
+PAUSE_SPLIT_SECONDS = 0.8   # a silence this long inside a Whisper segment starts a new utterance
+UNATTRIBUTED = "UNATTRIBUTED"
+
+ProgressFn = Optional[Callable[[float], None]]
+
+_model_lock = threading.Lock()
+_models: Dict[str, Any] = {}
 
 
-def transcribe_audio(audio_path: str, model_size: str = "base",
-                      medical_prompt: bool = True, normalize: bool = True) -> List[Dict[str, Any]]:
-    try:
-        from faster_whisper import WhisperModel
-    except ImportError as e:
-        raise RuntimeError(
-            "faster-whisper is not installed. Install it with "
-            "`pip install faster-whisper` to transcribe raw audio, or use "
-            "`--transcript` with a pre-built transcript JSON instead."
-        ) from e
+def whisper_model_name() -> str:
+    return os.environ.get("WHISPER_MODEL", "base.en")
 
-    model = WhisperModel(model_size, device="cpu", compute_type="int8")
-    prompt = build_initial_prompt() if medical_prompt else None
-    raw_segments, _info = model.transcribe(audio_path, word_timestamps=False, initial_prompt=prompt)
 
+def _get_model():
+    name = whisper_model_name()
+    with _model_lock:
+        if name not in _models:
+            try:
+                from faster_whisper import WhisperModel
+            except ImportError as e:
+                raise RuntimeError("faster-whisper is not installed (pip install faster-whisper).") from e
+            _models.clear()  # keep at most one ASR model in memory
+            _models[name] = WhisperModel(name, device="cpu", compute_type="int8")
+    return _models[name]
+
+
+def _utterance(words: List[Any], speaker: str, source: str) -> Dict[str, Any]:
+    text, out = "", []
+    for w in words:
+        fixed = correct_word(w.word, w.probability)
+        start = len(text) + (len(fixed) - len(fixed.lstrip()))
+        text += fixed
+        entry = {"text": fixed.strip(), "start": round(w.start, 2), "end": round(w.end, 2),
+                 "prob": round(w.probability, 3), "char_start": start, "char_end": len(text)}
+        if fixed != w.word:
+            entry["asr_text"] = w.word.strip()
+        out.append(entry)
+    lead = len(text) - len(text.lstrip())
+    for entry in out:
+        entry["char_start"] -= lead
+        entry["char_end"] -= lead
+    return {
+        "start": out[0]["start"], "end": out[-1]["end"], "speaker": speaker,
+        "text": text.strip(), "words": out, "audio_source": source,
+        "acoustic_confidence": round(sum(e["prob"] for e in out) / len(out), 3),
+    }
+
+
+def transcribe_channel(path: str, speaker: str, source: str, progress: ProgressFn = None
+                       ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Transcribe one recording into utterance segments (not yet numbered)."""
+    model = _get_model()
+    english_only = whisper_model_name().endswith(".en")
+    raw, info = model.transcribe(
+        path,
+        word_timestamps=True,
+        vad_filter=True,                    # skip the silence while the other party speaks
+        condition_on_previous_text=False,   # avoids Whisper's repetition loops on long audio
+        initial_prompt=build_initial_prompt(),
+        language="en" if english_only else None,
+    )
     segments: List[Dict[str, Any]] = []
-    for i, seg in enumerate(raw_segments, start=1):
-        acoustic_confidence = 1.0 / (1.0 + math.exp(-seg.avg_logprob))  # logprob -> (0,1)
-        text = seg.text.strip()
-        if normalize:
-            text = normalize_medical_terms(text)
-        segments.append({
-            "id": i,
-            "start": seg.start,
-            "end": seg.end,
-            "speaker": "UNKNOWN",  # speaker-role diarization is a separate embodiment (see patent doc)
-            "text": text,
-            "acoustic_confidence": round(acoustic_confidence, 3),
-        })
-    return segments
+    for seg in raw:
+        words = [w for w in (seg.words or []) if w.word.strip()]
+        group: List[Any] = []
+        for w in words:
+            if group and w.start - group[-1].end >= PAUSE_SPLIT_SECONDS:
+                segments.append(_utterance(group, speaker, source))
+                group = []
+            group.append(w)
+        if group:
+            segments.append(_utterance(group, speaker, source))
+        if progress and info.duration:
+            progress(min(seg.end / info.duration, 1.0))
+    meta = {"source": source, "duration": round(info.duration, 1), "language": info.language}
+    return segments, meta
+
+
+def transcribe_consultation(channels: List[Tuple[str, str, str]], progress: ProgressFn = None
+                            ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """
+    channels: [(path, speaker, source_label)] -- e.g.
+      [("doc.wav", "DOCTOR", "doctor"), ("pat.wav", "PATIENT", "patient")]  separate channels
+      [("visit.wav", UNATTRIBUTED, "mixed")]                                 one mixed recording
+    Returns time-ordered segments numbered from 1, plus ASR metadata.
+    """
+    all_segments: List[Dict[str, Any]] = []
+    channel_meta = []
+    n = len(channels)
+    for i, (path, speaker, source) in enumerate(channels):
+        def channel_progress(f, i=i):
+            if progress:
+                progress((i + f) / n)
+        segs, meta = transcribe_channel(path, speaker, source, channel_progress)
+        all_segments.extend(segs)
+        channel_meta.append(meta)
+    all_segments.sort(key=lambda s: (s["start"], s["end"]))
+    for i, seg in enumerate(all_segments, start=1):
+        seg["id"] = i
+    corrected = sum(1 for s in all_segments for w in s["words"] if "asr_text" in w)
+    meta = {
+        "asr_model": f"faster-whisper {whisper_model_name()}",
+        "channels": channel_meta,
+        "duration": max((m["duration"] for m in channel_meta), default=0.0),
+        "segments": len(all_segments),
+        "medical_term_corrections": corrected,
+    }
+    return all_segments, meta

@@ -16,3 +16,11 @@ prototype/api/app.db
 # Third-party skills installed via `npx skills add` (not part of this project's source)
 .agents/
 skills-lock.json
+
+# Local secrets (API keys) -- never commit
+prototype/.env
+.env
+
+# PriMock57 audio (large; fetch with prototype/scripts/download_primock57_audio.py)
+prototype/sample_data/primock57_audio/
+prototype/api/calibration/

@@ -19,11 +19,13 @@
   <header class="case-header">
     <h1 id="case-title">Loading case…</h1>
     <p class="muted" id="case-meta"></p>
+    <dl class="pipeline-meta" id="pipeline-meta"></dl>
   </header>
 
   <main id="app" class="layout" hidden>
     <section class="panel transcript-panel">
       <h2>Source transcript</h2>
+      <p class="panel-hint">Underlined words were recognised with low confidence. Click a fact to see its quoted evidence.</p>
       <div id="transcript" class="transcript"></div>
     </section>
 
@@ -45,8 +47,9 @@
     <section class="panel side-panel">
       <div class="sub-block">
         <h3>Adaptive thresholds</h3>
+        <p class="panel-hint">Your thresholds across all your cases. Each approve/reject of a borderline fact moves that field's bar; they start at 0.75.</p>
         <table id="calibration-table" class="calibration-table">
-          <thead><tr><th>Field</th><th>Auto-insert threshold</th></tr></thead>
+          <thead><tr><th>Field</th><th>Auto-insert threshold</th><th></th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -58,6 +61,7 @@
     </section>
   </main>
 
+  <audio id="player" preload="none" hidden></audio>
   <script src="case.js"></script>
 </body>
 </html>

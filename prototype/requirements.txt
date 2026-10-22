@@ -1,11 +1,16 @@
-# Core pipeline (extractor rule-based mode, grounding, calibration, audit,
-# clinical-plausibility gate) has zero dependencies -- pure standard library.
-#
-# Optional, only needed for specific embodiments:
-faster-whisper>=1.0.0   # audio-input embodiment (main.py run --audio ...)
-anthropic>=0.30.0       # LLM-backed extractor embodiment (main.py run --llm ...)
+# Core pipeline: audio -> ASR -> extraction -> three-signal gate -> audit.
+# Models (Whisper ASR, DeBERTa NLI) download from Hugging Face on first use.
+faster-whisper>=1.0.0   # audio input: local ASR with word-level confidence (acoustic signal)
+torch>=2.0              # semantic-grounding signal: local NLI entailment model
+transformers>=4.44
+sentencepiece
+rapidfuzz>=3.0          # verifies extractor evidence quotes against transcript segments
+
+# Optional LLM extractor + speaker attribution for mixed recordings (one of):
+google-genai>=1.38.0    # Gemini
+anthropic>=0.30.0       # Claude
 
 # Web demo (api/server.py + web/)
-fastapi>=0.110.0
+fastapi>=0.141.0        # older FastAPI crashes on Starlette 1.x
 uvicorn>=0.30.0
 python-multipart>=0.0.9

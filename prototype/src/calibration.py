@@ -61,3 +61,8 @@ class CalibrationStore:
 
     def as_dict(self) -> Dict[str, float]:
         return dict(self._thresholds)
+
+    def snapshot(self, fields) -> Dict[str, Dict[str, object]]:
+        """Current threshold for every field, and whether it has been learned
+        from clinician decisions or is still the untouched starting value."""
+        return {f: {"threshold": self.threshold_for(f), "learned": f in self._thresholds} for f in fields}

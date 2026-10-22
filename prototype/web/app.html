@@ -46,12 +46,47 @@
 
         <div id="new-case-panel" class="card new-case-panel" hidden>
           <div class="tabs">
-            <button class="tab active" data-source="library">From real consultation library</button>
+            <button class="tab active" data-source="audio">Audio recording</button>
+            <button class="tab" data-source="library">From real consultation library</button>
             <button class="tab" data-source="paste">Paste transcript</button>
             <button class="tab" data-source="upload">Upload file</button>
           </div>
 
-          <div id="source-library" class="source-body">
+          <label class="llm-toggle" id="llm-toggle" hidden>
+            <input type="checkbox" id="use-llm">
+            <span>Draft with AI extractor (<span id="llm-provider-name"></span>) &mdash; slower; every fact still passes all three gates</span>
+          </label>
+
+          <div id="source-audio" class="source-body">
+            <label>Case title
+              <input type="text" id="audio-title" placeholder="e.g. Consultation, 23 Sep">
+            </label>
+            <div class="mode-switch" role="radiogroup" aria-label="Recording type">
+              <label class="mode-option"><input type="radio" name="audio-mode" value="separate" checked>
+                <span><strong>Doctor &amp; patient channels</strong><small>Two recordings, one per speaker. Speaker roles come from the channel.</small></span>
+              </label>
+              <label class="mode-option" id="mixed-option"><input type="radio" name="audio-mode" value="mixed">
+                <span><strong>Single mixed recording</strong><small>One microphone. Speaker roles are attributed by the AI extractor's model.</small></span>
+              </label>
+            </div>
+            <div id="audio-separate-inputs" class="audio-inputs">
+              <label>Doctor recording
+                <input type="file" id="doctor-audio" accept=".wav,.mp3,.m4a,.flac,.ogg,.webm,audio/*">
+              </label>
+              <label>Patient recording
+                <input type="file" id="patient-audio" accept=".wav,.mp3,.m4a,.flac,.ogg,.webm,audio/*">
+              </label>
+            </div>
+            <div id="audio-mixed-inputs" class="audio-inputs" hidden>
+              <label>Consultation recording
+                <input type="file" id="mixed-audio" accept=".wav,.mp3,.m4a,.flac,.ogg,.webm,audio/*">
+              </label>
+            </div>
+            <p class="hint" id="asr-hint">Transcribed locally; audio never leaves this machine.</p>
+            <button id="audio-submit" class="btn btn-primary btn-sm">Transcribe and draft note</button>
+          </div>
+
+          <div id="source-library" class="source-body" hidden>
             <label>Search 57 real primary-care consultations
               <input type="text" id="library-search" placeholder="e.g. cough, headache, abdominal pain">
             </label>
@@ -78,6 +113,15 @@
             <button id="upload-submit" class="btn btn-primary btn-sm">Run pipeline</button>
           </div>
           <p class="error" id="new-case-error" hidden></p>
+        </div>
+
+        <div id="pipeline-panel" class="card pipeline-panel" hidden>
+          <div class="pipeline-head">
+            <h3 id="pipeline-title">Running pipeline</h3>
+            <span class="muted" id="pipeline-elapsed"></span>
+          </div>
+          <ol id="pipeline-steps" class="pipeline-steps"></ol>
+          <p class="error" id="pipeline-error" hidden></p>
         </div>
 
         <div id="case-list" class="case-list"></div>
