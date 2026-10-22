@@ -1,0 +1,106 @@
+[
+  {
+    "condition": "clean",
+    "snr_db": null,
+    "segments": 185,
+    "wer": 0.1615,
+    "mean_prob_correct": 0.8822,
+    "mean_prob_error": 0.6067,
+    "auroc": 0.812,
+    "facts": 13,
+    "status": {
+      "VERIFIED": 12,
+      "NEEDS_REVIEW": 1
+    },
+    "reasons": {
+      "verified": 12,
+      "weakest_word": 1
+    },
+    "mean_fact_acoustic": 0.903,
+    "seconds": 176.1
+  },
+  {
+    "condition": "snr20",
+    "snr_db": 20,
+    "segments": 181,
+    "wer": 0.279,
+    "mean_prob_correct": 0.8489,
+    "mean_prob_error": 0.5689,
+    "auroc": 0.7999,
+    "facts": 11,
+    "status": {
+      "VERIFIED": 8,
+      "NEEDS_REVIEW": 3
+    },
+    "reasons": {
+      "verified": 8,
+      "weakest_word": 3
+    },
+    "mean_fact_acoustic": 0.809,
+    "seconds": 108.2
+  },
+  {
+    "condition": "snr10",
+    "snr_db": 10,
+    "segments": 182,
+    "wer": 0.4064,
+    "mean_prob_correct": 0.783,
+    "mean_prob_error": 0.4974,
+    "auroc": 0.7846,
+    "facts": 9,
+    "status": {
+      "VERIFIED": 5,
+      "NEEDS_REVIEW": 3,
+      "REJECTED": 1
+    },
+    "reasons": {
+      "verified": 5,
+      "weakest_word": 3,
+      "acoustic_floor": 1
+    },
+    "mean_fact_acoustic": 0.727,
+    "seconds": 112.4
+  },
+  {
+    "condition": "snr5",
+    "snr_db": 5,
+    "segments": 192,
+    "wer": 0.58,
+    "mean_prob_correct": 0.7592,
+    "mean_prob_error": 0.4903,
+    "auroc": 0.7673,
+    "facts": 8,
+    "status": {
+      "VERIFIED": 4,
+      "NEEDS_REVIEW": 3,
+      "REJECTED": 1
+    },
+    "reasons": {
+      "verified": 4,
+      "weakest_word": 3,
+      "acoustic_floor": 1
+    },
+    "mean_fact_acoustic": 0.779,
+    "seconds": 120.8
+  },
+  {
+    "condition": "snr0",
+    "snr_db": 0,
+    "segments": 147,
+    "wer": 0.7058,
+    "mean_prob_correct": 0.6967,
+    "mean_prob_error": 0.4816,
+    "auroc": 0.7191,
+    "facts": 5,
+    "status": {
+      "VERIFIED": 2,
+      "NEEDS_REVIEW": 3
+    },
+    "reasons": {
+      "verified": 2,
+      "weakest_word": 3
+    },
+    "mean_fact_acoustic": 0.702,
+    "seconds": 119.5
+  }
+]

@@ -88,9 +88,37 @@ python eval/noise_stress.py              # same consultation at clean / 20 / 10 
 
 [PriMock57](https://github.com/babylonhealth/primock57) (Babylon Health, CC BY 4.0; Papadopoulos Korfiatis et al., ACL 2022): 57 mock primary-care consultations with real clinicians, separate doctor/patient audio, human transcripts. No model is trained in this project; all models are used as released.
 
-## Results
+## Results (PriMock57 day1_consultation01, real audio)
 
-See `prototype/eval_results/summary.md` and `prototype/eval_results/noise/*_noise_results.md` for the latest evaluation numbers, and `patent/` for the invention disclosure.
+Only this consultation's audio could be used so far: downloads of the rest from the dataset's Git LFS storage failed during this work. `eval/run_eval.py --all` is ready and resumable for when they succeed.
+
+**Speech recognition** (faster-whisper `base.en`, CPU): 16.2 % WER against the human transcript.
+
+**Does Whisper's confidence point at its own mistakes?** Yes. Correctly recognised words average probability 0.88, wrong words 0.61; AUROC 0.81 (0.5 = chance). Among content words, 38 % of those below 0.35 are errors versus 10.8 % overall, which is why a weak quoted word sends a fact to review (not to rejection).
+
+**Vocabulary biasing A/B** (`eval/vocab_ab.py`):
+
+| Mode | WER | Medical terms correct |
+|---|---|---|
+| none (default) | 16.2 % | 26 / 32 |
+| initial_prompt | 19.4 % | 26 / 32 |
+| hotwords | 27.9 % | 30 / 32 (but 134 inserted words) |
+
+**Noise stress test** (`eval/noise_stress.py`, rule-based extractor):
+
+| Speech SNR | WER | AUROC | Facts auto-verified |
+|---|---|---|---|
+| clean | 16.2 % | 0.81 | 12 / 13 |
+| 20 dB | 27.9 % | 0.80 | 8 / 11 |
+| 10 dB | 40.6 % | 0.78 | 5 / 9 |
+| 5 dB | 58.0 % | 0.77 | 4 / 8 |
+| 0 dB | 70.6 % | 0.72 | 2 / 5 |
+
+The gate withholds proportionally more as recognition degrades. (The rule-based extractor's facts are verbatim, so this exercises the acoustic signal, not entailment.)
+
+**Gate scenarios** (`tests/demo_scenarios.py`, 9/9 pass): a paraphrase of clear speech is verified; a wrong duration and an unsupported claim are rejected by NLI contradiction; an invented quote is rejected by the citation check; "no blood in the stool", built on the misheard "loose stalk" (0.28), is held for review although it scored entailment 0.89 and combined 0.83; the "time off work" → "type of work" error is held for review; a clinician rejection tightens the threshold 0.75 → 0.79; an amoxicillin prescription for a penicillin-allergic patient with a viral diagnosis is held by Gate 3.
+
+Full tables: `prototype/eval_results/`. Invention disclosure and review deck: `patent/`.
 
 ## Limitations
 

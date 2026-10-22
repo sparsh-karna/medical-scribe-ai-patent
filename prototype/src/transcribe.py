@@ -42,6 +42,20 @@ def whisper_model_name() -> str:
     return os.environ.get("WHISPER_MODEL", "base.en")
 
 
+VOCAB_MODES = ("initial_prompt", "hotwords", "none")
+
+
+def vocabulary_mode() -> str:
+    """How the medical vocabulary biases decoding (ASR_VOCAB_MODE).
+
+    Default "none": in eval/vocab_ab.py on PriMock57 day1_consultation01 (base.en),
+    no biasing gave 16.2 % WER, initial_prompt 19.4 % (same medical-term recall,
+    26/32) and hotwords 27.9 % (30/32 medical terms but 134 inserted words). Prompt
+    biasing therefore stays an option, not the default, until more audio is tested."""
+    mode = os.environ.get("ASR_VOCAB_MODE", "none").strip().lower()
+    return mode if mode in VOCAB_MODES else "none"
+
+
 def _get_model():
     name = whisper_model_name()
     with _model_lock:
@@ -82,13 +96,19 @@ def transcribe_channel(path: str, speaker: str, source: str, progress: ProgressF
     """Transcribe one recording into utterance segments (not yet numbered)."""
     model = _get_model()
     english_only = whisper_model_name().endswith(".en")
+    mode = vocabulary_mode()
+    biasing = {}
+    if mode == "hotwords":
+        biasing["hotwords"] = build_vocabulary_prompt()        # prepended to every 30 s window
+    elif mode == "initial_prompt":
+        biasing["initial_prompt"] = build_vocabulary_prompt()  # conditions the first window only
     raw, info = model.transcribe(
         path,
         word_timestamps=True,
         vad_filter=True,                    # skip the silence while the other party speaks
         condition_on_previous_text=False,   # avoids Whisper's repetition loops on long audio
-        hotwords=build_vocabulary_prompt(),  # applied to every window, unlike initial_prompt
         language="en" if english_only else None,
+        **biasing,
     )
     segments: List[Dict[str, Any]] = []
     for seg in raw:
@@ -135,6 +155,6 @@ def transcribe_consultation(channels: List[Tuple[str, str, str]], progress: Prog
         "duration": max((m["duration"] for m in channel_meta), default=0.0),
         "segments": len(all_segments),
         "medical_term_corrections": corrected,
-        "vocabulary_biasing": "hotwords",
+        "vocabulary_biasing": vocabulary_mode(),
     }
     return all_segments, meta

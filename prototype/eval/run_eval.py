@@ -51,8 +51,16 @@ def ensure_audio(name, audio_dir: Path):
         if not dest.exists():
             audio_dir.mkdir(parents=True, exist_ok=True)
             tmp = dest.with_suffix(".part")
-            with urllib.request.urlopen(AUDIO_URL.format(name=name, role=role)) as r, open(tmp, "wb") as f:
-                f.write(r.read())
+            for attempt in range(1, 5):  # GitHub sometimes resets long downloads
+                try:
+                    with urllib.request.urlopen(AUDIO_URL.format(name=name, role=role), timeout=120) as r, \
+                            open(tmp, "wb") as f:
+                        f.write(r.read())
+                    break
+                except OSError:
+                    if attempt == 4:
+                        raise
+                    time.sleep(5 * attempt)
             tmp.replace(dest)
         paths[role] = dest
     return paths

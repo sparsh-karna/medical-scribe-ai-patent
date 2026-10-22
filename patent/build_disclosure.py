@@ -5,6 +5,7 @@ following the numbered-table layout of the institute's patent form.
 Text marked with flag(...) is rendered in red: it is a placeholder or a
 third-party figure that the inventors must verify before submission.
 """
+import os
 from pathlib import Path
 
 from docx import Document
@@ -16,7 +17,7 @@ from docx.shared import Cm, Pt, RGBColor
 
 HERE = Path(__file__).resolve().parent
 FIG = HERE / "figures"
-OUT = HERE / "Patent_Disclosure_Confidence_Gated_Clinical_Documentation.docx"
+OUT = Path(os.environ.get("DOCX_OUT", HERE / "Patent_Disclosure_Confidence_Gated_Clinical_Documentation.docx"))
 
 HEADER_FILL = "DCE6F0"
 RED = RGBColor(0xC0, 0x00, 0x00)
@@ -299,9 +300,10 @@ para(c, [("b", "High-level components (reference numerals refer to FIG. 1; file 
 comps = [
     ("Audio capture (100)", "consultation audio, either separate doctor and patient channels or a single mixed recording."),
     ("Local ASR engine (110) with medical-vocabulary layer (115)", "an off-the-shelf speech recogniser (faster-whisper) "
-     "run on-premise, producing per-word probabilities, timestamps and character offsets; decoding is biased with a "
-     "medical vocabulary prompt, and only words the recogniser itself scored below 0.70 are fuzzy-corrected to known "
-     "drug/symptom terms, with the original word retained for audit (transcribe.py, medical_terms.py)."),
+     "run on-premise, producing per-word probabilities, timestamps and character offsets. Only words the recogniser "
+     "itself scored below 0.70 are fuzzy-corrected to known drug/symptom terms, with the original word retained for "
+     "audit. Prompt-based vocabulary biasing (initial prompt or hotwords) is available as an option but off by default, "
+     "because it increased the word error rate in our A/B test (section 15) (transcribe.py, medical_terms.py)."),
     ("Speaker-role attribution (120)", "roles from the recording channel, or inferred by an LLM for mixed recordings "
      "and marked as inferred (speakers.py)."),
     ("Segmented transcript (130)", "utterances with id, speaker, text, and per-word probability and offsets."),
@@ -349,11 +351,15 @@ steps = [
      "segments in order (\"Doctor: ... Patient: ...\"). P(contradiction) >= 0.50 -> REJECTED; P(entailment) < 0.30 -> "
      "REJECTED."),
     ("Gate 1.", "The acoustic score is the mean probability of the ASR words overlapping the aligned quote spans "
-     "(fallback: the cited segments' words). Below 0.50 -> REJECTED, with the weakest words reported. For text input "
-     "the acoustic signal is recorded as unavailable and the decision is made on the semantic signal alone, which the "
-     "reason text states explicitly."),
+     "(fallback: the cited segments' words). Below 0.50 -> REJECTED, with the weakest words reported. In addition, the "
+     "least confidently recognised content word of the quotation (function words and fillers excluded) is recorded; if "
+     "its probability is below 0.35 the fact cannot be auto-inserted even when its combined score clears the threshold "
+     "-- it goes to review, because one misheard word can hide inside a high average. For text input the acoustic "
+     "signal is recorded as unavailable and the decision is made on the semantic signal alone, which the reason text "
+     "states explicitly."),
     ("Combination.", "combined = 0.6 x entailment + 0.4 x acoustic (or entailment alone without audio). If combined >= "
-     "the clinician's threshold for that field (initially 0.75) the fact is VERIFIED; otherwise NEEDS_REVIEW."),
+     "the clinician's threshold for that field (initially 0.75) and the weakest quoted content word is at least 0.35, the "
+     "fact is VERIFIED; otherwise NEEDS_REVIEW."),
     ("Gate 3.", "Every non-rejected medication/plan fact is checked against the other non-rejected facts: allergy "
      "class, antibiotic prescribed against a viral assessment, \"<drug> for <condition>\" outside the drug's "
      "indications, contraindications in the documented history, and interacting drug pairs; negated mentions are "
@@ -388,6 +394,9 @@ c = section(9, "Novelty of the Invention/Inventive Step of the Invention",
 for t in [
     [("b", "Enforcement instead of annotation: "), "evidence is used to admit or block each individual fact from "
      "the medical record, not merely displayed for optional inspection."],
+    [("b", "Weakest-word safeguard: "), "a fact whose own evidence contains one poorly recognised content word is held "
+     "for review even if its averages are high -- on real audio this caught \"no blood in the stool\" built on the "
+     "misrecognised \"loose stalk\" (probability 0.28), which had passed entailment (0.89) and the combined threshold (0.83)."],
     [("b", "Per-fact, evidence-anchored dual signal: "), "the acoustic confidence is taken over exactly the words the "
      "fact quotes (not the whole transcript or segment) and combined with an entailment probability computed on "
      "that same cited evidence; contradiction by the evidence is an absolute rejection."],
@@ -437,8 +446,10 @@ for t in [
      "pending state in the EHR inbox."],
     [("b", "Alternative semantic verifiers: "), "any entailment model, a second independent LLM acting as verifier, "
      "or an ensemble; domain-tuned clinical NLI models."],
-    [("b", "Alternative acoustic signals: "), "minimum (weakest-word) probability over the quoted span as an "
-     "additional floor, lattice/N-best posteriors, or confidence from any commercial ASR."],
+    [("b", "Alternative acoustic signals: "), "lattice / N-best posteriors, token-level entropy, or confidence from any "
+     "commercial ASR; weakest-word limits per field or per word class (e.g. stricter for drug names and negations)."],
+    [("b", "Vocabulary biasing variants: "), "initial-prompt or hotword biasing (implemented, off by default), "
+     "shallow-fusion language models, or recognisers fine-tuned on clinical speech."],
     [("b", "Clinical knowledge sources: "), "RxNorm / SNOMED-CT drug classes, openFDA or DrugBank interaction data "
      "replacing the prototype's curated tables."],
     [("b", "Acoustic speaker diarization "), "(speaker embeddings) instead of channel- or LLM-based roles for mixed recordings."],
@@ -472,7 +483,7 @@ small_table(c, ["Drawing", "Priority", "Reason"], [
     ["FIG. 2 - per-fact gate decision flowchart", "Primary (recommended front-page figure)",
      "Shows the claimed method steps of claim 1 in order: citation check, contradiction, entailment, acoustic floor, "
      "combination, threshold, plausibility, outcome."],
-    ["FIG. 1 - system architecture", "Primary", "Shows every component of the system claim (claim 9) and their interaction."],
+    ["FIG. 1 - system architecture", "Primary", "Shows every component of the system claim (claim 10) and their interaction."],
     ["FIG. 3 - resolution, calibration and audit loop", "Supporting", "Supports dependent claim 3 (adaptive thresholds) "
      "and the audit-log step of claim 1."],
 ], [5.0, 3.6, 7.0])
@@ -522,7 +533,7 @@ para(c, [("b", "Working example 4 - faithful but unsafe. "),
 para(c, [("b", "Methodology. "),
          "The prototype is implemented in Python (FastAPI backend, faster-whisper ASR, Hugging Face Transformers NLI, "
          "RapidFuzz alignment, Google Gemini or Anthropic Claude extractors) with a browser front-end (HTML/CSS/JS). "
-         "Scenarios 1-7 are reproducible with tests/demo_scenarios.py on the stored real ASR output."])
+         "The regression scenarios are reproducible with tests/demo_scenarios.py on the stored real ASR output."])
 
 # 15 -----------------------------------------------------------------------
 c = section(15, "Please provide details of experiments conducted and/or third-party validation data, if any, along "
@@ -530,7 +541,7 @@ c = section(15, "Please provide details of experiments conducted and/or third-pa
                "invention performs arithmetic calculations or mathematical operations.")
 para(c, "All experiments used real, externally produced data: the PriMock57 dataset of primary-care mock "
         "consultations (Babylon Health, CC-BY 4.0), with its original doctor/patient audio and human transcripts. "
-        "Runs were made on a CPU-only laptop (8 cores, 7.8 GB RAM) on 22-23 Sep 2026.", first=True)
+        "Runs were made on a CPU-only laptop (8 cores, 7.8 GB RAM) on 22-23 Sep and 22 Oct 2026.", first=True)
 small_table(c, ["Experiment", "Input", "Result"], [
     ["Semantic signal: word-overlap proxy vs. NLI (Gemini extractor)", "day1_consultation01 human transcript",
      "Word overlap: 0 of 21 facts auto-verified (paraphrases blocked). NLI: 17 of 19 auto-verified, 1 needs review, 1 rejected."],
@@ -541,18 +552,32 @@ small_table(c, ["Experiment", "Input", "Result"], [
     ["NLI discrimination check", "6 hand-written premise/statement pairs",
      "Paraphrases entailed (0.96-1.00); \"denies chest pain\" vs. reported chest pain: contradiction 0.99; wrong "
      "dose: contradiction 0.997; unsupported asthma history: neutral 0.999."],
-    ["Gate regression suite (7 scenarios)", "real ASR output of day1_consultation01 + synthetic unsafe-prescription transcript",
-     "7 of 7 behaved as expected (examples 2-4 in section 14)."],
+    ["Gate regression suite (9 checks)", "real ASR output of day1_consultation01 + synthetic unsafe-prescription transcript",
+     "9 of 9 behaved as expected, incl. the weakest-word rule holding \"no blood in the stool\" (built on misheard "
+     "\"stalk\", 0.28) that otherwise scored entailment 0.89, combined 0.83."],
+    ["Does ASR confidence mark recognition errors?", "day1_consultation01: recognised words aligned to the human "
+     "transcript and labelled correct / wrong",
+     "Correct words mean probability 0.88, wrong words 0.61; AUROC 0.81 (0.5 = chance). Among content words, 10.8 % are "
+     "errors overall vs. 38 % of those below 0.35."],
+    ["Vocabulary biasing A/B", "day1_consultation01 audio, three settings",
+     "No biasing 16.2 % WER (26/32 medical terms right); initial prompt 19.4 % (26/32); hotwords 27.9 % (30/32, but "
+     "134 inserted words). Biasing set to off by default."],
+    ["Noise stress test (white noise, seeded)", "day1_consultation01 audio at clean / 20 / 10 / 5 / 0 dB speech SNR, "
+     "rule-based extractor",
+     "WER 16.2 / 27.9 / 40.6 / 58.0 / 70.6 %; AUROC 0.81 / 0.80 / 0.78 / 0.77 / 0.72; facts auto-verified 92 / 73 / 56 / "
+     "50 / 40 % -- the gate withholds proportionally more as recognition degrades."],
     ["Plausibility gate", "5 synthetic fact sets incl. negations", "All conflicts detected; no false flags on negated mentions."],
     ["Adaptive calibration persistence (web)", "reject a NEEDS_REVIEW medications fact",
      "Threshold 0.75 -> 0.79, visible on a different case of the same clinician."],
     ["ASR word error rate", "day1_consultation01 Whisper output vs. PriMock57 human transcript",
-     "17.5 % overall (231 errors / 1,319 words; doctor 17.5 %, patient 17.6 %); mean word probability 0.853; 9.5 % of "
-     "words below 0.5."],
+     "17.5 % with the earlier initial-prompt setting (231 errors / 1,319 words); 16.2 % with the current default "
+     "(no biasing). Mean word probability 0.853; 9.5 % of words below 0.5."],
 ], [4.3, 4.4, 6.9])
 para(c, [("b", "Limitations of the validation so far: "),
-         "only 1 of the 57 PriMock57 consultations has been run from audio, so the word error rate is measured on "
-         "that consultation only; gate precision/recall against labelled facts has not been measured; the "
+         "only 1 of the 57 PriMock57 consultations has been run from audio (downloads of the remaining audio from "
+         "the dataset's Git LFS storage failed during this work), so all audio results come from that consultation; "
+         "the noise test uses the rule-based extractor, whose verbatim facts exercise the acoustic signal but not the "
+         "entailment signal; gate precision/recall against labelled facts has not been measured; the "
          "0.75 / 0.30 / 0.50 / 0.6-0.4 parameters were chosen by design, "
          "not tuned; no clinician user study and no third-party validation have been done; the mixed-recording path "
          "completed transcription and speaker attribution but its extraction step was not completed because the "
@@ -577,6 +602,13 @@ eqs = [
      "and tau = 0.95 on reject; applied only to NEEDS_REVIEW facts."),
     ("E7  Word error rate (evaluation): ", "WER = (S_sub + D + I) / N, the word-level Levenshtein distance between "
      "the normalised recognised text and the normalised reference transcript, divided by the reference length N."),
+    ("E8  Weakest-word rule (Gate 1): ", "W = min over content words w in Q of p(w); a fact with S >= t is still "
+     "NEEDS_REVIEW if W < 0.35."),
+    ("E9  AUROC (evaluation): ", "AUROC = P(p(w_err) < p(w_ok)) over all pairs of a wrongly and a correctly recognised "
+     "word (ties count 1/2), computed with the Mann-Whitney rank sum; 0.5 means confidence carries no information "
+     "about errors, 1.0 means it separates them perfectly."),
+    ("E10  Noise at a target SNR: ", "noise variance = P_speech / 10^(SNR/10), where P_speech is the mean power of the "
+     "loudest 30 % of 25 ms frames of the channel."),
 ]
 for h_, t in eqs:
     para(c, [("b", h_), t], size=10.5)
@@ -588,7 +620,10 @@ for t in [
     "< 0.75 -> NEEDS_REVIEW.",
     "Clinician rejects it: t = 0.75 + 0.2 x (0.95 - 0.75) = 0.79 (plan threshold for that clinician).",
     "Had the clinician approved it instead: t = 0.75 + 0.2 x (0.597 - 0.75) = 0.719.",
-    "Word error rate: 231 word errors / 1,319 reference words = 0.175 = 17.5 %.",
+    "Word error rate: 231 word errors / 1,319 reference words = 0.175 = 17.5 % (earlier setting); 213 / 1,319 = 16.2 % "
+    "(current default).",
+    "Weakest word: quotation \"no blood, yeah, just watery and loose stalk.\" -> content words no 0.93, blood 0.99, "
+    "just 0.95, watery 0.86, loose 0.59, stalk 0.28 -> W = 0.28 < 0.35 -> NEEDS_REVIEW although S = 0.83 >= 0.75.",
 ]:
     bullet(c, t)
 
@@ -616,7 +651,8 @@ for i, t in enumerate([
     "Optional LLM: create prototype/.env containing GEMINI_API_KEY=<key> (or ANTHROPIC_API_KEY).",
     "Command line: python main.py run --doctor-audio doctor.wav --patient-audio patient.wav [--llm]",
     "Web application: python api/server.py, then open http://127.0.0.1:8420, sign up, add a patient, New case -> Audio recording.",
-    "Regression check: python tests/demo_scenarios.py (7 scenarios on real ASR output; prints ALL SCENARIOS BEHAVED AS EXPECTED).",
+    "Regression check: python tests/demo_scenarios.py (9 checks on real ASR output; prints ALL SCENARIOS BEHAVED AS EXPECTED).",
+    "Evaluation: python eval/run_eval.py <consultations> | --all ; python eval/noise_stress.py ; python eval/vocab_ab.py <consultations>",
 ], 1):
     numbered(c, i, [("code", t)])
 para(c, [("b", "Exemplary code - the per-fact gate decision (abridged from src/grounding.py): ")])
@@ -627,8 +663,10 @@ code = [
     "    if E < 0.30:                     return REJECTED('not entailed')",
     "    A = mean(w.prob for w in span_words) if span_words else None   # Gate 1",
     "    if A is not None and A < 0.50:   return REJECTED('low acoustic confidence')",
+    "    W = min(w.prob for w in content_words(span_words)) if span_words else None",
     "    S = E if A is None else 0.6 * E + 0.4 * A",
     "    t = calibration.threshold_for(clinician, fact.field)          # starts at 0.75",
+    "    if S >= t and W is not None and W < 0.35: return NEEDS_REVIEW('weak key word')",
     "    return VERIFIED if S >= t else NEEDS_REVIEW",
     "# Gate 0 runs before this (every quote must align >= 90/100 inside its segment);",
     "# Gate 3 (clinical_plausibility.apply_plausibility_checks) runs after it.",
@@ -642,7 +680,8 @@ para(c, [("b", "Modifications and parameter tuning: ")])
 for t in [
     "Pretrained models are used unmodified (no fine-tuning or retraining).",
     "ASR run with word_timestamps=True, vad_filter=True, condition_on_previous_text=False (prevents repetition "
-    "loops on long audio) and a medical-vocabulary initial prompt; utterances re-split at pauses >= 0.8 s.",
+    "loops on long audio); vocabulary biasing selectable via ASR_VOCAB_MODE = none (default) | initial_prompt | "
+    "hotwords, chosen from the A/B test in section 15; utterances re-split at pauses >= 0.8 s.",
     "NLI inputs truncated to 512 tokens (premise truncated first), batch size 8.",
     "LLM output constrained to a JSON schema; max 16,000 output tokens; 3 attempts with exponential back-off "
     "(2-15 s) on HTTP 429/5xx, then fallback models.",
@@ -741,18 +780,21 @@ claims = [
     ("Claim 5 (Dependent): ", "The method of claim 1, wherein the acoustic score is the mean of the recognition "
      "confidence values of the words whose character positions overlap the aligned quotation, and the words below a "
      "weakness limit are reported with the determination."),
-    ("Claim 6 (Dependent): ", "The method of claim 1, wherein step (a) comprises biasing the recogniser with a medical "
-     "vocabulary and correcting a recognised word to a vocabulary term only when that word's recognition confidence is "
-     "below a correction limit, the originally recognised word being retained for audit."),
+    ("Claim 6 (Dependent): ", "The method of claim 1, wherein step (a) comprises correcting a recognised word to a term "
+     "of a medical vocabulary only when that word's recognition confidence is below a correction limit, the originally "
+     "recognised word being retained for audit."),
     ("Claim 7 (Dependent): ", "The method of claim 1, wherein speaker roles are assigned from separate recording "
      "channels or, for a single mixed recording, inferred by a language model and marked as inferred."),
     ("Claim 8 (Dependent): ", "The method of claim 1, wherein the review queue presents, for each withheld fact, the "
      "reason for withholding, the verified quotations highlighted within the transcript, and a control that plays back "
      "only the audio interval of the cited segment."),
-    ("Claim 9 (Independent - system): ", "A system comprising one or more processors and memory storing instructions "
-     "that, when executed, perform the method of any of claims 1 to 8."),
-    ("Claim 10 (Independent - medium): ", "A non-transitory computer-readable medium storing instructions that, when "
-     "executed by a processor, cause the processor to perform the method of any of claims 1 to 8."),
+    ("Claim 9 (Dependent): ", "The method of claim 5, further comprising determining the lowest recognition confidence "
+     "among the content words of the quotation, and withholding the fact from automatic insertion when that lowest "
+     "confidence is below a weakest-word limit, even when the combined confidence meets the threshold."),
+    ("Claim 10 (Independent - system): ", "A system comprising one or more processors and memory storing instructions "
+     "that, when executed, perform the method of any of claims 1 to 9."),
+    ("Claim 11 (Independent - medium): ", "A non-transitory computer-readable medium storing instructions that, when "
+     "executed by a processor, cause the processor to perform the method of any of claims 1 to 9."),
 ]
 first = True
 for head, text in claims:
@@ -819,6 +861,7 @@ small_table(c, ["Parameter", "Prototype value", "Workable range"], [
     ["Threshold bounds", "[0.55, 0.95]", "lower 0.40 - 0.70; upper 0.85 - 0.99"],
     ["Calibration learning rate", "0.2", "0.05 - 0.5"],
     ["Weak-word marker", "0.50", "0.30 - 0.70"],
+    ["Weakest quoted content word (review trigger)", "0.35", "0.20 - 0.50"],
     ["Medical-term correction only below ASR probability", "0.70", "0.50 - 0.90"],
     ["Utterance split at pause", "0.8 s", "0.4 - 2.0 s"],
     ["ASR model", "faster-whisper base.en (int8, CPU)", "any ASR giving word-level confidence"],
@@ -834,7 +877,8 @@ small_table(c, ["Component", "Parameter", "Prototype value", "Workable range"], 
     ["ASR", "Compute type / device", "int8 on CPU", "int8 / float16 / float32; CPU or GPU"],
     ["ASR", "Voice-activity detection", "on (Silero VAD, library default)", "on / off"],
     ["ASR", "Decoding window", "30 s (Whisper fixed)", "fixed by model"],
-    ["Medical vocabulary", "Terms in biasing prompt", "about 50 drug / symptom terms", "10 - 200 (prompt limit about 224 tokens)"],
+    ["Medical vocabulary", "Terms in vocabulary", "about 65 drug / symptom terms", "10 - 200 (prompt limit about 224 tokens)"],
+    ["Medical vocabulary", "Biasing mode", "none (default)", "none / initial prompt / hotwords"],
     ["Medical vocabulary", "Fuzzy-correction similarity cutoff", "0.82", "0.75 - 0.95"],
     ["Extractor (LLM)", "Maximum output tokens", "16,000", "4,000 - 64,000"],
     ["Extractor (LLM)", "Retries / back-off", "3 attempts, 2-15 s", "1 - 5 attempts"],
@@ -940,12 +984,14 @@ for t in [
     "invention is the verification-and-enforcement method, not any model.",
     "Clinical-plausibility knowledge tables are a small curated subset intended as a stand-in for RxNorm / "
     "SNOMED-CT / openFDA in production (section 11).",
-    "Known implementation limitation: with condition_on_previous_text=False, faster-whisper applies the medical "
-    "vocabulary prompt only to the first 30-second decoding window; moving the vocabulary to the library's hotwords "
-    "option, which is applied to every window, is planned.",
-    "Planned next steps: run all 57 PriMock57 consultations and report ASR word error rate and gate outcomes against "
-    "the human transcripts; tune the parameters in section 23 on that data; add a weakest-word acoustic floor; "
-    "clinician usability study.",
+    "Vocabulary biasing: Whisper's initial prompt only conditions the first 30-second window when "
+    "condition_on_previous_text is off; hotwords condition every window but, in our A/B test, inserted many words and "
+    "raised WER from 16.2 % to 27.9 %. Biasing is therefore off by default; the confidence-gated correction stays on.",
+    "The weakest-word rule trades automation for safety: on day1_consultation01 about one in three content words "
+    "below 0.35 is a real recognition error (3.5 x the base rate), so roughly two in three such reviews are false alarms.",
+    "Planned next steps: run all 57 PriMock57 consultations from audio once the dataset's audio downloads succeed "
+    "(eval/run_eval.py is ready and resumable); label drafted facts correct / incorrect to measure gate precision and "
+    "recall; tune the parameters in section 23 on a development split; clinician usability study.",
 ]:
     bullet(c, t if isinstance(t, list) else [t])
 
