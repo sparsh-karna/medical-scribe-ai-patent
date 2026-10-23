@@ -19,9 +19,13 @@ auto-populate the structured note:
      it is reported as unavailable rather than filled in, and the gate
      then decides on the semantic signal alone and says so.
 
-  2. Semantic grounding -- whether the cited segments actually entail the
-     drafted statement, scored by a local NLI model (src/entailment.py).
-     A statement the evidence contradicts is rejected outright.
+  2. Semantic grounding -- (a) an entity check (src/entities.py): every
+     number, unit, duration, dosing frequency and drug the fact states must
+     appear in the cited evidence, and a symptom the fact affirms must not be
+     only denied there (or vice versa); (b) whether the cited segments
+     entail the drafted statement, scored by a local NLI model
+     (src/entailment.py). A statement the evidence contradicts, or whose
+     entities the evidence does not carry, is rejected outright.
 
 A fact is only auto-inserted if every available signal clears its floor
 AND the combined score clears the field's (adaptive) threshold. Anything
@@ -39,6 +43,7 @@ from rapidfuzz import fuzz
 
 from .calibration import CalibrationStore, DEFAULT_THRESHOLD
 from .entailment import score_pairs
+from .entities import describe as describe_entities, entity_mismatches
 
 SEMANTIC_FLOOR = 0.30           # minimum P(entailment)
 CONTRADICTION_CEILING = 0.50    # P(contradiction) at or above this -> reject
@@ -60,6 +65,16 @@ FUNCTION_WORDS = {
 
 
 @dataclass
+class GateConfig:
+    """Which signals the gate uses. The application always runs with everything on;
+    switching signals off exists only for the ablation study (eval/unsafe_eval.py).
+    Gate 0 (citation integrity) always runs."""
+    use_acoustic: bool = True
+    use_entailment: bool = True
+    use_entities: bool = True
+
+
+@dataclass
 class GroundingResult:
     semantic_score: float                 # P(entailment)
     acoustic_score: Optional[float]       # None when the input has no audio
@@ -70,6 +85,10 @@ class GroundingResult:
     evidence_checks: List[Dict[str, Any]] = field(default_factory=list)
     weak_words: List[Dict[str, Any]] = field(default_factory=list)
     weakest_content_word: Optional[Dict[str, Any]] = None
+    entity_problems: List[Dict[str, str]] = field(default_factory=list)
+    # why a NEEDS_REVIEW fact was held: "threshold" (combined score below the clinician's
+    # bar -- the only case that may recalibrate the bar) or "weakest_word"
+    held_for: Optional[str] = None
 
 
 def _speaker_label(speaker: str) -> str:
@@ -98,9 +117,11 @@ def _span_words(seg: Dict[str, Any], start: int, end: int) -> List[Dict[str, Any
 
 
 class GroundingEngine:
-    def __init__(self, segments: List[Dict[str, Any]], calibration: Optional[CalibrationStore] = None):
+    def __init__(self, segments: List[Dict[str, Any]], calibration: Optional[CalibrationStore] = None,
+                 config: Optional[GateConfig] = None):
         self._segments_by_id = {s["id"]: s for s in segments}
         self._calibration = calibration
+        self.config = config or GateConfig()
 
     def _premise(self, cited_ids: List[int]) -> str:
         segs = [self._segments_by_id[i] for i in sorted(set(cited_ids))]
@@ -164,24 +185,45 @@ class GroundingEngine:
                     f"(best alignment {c['match']:.0f}/100) -- citation is invented or mis-attributed.",
                     evidence_checks=checks)
                 continue
+            if self.config.use_entities:
+                problems = entity_mismatches(fact.value, self._premise(cited))
+                if problems:
+                    if self.config.use_acoustic:
+                        acoustic, weak, weakest = self._acoustic(cited, span_words)
+                    else:
+                        acoustic, weak, weakest = None, [], None
+                    results[i] = GroundingResult(
+                        0.0, acoustic, 0.0, "REJECTED",
+                        f"Entity check: the cited evidence does not support what the fact states -- "
+                        f"{describe_entities(problems)}.",
+                        evidence_checks=checks, weak_words=weak, weakest_content_word=weakest,
+                        entity_problems=problems)
+                    continue
             pending.append((i, cited, checks, span_words))
 
-        nli = score_pairs([(self._premise(cited), facts[i].value) for i, cited, _, _ in pending])
+        if self.config.use_entailment:
+            nli = score_pairs([(self._premise(cited), facts[i].value) for i, cited, _, _ in pending])
+        else:
+            nli = [None] * len(pending)
         for (i, cited, checks, span_words), probs in zip(pending, nli):
             results[i] = self._decide(facts[i], cited, checks, span_words, probs)
         return results
 
     def _decide(self, fact, cited, checks, span_words, probs) -> GroundingResult:
-        semantic = round(probs["entailment"], 3)
-        acoustic, weak, weakest = self._acoustic(cited, span_words)
+        semantic = round(probs["entailment"], 3) if probs is not None else None
+        if self.config.use_acoustic:
+            acoustic, weak, weakest = self._acoustic(cited, span_words)
+        else:
+            acoustic, weak, weakest = None, [], None
 
-        def result(combined, status, reason):
-            return GroundingResult(semantic, acoustic, combined, status, reason, probs, checks, weak, weakest)
+        def result(combined, status, reason, held_for=None):
+            return GroundingResult(semantic if semantic is not None else 0.0, acoustic, combined, status, reason,
+                                   probs or {}, checks, weak, weakest, held_for=held_for)
 
-        if probs["contradiction"] >= CONTRADICTION_CEILING:
+        if probs is not None and probs["contradiction"] >= CONTRADICTION_CEILING:
             return result(0.0, "REJECTED",
                           f"Cited evidence contradicts the statement (P(contradiction) {probs['contradiction']:.2f}).")
-        if semantic < SEMANTIC_FLOOR:
+        if semantic is not None and semantic < SEMANTIC_FLOOR:
             return result(0.0, "REJECTED",
                           f"Cited evidence does not entail the statement (P(entailment) {semantic:.2f} "
                           f"below floor {SEMANTIC_FLOOR}).")
@@ -192,20 +234,28 @@ class GroundingEngine:
                           + (f" (weak words: {weak_txt})." if weak_txt else "."))
 
         threshold = self._calibration.threshold_for(fact.field) if self._calibration else DEFAULT_THRESHOLD
-        if acoustic is None:
-            combined = semantic
-            basis = "semantic signal only -- text input has no acoustic signal"
-        else:
+        if semantic is not None and acoustic is not None:
             combined = round(SEMANTIC_WEIGHT * semantic + ACOUSTIC_WEIGHT * acoustic, 3)
             basis = f"entailment {semantic:.2f}, acoustic {acoustic:.2f}"
+        elif semantic is not None:
+            combined = semantic
+            basis = "semantic signal only -- " + ("text input has no acoustic signal"
+                                                  if self.config.use_acoustic else "acoustic signal disabled")
+        elif acoustic is not None:
+            combined = acoustic
+            basis = "acoustic signal only -- entailment disabled"
+        else:
+            # ablation configuration with no scoring signal left: only Gate 0 (and the
+            # entity check, if enabled) stood between the fact and the record
+            return result(1.0, "VERIFIED", "No scoring signal enabled in this configuration; passed citation checks.")
         if combined >= threshold and weakest is not None and weakest["prob"] < WEAKEST_CONTENT_WORD_FLOOR:
             return result(combined, "NEEDS_REVIEW",
                           f"Combined confidence {combined:.2f} clears threshold {threshold:.2f}, but quoted word "
                           f"'{weakest['word']}' was recognised with probability {weakest['prob']:.2f} (below "
-                          f"{WEAKEST_CONTENT_WORD_FLOOR}); check the audio before inserting.")
+                          f"{WEAKEST_CONTENT_WORD_FLOOR}); check the audio before inserting.", held_for="weakest_word")
         if combined >= threshold:
             return result(combined, "VERIFIED",
                           f"Cleared threshold {threshold:.2f} for '{fact.field}' ({basis}); auto-inserted.")
         return result(combined, "NEEDS_REVIEW",
                       f"Combined confidence {combined:.2f} below auto-insert threshold {threshold:.2f} "
-                      f"for '{fact.field}' ({basis}).")
+                      f"for '{fact.field}' ({basis}).", held_for="threshold")

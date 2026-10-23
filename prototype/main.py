@@ -83,8 +83,12 @@ def _transcribe(args: argparse.Namespace):
 
 def cmd_resolve(args: argparse.Namespace) -> None:
     case = load_case(args.case)
-    case = resolve_fact(case, args.fact_id, args.decision, args.reviewer,
-                         audit_path=args.audit, calibration_path=args.calibration)
+    try:
+        case = resolve_fact(case, args.fact_id, args.decision, args.reviewer,
+                            audit_path=args.audit, calibration_path=args.calibration)
+    except ValueError as e:
+        print(f"Cannot resolve: {e}", file=sys.stderr)
+        sys.exit(1)
     save_case(case, args.case)
 
     print(render_note(case))

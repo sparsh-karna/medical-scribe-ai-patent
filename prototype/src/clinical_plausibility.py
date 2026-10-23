@@ -312,6 +312,7 @@ def apply_plausibility_checks(case_facts: List[Dict[str, Any]]) -> List[Dict[str
         summary = " ".join(c["message"] for c in conflicts)
         if fact["status"] == "VERIFIED":
             fact["status"] = "NEEDS_REVIEW"
+            fact["held_for"] = "plausibility"   # held only for a safety conflict
             fact["reason"] = f"[clinical-plausibility gate] {summary}"
         else:
             fact["reason"] = f"{fact['reason']} [clinical-plausibility gate] {summary}"

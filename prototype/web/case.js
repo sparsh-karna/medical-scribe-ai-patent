@@ -156,11 +156,17 @@ function factCardHTML(fact, status) {
     </div>`;
   const reason = status !== "verified" || fact.resolution === "approve"
     ? `<div class="fact-reason">${escapeHTML(fact.reason)}</div>` : "";
+  // A fact that failed a hard check (REJECTED) can only be dismissed, never approved into the note.
   const actions = status === "pending"
-    ? `<div class="fact-actions">
-         <button class="btn btn-primary btn-sm" data-action="approve" data-fact="${fact.fact_id}">Approve</button>
-         <button class="btn btn-danger-ghost btn-sm" data-action="reject" data-fact="${fact.fact_id}">Reject</button>
-       </div>`
+    ? (gateBlocked
+      ? `<div class="fact-actions">
+           <button class="btn btn-danger-ghost btn-sm" data-action="reject" data-fact="${fact.fact_id}">Dismiss</button>
+           <span class="fact-hint">Failed a hard check, so it cannot be approved. If it is correct, write it into the note yourself.</span>
+         </div>`
+      : `<div class="fact-actions">
+           <button class="btn btn-primary btn-sm" data-action="approve" data-fact="${fact.fact_id}">Approve</button>
+           <button class="btn btn-danger-ghost btn-sm" data-action="reject" data-fact="${fact.fact_id}">Reject</button>
+         </div>`)
     : "";
   const selected = state.selected === fact.fact_id ? "selected" : "";
   return `<div class="fact-card status-${status} ${selected}" data-fact-id="${fact.fact_id}" tabindex="0" title="Show evidence in transcript">

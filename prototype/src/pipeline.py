@@ -4,7 +4,7 @@ import json
 from typing import Any, Callable, Dict, List, Optional
 
 from .extractor import get_extractor, Fact
-from .grounding import GroundingEngine
+from .grounding import GateConfig, GroundingEngine
 from .audit import AuditLog
 from .calibration import CalibrationStore
 from .clinical_plausibility import apply_plausibility_checks
@@ -28,7 +28,8 @@ FIELD_LABELS = {
 
 def run_pipeline(segments: List[Dict[str, Any]], use_llm: bool, audit_path: str,
                   calibration_path: str, input_meta: Optional[Dict[str, Any]] = None,
-                  progress: Optional[Callable[[str], None]] = None) -> Dict[str, Any]:
+                  progress: Optional[Callable[[str], None]] = None,
+                  gate_config: Optional[GateConfig] = None, use_plausibility: bool = True) -> Dict[str, Any]:
     """
     Transcript segments -> gated structured-note facts.
     input_meta describes where the segments came from (audio/ASR details or
@@ -49,7 +50,7 @@ def run_pipeline(segments: List[Dict[str, Any]], use_llm: bool, audit_path: str,
 
     stage("grounding")
     calibration = CalibrationStore(calibration_path)
-    results = GroundingEngine(segments, calibration).evaluate_many(facts)
+    results = GroundingEngine(segments, calibration, gate_config).evaluate_many(facts)
 
     case_facts = []
     for idx, (fact, result) in enumerate(zip(facts, results), start=1):
@@ -68,6 +69,8 @@ def run_pipeline(segments: List[Dict[str, Any]], use_llm: bool, audit_path: str,
             "evidence_checks": result.evidence_checks,
             "weak_words": result.weak_words,
             "weakest_content_word": result.weakest_content_word,
+            "entity_problems": result.entity_problems,
+            "held_for": result.held_for,
             "status": result.status,          # VERIFIED | NEEDS_REVIEW | REJECTED
             "reason": result.reason,
             "resolution": None,                # filled in later if a clinician resolves it
@@ -85,13 +88,16 @@ def run_pipeline(segments: List[Dict[str, Any]], use_llm: bool, audit_path: str,
             "nli": result.nli,
             "acoustic_score": result.acoustic_score,
             "weakest_content_word": result.weakest_content_word,
+            "entity_problems": result.entity_problems,
+            "held_for": result.held_for,
             "combined_confidence": result.combined_confidence,
             "status": result.status,
             "reason": result.reason,
         })
 
     stage("plausibility")
-    case_facts = apply_plausibility_checks(case_facts)
+    if use_plausibility:
+        case_facts = apply_plausibility_checks(case_facts)
     for fact in case_facts:
         if fact.get("plausibility_flag"):
             audit.append({
@@ -113,6 +119,21 @@ def run_pipeline(segments: List[Dict[str, Any]], use_llm: bool, audit_path: str,
     }
 
 
+def held_reason(fact: Dict[str, Any]) -> Optional[str]:
+    """Why a NEEDS_REVIEW fact was held: 'threshold', 'weakest_word' or 'plausibility'.
+    Infers it for case files written before the field existed."""
+    if fact.get("held_for"):
+        return fact["held_for"]
+    if fact["status"] != "NEEDS_REVIEW":
+        return None
+    reason = fact.get("reason", "")
+    if fact.get("plausibility_flag") and reason.startswith("[clinical-plausibility gate]"):
+        return "plausibility"
+    if "was recognised with probability" in reason:
+        return "weakest_word"
+    return "threshold"
+
+
 def resolve_fact(case: Dict[str, Any], fact_id: str, decision: str, reviewer: str,
                   audit_path: str, calibration_path: str) -> Dict[str, Any]:
     if decision not in ("approve", "reject"):
@@ -125,6 +146,13 @@ def resolve_fact(case: Dict[str, Any], fact_id: str, decision: str, reviewer: st
         raise ValueError(f"{fact_id} was already auto-verified; nothing to resolve.")
     if target.get("resolution") is not None:
         raise ValueError(f"{fact_id} was already resolved ({target['resolution']}).")
+    if target["status"] == "REJECTED" and decision == "approve":
+        # A hard floor failed (invented citation, contradiction, unsupported entity, no
+        # entailment, unintelligible audio). Letting a click override it would let an
+        # unsupported statement into the chart; the clinician can dismiss it and, if the
+        # statement is in fact correct, write it into the note themselves.
+        raise ValueError(f"{fact_id} failed a hard safety check and cannot be approved into the note. "
+                         "Dismiss it; if the statement is correct, enter it in the note manually.")
 
     target["resolution"] = decision
     target["resolved_by"] = reviewer
@@ -141,10 +169,22 @@ def resolve_fact(case: Dict[str, Any], fact_id: str, decision: str, reviewer: st
         "reviewer": reviewer,
     })
 
-    # Only NEEDS_REVIEW facts (borderline, not below the hard safety floors)
-    # feed the adaptive calibration loop. REJECTED facts failed an absolute
-    # floor -- that floor is not adaptive, by design.
-    if target["status"] == "NEEDS_REVIEW":
+    # Only facts held because their combined score was below the clinician's bar
+    # recalibrate that bar. REJECTED facts failed a fixed floor; facts held for a
+    # clinical-safety conflict or a weak key word were above the bar, so a decision
+    # on them says nothing about how much evidence this clinician wants.
+    held_for = held_reason(target)
+    if target["status"] == "NEEDS_REVIEW" and held_for != "threshold":
+        audit.append({
+            "event": "calibration_unchanged",
+            "fact_id": fact_id,
+            "field": target["field"],
+            "held_for": held_for,
+            "reason": "fact was held for " + {"plausibility": "a clinical-safety conflict",
+                                               "weakest_word": "a weakly recognised key word"}.get(held_for, held_for)
+                      + ", not for a low evidence score",
+        })
+    if target["status"] == "NEEDS_REVIEW" and held_for == "threshold":
         calibration = CalibrationStore(calibration_path)
         new_threshold = calibration.update_from_resolution(
             target["field"], target["combined_confidence"], decision

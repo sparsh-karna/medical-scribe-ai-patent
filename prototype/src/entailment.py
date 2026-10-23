@@ -45,7 +45,7 @@ def _load():
                 ) from e
             name = nli_model_name()
             _tokenizer = AutoTokenizer.from_pretrained(name)
-            _model = AutoModelForSequenceClassification.from_pretrained(name).eval()
+            _model = AutoModelForSequenceClassification.from_pretrained(name).eval().to(_device())
             _labels = {int(i): label.lower() for i, label in _model.config.id2label.items()}
             missing = {"entailment", "neutral", "contradiction"} - set(_labels.values())
             if missing:
@@ -53,20 +53,36 @@ def _load():
     return _model, _tokenizer
 
 
-def score_pairs(pairs: List[Tuple[str, str]], batch_size: int = 8) -> List[Dict[str, float]]:
-    """Return {entailment, neutral, contradiction} probabilities per (premise, hypothesis)."""
+_cache: Dict[Tuple[str, str], Dict[str, float]] = {}
+_CACHE_MAX = 50_000
+
+
+def _device() -> str:
+    import torch
+    return "cuda" if torch.cuda.is_available() else "cpu"
+
+
+def score_pairs(pairs: List[Tuple[str, str]], batch_size: int = 0) -> List[Dict[str, float]]:
+    """Return {entailment, neutral, contradiction} probabilities per (premise, hypothesis).
+    Results are memoised: the model is deterministic, so a repeated pair gives the same
+    probabilities (the ablation study scores each pair under several gate configurations)."""
     if not pairs:
         return []
-    import torch
+    todo = list(dict.fromkeys(p for p in pairs if p not in _cache))
+    if todo:
+        import torch
 
-    model, tokenizer = _load()
-    out: List[Dict[str, float]] = []
-    with torch.no_grad():
-        for i in range(0, len(pairs), batch_size):
-            chunk = pairs[i:i + batch_size]
-            enc = tokenizer([p for p, _ in chunk], [h for _, h in chunk], return_tensors="pt",
-                            padding=True, truncation="only_first", max_length=512)
-            probs = model(**enc).logits.softmax(-1)
-            for row in probs:
-                out.append({_labels[j]: round(float(v), 4) for j, v in enumerate(row)})
-    return out
+        if len(_cache) + len(todo) > _CACHE_MAX:
+            _cache.clear()  # before scoring, so every pair of this call stays available
+
+        model, tokenizer = _load()
+        batch_size = batch_size or (64 if _device() == "cuda" else 8)
+        with torch.no_grad():
+            for i in range(0, len(todo), batch_size):
+                chunk = todo[i:i + batch_size]
+                enc = tokenizer([p for p, _ in chunk], [h for _, h in chunk], return_tensors="pt",
+                                padding=True, truncation="only_first", max_length=512).to(_device())
+                probs = model(**enc).logits.softmax(-1).cpu()
+                for pair, row in zip(chunk, probs):
+                    _cache[pair] = {_labels[j]: round(float(v), 4) for j, v in enumerate(row)}
+    return [dict(_cache[p]) for p in pairs]

@@ -69,7 +69,10 @@ def main():
         ("1c. Real ASR error: 'stool' heard as 'stalk' at 0.28 (weakest-word rule -> review)", "NEEDS_REVIEW",
          fact("history_of_present_illness", "No blood in the stool; stools are watery and loose.",
               [{"segment_id": 14, "quote": "no blood, yeah, just watery and loose stalk."}])),
-        ("2. Hallucinated detail: wrong duration (contradiction -> blocked)", "REJECTED",
+        ("1d. Changed number in a real utterance (entity check -> blocked)", "REJECTED",
+         fact("history_of_present_illness", "Opening bowels sixteen to seventeen times a day.",
+              [{"segment_id": 11, "quote": "probably like six or seven times a day."}])),
+        ("2. Hallucinated detail: wrong duration (blocked)", "REJECTED",
          fact("chief_complaint", "Diarrhoea for three weeks.", [{"segment_id": 6, "quote": q6}])),
         ("3. Unsupported claim attached to a real citation (blocked)", "REJECTED",
          fact("history_of_present_illness", "The patient reports chest pain.", [{"segment_id": 6, "quote": q6}])),
@@ -124,11 +127,36 @@ def main():
     if not {"allergy_conflict", "antibiotic_for_viral"} <= checks or any(f["status"] == "VERIFIED" for f in flagged):
         failures.append("7. plausibility: amoxicillin was not held for review with allergy + viral conflicts")
 
+    # --- 8. a fact that failed a hard check can only be dismissed, never approved ---
+    hard = next(r for (t, _, _), r in zip(scenarios, results) if t.startswith("2."))
+    hard_case = {"segments": segments, "facts": [{
+        "fact_id": "F001", "field": "chief_complaint", "value": "Diarrhoea for three weeks.", "status": hard.status,
+        "combined_confidence": hard.combined_confidence, "reason": hard.reason, "resolution": None}]}
+    try:
+        resolve_fact(hard_case, "F001", "approve", "Dr. Patel", audit_path=audit_path, calibration_path=calibration_path)
+        failures.append("8. a REJECTED fact was approved into the note")
+        print("\n--- 8. REJECTED fact approval: ACCEPTED (wrong)")
+    except ValueError as e:
+        print(f"\n--- 8. Approving a REJECTED fact is refused: {e}")
+
+    # --- 9. approving a fact held only for a safety conflict leaves the threshold alone ---
+    rx_cal = os.path.join(DEMO_DIR, "rx_calibration.json")
+    held = next((f for f in rx_case["facts"] if f.get("held_for") == "plausibility"), None)
+    t_before = CalibrationStore(rx_cal).threshold_for(held["field"]) if held else None
+    if held:
+        resolve_fact(rx_case, held["fact_id"], "approve", "Dr. Patel", audit_path=audit_path, calibration_path=rx_cal)
+    t_after = CalibrationStore(rx_cal).threshold_for(held["field"]) if held else None
+    print(f"--- 9. Approving {held['fact_id'] if held else '?'} (held only for a safety conflict): "
+          f"'{held['field'] if held else '?'}' threshold {t_before} -> {t_after}")
+    if not held or t_before != t_after:
+        failures.append("9. a decision on a safety-held fact moved the calibration threshold")
+
     print("\n=== Audit trail (append-only) ===")
     with open(audit_path, encoding="utf-8") as fh:
         for line in fh:
             e = json.loads(line)
-            if e["event"] in ("clinician_resolution", "calibration_update", "clinical_plausibility_flag"):
+            if e["event"] in ("clinician_resolution", "calibration_update", "calibration_unchanged",
+                              "clinical_plausibility_flag"):
                 print(" ", line.strip()[:200])
 
     print("\n" + ("ALL SCENARIOS BEHAVED AS EXPECTED" if not failures else "FAILURES:\n  " + "\n  ".join(failures)))
